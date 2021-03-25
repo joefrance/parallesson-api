@@ -1,23 +1,24 @@
 {
-  "name": "parallesson-api",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/joefrance/parallesson-api.git",
-  "license": "MIT",
-  "scripts": {
-      "start": "nodemon server.js"
-  },
-  "dependencies": {
-      "apollo-server-express": "^2.6.4",
-      "axios": "^0.21.1",
-      "cors": "^2.8.5",
-      "express": "^4.17.1",
-      "graphql": "^15.5.0",
-      "pg": "^8.5.1",
-      "sequelize": "^6.5.1"
-  },
-  "devDependencies": {
-      "nodemon": "^1.19.0"
-  },
-  "type": "module"
+    "name": "parallesson-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/joefrance/parallesson-api.git",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "dependencies": {
+        "apollo-server-express": "^2.6.4",
+        "axios": "^0.21.1",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "graphql": "^15.5.0",
+        "pg": "^8.5.1",
+        "sequelize": "^6.5.1",
+        "sync-request": "^6.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.0"
+    },
+    "type": "module"
 }

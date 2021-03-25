@@ -1,4 +1,5 @@
-import axios from 'axios';
+//import axios from 'axios';
+import htmlHelper from '../helpers/htmlHelpers.js';
 
 const sources = [
     {
@@ -29,15 +30,8 @@ const sourceResolver = {
             const {id} = args
             const {db} = context
             {
-                //console.log(id);
                 var sourceFound = sources.filter(source => source.source_id.toString() === id.toString())[0];
-                //console.log(sourceFound);
                 if(sourceFound) {
-                    //console.log(`${sourceFound.source_url}`);
-                    axios.get(`${sourceFound.source_url}`).then(res => {
-                        //console.log(res.data);
-                        sourceFound.source_html = res.data;
-                    }); 
                     return sourceFound;
                 }
             }

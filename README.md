@@ -15,7 +15,6 @@ query sources {
     source_url
     source_repo
     source_desc
-    source_html
   }
 }
 
@@ -26,7 +25,15 @@ query sourceById($id: ID!) {
     source_url
     source_repo
     source_desc
-    source_html
+  }
+}
+
+
+query getHtmlSource($url: String!) {
+  getHtmlSource(url: $url) {
+    url
+    statusCode
+    html
   }
 }
 ```
@@ -35,7 +42,8 @@ query sourceById($id: ID!) {
 
 ```
 {
-  "id": 1
+  "id":1,
+  "url": "https://www.npmjs.com/package/sync-request"
 }
 ```
 
