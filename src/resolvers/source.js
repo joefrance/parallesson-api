@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 const sources = [
     {
         source_id: 1,
@@ -30,7 +32,14 @@ const sourceResolver = {
                 //console.log(id);
                 var sourceFound = sources.filter(source => source.source_id.toString() === id.toString())[0];
                 //console.log(sourceFound);
-                return sourceFound;
+                if(sourceFound) {
+                    //console.log(`${sourceFound.source_url}`);
+                    axios.get(`${sourceFound.source_url}`).then(res => {
+                        //console.log(res.data);
+                        sourceFound.source_html = res.data;
+                    }); 
+                    return sourceFound;
+                }
             }
         },
 

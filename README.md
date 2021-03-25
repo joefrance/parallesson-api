@@ -15,6 +15,7 @@ query sources {
     source_url
     source_repo
     source_desc
+    source_html
   }
 }
 
@@ -25,6 +26,7 @@ query sourceById($id: ID!) {
     source_url
     source_repo
     source_desc
+    source_html
   }
 }
 ```

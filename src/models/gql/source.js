@@ -21,6 +21,10 @@ export default function sourceModel(sequelize, {DataTypes}) {
       source_repo: {
         type: DataTypes.STRING,
         allowNull: false
+      },
+      source_html: {
+        type: DataTypes.STRING,
+        allowNull: false
       }
     }, {
       tableName: 'sources'

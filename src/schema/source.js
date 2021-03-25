@@ -7,6 +7,7 @@ const sourceSchema = gql`
     source_desc: String
     source_url: String
     source_repo: String
+    source_html: String
   }
 
   extend type Query {
