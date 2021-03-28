@@ -1,16 +1,16 @@
 import fs from 'fs';
-import { readdir } from 'fs/promises';
+//import { readdir } from 'fs/promises';
 import YAML from 'yamljs';
 import MarkdownIt from 'markdown-it';
 
 var md = new MarkdownIt();
 
 
-const lslLanguage = 'en';
-const rslLanguage = 'ru';
+const lslLanguage = 'ar';
+const rslLanguage = 'en';
 
-const lslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/2021-01/13`;
-const rslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/2021-01/13`;
+const lslFolder = `/Users/joefrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/2021-01/13`;
+const rslFolder = `/Users/joefrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/2021-01/13`;
 
 // async function f() {
 //   return Promise.resolve(1);
@@ -27,12 +27,12 @@ async function getLanguages(folder) {
   }
 
   var langaugeFolders = [];
-  const files = await readdir(folder, { withFileTypes: true });
+  const files = fs.readdirSync(folder, { withFileTypes: true });
   files.forEach(file => {
     var langaugeFolder = {
       name: file.name,
       isDirectory: file.isDirectory(),
-      fullPath: `${folder}${file.name}`,
+      relativePath: `${file.name}`,
       language_info: file.isDirectory() ? getObjectFromYAML(`${folder}${file.name}/info.yml`) : null,
     }
 
@@ -43,35 +43,44 @@ async function getLanguages(folder) {
 }
 
 (async () => {
-  var langaugeFolders = await getLanguages('/Users/josephfrance/github/Adventech/sabbath-school-lessons/src');
+  var basePath = '/Users/joefrance/github/Adventech/sabbath-school-lessons/src';
+
+  if(!basePath.toString().endsWith('/')) {
+    basePath += '/';
+  }
+
+  var langaugeFolders = await getLanguages(basePath);
   for(var lx = 0; lx < langaugeFolders.length; lx++) {
-    langaugeFolders[lx].books = await getBooks(langaugeFolders[lx].fullPath);
+    langaugeFolders[lx].books = await getBooks(basePath, `${langaugeFolders[lx].relativePath}`);
   }
   //var count = langaugeFolders.length;
   langaugeFolders.forEach(langaugeFolder => {
     console.log(langaugeFolder.language_info.name, langaugeFolder.books.length);
   });
+
+  var json = JSON.stringify(langaugeFolders, null, 2);
+  fs.writeFileSync('./p9n-language-index-adventech.json', json);
 })();
 
-async function getBooks(bookFolder) {
+async function getBooks(basePath, bookFolder) {
 
   if(!bookFolder.toString().endsWith('/')) {
     bookFolder += '/';
   }
 
   var books = [];
-  const files = await readdir(bookFolder, { withFileTypes: true });
+  const files = fs.readdirSync(`${basePath}${bookFolder}`, { withFileTypes: true });
   files.forEach(file => {
     if(file.isDirectory()) {      
       var book = {
         name: file.name,
         isDirectory: file.isDirectory(),
-        fullPath: `${bookFolder}${file.name}`,
-        book_info: getObjectFromYAML(`${bookFolder}${file.name}/info.yml`),
+        relativePath: `${bookFolder}${file.name}`,
+        book_info: getObjectFromYAML(`${basePath}${bookFolder}${file.name}/info.yml`),
         book_cover: {
           name: 'cover.png',
-          fileSize: fs.statSync(`${bookFolder}${file.name}/cover.png`).size,
-          base64: fs.readFileSync(`${bookFolder}${file.name}/cover.png`, {encoding: 'base64'})
+          fileSize: fs.statSync(`${basePath}${bookFolder}${file.name}/cover.png`).size,
+          //base64: fs.readFileSync(`${basePath}${bookFolder}${file.name}/cover.png`, {encoding: 'base64'})
         }
       }
   
@@ -154,7 +163,7 @@ function getObjectFromYAML(yamlPath) {
 async function getPages(folder) {
   var pages = [];
 
-  const files = await readdir(folder);
+  const files = fs.readdirSync(folder);
 
   files.forEach(file => {
   

@@ -16,7 +16,7 @@ const sources = [
         source_desc: "Adventech Ministry - Our mission is to use technology for the Glory of the Lᴏʀᴅ",
         source_url: "http://adventech.io",
         source_logo: "https://adventech.io/images/adventech-menu-logo.png",
-        source_repo: "https://github.com/Adventech"
+        source_repo: "https://github.com/Adventech/sabbath-school-lessons"
     },
     {
         source_id: 3,
