@@ -114,3 +114,16 @@ Dictionary for "parts of speech" and definitions
 https://github.com/meetDeveloper/googleDictionaryAPI
 - Find "language codes".
   - [Codes for the Representation of Names of Languages - ISO 639-2 Code](https://www.loc.gov/standards/iso639-2/php/code_list.php)
+
+  ### GraphQL Queries
+
+  ```
+
+query allLanguages($source_id: ID!) {
+  getlanguages(source_id: $source_id) {
+    language_id
+    language_name
+    language_info
+  }
+}
+  ```

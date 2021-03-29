@@ -1,5 +1,6 @@
 import htmlHelper from '../helpers/htmlHelpers.js';
-import sourceResolver from './source.js'
+import languageResolver from './language.js';
+import sourceResolver from './source.js';
 
 const rootResolver = {
     Query: {
@@ -20,6 +21,7 @@ const rootResolver = {
 
 const resolvers = [
     rootResolver,
+    languageResolver,
     sourceResolver
 ]
 

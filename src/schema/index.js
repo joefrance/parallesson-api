@@ -1,4 +1,9 @@
 import {gql} from 'apollo-server-express'
+import bookSchema from './book.js'
+import chapterSchema from './chapter.js'
+import languageSchema from './language.js'
+import pageSchema from './page.js'
+import paragraphSchema from './paragraph.js'
 import sourceSchema from './source.js'
 
 const rootType = gql`
@@ -19,6 +24,11 @@ const rootType = gql`
 `
 const typeDefs = [
     rootType,
+    bookSchema,
+    chapterSchema,
+    languageSchema,
+    pageSchema,
+    paragraphSchema,
     sourceSchema
 ]
 

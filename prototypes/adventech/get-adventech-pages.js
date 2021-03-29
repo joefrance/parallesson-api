@@ -9,8 +9,8 @@ var md = new MarkdownIt();
 const lslLanguage = 'ar';
 const rslLanguage = 'en';
 
-const lslFolder = `/Users/joefrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/2021-01/13`;
-const rslFolder = `/Users/joefrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/2021-01/13`;
+const lslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/2021-01/13`;
+const rslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/2021-01/13`;
 
 // async function f() {
 //   return Promise.resolve(1);
@@ -30,7 +30,7 @@ async function getLanguages(folder) {
   const files = fs.readdirSync(folder, { withFileTypes: true });
   files.forEach(file => {
     var langaugeFolder = {
-      name: file.name,
+      language_id: `adventech/${file.name}`,
       isDirectory: file.isDirectory(),
       relativePath: `${file.name}`,
       language_info: file.isDirectory() ? getObjectFromYAML(`${folder}${file.name}/info.yml`) : null,
@@ -43,7 +43,7 @@ async function getLanguages(folder) {
 }
 
 (async () => {
-  var basePath = '/Users/joefrance/github/Adventech/sabbath-school-lessons/src';
+  var basePath = '/Users/josephfrance/github/Adventech/sabbath-school-lessons/src';
 
   if(!basePath.toString().endsWith('/')) {
     basePath += '/';
@@ -73,7 +73,7 @@ async function getBooks(basePath, bookFolder) {
   files.forEach(file => {
     if(file.isDirectory()) {      
       var book = {
-        name: file.name,
+        book_id: `adventech/${bookFolder}${file.name}`,
         isDirectory: file.isDirectory(),
         relativePath: `${bookFolder}${file.name}`,
         book_info: getObjectFromYAML(`${basePath}${bookFolder}${file.name}/info.yml`),
@@ -170,7 +170,7 @@ async function getPages(folder) {
     var fullFilePath = `${folder}/${file}`;
 
     var page = {
-      page_id: file,
+      page_id: `adventech/${file}`,
       page_title: file,
       page_path: fullFilePath,
       paragraphs: getParagraphs(fullFilePath, this)
@@ -216,7 +216,7 @@ function getParagraphs(fullFilePath, page) {
         }
 
         var paragraph = {
-            paragraph_id: (px++).toString(),
+            paragraph_id: `adventech/${(px++)}`,
             paragraph_content: content,
             paragraph_html: md.render(content),
             paragraph_type: paragraph_type,

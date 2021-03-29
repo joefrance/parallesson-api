@@ -1,6 +1,6 @@
 [
   {
-    "name": "af",
+    "language_id": "adventech/af",
     "isDirectory": true,
     "relativePath": "af",
     "language_info": {
@@ -9,7 +9,7 @@
     },
     "books": [
       {
-        "name": "2018-02",
+        "book_id": "adventech/af/2018-02",
         "isDirectory": true,
         "relativePath": "af/2018-02",
         "book_info": {
@@ -27,7 +27,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/af/2018-03",
         "isDirectory": true,
         "relativePath": "af/2018-03",
         "book_info": {
@@ -45,7 +45,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/af/2018-04",
         "isDirectory": true,
         "relativePath": "af/2018-04",
         "book_info": {
@@ -63,7 +63,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/af/2019-01",
         "isDirectory": true,
         "relativePath": "af/2019-01",
         "book_info": {
@@ -81,7 +81,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/af/2019-02",
         "isDirectory": true,
         "relativePath": "af/2019-02",
         "book_info": {
@@ -99,7 +99,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/af/2019-03",
         "isDirectory": true,
         "relativePath": "af/2019-03",
         "book_info": {
@@ -117,7 +117,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/af/2019-04",
         "isDirectory": true,
         "relativePath": "af/2019-04",
         "book_info": {
@@ -135,7 +135,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/af/2020-01",
         "isDirectory": true,
         "relativePath": "af/2020-01",
         "book_info": {
@@ -153,7 +153,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/af/2020-02",
         "isDirectory": true,
         "relativePath": "af/2020-02",
         "book_info": {
@@ -171,7 +171,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/af/2020-03",
         "isDirectory": true,
         "relativePath": "af/2020-03",
         "book_info": {
@@ -189,7 +189,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/af/2020-04",
         "isDirectory": true,
         "relativePath": "af/2020-04",
         "book_info": {
@@ -207,7 +207,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/af/2021-01",
         "isDirectory": true,
         "relativePath": "af/2021-01",
         "book_info": {
@@ -227,7 +227,7 @@
     ]
   },
   {
-    "name": "am",
+    "language_id": "adventech/am",
     "isDirectory": true,
     "relativePath": "am",
     "language_info": {
@@ -236,7 +236,7 @@
     },
     "books": [
       {
-        "name": "2020-01",
+        "book_id": "adventech/am/2020-01",
         "isDirectory": true,
         "relativePath": "am/2020-01",
         "book_info": {
@@ -254,7 +254,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/am/2020-02",
         "isDirectory": true,
         "relativePath": "am/2020-02",
         "book_info": {
@@ -272,7 +272,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/am/2020-03",
         "isDirectory": true,
         "relativePath": "am/2020-03",
         "book_info": {
@@ -290,7 +290,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/am/2020-04",
         "isDirectory": true,
         "relativePath": "am/2020-04",
         "book_info": {
@@ -310,7 +310,7 @@
     ]
   },
   {
-    "name": "ar",
+    "language_id": "adventech/ar",
     "isDirectory": true,
     "relativePath": "ar",
     "language_info": {
@@ -319,7 +319,7 @@
     },
     "books": [
       {
-        "name": "2018-01",
+        "book_id": "adventech/ar/2018-01",
         "isDirectory": true,
         "relativePath": "ar/2018-01",
         "book_info": {
@@ -337,7 +337,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/ar/2018-02",
         "isDirectory": true,
         "relativePath": "ar/2018-02",
         "book_info": {
@@ -355,7 +355,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/ar/2018-03",
         "isDirectory": true,
         "relativePath": "ar/2018-03",
         "book_info": {
@@ -373,7 +373,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/ar/2018-04",
         "isDirectory": true,
         "relativePath": "ar/2018-04",
         "book_info": {
@@ -391,7 +391,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/ar/2019-01",
         "isDirectory": true,
         "relativePath": "ar/2019-01",
         "book_info": {
@@ -409,7 +409,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/ar/2019-02",
         "isDirectory": true,
         "relativePath": "ar/2019-02",
         "book_info": {
@@ -427,7 +427,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/ar/2019-03",
         "isDirectory": true,
         "relativePath": "ar/2019-03",
         "book_info": {
@@ -445,7 +445,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/ar/2019-04",
         "isDirectory": true,
         "relativePath": "ar/2019-04",
         "book_info": {
@@ -463,7 +463,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/ar/2020-01",
         "isDirectory": true,
         "relativePath": "ar/2020-01",
         "book_info": {
@@ -481,7 +481,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/ar/2020-02",
         "isDirectory": true,
         "relativePath": "ar/2020-02",
         "book_info": {
@@ -499,7 +499,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/ar/2020-03",
         "isDirectory": true,
         "relativePath": "ar/2020-03",
         "book_info": {
@@ -517,7 +517,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/ar/2020-04",
         "isDirectory": true,
         "relativePath": "ar/2020-04",
         "book_info": {
@@ -535,7 +535,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/ar/2021-01",
         "isDirectory": true,
         "relativePath": "ar/2021-01",
         "book_info": {
@@ -555,7 +555,7 @@
     ]
   },
   {
-    "name": "bg",
+    "language_id": "adventech/bg",
     "isDirectory": true,
     "relativePath": "bg",
     "language_info": {
@@ -564,7 +564,7 @@
     },
     "books": [
       {
-        "name": "2017-03",
+        "book_id": "adventech/bg/2017-03",
         "isDirectory": true,
         "relativePath": "bg/2017-03",
         "book_info": {
@@ -582,7 +582,7 @@
         }
       },
       {
-        "name": "2017-04",
+        "book_id": "adventech/bg/2017-04",
         "isDirectory": true,
         "relativePath": "bg/2017-04",
         "book_info": {
@@ -600,7 +600,7 @@
         }
       },
       {
-        "name": "2018-01",
+        "book_id": "adventech/bg/2018-01",
         "isDirectory": true,
         "relativePath": "bg/2018-01",
         "book_info": {
@@ -618,7 +618,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/bg/2018-02",
         "isDirectory": true,
         "relativePath": "bg/2018-02",
         "book_info": {
@@ -636,7 +636,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/bg/2018-03",
         "isDirectory": true,
         "relativePath": "bg/2018-03",
         "book_info": {
@@ -654,7 +654,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/bg/2018-04",
         "isDirectory": true,
         "relativePath": "bg/2018-04",
         "book_info": {
@@ -672,7 +672,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/bg/2019-01",
         "isDirectory": true,
         "relativePath": "bg/2019-01",
         "book_info": {
@@ -690,7 +690,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/bg/2019-02",
         "isDirectory": true,
         "relativePath": "bg/2019-02",
         "book_info": {
@@ -708,7 +708,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/bg/2019-03",
         "isDirectory": true,
         "relativePath": "bg/2019-03",
         "book_info": {
@@ -726,7 +726,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/bg/2019-04",
         "isDirectory": true,
         "relativePath": "bg/2019-04",
         "book_info": {
@@ -744,7 +744,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/bg/2020-01",
         "isDirectory": true,
         "relativePath": "bg/2020-01",
         "book_info": {
@@ -762,7 +762,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/bg/2020-02",
         "isDirectory": true,
         "relativePath": "bg/2020-02",
         "book_info": {
@@ -780,7 +780,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/bg/2020-03",
         "isDirectory": true,
         "relativePath": "bg/2020-03",
         "book_info": {
@@ -798,7 +798,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/bg/2020-04",
         "isDirectory": true,
         "relativePath": "bg/2020-04",
         "book_info": {
@@ -816,7 +816,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/bg/2021-01",
         "isDirectory": true,
         "relativePath": "bg/2021-01",
         "book_info": {
@@ -836,7 +836,7 @@
     ]
   },
   {
-    "name": "cs",
+    "language_id": "adventech/cs",
     "isDirectory": true,
     "relativePath": "cs",
     "language_info": {
@@ -845,7 +845,7 @@
     },
     "books": [
       {
-        "name": "2018-01",
+        "book_id": "adventech/cs/2018-01",
         "isDirectory": true,
         "relativePath": "cs/2018-01",
         "book_info": {
@@ -863,7 +863,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/cs/2018-02",
         "isDirectory": true,
         "relativePath": "cs/2018-02",
         "book_info": {
@@ -881,7 +881,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/cs/2018-03",
         "isDirectory": true,
         "relativePath": "cs/2018-03",
         "book_info": {
@@ -899,7 +899,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/cs/2018-04",
         "isDirectory": true,
         "relativePath": "cs/2018-04",
         "book_info": {
@@ -917,7 +917,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/cs/2019-01",
         "isDirectory": true,
         "relativePath": "cs/2019-01",
         "book_info": {
@@ -935,7 +935,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/cs/2019-02",
         "isDirectory": true,
         "relativePath": "cs/2019-02",
         "book_info": {
@@ -953,7 +953,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/cs/2019-03",
         "isDirectory": true,
         "relativePath": "cs/2019-03",
         "book_info": {
@@ -971,7 +971,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/cs/2019-04",
         "isDirectory": true,
         "relativePath": "cs/2019-04",
         "book_info": {
@@ -989,7 +989,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/cs/2020-01",
         "isDirectory": true,
         "relativePath": "cs/2020-01",
         "book_info": {
@@ -1007,7 +1007,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/cs/2020-02",
         "isDirectory": true,
         "relativePath": "cs/2020-02",
         "book_info": {
@@ -1025,7 +1025,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/cs/2020-03",
         "isDirectory": true,
         "relativePath": "cs/2020-03",
         "book_info": {
@@ -1043,7 +1043,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/cs/2020-04",
         "isDirectory": true,
         "relativePath": "cs/2020-04",
         "book_info": {
@@ -1061,7 +1061,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/cs/2021-01",
         "isDirectory": true,
         "relativePath": "cs/2021-01",
         "book_info": {
@@ -1079,7 +1079,7 @@
         }
       },
       {
-        "name": "2021-02",
+        "book_id": "adventech/cs/2021-02",
         "isDirectory": true,
         "relativePath": "cs/2021-02",
         "book_info": {
@@ -1099,7 +1099,7 @@
     ]
   },
   {
-    "name": "da",
+    "language_id": "adventech/da",
     "isDirectory": true,
     "relativePath": "da",
     "language_info": {
@@ -1108,7 +1108,7 @@
     },
     "books": [
       {
-        "name": "2017-03",
+        "book_id": "adventech/da/2017-03",
         "isDirectory": true,
         "relativePath": "da/2017-03",
         "book_info": {
@@ -1126,7 +1126,7 @@
         }
       },
       {
-        "name": "2017-04",
+        "book_id": "adventech/da/2017-04",
         "isDirectory": true,
         "relativePath": "da/2017-04",
         "book_info": {
@@ -1144,7 +1144,7 @@
         }
       },
       {
-        "name": "2018-01",
+        "book_id": "adventech/da/2018-01",
         "isDirectory": true,
         "relativePath": "da/2018-01",
         "book_info": {
@@ -1162,7 +1162,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/da/2018-02",
         "isDirectory": true,
         "relativePath": "da/2018-02",
         "book_info": {
@@ -1180,7 +1180,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/da/2018-03",
         "isDirectory": true,
         "relativePath": "da/2018-03",
         "book_info": {
@@ -1198,7 +1198,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/da/2018-04",
         "isDirectory": true,
         "relativePath": "da/2018-04",
         "book_info": {
@@ -1216,7 +1216,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/da/2019-01",
         "isDirectory": true,
         "relativePath": "da/2019-01",
         "book_info": {
@@ -1234,7 +1234,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/da/2019-02",
         "isDirectory": true,
         "relativePath": "da/2019-02",
         "book_info": {
@@ -1252,7 +1252,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/da/2019-03",
         "isDirectory": true,
         "relativePath": "da/2019-03",
         "book_info": {
@@ -1270,7 +1270,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/da/2019-04",
         "isDirectory": true,
         "relativePath": "da/2019-04",
         "book_info": {
@@ -1288,7 +1288,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/da/2020-01",
         "isDirectory": true,
         "relativePath": "da/2020-01",
         "book_info": {
@@ -1306,7 +1306,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/da/2020-02",
         "isDirectory": true,
         "relativePath": "da/2020-02",
         "book_info": {
@@ -1324,7 +1324,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/da/2020-03",
         "isDirectory": true,
         "relativePath": "da/2020-03",
         "book_info": {
@@ -1342,7 +1342,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/da/2020-04",
         "isDirectory": true,
         "relativePath": "da/2020-04",
         "book_info": {
@@ -1360,7 +1360,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/da/2021-01",
         "isDirectory": true,
         "relativePath": "da/2021-01",
         "book_info": {
@@ -1380,7 +1380,7 @@
     ]
   },
   {
-    "name": "de",
+    "language_id": "adventech/de",
     "isDirectory": true,
     "relativePath": "de",
     "language_info": {
@@ -1389,7 +1389,7 @@
     },
     "books": [
       {
-        "name": "2016-04",
+        "book_id": "adventech/de/2016-04",
         "isDirectory": true,
         "relativePath": "de/2016-04",
         "book_info": {
@@ -1407,7 +1407,7 @@
         }
       },
       {
-        "name": "2017-01",
+        "book_id": "adventech/de/2017-01",
         "isDirectory": true,
         "relativePath": "de/2017-01",
         "book_info": {
@@ -1425,7 +1425,7 @@
         }
       },
       {
-        "name": "2017-02",
+        "book_id": "adventech/de/2017-02",
         "isDirectory": true,
         "relativePath": "de/2017-02",
         "book_info": {
@@ -1443,7 +1443,7 @@
         }
       },
       {
-        "name": "2017-03",
+        "book_id": "adventech/de/2017-03",
         "isDirectory": true,
         "relativePath": "de/2017-03",
         "book_info": {
@@ -1461,7 +1461,7 @@
         }
       },
       {
-        "name": "2017-04",
+        "book_id": "adventech/de/2017-04",
         "isDirectory": true,
         "relativePath": "de/2017-04",
         "book_info": {
@@ -1479,7 +1479,7 @@
         }
       },
       {
-        "name": "2018-01",
+        "book_id": "adventech/de/2018-01",
         "isDirectory": true,
         "relativePath": "de/2018-01",
         "book_info": {
@@ -1497,7 +1497,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/de/2018-02",
         "isDirectory": true,
         "relativePath": "de/2018-02",
         "book_info": {
@@ -1515,7 +1515,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/de/2018-03",
         "isDirectory": true,
         "relativePath": "de/2018-03",
         "book_info": {
@@ -1533,7 +1533,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/de/2018-04",
         "isDirectory": true,
         "relativePath": "de/2018-04",
         "book_info": {
@@ -1551,7 +1551,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/de/2019-01",
         "isDirectory": true,
         "relativePath": "de/2019-01",
         "book_info": {
@@ -1569,7 +1569,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/de/2019-02",
         "isDirectory": true,
         "relativePath": "de/2019-02",
         "book_info": {
@@ -1587,7 +1587,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/de/2019-03",
         "isDirectory": true,
         "relativePath": "de/2019-03",
         "book_info": {
@@ -1605,7 +1605,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/de/2019-04",
         "isDirectory": true,
         "relativePath": "de/2019-04",
         "book_info": {
@@ -1623,7 +1623,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/de/2020-01",
         "isDirectory": true,
         "relativePath": "de/2020-01",
         "book_info": {
@@ -1641,7 +1641,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/de/2020-02",
         "isDirectory": true,
         "relativePath": "de/2020-02",
         "book_info": {
@@ -1659,7 +1659,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/de/2020-03",
         "isDirectory": true,
         "relativePath": "de/2020-03",
         "book_info": {
@@ -1677,7 +1677,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/de/2020-04",
         "isDirectory": true,
         "relativePath": "de/2020-04",
         "book_info": {
@@ -1695,7 +1695,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/de/2021-01",
         "isDirectory": true,
         "relativePath": "de/2021-01",
         "book_info": {
@@ -1713,7 +1713,7 @@
         }
       },
       {
-        "name": "2021-02",
+        "book_id": "adventech/de/2021-02",
         "isDirectory": true,
         "relativePath": "de/2021-02",
         "book_info": {
@@ -1733,7 +1733,7 @@
     ]
   },
   {
-    "name": "el",
+    "language_id": "adventech/el",
     "isDirectory": true,
     "relativePath": "el",
     "language_info": {
@@ -1742,7 +1742,7 @@
     },
     "books": [
       {
-        "name": "2018-02",
+        "book_id": "adventech/el/2018-02",
         "isDirectory": true,
         "relativePath": "el/2018-02",
         "book_info": {
@@ -1760,7 +1760,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/el/2018-03",
         "isDirectory": true,
         "relativePath": "el/2018-03",
         "book_info": {
@@ -1778,7 +1778,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/el/2018-04",
         "isDirectory": true,
         "relativePath": "el/2018-04",
         "book_info": {
@@ -1796,7 +1796,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/el/2019-01",
         "isDirectory": true,
         "relativePath": "el/2019-01",
         "book_info": {
@@ -1814,7 +1814,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/el/2019-02",
         "isDirectory": true,
         "relativePath": "el/2019-02",
         "book_info": {
@@ -1832,7 +1832,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/el/2019-03",
         "isDirectory": true,
         "relativePath": "el/2019-03",
         "book_info": {
@@ -1850,7 +1850,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/el/2019-04",
         "isDirectory": true,
         "relativePath": "el/2019-04",
         "book_info": {
@@ -1868,7 +1868,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/el/2020-01",
         "isDirectory": true,
         "relativePath": "el/2020-01",
         "book_info": {
@@ -1886,7 +1886,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/el/2020-02",
         "isDirectory": true,
         "relativePath": "el/2020-02",
         "book_info": {
@@ -1904,7 +1904,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/el/2020-03",
         "isDirectory": true,
         "relativePath": "el/2020-03",
         "book_info": {
@@ -1922,7 +1922,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/el/2020-04",
         "isDirectory": true,
         "relativePath": "el/2020-04",
         "book_info": {
@@ -1940,7 +1940,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/el/2021-01",
         "isDirectory": true,
         "relativePath": "el/2021-01",
         "book_info": {
@@ -1960,7 +1960,7 @@
     ]
   },
   {
-    "name": "en",
+    "language_id": "adventech/en",
     "isDirectory": true,
     "relativePath": "en",
     "language_info": {
@@ -1969,7 +1969,7 @@
     },
     "books": [
       {
-        "name": "2016-04",
+        "book_id": "adventech/en/2016-04",
         "isDirectory": true,
         "relativePath": "en/2016-04",
         "book_info": {
@@ -1987,7 +1987,7 @@
         }
       },
       {
-        "name": "2016-04-er",
+        "book_id": "adventech/en/2016-04-er",
         "isDirectory": true,
         "relativePath": "en/2016-04-er",
         "book_info": {
@@ -2005,7 +2005,7 @@
         }
       },
       {
-        "name": "2017-01",
+        "book_id": "adventech/en/2017-01",
         "isDirectory": true,
         "relativePath": "en/2017-01",
         "book_info": {
@@ -2023,7 +2023,7 @@
         }
       },
       {
-        "name": "2017-01-er",
+        "book_id": "adventech/en/2017-01-er",
         "isDirectory": true,
         "relativePath": "en/2017-01-er",
         "book_info": {
@@ -2041,7 +2041,7 @@
         }
       },
       {
-        "name": "2017-02",
+        "book_id": "adventech/en/2017-02",
         "isDirectory": true,
         "relativePath": "en/2017-02",
         "book_info": {
@@ -2059,7 +2059,7 @@
         }
       },
       {
-        "name": "2017-02-cq",
+        "book_id": "adventech/en/2017-02-cq",
         "isDirectory": true,
         "relativePath": "en/2017-02-cq",
         "book_info": {
@@ -2077,7 +2077,7 @@
         }
       },
       {
-        "name": "2017-03",
+        "book_id": "adventech/en/2017-03",
         "isDirectory": true,
         "relativePath": "en/2017-03",
         "book_info": {
@@ -2095,7 +2095,7 @@
         }
       },
       {
-        "name": "2017-03-cq",
+        "book_id": "adventech/en/2017-03-cq",
         "isDirectory": true,
         "relativePath": "en/2017-03-cq",
         "book_info": {
@@ -2113,7 +2113,7 @@
         }
       },
       {
-        "name": "2017-03-er",
+        "book_id": "adventech/en/2017-03-er",
         "isDirectory": true,
         "relativePath": "en/2017-03-er",
         "book_info": {
@@ -2131,7 +2131,7 @@
         }
       },
       {
-        "name": "2017-04",
+        "book_id": "adventech/en/2017-04",
         "isDirectory": true,
         "relativePath": "en/2017-04",
         "book_info": {
@@ -2149,7 +2149,7 @@
         }
       },
       {
-        "name": "2017-04-cq",
+        "book_id": "adventech/en/2017-04-cq",
         "isDirectory": true,
         "relativePath": "en/2017-04-cq",
         "book_info": {
@@ -2167,7 +2167,7 @@
         }
       },
       {
-        "name": "2017-04-er",
+        "book_id": "adventech/en/2017-04-er",
         "isDirectory": true,
         "relativePath": "en/2017-04-er",
         "book_info": {
@@ -2185,7 +2185,7 @@
         }
       },
       {
-        "name": "2018-01",
+        "book_id": "adventech/en/2018-01",
         "isDirectory": true,
         "relativePath": "en/2018-01",
         "book_info": {
@@ -2203,7 +2203,7 @@
         }
       },
       {
-        "name": "2018-01-cq",
+        "book_id": "adventech/en/2018-01-cq",
         "isDirectory": true,
         "relativePath": "en/2018-01-cq",
         "book_info": {
@@ -2221,7 +2221,7 @@
         }
       },
       {
-        "name": "2018-01-er",
+        "book_id": "adventech/en/2018-01-er",
         "isDirectory": true,
         "relativePath": "en/2018-01-er",
         "book_info": {
@@ -2239,7 +2239,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/en/2018-02",
         "isDirectory": true,
         "relativePath": "en/2018-02",
         "book_info": {
@@ -2257,7 +2257,7 @@
         }
       },
       {
-        "name": "2018-02-cq",
+        "book_id": "adventech/en/2018-02-cq",
         "isDirectory": true,
         "relativePath": "en/2018-02-cq",
         "book_info": {
@@ -2275,7 +2275,7 @@
         }
       },
       {
-        "name": "2018-02-er",
+        "book_id": "adventech/en/2018-02-er",
         "isDirectory": true,
         "relativePath": "en/2018-02-er",
         "book_info": {
@@ -2293,7 +2293,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/en/2018-03",
         "isDirectory": true,
         "relativePath": "en/2018-03",
         "book_info": {
@@ -2311,7 +2311,7 @@
         }
       },
       {
-        "name": "2018-03-cq",
+        "book_id": "adventech/en/2018-03-cq",
         "isDirectory": true,
         "relativePath": "en/2018-03-cq",
         "book_info": {
@@ -2329,7 +2329,7 @@
         }
       },
       {
-        "name": "2018-03-er",
+        "book_id": "adventech/en/2018-03-er",
         "isDirectory": true,
         "relativePath": "en/2018-03-er",
         "book_info": {
@@ -2347,7 +2347,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/en/2018-04",
         "isDirectory": true,
         "relativePath": "en/2018-04",
         "book_info": {
@@ -2365,7 +2365,7 @@
         }
       },
       {
-        "name": "2018-04-cq",
+        "book_id": "adventech/en/2018-04-cq",
         "isDirectory": true,
         "relativePath": "en/2018-04-cq",
         "book_info": {
@@ -2383,7 +2383,7 @@
         }
       },
       {
-        "name": "2018-04-er",
+        "book_id": "adventech/en/2018-04-er",
         "isDirectory": true,
         "relativePath": "en/2018-04-er",
         "book_info": {
@@ -2401,7 +2401,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/en/2019-01",
         "isDirectory": true,
         "relativePath": "en/2019-01",
         "book_info": {
@@ -2419,7 +2419,7 @@
         }
       },
       {
-        "name": "2019-01-45-sec",
+        "book_id": "adventech/en/2019-01-45-sec",
         "isDirectory": true,
         "relativePath": "en/2019-01-45-sec",
         "book_info": {
@@ -2437,7 +2437,7 @@
         }
       },
       {
-        "name": "2019-01-cq",
+        "book_id": "adventech/en/2019-01-cq",
         "isDirectory": true,
         "relativePath": "en/2019-01-cq",
         "book_info": {
@@ -2455,7 +2455,7 @@
         }
       },
       {
-        "name": "2019-01-er",
+        "book_id": "adventech/en/2019-01-er",
         "isDirectory": true,
         "relativePath": "en/2019-01-er",
         "book_info": {
@@ -2473,7 +2473,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/en/2019-02",
         "isDirectory": true,
         "relativePath": "en/2019-02",
         "book_info": {
@@ -2491,7 +2491,7 @@
         }
       },
       {
-        "name": "2019-02-cq",
+        "book_id": "adventech/en/2019-02-cq",
         "isDirectory": true,
         "relativePath": "en/2019-02-cq",
         "book_info": {
@@ -2509,7 +2509,7 @@
         }
       },
       {
-        "name": "2019-02-er",
+        "book_id": "adventech/en/2019-02-er",
         "isDirectory": true,
         "relativePath": "en/2019-02-er",
         "book_info": {
@@ -2527,7 +2527,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/en/2019-03",
         "isDirectory": true,
         "relativePath": "en/2019-03",
         "book_info": {
@@ -2545,7 +2545,7 @@
         }
       },
       {
-        "name": "2019-03-cq",
+        "book_id": "adventech/en/2019-03-cq",
         "isDirectory": true,
         "relativePath": "en/2019-03-cq",
         "book_info": {
@@ -2563,7 +2563,7 @@
         }
       },
       {
-        "name": "2019-03-er",
+        "book_id": "adventech/en/2019-03-er",
         "isDirectory": true,
         "relativePath": "en/2019-03-er",
         "book_info": {
@@ -2581,7 +2581,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/en/2019-04",
         "isDirectory": true,
         "relativePath": "en/2019-04",
         "book_info": {
@@ -2599,7 +2599,7 @@
         }
       },
       {
-        "name": "2019-04-cq",
+        "book_id": "adventech/en/2019-04-cq",
         "isDirectory": true,
         "relativePath": "en/2019-04-cq",
         "book_info": {
@@ -2617,7 +2617,7 @@
         }
       },
       {
-        "name": "2019-04-er",
+        "book_id": "adventech/en/2019-04-er",
         "isDirectory": true,
         "relativePath": "en/2019-04-er",
         "book_info": {
@@ -2635,7 +2635,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/en/2020-01",
         "isDirectory": true,
         "relativePath": "en/2020-01",
         "book_info": {
@@ -2654,7 +2654,7 @@
         }
       },
       {
-        "name": "2020-01-cq",
+        "book_id": "adventech/en/2020-01-cq",
         "isDirectory": true,
         "relativePath": "en/2020-01-cq",
         "book_info": {
@@ -2673,7 +2673,7 @@
         }
       },
       {
-        "name": "2020-01-er",
+        "book_id": "adventech/en/2020-01-er",
         "isDirectory": true,
         "relativePath": "en/2020-01-er",
         "book_info": {
@@ -2692,7 +2692,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/en/2020-02",
         "isDirectory": true,
         "relativePath": "en/2020-02",
         "book_info": {
@@ -2711,7 +2711,7 @@
         }
       },
       {
-        "name": "2020-02-cq",
+        "book_id": "adventech/en/2020-02-cq",
         "isDirectory": true,
         "relativePath": "en/2020-02-cq",
         "book_info": {
@@ -2730,7 +2730,7 @@
         }
       },
       {
-        "name": "2020-02-er",
+        "book_id": "adventech/en/2020-02-er",
         "isDirectory": true,
         "relativePath": "en/2020-02-er",
         "book_info": {
@@ -2749,7 +2749,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/en/2020-03",
         "isDirectory": true,
         "relativePath": "en/2020-03",
         "book_info": {
@@ -2768,7 +2768,7 @@
         }
       },
       {
-        "name": "2020-03-cq",
+        "book_id": "adventech/en/2020-03-cq",
         "isDirectory": true,
         "relativePath": "en/2020-03-cq",
         "book_info": {
@@ -2787,7 +2787,7 @@
         }
       },
       {
-        "name": "2020-03-er",
+        "book_id": "adventech/en/2020-03-er",
         "isDirectory": true,
         "relativePath": "en/2020-03-er",
         "book_info": {
@@ -2806,7 +2806,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/en/2020-04",
         "isDirectory": true,
         "relativePath": "en/2020-04",
         "book_info": {
@@ -2825,7 +2825,7 @@
         }
       },
       {
-        "name": "2020-04-cq",
+        "book_id": "adventech/en/2020-04-cq",
         "isDirectory": true,
         "relativePath": "en/2020-04-cq",
         "book_info": {
@@ -2844,7 +2844,7 @@
         }
       },
       {
-        "name": "2020-04-er",
+        "book_id": "adventech/en/2020-04-er",
         "isDirectory": true,
         "relativePath": "en/2020-04-er",
         "book_info": {
@@ -2863,7 +2863,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/en/2021-01",
         "isDirectory": true,
         "relativePath": "en/2021-01",
         "book_info": {
@@ -2882,7 +2882,7 @@
         }
       },
       {
-        "name": "2021-01-cq",
+        "book_id": "adventech/en/2021-01-cq",
         "isDirectory": true,
         "relativePath": "en/2021-01-cq",
         "book_info": {
@@ -2901,7 +2901,7 @@
         }
       },
       {
-        "name": "2021-01-er",
+        "book_id": "adventech/en/2021-01-er",
         "isDirectory": true,
         "relativePath": "en/2021-01-er",
         "book_info": {
@@ -2920,7 +2920,7 @@
         }
       },
       {
-        "name": "2021-02",
+        "book_id": "adventech/en/2021-02",
         "isDirectory": true,
         "relativePath": "en/2021-02",
         "book_info": {
@@ -2941,7 +2941,7 @@
     ]
   },
   {
-    "name": "es",
+    "language_id": "adventech/es",
     "isDirectory": true,
     "relativePath": "es",
     "language_info": {
@@ -2950,7 +2950,7 @@
     },
     "books": [
       {
-        "name": "2016-04",
+        "book_id": "adventech/es/2016-04",
         "isDirectory": true,
         "relativePath": "es/2016-04",
         "book_info": {
@@ -2968,7 +2968,7 @@
         }
       },
       {
-        "name": "2017-01",
+        "book_id": "adventech/es/2017-01",
         "isDirectory": true,
         "relativePath": "es/2017-01",
         "book_info": {
@@ -2986,7 +2986,7 @@
         }
       },
       {
-        "name": "2017-02",
+        "book_id": "adventech/es/2017-02",
         "isDirectory": true,
         "relativePath": "es/2017-02",
         "book_info": {
@@ -3004,7 +3004,7 @@
         }
       },
       {
-        "name": "2017-03",
+        "book_id": "adventech/es/2017-03",
         "isDirectory": true,
         "relativePath": "es/2017-03",
         "book_info": {
@@ -3022,7 +3022,7 @@
         }
       },
       {
-        "name": "2017-04",
+        "book_id": "adventech/es/2017-04",
         "isDirectory": true,
         "relativePath": "es/2017-04",
         "book_info": {
@@ -3040,7 +3040,7 @@
         }
       },
       {
-        "name": "2018-01",
+        "book_id": "adventech/es/2018-01",
         "isDirectory": true,
         "relativePath": "es/2018-01",
         "book_info": {
@@ -3058,7 +3058,7 @@
         }
       },
       {
-        "name": "2018-01-jo",
+        "book_id": "adventech/es/2018-01-jo",
         "isDirectory": true,
         "relativePath": "es/2018-01-jo",
         "book_info": {
@@ -3076,7 +3076,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/es/2018-02",
         "isDirectory": true,
         "relativePath": "es/2018-02",
         "book_info": {
@@ -3094,7 +3094,7 @@
         }
       },
       {
-        "name": "2018-02-jo",
+        "book_id": "adventech/es/2018-02-jo",
         "isDirectory": true,
         "relativePath": "es/2018-02-jo",
         "book_info": {
@@ -3112,7 +3112,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/es/2018-03",
         "isDirectory": true,
         "relativePath": "es/2018-03",
         "book_info": {
@@ -3130,7 +3130,7 @@
         }
       },
       {
-        "name": "2018-03-cq",
+        "book_id": "adventech/es/2018-03-cq",
         "isDirectory": true,
         "relativePath": "es/2018-03-cq",
         "book_info": {
@@ -3148,7 +3148,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/es/2018-04",
         "isDirectory": true,
         "relativePath": "es/2018-04",
         "book_info": {
@@ -3166,7 +3166,7 @@
         }
       },
       {
-        "name": "2018-04-cq",
+        "book_id": "adventech/es/2018-04-cq",
         "isDirectory": true,
         "relativePath": "es/2018-04-cq",
         "book_info": {
@@ -3184,7 +3184,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/es/2019-01",
         "isDirectory": true,
         "relativePath": "es/2019-01",
         "book_info": {
@@ -3202,7 +3202,7 @@
         }
       },
       {
-        "name": "2019-01-jo",
+        "book_id": "adventech/es/2019-01-jo",
         "isDirectory": true,
         "relativePath": "es/2019-01-jo",
         "book_info": {
@@ -3220,7 +3220,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/es/2019-02",
         "isDirectory": true,
         "relativePath": "es/2019-02",
         "book_info": {
@@ -3238,7 +3238,7 @@
         }
       },
       {
-        "name": "2019-02-cq",
+        "book_id": "adventech/es/2019-02-cq",
         "isDirectory": true,
         "relativePath": "es/2019-02-cq",
         "book_info": {
@@ -3256,7 +3256,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/es/2019-03",
         "isDirectory": true,
         "relativePath": "es/2019-03",
         "book_info": {
@@ -3274,7 +3274,7 @@
         }
       },
       {
-        "name": "2019-03-cq",
+        "book_id": "adventech/es/2019-03-cq",
         "isDirectory": true,
         "relativePath": "es/2019-03-cq",
         "book_info": {
@@ -3292,7 +3292,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/es/2019-04",
         "isDirectory": true,
         "relativePath": "es/2019-04",
         "book_info": {
@@ -3310,7 +3310,7 @@
         }
       },
       {
-        "name": "2019-04-cq",
+        "book_id": "adventech/es/2019-04-cq",
         "isDirectory": true,
         "relativePath": "es/2019-04-cq",
         "book_info": {
@@ -3328,7 +3328,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/es/2020-01",
         "isDirectory": true,
         "relativePath": "es/2020-01",
         "book_info": {
@@ -3346,7 +3346,7 @@
         }
       },
       {
-        "name": "2020-01-cq",
+        "book_id": "adventech/es/2020-01-cq",
         "isDirectory": true,
         "relativePath": "es/2020-01-cq",
         "book_info": {
@@ -3364,7 +3364,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/es/2020-02",
         "isDirectory": true,
         "relativePath": "es/2020-02",
         "book_info": {
@@ -3383,7 +3383,7 @@
         }
       },
       {
-        "name": "2020-02-cq",
+        "book_id": "adventech/es/2020-02-cq",
         "isDirectory": true,
         "relativePath": "es/2020-02-cq",
         "book_info": {
@@ -3402,7 +3402,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/es/2020-03",
         "isDirectory": true,
         "relativePath": "es/2020-03",
         "book_info": {
@@ -3421,7 +3421,7 @@
         }
       },
       {
-        "name": "2020-03-cq",
+        "book_id": "adventech/es/2020-03-cq",
         "isDirectory": true,
         "relativePath": "es/2020-03-cq",
         "book_info": {
@@ -3440,7 +3440,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/es/2020-04",
         "isDirectory": true,
         "relativePath": "es/2020-04",
         "book_info": {
@@ -3459,7 +3459,7 @@
         }
       },
       {
-        "name": "2020-04-cq",
+        "book_id": "adventech/es/2020-04-cq",
         "isDirectory": true,
         "relativePath": "es/2020-04-cq",
         "book_info": {
@@ -3478,7 +3478,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/es/2021-01",
         "isDirectory": true,
         "relativePath": "es/2021-01",
         "book_info": {
@@ -3497,7 +3497,7 @@
         }
       },
       {
-        "name": "2021-01-cq",
+        "book_id": "adventech/es/2021-01-cq",
         "isDirectory": true,
         "relativePath": "es/2021-01-cq",
         "book_info": {
@@ -3516,7 +3516,7 @@
         }
       },
       {
-        "name": "2021-02",
+        "book_id": "adventech/es/2021-02",
         "isDirectory": true,
         "relativePath": "es/2021-02",
         "book_info": {
@@ -3535,7 +3535,7 @@
         }
       },
       {
-        "name": "2021-02-cq",
+        "book_id": "adventech/es/2021-02-cq",
         "isDirectory": true,
         "relativePath": "es/2021-02-cq",
         "book_info": {
@@ -3556,7 +3556,7 @@
     ]
   },
   {
-    "name": "et",
+    "language_id": "adventech/et",
     "isDirectory": true,
     "relativePath": "et",
     "language_info": {
@@ -3565,7 +3565,7 @@
     },
     "books": [
       {
-        "name": "2018-02",
+        "book_id": "adventech/et/2018-02",
         "isDirectory": true,
         "relativePath": "et/2018-02",
         "book_info": {
@@ -3583,7 +3583,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/et/2018-03",
         "isDirectory": true,
         "relativePath": "et/2018-03",
         "book_info": {
@@ -3601,7 +3601,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/et/2018-04",
         "isDirectory": true,
         "relativePath": "et/2018-04",
         "book_info": {
@@ -3619,7 +3619,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/et/2019-01",
         "isDirectory": true,
         "relativePath": "et/2019-01",
         "book_info": {
@@ -3637,7 +3637,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/et/2019-02",
         "isDirectory": true,
         "relativePath": "et/2019-02",
         "book_info": {
@@ -3655,7 +3655,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/et/2019-03",
         "isDirectory": true,
         "relativePath": "et/2019-03",
         "book_info": {
@@ -3673,7 +3673,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/et/2019-04",
         "isDirectory": true,
         "relativePath": "et/2019-04",
         "book_info": {
@@ -3691,7 +3691,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/et/2020-01",
         "isDirectory": true,
         "relativePath": "et/2020-01",
         "book_info": {
@@ -3709,7 +3709,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/et/2020-02",
         "isDirectory": true,
         "relativePath": "et/2020-02",
         "book_info": {
@@ -3727,7 +3727,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/et/2020-03",
         "isDirectory": true,
         "relativePath": "et/2020-03",
         "book_info": {
@@ -3745,7 +3745,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/et/2020-04",
         "isDirectory": true,
         "relativePath": "et/2020-04",
         "book_info": {
@@ -3763,7 +3763,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/et/2021-01",
         "isDirectory": true,
         "relativePath": "et/2021-01",
         "book_info": {
@@ -3781,7 +3781,7 @@
         }
       },
       {
-        "name": "2021-02",
+        "book_id": "adventech/et/2021-02",
         "isDirectory": true,
         "relativePath": "et/2021-02",
         "book_info": {
@@ -3801,7 +3801,7 @@
     ]
   },
   {
-    "name": "fa",
+    "language_id": "adventech/fa",
     "isDirectory": true,
     "relativePath": "fa",
     "language_info": {
@@ -3810,7 +3810,7 @@
     },
     "books": [
       {
-        "name": "2018-01",
+        "book_id": "adventech/fa/2018-01",
         "isDirectory": true,
         "relativePath": "fa/2018-01",
         "book_info": {
@@ -3828,7 +3828,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/fa/2018-02",
         "isDirectory": true,
         "relativePath": "fa/2018-02",
         "book_info": {
@@ -3846,7 +3846,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/fa/2018-03",
         "isDirectory": true,
         "relativePath": "fa/2018-03",
         "book_info": {
@@ -3864,7 +3864,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/fa/2018-04",
         "isDirectory": true,
         "relativePath": "fa/2018-04",
         "book_info": {
@@ -3882,7 +3882,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/fa/2019-01",
         "isDirectory": true,
         "relativePath": "fa/2019-01",
         "book_info": {
@@ -3900,7 +3900,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/fa/2019-02",
         "isDirectory": true,
         "relativePath": "fa/2019-02",
         "book_info": {
@@ -3918,7 +3918,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/fa/2019-03",
         "isDirectory": true,
         "relativePath": "fa/2019-03",
         "book_info": {
@@ -3936,7 +3936,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/fa/2019-04",
         "isDirectory": true,
         "relativePath": "fa/2019-04",
         "book_info": {
@@ -3954,7 +3954,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/fa/2020-01",
         "isDirectory": true,
         "relativePath": "fa/2020-01",
         "book_info": {
@@ -3972,7 +3972,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/fa/2020-02",
         "isDirectory": true,
         "relativePath": "fa/2020-02",
         "book_info": {
@@ -3990,7 +3990,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/fa/2020-03",
         "isDirectory": true,
         "relativePath": "fa/2020-03",
         "book_info": {
@@ -4008,7 +4008,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/fa/2020-04",
         "isDirectory": true,
         "relativePath": "fa/2020-04",
         "book_info": {
@@ -4026,7 +4026,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/fa/2021-01",
         "isDirectory": true,
         "relativePath": "fa/2021-01",
         "book_info": {
@@ -4046,7 +4046,7 @@
     ]
   },
   {
-    "name": "fi",
+    "language_id": "adventech/fi",
     "isDirectory": true,
     "relativePath": "fi",
     "language_info": {
@@ -4055,7 +4055,7 @@
     },
     "books": [
       {
-        "name": "2020-01",
+        "book_id": "adventech/fi/2020-01",
         "isDirectory": true,
         "relativePath": "fi/2020-01",
         "book_info": {
@@ -4073,7 +4073,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/fi/2020-02",
         "isDirectory": true,
         "relativePath": "fi/2020-02",
         "book_info": {
@@ -4091,7 +4091,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/fi/2020-03",
         "isDirectory": true,
         "relativePath": "fi/2020-03",
         "book_info": {
@@ -4109,7 +4109,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/fi/2020-04",
         "isDirectory": true,
         "relativePath": "fi/2020-04",
         "book_info": {
@@ -4127,7 +4127,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/fi/2021-01",
         "isDirectory": true,
         "relativePath": "fi/2021-01",
         "book_info": {
@@ -4147,7 +4147,7 @@
     ]
   },
   {
-    "name": "fj",
+    "language_id": "adventech/fj",
     "isDirectory": true,
     "relativePath": "fj",
     "language_info": {
@@ -4156,7 +4156,7 @@
     },
     "books": [
       {
-        "name": "2018-02",
+        "book_id": "adventech/fj/2018-02",
         "isDirectory": true,
         "relativePath": "fj/2018-02",
         "book_info": {
@@ -4174,7 +4174,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/fj/2018-03",
         "isDirectory": true,
         "relativePath": "fj/2018-03",
         "book_info": {
@@ -4192,7 +4192,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/fj/2018-04",
         "isDirectory": true,
         "relativePath": "fj/2018-04",
         "book_info": {
@@ -4210,7 +4210,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/fj/2019-02",
         "isDirectory": true,
         "relativePath": "fj/2019-02",
         "book_info": {
@@ -4228,7 +4228,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/fj/2019-04",
         "isDirectory": true,
         "relativePath": "fj/2019-04",
         "book_info": {
@@ -4246,7 +4246,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/fj/2020-03",
         "isDirectory": true,
         "relativePath": "fj/2020-03",
         "book_info": {
@@ -4264,7 +4264,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/fj/2020-04",
         "isDirectory": true,
         "relativePath": "fj/2020-04",
         "book_info": {
@@ -4284,7 +4284,7 @@
     ]
   },
   {
-    "name": "fr",
+    "language_id": "adventech/fr",
     "isDirectory": true,
     "relativePath": "fr",
     "language_info": {
@@ -4293,7 +4293,7 @@
     },
     "books": [
       {
-        "name": "2016-04",
+        "book_id": "adventech/fr/2016-04",
         "isDirectory": true,
         "relativePath": "fr/2016-04",
         "book_info": {
@@ -4311,7 +4311,7 @@
         }
       },
       {
-        "name": "2017-01",
+        "book_id": "adventech/fr/2017-01",
         "isDirectory": true,
         "relativePath": "fr/2017-01",
         "book_info": {
@@ -4329,7 +4329,7 @@
         }
       },
       {
-        "name": "2017-02",
+        "book_id": "adventech/fr/2017-02",
         "isDirectory": true,
         "relativePath": "fr/2017-02",
         "book_info": {
@@ -4347,7 +4347,7 @@
         }
       },
       {
-        "name": "2017-03",
+        "book_id": "adventech/fr/2017-03",
         "isDirectory": true,
         "relativePath": "fr/2017-03",
         "book_info": {
@@ -4365,7 +4365,7 @@
         }
       },
       {
-        "name": "2017-04",
+        "book_id": "adventech/fr/2017-04",
         "isDirectory": true,
         "relativePath": "fr/2017-04",
         "book_info": {
@@ -4383,7 +4383,7 @@
         }
       },
       {
-        "name": "2018-01",
+        "book_id": "adventech/fr/2018-01",
         "isDirectory": true,
         "relativePath": "fr/2018-01",
         "book_info": {
@@ -4401,7 +4401,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/fr/2018-02",
         "isDirectory": true,
         "relativePath": "fr/2018-02",
         "book_info": {
@@ -4419,7 +4419,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/fr/2018-03",
         "isDirectory": true,
         "relativePath": "fr/2018-03",
         "book_info": {
@@ -4437,7 +4437,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/fr/2018-04",
         "isDirectory": true,
         "relativePath": "fr/2018-04",
         "book_info": {
@@ -4455,7 +4455,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/fr/2019-01",
         "isDirectory": true,
         "relativePath": "fr/2019-01",
         "book_info": {
@@ -4473,7 +4473,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/fr/2019-02",
         "isDirectory": true,
         "relativePath": "fr/2019-02",
         "book_info": {
@@ -4491,7 +4491,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/fr/2019-03",
         "isDirectory": true,
         "relativePath": "fr/2019-03",
         "book_info": {
@@ -4509,7 +4509,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/fr/2019-04",
         "isDirectory": true,
         "relativePath": "fr/2019-04",
         "book_info": {
@@ -4527,7 +4527,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/fr/2020-01",
         "isDirectory": true,
         "relativePath": "fr/2020-01",
         "book_info": {
@@ -4545,7 +4545,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/fr/2020-02",
         "isDirectory": true,
         "relativePath": "fr/2020-02",
         "book_info": {
@@ -4563,7 +4563,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/fr/2020-03",
         "isDirectory": true,
         "relativePath": "fr/2020-03",
         "book_info": {
@@ -4581,7 +4581,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/fr/2020-04",
         "isDirectory": true,
         "relativePath": "fr/2020-04",
         "book_info": {
@@ -4599,7 +4599,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/fr/2021-01",
         "isDirectory": true,
         "relativePath": "fr/2021-01",
         "book_info": {
@@ -4619,7 +4619,7 @@
     ]
   },
   {
-    "name": "he",
+    "language_id": "adventech/he",
     "isDirectory": true,
     "relativePath": "he",
     "language_info": {
@@ -4628,7 +4628,7 @@
     },
     "books": [
       {
-        "name": "2018-01",
+        "book_id": "adventech/he/2018-01",
         "isDirectory": true,
         "relativePath": "he/2018-01",
         "book_info": {
@@ -4646,7 +4646,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/he/2018-02",
         "isDirectory": true,
         "relativePath": "he/2018-02",
         "book_info": {
@@ -4664,7 +4664,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/he/2018-03",
         "isDirectory": true,
         "relativePath": "he/2018-03",
         "book_info": {
@@ -4682,7 +4682,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/he/2018-04",
         "isDirectory": true,
         "relativePath": "he/2018-04",
         "book_info": {
@@ -4700,7 +4700,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/he/2019-01",
         "isDirectory": true,
         "relativePath": "he/2019-01",
         "book_info": {
@@ -4718,7 +4718,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/he/2019-02",
         "isDirectory": true,
         "relativePath": "he/2019-02",
         "book_info": {
@@ -4736,7 +4736,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/he/2019-03",
         "isDirectory": true,
         "relativePath": "he/2019-03",
         "book_info": {
@@ -4754,7 +4754,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/he/2019-04",
         "isDirectory": true,
         "relativePath": "he/2019-04",
         "book_info": {
@@ -4772,7 +4772,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/he/2020-01",
         "isDirectory": true,
         "relativePath": "he/2020-01",
         "book_info": {
@@ -4790,7 +4790,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/he/2020-02",
         "isDirectory": true,
         "relativePath": "he/2020-02",
         "book_info": {
@@ -4808,7 +4808,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/he/2020-03",
         "isDirectory": true,
         "relativePath": "he/2020-03",
         "book_info": {
@@ -4826,7 +4826,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/he/2020-04",
         "isDirectory": true,
         "relativePath": "he/2020-04",
         "book_info": {
@@ -4844,7 +4844,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/he/2021-01",
         "isDirectory": true,
         "relativePath": "he/2021-01",
         "book_info": {
@@ -4864,7 +4864,7 @@
     ]
   },
   {
-    "name": "hi",
+    "language_id": "adventech/hi",
     "isDirectory": true,
     "relativePath": "hi",
     "language_info": {
@@ -4873,7 +4873,7 @@
     },
     "books": [
       {
-        "name": "2019-03",
+        "book_id": "adventech/hi/2019-03",
         "isDirectory": true,
         "relativePath": "hi/2019-03",
         "book_info": {
@@ -4891,7 +4891,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/hi/2019-04",
         "isDirectory": true,
         "relativePath": "hi/2019-04",
         "book_info": {
@@ -4909,7 +4909,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/hi/2020-01",
         "isDirectory": true,
         "relativePath": "hi/2020-01",
         "book_info": {
@@ -4927,7 +4927,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/hi/2020-04",
         "isDirectory": true,
         "relativePath": "hi/2020-04",
         "book_info": {
@@ -4945,7 +4945,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/hi/2021-01",
         "isDirectory": true,
         "relativePath": "hi/2021-01",
         "book_info": {
@@ -4965,7 +4965,7 @@
     ]
   },
   {
-    "name": "hil",
+    "language_id": "adventech/hil",
     "isDirectory": true,
     "relativePath": "hil",
     "language_info": {
@@ -4974,7 +4974,7 @@
     },
     "books": [
       {
-        "name": "2020-01",
+        "book_id": "adventech/hil/2020-01",
         "isDirectory": true,
         "relativePath": "hil/2020-01",
         "book_info": {
@@ -4992,7 +4992,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/hil/2020-04",
         "isDirectory": true,
         "relativePath": "hil/2020-04",
         "book_info": {
@@ -5012,7 +5012,7 @@
     ]
   },
   {
-    "name": "hr",
+    "language_id": "adventech/hr",
     "isDirectory": true,
     "relativePath": "hr",
     "language_info": {
@@ -5021,7 +5021,7 @@
     },
     "books": [
       {
-        "name": "2019-01",
+        "book_id": "adventech/hr/2019-01",
         "isDirectory": true,
         "relativePath": "hr/2019-01",
         "book_info": {
@@ -5039,7 +5039,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/hr/2019-02",
         "isDirectory": true,
         "relativePath": "hr/2019-02",
         "book_info": {
@@ -5057,7 +5057,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/hr/2019-03",
         "isDirectory": true,
         "relativePath": "hr/2019-03",
         "book_info": {
@@ -5075,7 +5075,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/hr/2019-04",
         "isDirectory": true,
         "relativePath": "hr/2019-04",
         "book_info": {
@@ -5093,7 +5093,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/hr/2020-01",
         "isDirectory": true,
         "relativePath": "hr/2020-01",
         "book_info": {
@@ -5111,7 +5111,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/hr/2020-02",
         "isDirectory": true,
         "relativePath": "hr/2020-02",
         "book_info": {
@@ -5129,7 +5129,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/hr/2020-03",
         "isDirectory": true,
         "relativePath": "hr/2020-03",
         "book_info": {
@@ -5147,7 +5147,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/hr/2020-04",
         "isDirectory": true,
         "relativePath": "hr/2020-04",
         "book_info": {
@@ -5165,7 +5165,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/hr/2021-01",
         "isDirectory": true,
         "relativePath": "hr/2021-01",
         "book_info": {
@@ -5185,7 +5185,7 @@
     ]
   },
   {
-    "name": "hu",
+    "language_id": "adventech/hu",
     "isDirectory": true,
     "relativePath": "hu",
     "language_info": {
@@ -5194,7 +5194,7 @@
     },
     "books": [
       {
-        "name": "2018-02",
+        "book_id": "adventech/hu/2018-02",
         "isDirectory": true,
         "relativePath": "hu/2018-02",
         "book_info": {
@@ -5212,7 +5212,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/hu/2018-03",
         "isDirectory": true,
         "relativePath": "hu/2018-03",
         "book_info": {
@@ -5230,7 +5230,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/hu/2018-04",
         "isDirectory": true,
         "relativePath": "hu/2018-04",
         "book_info": {
@@ -5248,7 +5248,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/hu/2019-01",
         "isDirectory": true,
         "relativePath": "hu/2019-01",
         "book_info": {
@@ -5266,7 +5266,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/hu/2019-02",
         "isDirectory": true,
         "relativePath": "hu/2019-02",
         "book_info": {
@@ -5284,7 +5284,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/hu/2019-03",
         "isDirectory": true,
         "relativePath": "hu/2019-03",
         "book_info": {
@@ -5302,7 +5302,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/hu/2019-04",
         "isDirectory": true,
         "relativePath": "hu/2019-04",
         "book_info": {
@@ -5320,7 +5320,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/hu/2020-01",
         "isDirectory": true,
         "relativePath": "hu/2020-01",
         "book_info": {
@@ -5338,7 +5338,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/hu/2020-02",
         "isDirectory": true,
         "relativePath": "hu/2020-02",
         "book_info": {
@@ -5356,7 +5356,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/hu/2020-03",
         "isDirectory": true,
         "relativePath": "hu/2020-03",
         "book_info": {
@@ -5374,7 +5374,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/hu/2020-04",
         "isDirectory": true,
         "relativePath": "hu/2020-04",
         "book_info": {
@@ -5392,7 +5392,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/hu/2021-01",
         "isDirectory": true,
         "relativePath": "hu/2021-01",
         "book_info": {
@@ -5412,7 +5412,7 @@
     ]
   },
   {
-    "name": "hy",
+    "language_id": "adventech/hy",
     "isDirectory": true,
     "relativePath": "hy",
     "language_info": {
@@ -5421,7 +5421,7 @@
     },
     "books": [
       {
-        "name": "2019-02",
+        "book_id": "adventech/hy/2019-02",
         "isDirectory": true,
         "relativePath": "hy/2019-02",
         "book_info": {
@@ -5439,7 +5439,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/hy/2019-03",
         "isDirectory": true,
         "relativePath": "hy/2019-03",
         "book_info": {
@@ -5457,7 +5457,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/hy/2019-04",
         "isDirectory": true,
         "relativePath": "hy/2019-04",
         "book_info": {
@@ -5475,7 +5475,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/hy/2020-01",
         "isDirectory": true,
         "relativePath": "hy/2020-01",
         "book_info": {
@@ -5493,7 +5493,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/hy/2020-02",
         "isDirectory": true,
         "relativePath": "hy/2020-02",
         "book_info": {
@@ -5511,7 +5511,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/hy/2020-03",
         "isDirectory": true,
         "relativePath": "hy/2020-03",
         "book_info": {
@@ -5529,7 +5529,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/hy/2020-04",
         "isDirectory": true,
         "relativePath": "hy/2020-04",
         "book_info": {
@@ -5547,7 +5547,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/hy/2021-01",
         "isDirectory": true,
         "relativePath": "hy/2021-01",
         "book_info": {
@@ -5567,7 +5567,7 @@
     ]
   },
   {
-    "name": "ilo",
+    "language_id": "adventech/ilo",
     "isDirectory": true,
     "relativePath": "ilo",
     "language_info": {
@@ -5576,7 +5576,7 @@
     },
     "books": [
       {
-        "name": "2020-01",
+        "book_id": "adventech/ilo/2020-01",
         "isDirectory": true,
         "relativePath": "ilo/2020-01",
         "book_info": {
@@ -5594,7 +5594,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/ilo/2020-04",
         "isDirectory": true,
         "relativePath": "ilo/2020-04",
         "book_info": {
@@ -5612,7 +5612,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/ilo/2021-01",
         "isDirectory": true,
         "relativePath": "ilo/2021-01",
         "book_info": {
@@ -5632,7 +5632,7 @@
     ]
   },
   {
-    "name": "in",
+    "language_id": "adventech/in",
     "isDirectory": true,
     "relativePath": "in",
     "language_info": {
@@ -5641,7 +5641,7 @@
     },
     "books": [
       {
-        "name": "2017-03",
+        "book_id": "adventech/in/2017-03",
         "isDirectory": true,
         "relativePath": "in/2017-03",
         "book_info": {
@@ -5659,7 +5659,7 @@
         }
       },
       {
-        "name": "2017-04",
+        "book_id": "adventech/in/2017-04",
         "isDirectory": true,
         "relativePath": "in/2017-04",
         "book_info": {
@@ -5677,7 +5677,7 @@
         }
       },
       {
-        "name": "2018-01",
+        "book_id": "adventech/in/2018-01",
         "isDirectory": true,
         "relativePath": "in/2018-01",
         "book_info": {
@@ -5695,7 +5695,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/in/2018-02",
         "isDirectory": true,
         "relativePath": "in/2018-02",
         "book_info": {
@@ -5713,7 +5713,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/in/2018-03",
         "isDirectory": true,
         "relativePath": "in/2018-03",
         "book_info": {
@@ -5731,7 +5731,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/in/2018-04",
         "isDirectory": true,
         "relativePath": "in/2018-04",
         "book_info": {
@@ -5749,7 +5749,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/in/2019-01",
         "isDirectory": true,
         "relativePath": "in/2019-01",
         "book_info": {
@@ -5767,7 +5767,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/in/2019-02",
         "isDirectory": true,
         "relativePath": "in/2019-02",
         "book_info": {
@@ -5785,7 +5785,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/in/2019-03",
         "isDirectory": true,
         "relativePath": "in/2019-03",
         "book_info": {
@@ -5803,7 +5803,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/in/2019-04",
         "isDirectory": true,
         "relativePath": "in/2019-04",
         "book_info": {
@@ -5821,7 +5821,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/in/2020-01",
         "isDirectory": true,
         "relativePath": "in/2020-01",
         "book_info": {
@@ -5839,7 +5839,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/in/2020-02",
         "isDirectory": true,
         "relativePath": "in/2020-02",
         "book_info": {
@@ -5857,7 +5857,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/in/2020-03",
         "isDirectory": true,
         "relativePath": "in/2020-03",
         "book_info": {
@@ -5875,7 +5875,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/in/2020-04",
         "isDirectory": true,
         "relativePath": "in/2020-04",
         "book_info": {
@@ -5893,7 +5893,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/in/2021-01",
         "isDirectory": true,
         "relativePath": "in/2021-01",
         "book_info": {
@@ -5911,7 +5911,7 @@
         }
       },
       {
-        "name": "2021-02",
+        "book_id": "adventech/in/2021-02",
         "isDirectory": true,
         "relativePath": "in/2021-02",
         "book_info": {
@@ -5931,7 +5931,7 @@
     ]
   },
   {
-    "name": "is",
+    "language_id": "adventech/is",
     "isDirectory": true,
     "relativePath": "is",
     "language_info": {
@@ -5940,7 +5940,7 @@
     },
     "books": [
       {
-        "name": "2019-03",
+        "book_id": "adventech/is/2019-03",
         "isDirectory": true,
         "relativePath": "is/2019-03",
         "book_info": {
@@ -5958,7 +5958,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/is/2019-04",
         "isDirectory": true,
         "relativePath": "is/2019-04",
         "book_info": {
@@ -5976,7 +5976,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/is/2020-01",
         "isDirectory": true,
         "relativePath": "is/2020-01",
         "book_info": {
@@ -5994,7 +5994,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/is/2020-02",
         "isDirectory": true,
         "relativePath": "is/2020-02",
         "book_info": {
@@ -6012,7 +6012,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/is/2020-03",
         "isDirectory": true,
         "relativePath": "is/2020-03",
         "book_info": {
@@ -6030,7 +6030,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/is/2020-04",
         "isDirectory": true,
         "relativePath": "is/2020-04",
         "book_info": {
@@ -6048,7 +6048,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/is/2021-01",
         "isDirectory": true,
         "relativePath": "is/2021-01",
         "book_info": {
@@ -6068,7 +6068,7 @@
     ]
   },
   {
-    "name": "it",
+    "language_id": "adventech/it",
     "isDirectory": true,
     "relativePath": "it",
     "language_info": {
@@ -6077,7 +6077,7 @@
     },
     "books": [
       {
-        "name": "2018-02",
+        "book_id": "adventech/it/2018-02",
         "isDirectory": true,
         "relativePath": "it/2018-02",
         "book_info": {
@@ -6095,7 +6095,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/it/2018-03",
         "isDirectory": true,
         "relativePath": "it/2018-03",
         "book_info": {
@@ -6113,7 +6113,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/it/2018-04",
         "isDirectory": true,
         "relativePath": "it/2018-04",
         "book_info": {
@@ -6131,7 +6131,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/it/2019-01",
         "isDirectory": true,
         "relativePath": "it/2019-01",
         "book_info": {
@@ -6149,7 +6149,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/it/2019-02",
         "isDirectory": true,
         "relativePath": "it/2019-02",
         "book_info": {
@@ -6167,7 +6167,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/it/2019-03",
         "isDirectory": true,
         "relativePath": "it/2019-03",
         "book_info": {
@@ -6185,7 +6185,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/it/2019-04",
         "isDirectory": true,
         "relativePath": "it/2019-04",
         "book_info": {
@@ -6203,7 +6203,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/it/2020-01",
         "isDirectory": true,
         "relativePath": "it/2020-01",
         "book_info": {
@@ -6221,7 +6221,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/it/2020-02",
         "isDirectory": true,
         "relativePath": "it/2020-02",
         "book_info": {
@@ -6239,7 +6239,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/it/2020-03",
         "isDirectory": true,
         "relativePath": "it/2020-03",
         "book_info": {
@@ -6257,7 +6257,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/it/2020-04",
         "isDirectory": true,
         "relativePath": "it/2020-04",
         "book_info": {
@@ -6275,7 +6275,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/it/2021-01",
         "isDirectory": true,
         "relativePath": "it/2021-01",
         "book_info": {
@@ -6295,7 +6295,7 @@
     ]
   },
   {
-    "name": "ja",
+    "language_id": "adventech/ja",
     "isDirectory": true,
     "relativePath": "ja",
     "language_info": {
@@ -6304,7 +6304,7 @@
     },
     "books": [
       {
-        "name": "2017-01",
+        "book_id": "adventech/ja/2017-01",
         "isDirectory": true,
         "relativePath": "ja/2017-01",
         "book_info": {
@@ -6322,7 +6322,7 @@
         }
       },
       {
-        "name": "2017-02",
+        "book_id": "adventech/ja/2017-02",
         "isDirectory": true,
         "relativePath": "ja/2017-02",
         "book_info": {
@@ -6340,7 +6340,7 @@
         }
       },
       {
-        "name": "2017-03",
+        "book_id": "adventech/ja/2017-03",
         "isDirectory": true,
         "relativePath": "ja/2017-03",
         "book_info": {
@@ -6358,7 +6358,7 @@
         }
       },
       {
-        "name": "2017-04",
+        "book_id": "adventech/ja/2017-04",
         "isDirectory": true,
         "relativePath": "ja/2017-04",
         "book_info": {
@@ -6376,7 +6376,7 @@
         }
       },
       {
-        "name": "2018-01",
+        "book_id": "adventech/ja/2018-01",
         "isDirectory": true,
         "relativePath": "ja/2018-01",
         "book_info": {
@@ -6394,7 +6394,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/ja/2018-02",
         "isDirectory": true,
         "relativePath": "ja/2018-02",
         "book_info": {
@@ -6412,7 +6412,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/ja/2018-03",
         "isDirectory": true,
         "relativePath": "ja/2018-03",
         "book_info": {
@@ -6430,7 +6430,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/ja/2018-04",
         "isDirectory": true,
         "relativePath": "ja/2018-04",
         "book_info": {
@@ -6448,7 +6448,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/ja/2019-01",
         "isDirectory": true,
         "relativePath": "ja/2019-01",
         "book_info": {
@@ -6466,7 +6466,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/ja/2019-02",
         "isDirectory": true,
         "relativePath": "ja/2019-02",
         "book_info": {
@@ -6484,7 +6484,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/ja/2019-03",
         "isDirectory": true,
         "relativePath": "ja/2019-03",
         "book_info": {
@@ -6502,7 +6502,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/ja/2019-04",
         "isDirectory": true,
         "relativePath": "ja/2019-04",
         "book_info": {
@@ -6520,7 +6520,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/ja/2020-01",
         "isDirectory": true,
         "relativePath": "ja/2020-01",
         "book_info": {
@@ -6538,7 +6538,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/ja/2020-02",
         "isDirectory": true,
         "relativePath": "ja/2020-02",
         "book_info": {
@@ -6556,7 +6556,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/ja/2020-03",
         "isDirectory": true,
         "relativePath": "ja/2020-03",
         "book_info": {
@@ -6574,7 +6574,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/ja/2020-04",
         "isDirectory": true,
         "relativePath": "ja/2020-04",
         "book_info": {
@@ -6592,7 +6592,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/ja/2021-01",
         "isDirectory": true,
         "relativePath": "ja/2021-01",
         "book_info": {
@@ -6612,7 +6612,7 @@
     ]
   },
   {
-    "name": "ka",
+    "language_id": "adventech/ka",
     "isDirectory": true,
     "relativePath": "ka",
     "language_info": {
@@ -6621,7 +6621,7 @@
     },
     "books": [
       {
-        "name": "2019-02",
+        "book_id": "adventech/ka/2019-02",
         "isDirectory": true,
         "relativePath": "ka/2019-02",
         "book_info": {
@@ -6639,7 +6639,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/ka/2019-03",
         "isDirectory": true,
         "relativePath": "ka/2019-03",
         "book_info": {
@@ -6657,7 +6657,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/ka/2019-04",
         "isDirectory": true,
         "relativePath": "ka/2019-04",
         "book_info": {
@@ -6675,7 +6675,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/ka/2020-01",
         "isDirectory": true,
         "relativePath": "ka/2020-01",
         "book_info": {
@@ -6693,7 +6693,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/ka/2020-02",
         "isDirectory": true,
         "relativePath": "ka/2020-02",
         "book_info": {
@@ -6711,7 +6711,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/ka/2020-03",
         "isDirectory": true,
         "relativePath": "ka/2020-03",
         "book_info": {
@@ -6729,7 +6729,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/ka/2020-04",
         "isDirectory": true,
         "relativePath": "ka/2020-04",
         "book_info": {
@@ -6747,7 +6747,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/ka/2021-01",
         "isDirectory": true,
         "relativePath": "ka/2021-01",
         "book_info": {
@@ -6765,7 +6765,7 @@
         }
       },
       {
-        "name": "2021-02",
+        "book_id": "adventech/ka/2021-02",
         "isDirectory": true,
         "relativePath": "ka/2021-02",
         "book_info": {
@@ -6785,7 +6785,7 @@
     ]
   },
   {
-    "name": "km",
+    "language_id": "adventech/km",
     "isDirectory": true,
     "relativePath": "km",
     "language_info": {
@@ -6794,7 +6794,7 @@
     },
     "books": [
       {
-        "name": "2020-03",
+        "book_id": "adventech/km/2020-03",
         "isDirectory": true,
         "relativePath": "km/2020-03",
         "book_info": {
@@ -6812,7 +6812,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/km/2020-04",
         "isDirectory": true,
         "relativePath": "km/2020-04",
         "book_info": {
@@ -6830,7 +6830,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/km/2021-01",
         "isDirectory": true,
         "relativePath": "km/2021-01",
         "book_info": {
@@ -6850,7 +6850,7 @@
     ]
   },
   {
-    "name": "kn",
+    "language_id": "adventech/kn",
     "isDirectory": true,
     "relativePath": "kn",
     "language_info": {
@@ -6859,7 +6859,7 @@
     },
     "books": [
       {
-        "name": "2020-04",
+        "book_id": "adventech/kn/2020-04",
         "isDirectory": true,
         "relativePath": "kn/2020-04",
         "book_info": {
@@ -6877,7 +6877,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/kn/2021-01",
         "isDirectory": true,
         "relativePath": "kn/2021-01",
         "book_info": {
@@ -6897,7 +6897,7 @@
     ]
   },
   {
-    "name": "ko",
+    "language_id": "adventech/ko",
     "isDirectory": true,
     "relativePath": "ko",
     "language_info": {
@@ -6906,7 +6906,7 @@
     },
     "books": [
       {
-        "name": "2018-01",
+        "book_id": "adventech/ko/2018-01",
         "isDirectory": true,
         "relativePath": "ko/2018-01",
         "book_info": {
@@ -6924,7 +6924,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/ko/2018-02",
         "isDirectory": true,
         "relativePath": "ko/2018-02",
         "book_info": {
@@ -6942,7 +6942,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/ko/2018-03",
         "isDirectory": true,
         "relativePath": "ko/2018-03",
         "book_info": {
@@ -6960,7 +6960,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/ko/2018-04",
         "isDirectory": true,
         "relativePath": "ko/2018-04",
         "book_info": {
@@ -6978,7 +6978,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/ko/2019-01",
         "isDirectory": true,
         "relativePath": "ko/2019-01",
         "book_info": {
@@ -6996,7 +6996,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/ko/2019-02",
         "isDirectory": true,
         "relativePath": "ko/2019-02",
         "book_info": {
@@ -7014,7 +7014,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/ko/2019-03",
         "isDirectory": true,
         "relativePath": "ko/2019-03",
         "book_info": {
@@ -7032,7 +7032,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/ko/2019-04",
         "isDirectory": true,
         "relativePath": "ko/2019-04",
         "book_info": {
@@ -7050,7 +7050,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/ko/2020-01",
         "isDirectory": true,
         "relativePath": "ko/2020-01",
         "book_info": {
@@ -7068,7 +7068,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/ko/2020-02",
         "isDirectory": true,
         "relativePath": "ko/2020-02",
         "book_info": {
@@ -7086,7 +7086,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/ko/2020-03",
         "isDirectory": true,
         "relativePath": "ko/2020-03",
         "book_info": {
@@ -7104,7 +7104,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/ko/2020-04",
         "isDirectory": true,
         "relativePath": "ko/2020-04",
         "book_info": {
@@ -7122,7 +7122,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/ko/2021-01",
         "isDirectory": true,
         "relativePath": "ko/2021-01",
         "book_info": {
@@ -7142,7 +7142,7 @@
     ]
   },
   {
-    "name": "lo",
+    "language_id": "adventech/lo",
     "isDirectory": true,
     "relativePath": "lo",
     "language_info": {
@@ -7151,7 +7151,7 @@
     },
     "books": [
       {
-        "name": "2018-02",
+        "book_id": "adventech/lo/2018-02",
         "isDirectory": true,
         "relativePath": "lo/2018-02",
         "book_info": {
@@ -7169,7 +7169,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/lo/2018-03",
         "isDirectory": true,
         "relativePath": "lo/2018-03",
         "book_info": {
@@ -7187,7 +7187,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/lo/2019-01",
         "isDirectory": true,
         "relativePath": "lo/2019-01",
         "book_info": {
@@ -7205,7 +7205,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/lo/2019-02",
         "isDirectory": true,
         "relativePath": "lo/2019-02",
         "book_info": {
@@ -7223,7 +7223,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/lo/2019-03",
         "isDirectory": true,
         "relativePath": "lo/2019-03",
         "book_info": {
@@ -7241,7 +7241,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/lo/2019-04",
         "isDirectory": true,
         "relativePath": "lo/2019-04",
         "book_info": {
@@ -7259,7 +7259,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/lo/2020-01",
         "isDirectory": true,
         "relativePath": "lo/2020-01",
         "book_info": {
@@ -7277,7 +7277,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/lo/2020-03",
         "isDirectory": true,
         "relativePath": "lo/2020-03",
         "book_info": {
@@ -7295,7 +7295,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/lo/2020-04",
         "isDirectory": true,
         "relativePath": "lo/2020-04",
         "book_info": {
@@ -7315,7 +7315,7 @@
     ]
   },
   {
-    "name": "lt",
+    "language_id": "adventech/lt",
     "isDirectory": true,
     "relativePath": "lt",
     "language_info": {
@@ -7324,7 +7324,7 @@
     },
     "books": [
       {
-        "name": "2018-04",
+        "book_id": "adventech/lt/2018-04",
         "isDirectory": true,
         "relativePath": "lt/2018-04",
         "book_info": {
@@ -7342,7 +7342,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/lt/2019-01",
         "isDirectory": true,
         "relativePath": "lt/2019-01",
         "book_info": {
@@ -7360,7 +7360,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/lt/2019-02",
         "isDirectory": true,
         "relativePath": "lt/2019-02",
         "book_info": {
@@ -7378,7 +7378,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/lt/2019-03",
         "isDirectory": true,
         "relativePath": "lt/2019-03",
         "book_info": {
@@ -7396,7 +7396,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/lt/2019-04",
         "isDirectory": true,
         "relativePath": "lt/2019-04",
         "book_info": {
@@ -7414,7 +7414,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/lt/2020-01",
         "isDirectory": true,
         "relativePath": "lt/2020-01",
         "book_info": {
@@ -7432,7 +7432,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/lt/2020-02",
         "isDirectory": true,
         "relativePath": "lt/2020-02",
         "book_info": {
@@ -7450,7 +7450,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/lt/2020-03",
         "isDirectory": true,
         "relativePath": "lt/2020-03",
         "book_info": {
@@ -7468,7 +7468,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/lt/2020-04",
         "isDirectory": true,
         "relativePath": "lt/2020-04",
         "book_info": {
@@ -7486,7 +7486,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/lt/2021-01",
         "isDirectory": true,
         "relativePath": "lt/2021-01",
         "book_info": {
@@ -7504,7 +7504,7 @@
         }
       },
       {
-        "name": "2021-02",
+        "book_id": "adventech/lt/2021-02",
         "isDirectory": true,
         "relativePath": "lt/2021-02",
         "book_info": {
@@ -7524,7 +7524,7 @@
     ]
   },
   {
-    "name": "lv",
+    "language_id": "adventech/lv",
     "isDirectory": true,
     "relativePath": "lv",
     "language_info": {
@@ -7533,7 +7533,7 @@
     },
     "books": [
       {
-        "name": "2019-04",
+        "book_id": "adventech/lv/2019-04",
         "isDirectory": true,
         "relativePath": "lv/2019-04",
         "book_info": {
@@ -7551,7 +7551,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/lv/2020-01",
         "isDirectory": true,
         "relativePath": "lv/2020-01",
         "book_info": {
@@ -7569,7 +7569,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/lv/2020-03",
         "isDirectory": true,
         "relativePath": "lv/2020-03",
         "book_info": {
@@ -7587,7 +7587,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/lv/2020-04",
         "isDirectory": true,
         "relativePath": "lv/2020-04",
         "book_info": {
@@ -7607,7 +7607,7 @@
     ]
   },
   {
-    "name": "mg",
+    "language_id": "adventech/mg",
     "isDirectory": true,
     "relativePath": "mg",
     "language_info": {
@@ -7616,7 +7616,7 @@
     },
     "books": [
       {
-        "name": "2020-04",
+        "book_id": "adventech/mg/2020-04",
         "isDirectory": true,
         "relativePath": "mg/2020-04",
         "book_info": {
@@ -7634,7 +7634,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/mg/2021-01",
         "isDirectory": true,
         "relativePath": "mg/2021-01",
         "book_info": {
@@ -7652,7 +7652,7 @@
         }
       },
       {
-        "name": "2021-02",
+        "book_id": "adventech/mg/2021-02",
         "isDirectory": true,
         "relativePath": "mg/2021-02",
         "book_info": {
@@ -7672,7 +7672,7 @@
     ]
   },
   {
-    "name": "mk",
+    "language_id": "adventech/mk",
     "isDirectory": true,
     "relativePath": "mk",
     "language_info": {
@@ -7681,7 +7681,7 @@
     },
     "books": [
       {
-        "name": "2018-02",
+        "book_id": "adventech/mk/2018-02",
         "isDirectory": true,
         "relativePath": "mk/2018-02",
         "book_info": {
@@ -7699,7 +7699,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/mk/2018-03",
         "isDirectory": true,
         "relativePath": "mk/2018-03",
         "book_info": {
@@ -7717,7 +7717,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/mk/2018-04",
         "isDirectory": true,
         "relativePath": "mk/2018-04",
         "book_info": {
@@ -7735,7 +7735,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/mk/2019-01",
         "isDirectory": true,
         "relativePath": "mk/2019-01",
         "book_info": {
@@ -7753,7 +7753,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/mk/2019-02",
         "isDirectory": true,
         "relativePath": "mk/2019-02",
         "book_info": {
@@ -7771,7 +7771,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/mk/2019-03",
         "isDirectory": true,
         "relativePath": "mk/2019-03",
         "book_info": {
@@ -7789,7 +7789,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/mk/2019-04",
         "isDirectory": true,
         "relativePath": "mk/2019-04",
         "book_info": {
@@ -7807,7 +7807,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/mk/2020-01",
         "isDirectory": true,
         "relativePath": "mk/2020-01",
         "book_info": {
@@ -7825,7 +7825,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/mk/2020-02",
         "isDirectory": true,
         "relativePath": "mk/2020-02",
         "book_info": {
@@ -7843,7 +7843,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/mk/2020-03",
         "isDirectory": true,
         "relativePath": "mk/2020-03",
         "book_info": {
@@ -7861,7 +7861,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/mk/2020-04",
         "isDirectory": true,
         "relativePath": "mk/2020-04",
         "book_info": {
@@ -7879,7 +7879,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/mk/2021-01",
         "isDirectory": true,
         "relativePath": "mk/2021-01",
         "book_info": {
@@ -7897,7 +7897,7 @@
         }
       },
       {
-        "name": "2021-02",
+        "book_id": "adventech/mk/2021-02",
         "isDirectory": true,
         "relativePath": "mk/2021-02",
         "book_info": {
@@ -7917,7 +7917,7 @@
     ]
   },
   {
-    "name": "ml",
+    "language_id": "adventech/ml",
     "isDirectory": true,
     "relativePath": "ml",
     "language_info": {
@@ -7926,7 +7926,7 @@
     },
     "books": [
       {
-        "name": "2020-04",
+        "book_id": "adventech/ml/2020-04",
         "isDirectory": true,
         "relativePath": "ml/2020-04",
         "book_info": {
@@ -7944,7 +7944,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/ml/2021-01",
         "isDirectory": true,
         "relativePath": "ml/2021-01",
         "book_info": {
@@ -7964,7 +7964,7 @@
     ]
   },
   {
-    "name": "mn",
+    "language_id": "adventech/mn",
     "isDirectory": true,
     "relativePath": "mn",
     "language_info": {
@@ -7973,7 +7973,7 @@
     },
     "books": [
       {
-        "name": "2019-02",
+        "book_id": "adventech/mn/2019-02",
         "isDirectory": true,
         "relativePath": "mn/2019-02",
         "book_info": {
@@ -7991,7 +7991,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/mn/2019-03",
         "isDirectory": true,
         "relativePath": "mn/2019-03",
         "book_info": {
@@ -8009,7 +8009,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/mn/2019-04",
         "isDirectory": true,
         "relativePath": "mn/2019-04",
         "book_info": {
@@ -8027,7 +8027,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/mn/2020-01",
         "isDirectory": true,
         "relativePath": "mn/2020-01",
         "book_info": {
@@ -8045,7 +8045,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/mn/2020-02",
         "isDirectory": true,
         "relativePath": "mn/2020-02",
         "book_info": {
@@ -8063,7 +8063,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/mn/2020-04",
         "isDirectory": true,
         "relativePath": "mn/2020-04",
         "book_info": {
@@ -8081,7 +8081,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/mn/2021-01",
         "isDirectory": true,
         "relativePath": "mn/2021-01",
         "book_info": {
@@ -8101,7 +8101,7 @@
     ]
   },
   {
-    "name": "ms",
+    "language_id": "adventech/ms",
     "isDirectory": true,
     "relativePath": "ms",
     "language_info": {
@@ -8110,7 +8110,7 @@
     },
     "books": [
       {
-        "name": "2018-01",
+        "book_id": "adventech/ms/2018-01",
         "isDirectory": true,
         "relativePath": "ms/2018-01",
         "book_info": {
@@ -8128,7 +8128,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/ms/2018-02",
         "isDirectory": true,
         "relativePath": "ms/2018-02",
         "book_info": {
@@ -8146,7 +8146,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/ms/2018-03",
         "isDirectory": true,
         "relativePath": "ms/2018-03",
         "book_info": {
@@ -8164,7 +8164,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/ms/2018-04",
         "isDirectory": true,
         "relativePath": "ms/2018-04",
         "book_info": {
@@ -8182,7 +8182,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/ms/2019-01",
         "isDirectory": true,
         "relativePath": "ms/2019-01",
         "book_info": {
@@ -8200,7 +8200,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/ms/2019-02",
         "isDirectory": true,
         "relativePath": "ms/2019-02",
         "book_info": {
@@ -8218,7 +8218,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/ms/2019-03",
         "isDirectory": true,
         "relativePath": "ms/2019-03",
         "book_info": {
@@ -8236,7 +8236,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/ms/2019-04",
         "isDirectory": true,
         "relativePath": "ms/2019-04",
         "book_info": {
@@ -8254,7 +8254,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/ms/2020-01",
         "isDirectory": true,
         "relativePath": "ms/2020-01",
         "book_info": {
@@ -8272,7 +8272,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/ms/2020-02",
         "isDirectory": true,
         "relativePath": "ms/2020-02",
         "book_info": {
@@ -8290,7 +8290,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/ms/2020-03",
         "isDirectory": true,
         "relativePath": "ms/2020-03",
         "book_info": {
@@ -8308,7 +8308,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/ms/2020-04",
         "isDirectory": true,
         "relativePath": "ms/2020-04",
         "book_info": {
@@ -8326,7 +8326,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/ms/2021-01",
         "isDirectory": true,
         "relativePath": "ms/2021-01",
         "book_info": {
@@ -8346,7 +8346,7 @@
     ]
   },
   {
-    "name": "my",
+    "language_id": "adventech/my",
     "isDirectory": true,
     "relativePath": "my",
     "language_info": {
@@ -8355,7 +8355,7 @@
     },
     "books": [
       {
-        "name": "2020-02",
+        "book_id": "adventech/my/2020-02",
         "isDirectory": true,
         "relativePath": "my/2020-02",
         "book_info": {
@@ -8375,7 +8375,7 @@
     ]
   },
   {
-    "name": "ne",
+    "language_id": "adventech/ne",
     "isDirectory": true,
     "relativePath": "ne",
     "language_info": {
@@ -8384,7 +8384,7 @@
     },
     "books": [
       {
-        "name": "2018-01",
+        "book_id": "adventech/ne/2018-01",
         "isDirectory": true,
         "relativePath": "ne/2018-01",
         "book_info": {
@@ -8402,7 +8402,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/ne/2018-02",
         "isDirectory": true,
         "relativePath": "ne/2018-02",
         "book_info": {
@@ -8420,7 +8420,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/ne/2018-03",
         "isDirectory": true,
         "relativePath": "ne/2018-03",
         "book_info": {
@@ -8438,7 +8438,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/ne/2019-01",
         "isDirectory": true,
         "relativePath": "ne/2019-01",
         "book_info": {
@@ -8456,7 +8456,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/ne/2019-03",
         "isDirectory": true,
         "relativePath": "ne/2019-03",
         "book_info": {
@@ -8474,7 +8474,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/ne/2020-01",
         "isDirectory": true,
         "relativePath": "ne/2020-01",
         "book_info": {
@@ -8492,7 +8492,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/ne/2020-02",
         "isDirectory": true,
         "relativePath": "ne/2020-02",
         "book_info": {
@@ -8510,7 +8510,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/ne/2020-04",
         "isDirectory": true,
         "relativePath": "ne/2020-04",
         "book_info": {
@@ -8530,7 +8530,7 @@
     ]
   },
   {
-    "name": "nl",
+    "language_id": "adventech/nl",
     "isDirectory": true,
     "relativePath": "nl",
     "language_info": {
@@ -8539,7 +8539,7 @@
     },
     "books": [
       {
-        "name": "2019-04",
+        "book_id": "adventech/nl/2019-04",
         "isDirectory": true,
         "relativePath": "nl/2019-04",
         "book_info": {
@@ -8557,7 +8557,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/nl/2020-01",
         "isDirectory": true,
         "relativePath": "nl/2020-01",
         "book_info": {
@@ -8575,7 +8575,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/nl/2020-02",
         "isDirectory": true,
         "relativePath": "nl/2020-02",
         "book_info": {
@@ -8593,7 +8593,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/nl/2020-03",
         "isDirectory": true,
         "relativePath": "nl/2020-03",
         "book_info": {
@@ -8611,7 +8611,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/nl/2020-04",
         "isDirectory": true,
         "relativePath": "nl/2020-04",
         "book_info": {
@@ -8629,7 +8629,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/nl/2021-01",
         "isDirectory": true,
         "relativePath": "nl/2021-01",
         "book_info": {
@@ -8647,7 +8647,7 @@
         }
       },
       {
-        "name": "2021-02",
+        "book_id": "adventech/nl/2021-02",
         "isDirectory": true,
         "relativePath": "nl/2021-02",
         "book_info": {
@@ -8667,7 +8667,7 @@
     ]
   },
   {
-    "name": "no",
+    "language_id": "adventech/no",
     "isDirectory": true,
     "relativePath": "no",
     "language_info": {
@@ -8676,7 +8676,7 @@
     },
     "books": [
       {
-        "name": "2018-01",
+        "book_id": "adventech/no/2018-01",
         "isDirectory": true,
         "relativePath": "no/2018-01",
         "book_info": {
@@ -8694,7 +8694,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/no/2018-02",
         "isDirectory": true,
         "relativePath": "no/2018-02",
         "book_info": {
@@ -8712,7 +8712,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/no/2018-03",
         "isDirectory": true,
         "relativePath": "no/2018-03",
         "book_info": {
@@ -8730,7 +8730,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/no/2018-04",
         "isDirectory": true,
         "relativePath": "no/2018-04",
         "book_info": {
@@ -8748,7 +8748,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/no/2019-01",
         "isDirectory": true,
         "relativePath": "no/2019-01",
         "book_info": {
@@ -8766,7 +8766,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/no/2019-02",
         "isDirectory": true,
         "relativePath": "no/2019-02",
         "book_info": {
@@ -8784,7 +8784,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/no/2019-03",
         "isDirectory": true,
         "relativePath": "no/2019-03",
         "book_info": {
@@ -8802,7 +8802,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/no/2019-04",
         "isDirectory": true,
         "relativePath": "no/2019-04",
         "book_info": {
@@ -8820,7 +8820,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/no/2020-01",
         "isDirectory": true,
         "relativePath": "no/2020-01",
         "book_info": {
@@ -8838,7 +8838,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/no/2020-02",
         "isDirectory": true,
         "relativePath": "no/2020-02",
         "book_info": {
@@ -8856,7 +8856,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/no/2020-03",
         "isDirectory": true,
         "relativePath": "no/2020-03",
         "book_info": {
@@ -8874,7 +8874,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/no/2020-04",
         "isDirectory": true,
         "relativePath": "no/2020-04",
         "book_info": {
@@ -8892,7 +8892,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/no/2021-01",
         "isDirectory": true,
         "relativePath": "no/2021-01",
         "book_info": {
@@ -8912,7 +8912,7 @@
     ]
   },
   {
-    "name": "pl",
+    "language_id": "adventech/pl",
     "isDirectory": true,
     "relativePath": "pl",
     "language_info": {
@@ -8921,7 +8921,7 @@
     },
     "books": [
       {
-        "name": "2018-03",
+        "book_id": "adventech/pl/2018-03",
         "isDirectory": true,
         "relativePath": "pl/2018-03",
         "book_info": {
@@ -8939,7 +8939,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/pl/2018-04",
         "isDirectory": true,
         "relativePath": "pl/2018-04",
         "book_info": {
@@ -8957,7 +8957,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/pl/2019-01",
         "isDirectory": true,
         "relativePath": "pl/2019-01",
         "book_info": {
@@ -8975,7 +8975,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/pl/2019-02",
         "isDirectory": true,
         "relativePath": "pl/2019-02",
         "book_info": {
@@ -8993,7 +8993,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/pl/2019-03",
         "isDirectory": true,
         "relativePath": "pl/2019-03",
         "book_info": {
@@ -9011,7 +9011,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/pl/2019-04",
         "isDirectory": true,
         "relativePath": "pl/2019-04",
         "book_info": {
@@ -9029,7 +9029,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/pl/2020-01",
         "isDirectory": true,
         "relativePath": "pl/2020-01",
         "book_info": {
@@ -9047,7 +9047,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/pl/2020-02",
         "isDirectory": true,
         "relativePath": "pl/2020-02",
         "book_info": {
@@ -9065,7 +9065,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/pl/2020-03",
         "isDirectory": true,
         "relativePath": "pl/2020-03",
         "book_info": {
@@ -9083,7 +9083,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/pl/2020-04",
         "isDirectory": true,
         "relativePath": "pl/2020-04",
         "book_info": {
@@ -9101,7 +9101,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/pl/2021-01",
         "isDirectory": true,
         "relativePath": "pl/2021-01",
         "book_info": {
@@ -9121,7 +9121,7 @@
     ]
   },
   {
-    "name": "pt",
+    "language_id": "adventech/pt",
     "isDirectory": true,
     "relativePath": "pt",
     "language_info": {
@@ -9130,7 +9130,7 @@
     },
     "books": [
       {
-        "name": "2017-01",
+        "book_id": "adventech/pt/2017-01",
         "isDirectory": true,
         "relativePath": "pt/2017-01",
         "book_info": {
@@ -9148,7 +9148,7 @@
         }
       },
       {
-        "name": "2017-03",
+        "book_id": "adventech/pt/2017-03",
         "isDirectory": true,
         "relativePath": "pt/2017-03",
         "book_info": {
@@ -9168,7 +9168,7 @@
     ]
   },
   {
-    "name": "ro",
+    "language_id": "adventech/ro",
     "isDirectory": true,
     "relativePath": "ro",
     "language_info": {
@@ -9177,7 +9177,7 @@
     },
     "books": [
       {
-        "name": "2017-03",
+        "book_id": "adventech/ro/2017-03",
         "isDirectory": true,
         "relativePath": "ro/2017-03",
         "book_info": {
@@ -9195,7 +9195,7 @@
         }
       },
       {
-        "name": "2017-04",
+        "book_id": "adventech/ro/2017-04",
         "isDirectory": true,
         "relativePath": "ro/2017-04",
         "book_info": {
@@ -9213,7 +9213,7 @@
         }
       },
       {
-        "name": "2018-01",
+        "book_id": "adventech/ro/2018-01",
         "isDirectory": true,
         "relativePath": "ro/2018-01",
         "book_info": {
@@ -9231,7 +9231,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/ro/2018-02",
         "isDirectory": true,
         "relativePath": "ro/2018-02",
         "book_info": {
@@ -9249,7 +9249,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/ro/2018-03",
         "isDirectory": true,
         "relativePath": "ro/2018-03",
         "book_info": {
@@ -9267,7 +9267,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/ro/2018-04",
         "isDirectory": true,
         "relativePath": "ro/2018-04",
         "book_info": {
@@ -9285,7 +9285,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/ro/2019-01",
         "isDirectory": true,
         "relativePath": "ro/2019-01",
         "book_info": {
@@ -9303,7 +9303,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/ro/2019-02",
         "isDirectory": true,
         "relativePath": "ro/2019-02",
         "book_info": {
@@ -9321,7 +9321,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/ro/2019-03",
         "isDirectory": true,
         "relativePath": "ro/2019-03",
         "book_info": {
@@ -9339,7 +9339,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/ro/2019-04",
         "isDirectory": true,
         "relativePath": "ro/2019-04",
         "book_info": {
@@ -9357,7 +9357,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/ro/2020-01",
         "isDirectory": true,
         "relativePath": "ro/2020-01",
         "book_info": {
@@ -9375,7 +9375,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/ro/2020-02",
         "isDirectory": true,
         "relativePath": "ro/2020-02",
         "book_info": {
@@ -9393,7 +9393,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/ro/2020-03",
         "isDirectory": true,
         "relativePath": "ro/2020-03",
         "book_info": {
@@ -9411,7 +9411,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/ro/2020-04",
         "isDirectory": true,
         "relativePath": "ro/2020-04",
         "book_info": {
@@ -9429,7 +9429,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/ro/2021-01",
         "isDirectory": true,
         "relativePath": "ro/2021-01",
         "book_info": {
@@ -9449,7 +9449,7 @@
     ]
   },
   {
-    "name": "ru",
+    "language_id": "adventech/ru",
     "isDirectory": true,
     "relativePath": "ru",
     "language_info": {
@@ -9458,7 +9458,7 @@
     },
     "books": [
       {
-        "name": "2016-04",
+        "book_id": "adventech/ru/2016-04",
         "isDirectory": true,
         "relativePath": "ru/2016-04",
         "book_info": {
@@ -9476,7 +9476,7 @@
         }
       },
       {
-        "name": "2017-01",
+        "book_id": "adventech/ru/2017-01",
         "isDirectory": true,
         "relativePath": "ru/2017-01",
         "book_info": {
@@ -9494,7 +9494,7 @@
         }
       },
       {
-        "name": "2017-02",
+        "book_id": "adventech/ru/2017-02",
         "isDirectory": true,
         "relativePath": "ru/2017-02",
         "book_info": {
@@ -9512,7 +9512,7 @@
         }
       },
       {
-        "name": "2017-03",
+        "book_id": "adventech/ru/2017-03",
         "isDirectory": true,
         "relativePath": "ru/2017-03",
         "book_info": {
@@ -9530,7 +9530,7 @@
         }
       },
       {
-        "name": "2017-03-ay",
+        "book_id": "adventech/ru/2017-03-ay",
         "isDirectory": true,
         "relativePath": "ru/2017-03-ay",
         "book_info": {
@@ -9548,7 +9548,7 @@
         }
       },
       {
-        "name": "2017-04",
+        "book_id": "adventech/ru/2017-04",
         "isDirectory": true,
         "relativePath": "ru/2017-04",
         "book_info": {
@@ -9566,7 +9566,7 @@
         }
       },
       {
-        "name": "2017-04-ay",
+        "book_id": "adventech/ru/2017-04-ay",
         "isDirectory": true,
         "relativePath": "ru/2017-04-ay",
         "book_info": {
@@ -9584,7 +9584,7 @@
         }
       },
       {
-        "name": "2018-01",
+        "book_id": "adventech/ru/2018-01",
         "isDirectory": true,
         "relativePath": "ru/2018-01",
         "book_info": {
@@ -9602,7 +9602,7 @@
         }
       },
       {
-        "name": "2018-01-ay",
+        "book_id": "adventech/ru/2018-01-ay",
         "isDirectory": true,
         "relativePath": "ru/2018-01-ay",
         "book_info": {
@@ -9620,7 +9620,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/ru/2018-02",
         "isDirectory": true,
         "relativePath": "ru/2018-02",
         "book_info": {
@@ -9638,7 +9638,7 @@
         }
       },
       {
-        "name": "2018-02-ay",
+        "book_id": "adventech/ru/2018-02-ay",
         "isDirectory": true,
         "relativePath": "ru/2018-02-ay",
         "book_info": {
@@ -9656,7 +9656,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/ru/2018-03",
         "isDirectory": true,
         "relativePath": "ru/2018-03",
         "book_info": {
@@ -9674,7 +9674,7 @@
         }
       },
       {
-        "name": "2018-03-ay",
+        "book_id": "adventech/ru/2018-03-ay",
         "isDirectory": true,
         "relativePath": "ru/2018-03-ay",
         "book_info": {
@@ -9692,7 +9692,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/ru/2018-04",
         "isDirectory": true,
         "relativePath": "ru/2018-04",
         "book_info": {
@@ -9710,7 +9710,7 @@
         }
       },
       {
-        "name": "2018-04-ay",
+        "book_id": "adventech/ru/2018-04-ay",
         "isDirectory": true,
         "relativePath": "ru/2018-04-ay",
         "book_info": {
@@ -9728,7 +9728,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/ru/2019-01",
         "isDirectory": true,
         "relativePath": "ru/2019-01",
         "book_info": {
@@ -9746,7 +9746,7 @@
         }
       },
       {
-        "name": "2019-01-ay",
+        "book_id": "adventech/ru/2019-01-ay",
         "isDirectory": true,
         "relativePath": "ru/2019-01-ay",
         "book_info": {
@@ -9764,7 +9764,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/ru/2019-02",
         "isDirectory": true,
         "relativePath": "ru/2019-02",
         "book_info": {
@@ -9782,7 +9782,7 @@
         }
       },
       {
-        "name": "2019-02-ay",
+        "book_id": "adventech/ru/2019-02-ay",
         "isDirectory": true,
         "relativePath": "ru/2019-02-ay",
         "book_info": {
@@ -9800,7 +9800,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/ru/2019-03",
         "isDirectory": true,
         "relativePath": "ru/2019-03",
         "book_info": {
@@ -9818,7 +9818,7 @@
         }
       },
       {
-        "name": "2019-03-ay",
+        "book_id": "adventech/ru/2019-03-ay",
         "isDirectory": true,
         "relativePath": "ru/2019-03-ay",
         "book_info": {
@@ -9836,7 +9836,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/ru/2019-04",
         "isDirectory": true,
         "relativePath": "ru/2019-04",
         "book_info": {
@@ -9854,7 +9854,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/ru/2020-01",
         "isDirectory": true,
         "relativePath": "ru/2020-01",
         "book_info": {
@@ -9872,7 +9872,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/ru/2020-02",
         "isDirectory": true,
         "relativePath": "ru/2020-02",
         "book_info": {
@@ -9890,7 +9890,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/ru/2020-03",
         "isDirectory": true,
         "relativePath": "ru/2020-03",
         "book_info": {
@@ -9908,7 +9908,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/ru/2020-04",
         "isDirectory": true,
         "relativePath": "ru/2020-04",
         "book_info": {
@@ -9926,7 +9926,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/ru/2021-01",
         "isDirectory": true,
         "relativePath": "ru/2021-01",
         "book_info": {
@@ -9942,29 +9942,11 @@
           "name": "cover.png",
           "fileSize": 235412
         }
-      },
-      {
-        "name": "2021-02",
-        "isDirectory": true,
-        "relativePath": "ru/2021-02",
-        "book_info": {
-          "title": "Божий завет и его обетования",
-          "description": "В 1588 году молодая англичанка, находящаяся на седьмом месяце беременности, вгляделась в морскую даль и увидела испанскую армаду со 130 тяжеловооруженными кораблями, собиравшуюся вторгнуться на остров. Она так испугалась, что у нее начались преждевременные роды, — ее повивальной бабкой стал страх.",
-          "human_date": "Апрель · Май · Июнь 2021",
-          "start_date": "27/03/2021",
-          "end_date": "25/06/2021",
-          "color_primary": "#0A454E",
-          "color_primary_dark": "#01373F"
-        },
-        "book_cover": {
-          "name": "cover.png",
-          "fileSize": 226093
-        }
       }
     ]
   },
   {
-    "name": "si",
+    "language_id": "adventech/si",
     "isDirectory": true,
     "relativePath": "si",
     "language_info": {
@@ -9973,7 +9955,7 @@
     },
     "books": [
       {
-        "name": "2020-01",
+        "book_id": "adventech/si/2020-01",
         "isDirectory": true,
         "relativePath": "si/2020-01",
         "book_info": {
@@ -9991,7 +9973,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/si/2020-02",
         "isDirectory": true,
         "relativePath": "si/2020-02",
         "book_info": {
@@ -10009,7 +9991,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/si/2020-04",
         "isDirectory": true,
         "relativePath": "si/2020-04",
         "book_info": {
@@ -10029,7 +10011,7 @@
     ]
   },
   {
-    "name": "sk",
+    "language_id": "adventech/sk",
     "isDirectory": true,
     "relativePath": "sk",
     "language_info": {
@@ -10038,7 +10020,7 @@
     },
     "books": [
       {
-        "name": "2019-02",
+        "book_id": "adventech/sk/2019-02",
         "isDirectory": true,
         "relativePath": "sk/2019-02",
         "book_info": {
@@ -10056,7 +10038,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/sk/2019-03",
         "isDirectory": true,
         "relativePath": "sk/2019-03",
         "book_info": {
@@ -10074,7 +10056,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/sk/2019-04",
         "isDirectory": true,
         "relativePath": "sk/2019-04",
         "book_info": {
@@ -10092,7 +10074,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/sk/2020-01",
         "isDirectory": true,
         "relativePath": "sk/2020-01",
         "book_info": {
@@ -10110,7 +10092,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/sk/2020-02",
         "isDirectory": true,
         "relativePath": "sk/2020-02",
         "book_info": {
@@ -10128,7 +10110,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/sk/2020-03",
         "isDirectory": true,
         "relativePath": "sk/2020-03",
         "book_info": {
@@ -10146,7 +10128,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/sk/2020-04",
         "isDirectory": true,
         "relativePath": "sk/2020-04",
         "book_info": {
@@ -10164,7 +10146,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/sk/2021-01",
         "isDirectory": true,
         "relativePath": "sk/2021-01",
         "book_info": {
@@ -10184,7 +10166,7 @@
     ]
   },
   {
-    "name": "sl",
+    "language_id": "adventech/sl",
     "isDirectory": true,
     "relativePath": "sl",
     "language_info": {
@@ -10193,7 +10175,7 @@
     },
     "books": [
       {
-        "name": "2019-02",
+        "book_id": "adventech/sl/2019-02",
         "isDirectory": true,
         "relativePath": "sl/2019-02",
         "book_info": {
@@ -10211,7 +10193,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/sl/2019-03",
         "isDirectory": true,
         "relativePath": "sl/2019-03",
         "book_info": {
@@ -10229,7 +10211,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/sl/2019-04",
         "isDirectory": true,
         "relativePath": "sl/2019-04",
         "book_info": {
@@ -10247,7 +10229,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/sl/2020-01",
         "isDirectory": true,
         "relativePath": "sl/2020-01",
         "book_info": {
@@ -10265,7 +10247,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/sl/2020-02",
         "isDirectory": true,
         "relativePath": "sl/2020-02",
         "book_info": {
@@ -10283,7 +10265,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/sl/2020-03",
         "isDirectory": true,
         "relativePath": "sl/2020-03",
         "book_info": {
@@ -10301,7 +10283,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/sl/2020-04",
         "isDirectory": true,
         "relativePath": "sl/2020-04",
         "book_info": {
@@ -10319,7 +10301,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/sl/2021-01",
         "isDirectory": true,
         "relativePath": "sl/2021-01",
         "book_info": {
@@ -10339,7 +10321,7 @@
     ]
   },
   {
-    "name": "sq",
+    "language_id": "adventech/sq",
     "isDirectory": true,
     "relativePath": "sq",
     "language_info": {
@@ -10348,7 +10330,7 @@
     },
     "books": [
       {
-        "name": "2019-04",
+        "book_id": "adventech/sq/2019-04",
         "isDirectory": true,
         "relativePath": "sq/2019-04",
         "book_info": {
@@ -10366,7 +10348,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/sq/2020-01",
         "isDirectory": true,
         "relativePath": "sq/2020-01",
         "book_info": {
@@ -10384,7 +10366,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/sq/2020-02",
         "isDirectory": true,
         "relativePath": "sq/2020-02",
         "book_info": {
@@ -10402,7 +10384,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/sq/2020-03",
         "isDirectory": true,
         "relativePath": "sq/2020-03",
         "book_info": {
@@ -10420,7 +10402,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/sq/2020-04",
         "isDirectory": true,
         "relativePath": "sq/2020-04",
         "book_info": {
@@ -10438,7 +10420,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/sq/2021-01",
         "isDirectory": true,
         "relativePath": "sq/2021-01",
         "book_info": {
@@ -10458,7 +10440,7 @@
     ]
   },
   {
-    "name": "sr",
+    "language_id": "adventech/sr",
     "isDirectory": true,
     "relativePath": "sr",
     "language_info": {
@@ -10467,7 +10449,7 @@
     },
     "books": [
       {
-        "name": "2018-01",
+        "book_id": "adventech/sr/2018-01",
         "isDirectory": true,
         "relativePath": "sr/2018-01",
         "book_info": {
@@ -10485,7 +10467,7 @@
         }
       },
       {
-        "name": "2018-01-cq",
+        "book_id": "adventech/sr/2018-01-cq",
         "isDirectory": true,
         "relativePath": "sr/2018-01-cq",
         "book_info": {
@@ -10503,7 +10485,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/sr/2018-02",
         "isDirectory": true,
         "relativePath": "sr/2018-02",
         "book_info": {
@@ -10521,7 +10503,7 @@
         }
       },
       {
-        "name": "2018-02-cq",
+        "book_id": "adventech/sr/2018-02-cq",
         "isDirectory": true,
         "relativePath": "sr/2018-02-cq",
         "book_info": {
@@ -10539,7 +10521,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/sr/2018-03",
         "isDirectory": true,
         "relativePath": "sr/2018-03",
         "book_info": {
@@ -10557,7 +10539,7 @@
         }
       },
       {
-        "name": "2018-03-cq",
+        "book_id": "adventech/sr/2018-03-cq",
         "isDirectory": true,
         "relativePath": "sr/2018-03-cq",
         "book_info": {
@@ -10575,7 +10557,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/sr/2018-04",
         "isDirectory": true,
         "relativePath": "sr/2018-04",
         "book_info": {
@@ -10593,7 +10575,7 @@
         }
       },
       {
-        "name": "2018-04-cq",
+        "book_id": "adventech/sr/2018-04-cq",
         "isDirectory": true,
         "relativePath": "sr/2018-04-cq",
         "book_info": {
@@ -10611,7 +10593,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/sr/2019-01",
         "isDirectory": true,
         "relativePath": "sr/2019-01",
         "book_info": {
@@ -10629,7 +10611,7 @@
         }
       },
       {
-        "name": "2019-01-cq",
+        "book_id": "adventech/sr/2019-01-cq",
         "isDirectory": true,
         "relativePath": "sr/2019-01-cq",
         "book_info": {
@@ -10647,7 +10629,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/sr/2019-02",
         "isDirectory": true,
         "relativePath": "sr/2019-02",
         "book_info": {
@@ -10665,7 +10647,7 @@
         }
       },
       {
-        "name": "2019-02-cq",
+        "book_id": "adventech/sr/2019-02-cq",
         "isDirectory": true,
         "relativePath": "sr/2019-02-cq",
         "book_info": {
@@ -10683,7 +10665,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/sr/2019-03",
         "isDirectory": true,
         "relativePath": "sr/2019-03",
         "book_info": {
@@ -10701,7 +10683,7 @@
         }
       },
       {
-        "name": "2019-03-cq",
+        "book_id": "adventech/sr/2019-03-cq",
         "isDirectory": true,
         "relativePath": "sr/2019-03-cq",
         "book_info": {
@@ -10719,7 +10701,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/sr/2019-04",
         "isDirectory": true,
         "relativePath": "sr/2019-04",
         "book_info": {
@@ -10737,7 +10719,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/sr/2020-01",
         "isDirectory": true,
         "relativePath": "sr/2020-01",
         "book_info": {
@@ -10755,7 +10737,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/sr/2020-02",
         "isDirectory": true,
         "relativePath": "sr/2020-02",
         "book_info": {
@@ -10773,7 +10755,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/sr/2020-03",
         "isDirectory": true,
         "relativePath": "sr/2020-03",
         "book_info": {
@@ -10791,7 +10773,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/sr/2020-04",
         "isDirectory": true,
         "relativePath": "sr/2020-04",
         "book_info": {
@@ -10809,7 +10791,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/sr/2021-01",
         "isDirectory": true,
         "relativePath": "sr/2021-01",
         "book_info": {
@@ -10829,7 +10811,7 @@
     ]
   },
   {
-    "name": "st",
+    "language_id": "adventech/st",
     "isDirectory": true,
     "relativePath": "st",
     "language_info": {
@@ -10838,7 +10820,7 @@
     },
     "books": [
       {
-        "name": "2018-04",
+        "book_id": "adventech/st/2018-04",
         "isDirectory": true,
         "relativePath": "st/2018-04",
         "book_info": {
@@ -10856,7 +10838,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/st/2019-03",
         "isDirectory": true,
         "relativePath": "st/2019-03",
         "book_info": {
@@ -10874,7 +10856,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/st/2019-04",
         "isDirectory": true,
         "relativePath": "st/2019-04",
         "book_info": {
@@ -10892,7 +10874,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/st/2020-01",
         "isDirectory": true,
         "relativePath": "st/2020-01",
         "book_info": {
@@ -10910,7 +10892,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/st/2020-02",
         "isDirectory": true,
         "relativePath": "st/2020-02",
         "book_info": {
@@ -10928,7 +10910,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/st/2020-03",
         "isDirectory": true,
         "relativePath": "st/2020-03",
         "book_info": {
@@ -10946,7 +10928,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/st/2020-04",
         "isDirectory": true,
         "relativePath": "st/2020-04",
         "book_info": {
@@ -10966,7 +10948,7 @@
     ]
   },
   {
-    "name": "sv",
+    "language_id": "adventech/sv",
     "isDirectory": true,
     "relativePath": "sv",
     "language_info": {
@@ -10975,7 +10957,7 @@
     },
     "books": [
       {
-        "name": "2018-03",
+        "book_id": "adventech/sv/2018-03",
         "isDirectory": true,
         "relativePath": "sv/2018-03",
         "book_info": {
@@ -10993,7 +10975,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/sv/2018-04",
         "isDirectory": true,
         "relativePath": "sv/2018-04",
         "book_info": {
@@ -11011,7 +10993,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/sv/2019-01",
         "isDirectory": true,
         "relativePath": "sv/2019-01",
         "book_info": {
@@ -11029,7 +11011,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/sv/2019-02",
         "isDirectory": true,
         "relativePath": "sv/2019-02",
         "book_info": {
@@ -11047,7 +11029,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/sv/2019-03",
         "isDirectory": true,
         "relativePath": "sv/2019-03",
         "book_info": {
@@ -11065,7 +11047,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/sv/2019-04",
         "isDirectory": true,
         "relativePath": "sv/2019-04",
         "book_info": {
@@ -11083,7 +11065,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/sv/2020-01",
         "isDirectory": true,
         "relativePath": "sv/2020-01",
         "book_info": {
@@ -11101,7 +11083,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/sv/2020-02",
         "isDirectory": true,
         "relativePath": "sv/2020-02",
         "book_info": {
@@ -11119,7 +11101,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/sv/2020-03",
         "isDirectory": true,
         "relativePath": "sv/2020-03",
         "book_info": {
@@ -11137,7 +11119,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/sv/2020-04",
         "isDirectory": true,
         "relativePath": "sv/2020-04",
         "book_info": {
@@ -11155,7 +11137,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/sv/2021-01",
         "isDirectory": true,
         "relativePath": "sv/2021-01",
         "book_info": {
@@ -11175,7 +11157,7 @@
     ]
   },
   {
-    "name": "sw",
+    "language_id": "adventech/sw",
     "isDirectory": true,
     "relativePath": "sw",
     "language_info": {
@@ -11184,7 +11166,7 @@
     },
     "books": [
       {
-        "name": "2019-01",
+        "book_id": "adventech/sw/2019-01",
         "isDirectory": true,
         "relativePath": "sw/2019-01",
         "book_info": {
@@ -11202,7 +11184,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/sw/2019-02",
         "isDirectory": true,
         "relativePath": "sw/2019-02",
         "book_info": {
@@ -11220,7 +11202,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/sw/2019-03",
         "isDirectory": true,
         "relativePath": "sw/2019-03",
         "book_info": {
@@ -11238,7 +11220,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/sw/2019-04",
         "isDirectory": true,
         "relativePath": "sw/2019-04",
         "book_info": {
@@ -11256,7 +11238,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/sw/2020-03",
         "isDirectory": true,
         "relativePath": "sw/2020-03",
         "book_info": {
@@ -11274,7 +11256,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/sw/2020-04",
         "isDirectory": true,
         "relativePath": "sw/2020-04",
         "book_info": {
@@ -11292,7 +11274,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/sw/2021-01",
         "isDirectory": true,
         "relativePath": "sw/2021-01",
         "book_info": {
@@ -11312,7 +11294,7 @@
     ]
   },
   {
-    "name": "ta",
+    "language_id": "adventech/ta",
     "isDirectory": true,
     "relativePath": "ta",
     "language_info": {
@@ -11321,7 +11303,7 @@
     },
     "books": [
       {
-        "name": "2018-02",
+        "book_id": "adventech/ta/2018-02",
         "isDirectory": true,
         "relativePath": "ta/2018-02",
         "book_info": {
@@ -11339,7 +11321,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/ta/2018-03",
         "isDirectory": true,
         "relativePath": "ta/2018-03",
         "book_info": {
@@ -11357,7 +11339,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/ta/2019-01",
         "isDirectory": true,
         "relativePath": "ta/2019-01",
         "book_info": {
@@ -11375,7 +11357,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/ta/2019-02",
         "isDirectory": true,
         "relativePath": "ta/2019-02",
         "book_info": {
@@ -11393,7 +11375,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/ta/2019-03",
         "isDirectory": true,
         "relativePath": "ta/2019-03",
         "book_info": {
@@ -11411,7 +11393,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/ta/2019-04",
         "isDirectory": true,
         "relativePath": "ta/2019-04",
         "book_info": {
@@ -11429,7 +11411,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/ta/2020-01",
         "isDirectory": true,
         "relativePath": "ta/2020-01",
         "book_info": {
@@ -11447,7 +11429,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/ta/2020-02",
         "isDirectory": true,
         "relativePath": "ta/2020-02",
         "book_info": {
@@ -11465,7 +11447,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/ta/2020-03",
         "isDirectory": true,
         "relativePath": "ta/2020-03",
         "book_info": {
@@ -11483,7 +11465,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/ta/2020-04",
         "isDirectory": true,
         "relativePath": "ta/2020-04",
         "book_info": {
@@ -11503,7 +11485,7 @@
     ]
   },
   {
-    "name": "th",
+    "language_id": "adventech/th",
     "isDirectory": true,
     "relativePath": "th",
     "language_info": {
@@ -11512,7 +11494,7 @@
     },
     "books": [
       {
-        "name": "2018-02",
+        "book_id": "adventech/th/2018-02",
         "isDirectory": true,
         "relativePath": "th/2018-02",
         "book_info": {
@@ -11530,7 +11512,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/th/2018-03",
         "isDirectory": true,
         "relativePath": "th/2018-03",
         "book_info": {
@@ -11548,7 +11530,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/th/2019-01",
         "isDirectory": true,
         "relativePath": "th/2019-01",
         "book_info": {
@@ -11566,7 +11548,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/th/2019-02",
         "isDirectory": true,
         "relativePath": "th/2019-02",
         "book_info": {
@@ -11584,7 +11566,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/th/2019-03",
         "isDirectory": true,
         "relativePath": "th/2019-03",
         "book_info": {
@@ -11602,7 +11584,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/th/2019-04",
         "isDirectory": true,
         "relativePath": "th/2019-04",
         "book_info": {
@@ -11620,7 +11602,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/th/2020-01",
         "isDirectory": true,
         "relativePath": "th/2020-01",
         "book_info": {
@@ -11638,7 +11620,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/th/2020-02",
         "isDirectory": true,
         "relativePath": "th/2020-02",
         "book_info": {
@@ -11656,7 +11638,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/th/2020-03",
         "isDirectory": true,
         "relativePath": "th/2020-03",
         "book_info": {
@@ -11674,7 +11656,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/th/2020-04",
         "isDirectory": true,
         "relativePath": "th/2020-04",
         "book_info": {
@@ -11692,7 +11674,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/th/2021-01",
         "isDirectory": true,
         "relativePath": "th/2021-01",
         "book_info": {
@@ -11712,7 +11694,7 @@
     ]
   },
   {
-    "name": "tl",
+    "language_id": "adventech/tl",
     "isDirectory": true,
     "relativePath": "tl",
     "language_info": {
@@ -11721,7 +11703,7 @@
     },
     "books": [
       {
-        "name": "2019-01",
+        "book_id": "adventech/tl/2019-01",
         "isDirectory": true,
         "relativePath": "tl/2019-01",
         "book_info": {
@@ -11739,7 +11721,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/tl/2019-02",
         "isDirectory": true,
         "relativePath": "tl/2019-02",
         "book_info": {
@@ -11757,7 +11739,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/tl/2019-03",
         "isDirectory": true,
         "relativePath": "tl/2019-03",
         "book_info": {
@@ -11775,7 +11757,7 @@
         }
       },
       {
-        "name": "2019-03-hil",
+        "book_id": "adventech/tl/2019-03-hil",
         "isDirectory": true,
         "relativePath": "tl/2019-03-hil",
         "book_info": {
@@ -11793,7 +11775,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/tl/2019-04",
         "isDirectory": true,
         "relativePath": "tl/2019-04",
         "book_info": {
@@ -11811,7 +11793,7 @@
         }
       },
       {
-        "name": "2019-04-hil",
+        "book_id": "adventech/tl/2019-04-hil",
         "isDirectory": true,
         "relativePath": "tl/2019-04-hil",
         "book_info": {
@@ -11829,7 +11811,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/tl/2020-01",
         "isDirectory": true,
         "relativePath": "tl/2020-01",
         "book_info": {
@@ -11847,7 +11829,7 @@
         }
       },
       {
-        "name": "2020-01-hil",
+        "book_id": "adventech/tl/2020-01-hil",
         "isDirectory": true,
         "relativePath": "tl/2020-01-hil",
         "book_info": {
@@ -11865,7 +11847,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/tl/2020-02",
         "isDirectory": true,
         "relativePath": "tl/2020-02",
         "book_info": {
@@ -11883,7 +11865,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/tl/2020-03",
         "isDirectory": true,
         "relativePath": "tl/2020-03",
         "book_info": {
@@ -11901,7 +11883,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/tl/2020-04",
         "isDirectory": true,
         "relativePath": "tl/2020-04",
         "book_info": {
@@ -11919,7 +11901,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/tl/2021-01",
         "isDirectory": true,
         "relativePath": "tl/2021-01",
         "book_info": {
@@ -11939,7 +11921,7 @@
     ]
   },
   {
-    "name": "tr",
+    "language_id": "adventech/tr",
     "isDirectory": true,
     "relativePath": "tr",
     "language_info": {
@@ -11948,7 +11930,7 @@
     },
     "books": [
       {
-        "name": "2016-04",
+        "book_id": "adventech/tr/2016-04",
         "isDirectory": true,
         "relativePath": "tr/2016-04",
         "book_info": {
@@ -11966,7 +11948,7 @@
         }
       },
       {
-        "name": "2017-01",
+        "book_id": "adventech/tr/2017-01",
         "isDirectory": true,
         "relativePath": "tr/2017-01",
         "book_info": {
@@ -11984,7 +11966,7 @@
         }
       },
       {
-        "name": "2017-02",
+        "book_id": "adventech/tr/2017-02",
         "isDirectory": true,
         "relativePath": "tr/2017-02",
         "book_info": {
@@ -12002,7 +11984,7 @@
         }
       },
       {
-        "name": "2017-03",
+        "book_id": "adventech/tr/2017-03",
         "isDirectory": true,
         "relativePath": "tr/2017-03",
         "book_info": {
@@ -12020,7 +12002,7 @@
         }
       },
       {
-        "name": "2017-04",
+        "book_id": "adventech/tr/2017-04",
         "isDirectory": true,
         "relativePath": "tr/2017-04",
         "book_info": {
@@ -12038,7 +12020,7 @@
         }
       },
       {
-        "name": "2018-01",
+        "book_id": "adventech/tr/2018-01",
         "isDirectory": true,
         "relativePath": "tr/2018-01",
         "book_info": {
@@ -12056,7 +12038,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/tr/2018-02",
         "isDirectory": true,
         "relativePath": "tr/2018-02",
         "book_info": {
@@ -12074,7 +12056,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/tr/2018-03",
         "isDirectory": true,
         "relativePath": "tr/2018-03",
         "book_info": {
@@ -12092,7 +12074,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/tr/2018-04",
         "isDirectory": true,
         "relativePath": "tr/2018-04",
         "book_info": {
@@ -12110,7 +12092,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/tr/2019-01",
         "isDirectory": true,
         "relativePath": "tr/2019-01",
         "book_info": {
@@ -12128,7 +12110,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/tr/2019-02",
         "isDirectory": true,
         "relativePath": "tr/2019-02",
         "book_info": {
@@ -12146,7 +12128,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/tr/2019-03",
         "isDirectory": true,
         "relativePath": "tr/2019-03",
         "book_info": {
@@ -12164,7 +12146,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/tr/2019-04",
         "isDirectory": true,
         "relativePath": "tr/2019-04",
         "book_info": {
@@ -12182,7 +12164,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/tr/2020-01",
         "isDirectory": true,
         "relativePath": "tr/2020-01",
         "book_info": {
@@ -12200,7 +12182,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/tr/2020-02",
         "isDirectory": true,
         "relativePath": "tr/2020-02",
         "book_info": {
@@ -12218,7 +12200,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/tr/2020-03",
         "isDirectory": true,
         "relativePath": "tr/2020-03",
         "book_info": {
@@ -12236,7 +12218,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/tr/2020-04",
         "isDirectory": true,
         "relativePath": "tr/2020-04",
         "book_info": {
@@ -12254,7 +12236,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/tr/2021-01",
         "isDirectory": true,
         "relativePath": "tr/2021-01",
         "book_info": {
@@ -12274,7 +12256,7 @@
     ]
   },
   {
-    "name": "uk",
+    "language_id": "adventech/uk",
     "isDirectory": true,
     "relativePath": "uk",
     "language_info": {
@@ -12283,7 +12265,7 @@
     },
     "books": [
       {
-        "name": "2016-04",
+        "book_id": "adventech/uk/2016-04",
         "isDirectory": true,
         "relativePath": "uk/2016-04",
         "book_info": {
@@ -12301,7 +12283,7 @@
         }
       },
       {
-        "name": "2017-01",
+        "book_id": "adventech/uk/2017-01",
         "isDirectory": true,
         "relativePath": "uk/2017-01",
         "book_info": {
@@ -12319,7 +12301,7 @@
         }
       },
       {
-        "name": "2017-02",
+        "book_id": "adventech/uk/2017-02",
         "isDirectory": true,
         "relativePath": "uk/2017-02",
         "book_info": {
@@ -12337,7 +12319,7 @@
         }
       },
       {
-        "name": "2017-03",
+        "book_id": "adventech/uk/2017-03",
         "isDirectory": true,
         "relativePath": "uk/2017-03",
         "book_info": {
@@ -12355,7 +12337,7 @@
         }
       },
       {
-        "name": "2017-04",
+        "book_id": "adventech/uk/2017-04",
         "isDirectory": true,
         "relativePath": "uk/2017-04",
         "book_info": {
@@ -12373,7 +12355,7 @@
         }
       },
       {
-        "name": "2018-01",
+        "book_id": "adventech/uk/2018-01",
         "isDirectory": true,
         "relativePath": "uk/2018-01",
         "book_info": {
@@ -12391,7 +12373,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/uk/2018-02",
         "isDirectory": true,
         "relativePath": "uk/2018-02",
         "book_info": {
@@ -12409,7 +12391,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/uk/2018-03",
         "isDirectory": true,
         "relativePath": "uk/2018-03",
         "book_info": {
@@ -12427,7 +12409,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/uk/2018-04",
         "isDirectory": true,
         "relativePath": "uk/2018-04",
         "book_info": {
@@ -12445,7 +12427,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/uk/2019-01",
         "isDirectory": true,
         "relativePath": "uk/2019-01",
         "book_info": {
@@ -12463,7 +12445,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/uk/2019-02",
         "isDirectory": true,
         "relativePath": "uk/2019-02",
         "book_info": {
@@ -12481,7 +12463,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/uk/2019-03",
         "isDirectory": true,
         "relativePath": "uk/2019-03",
         "book_info": {
@@ -12499,7 +12481,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/uk/2019-04",
         "isDirectory": true,
         "relativePath": "uk/2019-04",
         "book_info": {
@@ -12517,7 +12499,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/uk/2020-01",
         "isDirectory": true,
         "relativePath": "uk/2020-01",
         "book_info": {
@@ -12535,7 +12517,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/uk/2020-02",
         "isDirectory": true,
         "relativePath": "uk/2020-02",
         "book_info": {
@@ -12553,7 +12535,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/uk/2020-03",
         "isDirectory": true,
         "relativePath": "uk/2020-03",
         "book_info": {
@@ -12571,7 +12553,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/uk/2020-04",
         "isDirectory": true,
         "relativePath": "uk/2020-04",
         "book_info": {
@@ -12589,7 +12571,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/uk/2021-01",
         "isDirectory": true,
         "relativePath": "uk/2021-01",
         "book_info": {
@@ -12607,7 +12589,7 @@
         }
       },
       {
-        "name": "2021-02",
+        "book_id": "adventech/uk/2021-02",
         "isDirectory": true,
         "relativePath": "uk/2021-02",
         "book_info": {
@@ -12627,7 +12609,7 @@
     ]
   },
   {
-    "name": "vi",
+    "language_id": "adventech/vi",
     "isDirectory": true,
     "relativePath": "vi",
     "language_info": {
@@ -12636,7 +12618,7 @@
     },
     "books": [
       {
-        "name": "2018-02",
+        "book_id": "adventech/vi/2018-02",
         "isDirectory": true,
         "relativePath": "vi/2018-02",
         "book_info": {
@@ -12654,7 +12636,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/vi/2018-03",
         "isDirectory": true,
         "relativePath": "vi/2018-03",
         "book_info": {
@@ -12672,7 +12654,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/vi/2019-01",
         "isDirectory": true,
         "relativePath": "vi/2019-01",
         "book_info": {
@@ -12690,7 +12672,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/vi/2019-02",
         "isDirectory": true,
         "relativePath": "vi/2019-02",
         "book_info": {
@@ -12708,7 +12690,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/vi/2019-03",
         "isDirectory": true,
         "relativePath": "vi/2019-03",
         "book_info": {
@@ -12726,7 +12708,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/vi/2019-04",
         "isDirectory": true,
         "relativePath": "vi/2019-04",
         "book_info": {
@@ -12744,7 +12726,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/vi/2020-01",
         "isDirectory": true,
         "relativePath": "vi/2020-01",
         "book_info": {
@@ -12762,7 +12744,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/vi/2020-02",
         "isDirectory": true,
         "relativePath": "vi/2020-02",
         "book_info": {
@@ -12780,7 +12762,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/vi/2020-03",
         "isDirectory": true,
         "relativePath": "vi/2020-03",
         "book_info": {
@@ -12798,7 +12780,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/vi/2020-04",
         "isDirectory": true,
         "relativePath": "vi/2020-04",
         "book_info": {
@@ -12816,7 +12798,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/vi/2021-01",
         "isDirectory": true,
         "relativePath": "vi/2021-01",
         "book_info": {
@@ -12836,7 +12818,7 @@
     ]
   },
   {
-    "name": "xh",
+    "language_id": "adventech/xh",
     "isDirectory": true,
     "relativePath": "xh",
     "language_info": {
@@ -12845,7 +12827,7 @@
     },
     "books": [
       {
-        "name": "2019-03",
+        "book_id": "adventech/xh/2019-03",
         "isDirectory": true,
         "relativePath": "xh/2019-03",
         "book_info": {
@@ -12863,7 +12845,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/xh/2019-04",
         "isDirectory": true,
         "relativePath": "xh/2019-04",
         "book_info": {
@@ -12881,7 +12863,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/xh/2020-01",
         "isDirectory": true,
         "relativePath": "xh/2020-01",
         "book_info": {
@@ -12899,7 +12881,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/xh/2020-02",
         "isDirectory": true,
         "relativePath": "xh/2020-02",
         "book_info": {
@@ -12917,7 +12899,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/xh/2020-03",
         "isDirectory": true,
         "relativePath": "xh/2020-03",
         "book_info": {
@@ -12935,7 +12917,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/xh/2020-04",
         "isDirectory": true,
         "relativePath": "xh/2020-04",
         "book_info": {
@@ -12955,7 +12937,7 @@
     ]
   },
   {
-    "name": "zh",
+    "language_id": "adventech/zh",
     "isDirectory": true,
     "relativePath": "zh",
     "language_info": {
@@ -12964,7 +12946,7 @@
     },
     "books": [
       {
-        "name": "2017-03",
+        "book_id": "adventech/zh/2017-03",
         "isDirectory": true,
         "relativePath": "zh/2017-03",
         "book_info": {
@@ -12982,7 +12964,7 @@
         }
       },
       {
-        "name": "2017-04",
+        "book_id": "adventech/zh/2017-04",
         "isDirectory": true,
         "relativePath": "zh/2017-04",
         "book_info": {
@@ -13000,7 +12982,7 @@
         }
       },
       {
-        "name": "2018-01",
+        "book_id": "adventech/zh/2018-01",
         "isDirectory": true,
         "relativePath": "zh/2018-01",
         "book_info": {
@@ -13018,7 +13000,7 @@
         }
       },
       {
-        "name": "2018-01-hant",
+        "book_id": "adventech/zh/2018-01-hant",
         "isDirectory": true,
         "relativePath": "zh/2018-01-hant",
         "book_info": {
@@ -13036,7 +13018,7 @@
         }
       },
       {
-        "name": "2018-02",
+        "book_id": "adventech/zh/2018-02",
         "isDirectory": true,
         "relativePath": "zh/2018-02",
         "book_info": {
@@ -13054,7 +13036,7 @@
         }
       },
       {
-        "name": "2018-02-hant",
+        "book_id": "adventech/zh/2018-02-hant",
         "isDirectory": true,
         "relativePath": "zh/2018-02-hant",
         "book_info": {
@@ -13072,7 +13054,7 @@
         }
       },
       {
-        "name": "2018-03",
+        "book_id": "adventech/zh/2018-03",
         "isDirectory": true,
         "relativePath": "zh/2018-03",
         "book_info": {
@@ -13090,7 +13072,7 @@
         }
       },
       {
-        "name": "2018-03-hant",
+        "book_id": "adventech/zh/2018-03-hant",
         "isDirectory": true,
         "relativePath": "zh/2018-03-hant",
         "book_info": {
@@ -13108,7 +13090,7 @@
         }
       },
       {
-        "name": "2018-04",
+        "book_id": "adventech/zh/2018-04",
         "isDirectory": true,
         "relativePath": "zh/2018-04",
         "book_info": {
@@ -13126,7 +13108,7 @@
         }
       },
       {
-        "name": "2019-01",
+        "book_id": "adventech/zh/2019-01",
         "isDirectory": true,
         "relativePath": "zh/2019-01",
         "book_info": {
@@ -13144,7 +13126,7 @@
         }
       },
       {
-        "name": "2019-01-hant",
+        "book_id": "adventech/zh/2019-01-hant",
         "isDirectory": true,
         "relativePath": "zh/2019-01-hant",
         "book_info": {
@@ -13162,7 +13144,7 @@
         }
       },
       {
-        "name": "2019-02",
+        "book_id": "adventech/zh/2019-02",
         "isDirectory": true,
         "relativePath": "zh/2019-02",
         "book_info": {
@@ -13180,7 +13162,7 @@
         }
       },
       {
-        "name": "2019-02-hant",
+        "book_id": "adventech/zh/2019-02-hant",
         "isDirectory": true,
         "relativePath": "zh/2019-02-hant",
         "book_info": {
@@ -13198,7 +13180,7 @@
         }
       },
       {
-        "name": "2019-03",
+        "book_id": "adventech/zh/2019-03",
         "isDirectory": true,
         "relativePath": "zh/2019-03",
         "book_info": {
@@ -13216,7 +13198,7 @@
         }
       },
       {
-        "name": "2019-03-hant",
+        "book_id": "adventech/zh/2019-03-hant",
         "isDirectory": true,
         "relativePath": "zh/2019-03-hant",
         "book_info": {
@@ -13234,7 +13216,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/zh/2019-04",
         "isDirectory": true,
         "relativePath": "zh/2019-04",
         "book_info": {
@@ -13252,7 +13234,7 @@
         }
       },
       {
-        "name": "2019-04-hant",
+        "book_id": "adventech/zh/2019-04-hant",
         "isDirectory": true,
         "relativePath": "zh/2019-04-hant",
         "book_info": {
@@ -13270,7 +13252,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/zh/2020-01",
         "isDirectory": true,
         "relativePath": "zh/2020-01",
         "book_info": {
@@ -13288,7 +13270,7 @@
         }
       },
       {
-        "name": "2020-01-hant",
+        "book_id": "adventech/zh/2020-01-hant",
         "isDirectory": true,
         "relativePath": "zh/2020-01-hant",
         "book_info": {
@@ -13306,7 +13288,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/zh/2020-02",
         "isDirectory": true,
         "relativePath": "zh/2020-02",
         "book_info": {
@@ -13324,7 +13306,7 @@
         }
       },
       {
-        "name": "2020-02-hant",
+        "book_id": "adventech/zh/2020-02-hant",
         "isDirectory": true,
         "relativePath": "zh/2020-02-hant",
         "book_info": {
@@ -13342,7 +13324,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/zh/2020-03",
         "isDirectory": true,
         "relativePath": "zh/2020-03",
         "book_info": {
@@ -13360,7 +13342,7 @@
         }
       },
       {
-        "name": "2020-03-hant",
+        "book_id": "adventech/zh/2020-03-hant",
         "isDirectory": true,
         "relativePath": "zh/2020-03-hant",
         "book_info": {
@@ -13378,7 +13360,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/zh/2020-04",
         "isDirectory": true,
         "relativePath": "zh/2020-04",
         "book_info": {
@@ -13396,7 +13378,7 @@
         }
       },
       {
-        "name": "2020-04-hant",
+        "book_id": "adventech/zh/2020-04-hant",
         "isDirectory": true,
         "relativePath": "zh/2020-04-hant",
         "book_info": {
@@ -13414,7 +13396,7 @@
         }
       },
       {
-        "name": "2021-01",
+        "book_id": "adventech/zh/2021-01",
         "isDirectory": true,
         "relativePath": "zh/2021-01",
         "book_info": {
@@ -13432,7 +13414,7 @@
         }
       },
       {
-        "name": "2021-01-hant",
+        "book_id": "adventech/zh/2021-01-hant",
         "isDirectory": true,
         "relativePath": "zh/2021-01-hant",
         "book_info": {
@@ -13450,7 +13432,7 @@
         }
       },
       {
-        "name": "2021-02",
+        "book_id": "adventech/zh/2021-02",
         "isDirectory": true,
         "relativePath": "zh/2021-02",
         "book_info": {
@@ -13468,7 +13450,7 @@
         }
       },
       {
-        "name": "2021-02-hant",
+        "book_id": "adventech/zh/2021-02-hant",
         "isDirectory": true,
         "relativePath": "zh/2021-02-hant",
         "book_info": {
@@ -13488,7 +13470,7 @@
     ]
   },
   {
-    "name": "zu",
+    "language_id": "adventech/zu",
     "isDirectory": true,
     "relativePath": "zu",
     "language_info": {
@@ -13497,7 +13479,7 @@
     },
     "books": [
       {
-        "name": "2019-03",
+        "book_id": "adventech/zu/2019-03",
         "isDirectory": true,
         "relativePath": "zu/2019-03",
         "book_info": {
@@ -13515,7 +13497,7 @@
         }
       },
       {
-        "name": "2019-04",
+        "book_id": "adventech/zu/2019-04",
         "isDirectory": true,
         "relativePath": "zu/2019-04",
         "book_info": {
@@ -13533,7 +13515,7 @@
         }
       },
       {
-        "name": "2020-01",
+        "book_id": "adventech/zu/2020-01",
         "isDirectory": true,
         "relativePath": "zu/2020-01",
         "book_info": {
@@ -13551,7 +13533,7 @@
         }
       },
       {
-        "name": "2020-02",
+        "book_id": "adventech/zu/2020-02",
         "isDirectory": true,
         "relativePath": "zu/2020-02",
         "book_info": {
@@ -13569,7 +13551,7 @@
         }
       },
       {
-        "name": "2020-03",
+        "book_id": "adventech/zu/2020-03",
         "isDirectory": true,
         "relativePath": "zu/2020-03",
         "book_info": {
@@ -13587,7 +13569,7 @@
         }
       },
       {
-        "name": "2020-04",
+        "book_id": "adventech/zu/2020-04",
         "isDirectory": true,
         "relativePath": "zu/2020-04",
         "book_info": {
