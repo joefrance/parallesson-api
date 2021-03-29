@@ -7,7 +7,22 @@ var baseUrl = "https://m.egwwritings.org";
 //var pageRef = '/en/book/108.21';
 var pageRef = '/languages';
 
-async function getHtml(url) {
+(async () => {
+  
+    var langaugeFolders = await getLanguages(baseUrl);
+    for(var lx = 0; lx < langaugeFolders.length; lx++) {
+      langaugeFolders[lx].books = [];//await getBooks(basePath, `${langaugeFolders[lx].relativePath}`);
+    }
+    //var count = langaugeFolders.length;
+    langaugeFolders.forEach(langaugeFolder => {
+      console.log(langaugeFolder.language_info.name, langaugeFolder.books.length);
+    });
+  
+    var json = JSON.stringify(langaugeFolders, null, 2);
+    fs.writeFileSync(`./p9n-language-index-${source_id}.json`, json);
+  })();
+
+  async function getHtml(url) {
     const response = await axios.get(`${baseUrl}${pageRef}`);
 
     const results = {
@@ -75,17 +90,31 @@ async function getLanguages(baseUrl) {
     return langaugeFolders;    
 }
 
-(async () => {
-  
-    var langaugeFolders = await getLanguages(baseUrl);
-    for(var lx = 0; lx < langaugeFolders.length; lx++) {
-      langaugeFolders[lx].books = [];//await getBooks(basePath, `${langaugeFolders[lx].relativePath}`);
+async function getBooks(basePath, bookFolder) {
+
+    if(!bookFolder.toString().endsWith('/')) {
+      bookFolder += '/';
     }
-    //var count = langaugeFolders.length;
-    langaugeFolders.forEach(langaugeFolder => {
-      console.log(langaugeFolder.language_info.name, langaugeFolder.books.length);
+  
+    var books = [];
+    const files = fs.readdirSync(`${basePath}${bookFolder}`, { withFileTypes: true });
+    files.forEach(file => {
+      if(file.isDirectory()) {      
+        var book = {
+          book_id: `adventech/${bookFolder}${file.name}`,
+          isDirectory: file.isDirectory(),
+          relativePath: `${bookFolder}${file.name}`,
+          book_info: getObjectFromYAML(`${basePath}${bookFolder}${file.name}/info.yml`),
+          book_cover: {
+            name: 'cover.png',
+            fileSize: fs.statSync(`${basePath}${bookFolder}${file.name}/cover.png`).size,
+            //base64: fs.readFileSync(`${basePath}${bookFolder}${file.name}/cover.png`, {encoding: 'base64'})
+          }
+        }
+    
+        books.push(book);  
+      }
     });
   
-    var json = JSON.stringify(langaugeFolders, null, 2);
-    fs.writeFileSync(`./p9n-language-index-${source_id}.json`, json);
-  })();
+    return books;
+  }
