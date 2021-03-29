@@ -12,6 +12,7 @@ type language {
     language_info: language_info!
     relativePath: String!
     isDirectory: Boolean
+    books: [book]
   }
 
   extend type Query {

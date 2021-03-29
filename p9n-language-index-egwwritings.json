@@ -1,0 +1,1562 @@
+[
+  {
+    "language_id": "egwwritings/en",
+    "isDirectory": true,
+    "relativePath": "en",
+    "href": "/en",
+    "url": "https://m.egwwritings.org/en",
+    "language_info": {
+      "name": "English",
+      "code": "/en"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ab",
+    "isDirectory": true,
+    "relativePath": "ab",
+    "href": "/ab",
+    "url": "https://m.egwwritings.org/ab",
+    "language_info": {
+      "name": "Abkhazian",
+      "code": "/ab"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/af",
+    "isDirectory": true,
+    "relativePath": "af",
+    "href": "/af",
+    "url": "https://m.egwwritings.org/af",
+    "language_info": {
+      "name": "Afrikaans",
+      "code": "/af"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ake",
+    "isDirectory": true,
+    "relativePath": "ake",
+    "href": "/ake",
+    "url": "https://m.egwwritings.org/ake",
+    "language_info": {
+      "name": "Akawaio",
+      "code": "/ake"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/sq",
+    "isDirectory": true,
+    "relativePath": "sq",
+    "href": "/sq",
+    "url": "https://m.egwwritings.org/sq",
+    "language_info": {
+      "name": "Shqip (Albanian)",
+      "code": "/sq"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/alt",
+    "isDirectory": true,
+    "relativePath": "alt",
+    "href": "/alt",
+    "url": "https://m.egwwritings.org/alt",
+    "language_info": {
+      "name": "Altay",
+      "code": "/alt"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/am",
+    "isDirectory": true,
+    "relativePath": "am",
+    "href": "/am",
+    "url": "https://m.egwwritings.org/am",
+    "language_info": {
+      "name": "Amharic",
+      "code": "/am"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ar",
+    "isDirectory": true,
+    "relativePath": "ar",
+    "href": "/ar",
+    "url": "https://m.egwwritings.org/ar",
+    "language_info": {
+      "name": "العربية (Arabic)",
+      "code": "/ar"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/hy",
+    "isDirectory": true,
+    "relativePath": "hy",
+    "href": "/hy",
+    "url": "https://m.egwwritings.org/hy",
+    "language_info": {
+      "name": "Հայերեն (Armenian)",
+      "code": "/hy"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/as",
+    "isDirectory": true,
+    "relativePath": "as",
+    "href": "/as",
+    "url": "https://m.egwwritings.org/as",
+    "language_info": {
+      "name": "Assamese",
+      "code": "/as"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/av",
+    "isDirectory": true,
+    "relativePath": "av",
+    "href": "/av",
+    "url": "https://m.egwwritings.org/av",
+    "language_info": {
+      "name": "Avar",
+      "code": "/av"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/az",
+    "isDirectory": true,
+    "relativePath": "az",
+    "href": "/az",
+    "url": "https://m.egwwritings.org/az",
+    "language_info": {
+      "name": "Azerbaijani",
+      "code": "/az"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ba",
+    "isDirectory": true,
+    "relativePath": "ba",
+    "href": "/ba",
+    "url": "https://m.egwwritings.org/ba",
+    "language_info": {
+      "name": "Bandung",
+      "code": "/ba"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/btk",
+    "isDirectory": true,
+    "relativePath": "btk",
+    "href": "/btk",
+    "url": "https://m.egwwritings.org/btk",
+    "language_info": {
+      "name": "Batak",
+      "code": "/btk"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/bn",
+    "isDirectory": true,
+    "relativePath": "bn",
+    "href": "/bn",
+    "url": "https://m.egwwritings.org/bn",
+    "language_info": {
+      "name": "Bengali",
+      "code": "/bn"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/cze",
+    "isDirectory": true,
+    "relativePath": "cze",
+    "href": "/cze",
+    "url": "https://m.egwwritings.org/cze",
+    "language_info": {
+      "name": "Bohemian",
+      "code": "/cze"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/bs",
+    "isDirectory": true,
+    "relativePath": "bs",
+    "href": "/bs",
+    "url": "https://m.egwwritings.org/bs",
+    "language_info": {
+      "name": "Bosnian",
+      "code": "/bs"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/bg",
+    "isDirectory": true,
+    "relativePath": "bg",
+    "href": "/bg",
+    "url": "https://m.egwwritings.org/bg",
+    "language_info": {
+      "name": "Bulgarian",
+      "code": "/bg"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/bum",
+    "isDirectory": true,
+    "relativePath": "bum",
+    "href": "/bum",
+    "url": "https://m.egwwritings.org/bum",
+    "language_info": {
+      "name": "Bulu",
+      "code": "/bum"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/my",
+    "isDirectory": true,
+    "relativePath": "my",
+    "href": "/my",
+    "url": "https://m.egwwritings.org/my",
+    "language_info": {
+      "name": "Burmese",
+      "code": "/my"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/car",
+    "isDirectory": true,
+    "relativePath": "car",
+    "href": "/car",
+    "url": "https://m.egwwritings.org/car",
+    "language_info": {
+      "name": "Carib",
+      "code": "/car"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/cat",
+    "isDirectory": true,
+    "relativePath": "cat",
+    "href": "/cat",
+    "url": "https://m.egwwritings.org/cat",
+    "language_info": {
+      "name": "Catalan",
+      "code": "/cat"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ce",
+    "isDirectory": true,
+    "relativePath": "ce",
+    "href": "/ce",
+    "url": "https://m.egwwritings.org/ce",
+    "language_info": {
+      "name": "Cebuano",
+      "code": "/ce"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ny",
+    "isDirectory": true,
+    "relativePath": "ny",
+    "href": "/ny",
+    "url": "https://m.egwwritings.org/ny",
+    "language_info": {
+      "name": "Chewa",
+      "code": "/ny"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/lu",
+    "isDirectory": true,
+    "relativePath": "lu",
+    "href": "/lu",
+    "url": "https://m.egwwritings.org/lu",
+    "language_info": {
+      "name": "Tshiluba",
+      "code": "/lu"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/zh",
+    "isDirectory": true,
+    "relativePath": "zh",
+    "href": "/zh",
+    "url": "https://m.egwwritings.org/zh",
+    "language_info": {
+      "name": "中国的 (Chinese)",
+      "code": "/zh"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ch",
+    "isDirectory": true,
+    "relativePath": "ch",
+    "href": "/ch",
+    "url": "https://m.egwwritings.org/ch",
+    "language_info": {
+      "name": "Chitonga",
+      "code": "/ch"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/hr",
+    "isDirectory": true,
+    "relativePath": "hr",
+    "href": "/hr",
+    "url": "https://m.egwwritings.org/hr",
+    "language_info": {
+      "name": "Hrvatska (Croatian)",
+      "code": "/hr"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ces",
+    "isDirectory": true,
+    "relativePath": "ces",
+    "href": "/ces",
+    "url": "https://m.egwwritings.org/ces",
+    "language_info": {
+      "name": "Český (Czech)",
+      "code": "/ces"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/da",
+    "isDirectory": true,
+    "relativePath": "da",
+    "href": "/da",
+    "url": "https://m.egwwritings.org/da",
+    "language_info": {
+      "name": "Dansk (Danish)",
+      "code": "/da"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/nl",
+    "isDirectory": true,
+    "relativePath": "nl",
+    "href": "/nl",
+    "url": "https://m.egwwritings.org/nl",
+    "language_info": {
+      "name": "Nederlands (Dutch)",
+      "code": "/nl"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/eo",
+    "isDirectory": true,
+    "relativePath": "eo",
+    "href": "/eo",
+    "url": "https://m.egwwritings.org/eo",
+    "language_info": {
+      "name": "Esperanto",
+      "code": "/eo"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/et",
+    "isDirectory": true,
+    "relativePath": "et",
+    "href": "/et",
+    "url": "https://m.egwwritings.org/et",
+    "language_info": {
+      "name": "Eesti (Estonian)",
+      "code": "/et"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/fa",
+    "isDirectory": true,
+    "relativePath": "fa",
+    "href": "/fa",
+    "url": "https://m.egwwritings.org/fa",
+    "language_info": {
+      "name": "Farsi",
+      "code": "/fa"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/fj",
+    "isDirectory": true,
+    "relativePath": "fj",
+    "href": "/fj",
+    "url": "https://m.egwwritings.org/fj",
+    "language_info": {
+      "name": "Fijian",
+      "code": "/fj"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/fi",
+    "isDirectory": true,
+    "relativePath": "fi",
+    "href": "/fi",
+    "url": "https://m.egwwritings.org/fi",
+    "language_info": {
+      "name": "Suomi (Finnish)",
+      "code": "/fi"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/fr",
+    "isDirectory": true,
+    "relativePath": "fr",
+    "href": "/fr",
+    "url": "https://m.egwwritings.org/fr",
+    "language_info": {
+      "name": "Français (French)",
+      "code": "/fr"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/grt",
+    "isDirectory": true,
+    "relativePath": "grt",
+    "href": "/grt",
+    "url": "https://m.egwwritings.org/grt",
+    "language_info": {
+      "name": "Garo",
+      "code": "/grt"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ka",
+    "isDirectory": true,
+    "relativePath": "ka",
+    "href": "/ka",
+    "url": "https://m.egwwritings.org/ka",
+    "language_info": {
+      "name": "Georgian",
+      "code": "/ka"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/de",
+    "isDirectory": true,
+    "relativePath": "de",
+    "href": "/de",
+    "url": "https://m.egwwritings.org/de",
+    "language_info": {
+      "name": "Deutsch (German)",
+      "code": "/de"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/el",
+    "isDirectory": true,
+    "relativePath": "el",
+    "href": "/el",
+    "url": "https://m.egwwritings.org/el",
+    "language_info": {
+      "name": "Ελληνικά (Greek)",
+      "code": "/el"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/kl",
+    "isDirectory": true,
+    "relativePath": "kl",
+    "href": "/kl",
+    "url": "https://m.egwwritings.org/kl",
+    "language_info": {
+      "name": "Greenlandic",
+      "code": "/kl"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/gu",
+    "isDirectory": true,
+    "relativePath": "gu",
+    "href": "/gu",
+    "url": "https://m.egwwritings.org/gu",
+    "language_info": {
+      "name": "ગુજરાતી (Gujarati)",
+      "code": "/gu"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ha",
+    "isDirectory": true,
+    "relativePath": "ha",
+    "href": "/ha",
+    "url": "https://m.egwwritings.org/ha",
+    "language_info": {
+      "name": "Hausa",
+      "code": "/ha"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/he",
+    "isDirectory": true,
+    "relativePath": "he",
+    "href": "/he",
+    "url": "https://m.egwwritings.org/he",
+    "language_info": {
+      "name": "Hebrew",
+      "code": "/he"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/hl",
+    "isDirectory": true,
+    "relativePath": "hl",
+    "href": "/hl",
+    "url": "https://m.egwwritings.org/hl",
+    "language_info": {
+      "name": "Hiligaynon",
+      "code": "/hl"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/hi",
+    "isDirectory": true,
+    "relativePath": "hi",
+    "href": "/hi",
+    "url": "https://m.egwwritings.org/hi",
+    "language_info": {
+      "name": "हिंदी (Hindi)",
+      "code": "/hi"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/hmr",
+    "isDirectory": true,
+    "relativePath": "hmr",
+    "href": "/hmr",
+    "url": "https://m.egwwritings.org/hmr",
+    "language_info": {
+      "name": "Hmar",
+      "code": "/hmr"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/hu",
+    "isDirectory": true,
+    "relativePath": "hu",
+    "href": "/hu",
+    "url": "https://m.egwwritings.org/hu",
+    "language_info": {
+      "name": "Magyar (Hungarian)",
+      "code": "/hu"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/is",
+    "isDirectory": true,
+    "relativePath": "is",
+    "href": "/is",
+    "url": "https://m.egwwritings.org/is",
+    "language_info": {
+      "name": "Íslenska (Icelandic)",
+      "code": "/is"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/il",
+    "isDirectory": true,
+    "relativePath": "il",
+    "href": "/il",
+    "url": "https://m.egwwritings.org/il",
+    "language_info": {
+      "name": "Ilocano",
+      "code": "/il"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/id",
+    "isDirectory": true,
+    "relativePath": "id",
+    "href": "/id",
+    "url": "https://m.egwwritings.org/id",
+    "language_info": {
+      "name": "Bahasa Indonesia (Indonesian)",
+      "code": "/id"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/it",
+    "isDirectory": true,
+    "relativePath": "it",
+    "href": "/it",
+    "url": "https://m.egwwritings.org/it",
+    "language_info": {
+      "name": "Italiano (Italian)",
+      "code": "/it"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ja",
+    "isDirectory": true,
+    "relativePath": "ja",
+    "href": "/ja",
+    "url": "https://m.egwwritings.org/ja",
+    "language_info": {
+      "name": "日本語 (Japanese)",
+      "code": "/ja"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/kn",
+    "isDirectory": true,
+    "relativePath": "kn",
+    "href": "/kn",
+    "url": "https://m.egwwritings.org/kn",
+    "language_info": {
+      "name": "ಕನ್ನಡ (Kannada)",
+      "code": "/kn"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/kk",
+    "isDirectory": true,
+    "relativePath": "kk",
+    "href": "/kk",
+    "url": "https://m.egwwritings.org/kk",
+    "language_info": {
+      "name": "Kazakh",
+      "code": "/kk"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/kh",
+    "isDirectory": true,
+    "relativePath": "kh",
+    "href": "/kh",
+    "url": "https://m.egwwritings.org/kh",
+    "language_info": {
+      "name": "Khasi",
+      "code": "/kh"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/km",
+    "isDirectory": true,
+    "relativePath": "km",
+    "href": "/km",
+    "url": "https://m.egwwritings.org/km",
+    "language_info": {
+      "name": "Khmer",
+      "code": "/km"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/nnb",
+    "isDirectory": true,
+    "relativePath": "nnb",
+    "href": "/nnb",
+    "url": "https://m.egwwritings.org/nnb",
+    "language_info": {
+      "name": "Kinande",
+      "code": "/nnb"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/rw",
+    "isDirectory": true,
+    "relativePath": "rw",
+    "href": "/rw",
+    "url": "https://m.egwwritings.org/rw",
+    "language_info": {
+      "name": "Kinyarwanda",
+      "code": "/rw"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/gil",
+    "isDirectory": true,
+    "relativePath": "gil",
+    "href": "/gil",
+    "url": "https://m.egwwritings.org/gil",
+    "language_info": {
+      "name": "Kiribati",
+      "code": "/gil"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ko",
+    "isDirectory": true,
+    "relativePath": "ko",
+    "href": "/ko",
+    "url": "https://m.egwwritings.org/ko",
+    "language_info": {
+      "name": "한국의 (Korean)",
+      "code": "/ko"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/kpy",
+    "isDirectory": true,
+    "relativePath": "kpy",
+    "href": "/kpy",
+    "url": "https://m.egwwritings.org/kpy",
+    "language_info": {
+      "name": "Koryak",
+      "code": "/kpy"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ku",
+    "isDirectory": true,
+    "relativePath": "ku",
+    "href": "/ku",
+    "url": "https://m.egwwritings.org/ku",
+    "language_info": {
+      "name": "Kurdish",
+      "code": "/ku"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ky",
+    "isDirectory": true,
+    "relativePath": "ky",
+    "href": "/ky",
+    "url": "https://m.egwwritings.org/ky",
+    "language_info": {
+      "name": "Kyrgyz",
+      "code": "/ky"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/lo",
+    "isDirectory": true,
+    "relativePath": "lo",
+    "href": "/lo",
+    "url": "https://m.egwwritings.org/lo",
+    "language_info": {
+      "name": "Lao",
+      "code": "/lo"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/lv",
+    "isDirectory": true,
+    "relativePath": "lv",
+    "href": "/lv",
+    "url": "https://m.egwwritings.org/lv",
+    "language_info": {
+      "name": "Latviešu (Latvian)",
+      "code": "/lv"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/lt",
+    "isDirectory": true,
+    "relativePath": "lt",
+    "href": "/lt",
+    "url": "https://m.egwwritings.org/lt",
+    "language_info": {
+      "name": "Lietuvių (Lithuanian)",
+      "code": "/lt"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/loz",
+    "isDirectory": true,
+    "relativePath": "loz",
+    "href": "/loz",
+    "url": "https://m.egwwritings.org/loz",
+    "language_info": {
+      "name": "Lozi",
+      "code": "/loz"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/lg",
+    "isDirectory": true,
+    "relativePath": "lg",
+    "href": "/lg",
+    "url": "https://m.egwwritings.org/lg",
+    "language_info": {
+      "name": "Luganda",
+      "code": "/lg"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/luo",
+    "isDirectory": true,
+    "relativePath": "luo",
+    "href": "/luo",
+    "url": "https://m.egwwritings.org/luo",
+    "language_info": {
+      "name": "Luo",
+      "code": "/luo"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/mas",
+    "isDirectory": true,
+    "relativePath": "mas",
+    "href": "/mas",
+    "url": "https://m.egwwritings.org/mas",
+    "language_info": {
+      "name": "Maasai",
+      "code": "/mas"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/mk",
+    "isDirectory": true,
+    "relativePath": "mk",
+    "href": "/mk",
+    "url": "https://m.egwwritings.org/mk",
+    "language_info": {
+      "name": "Macedonian",
+      "code": "/mk"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/mg",
+    "isDirectory": true,
+    "relativePath": "mg",
+    "href": "/mg",
+    "url": "https://m.egwwritings.org/mg",
+    "language_info": {
+      "name": "Malagasy",
+      "code": "/mg"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ms",
+    "isDirectory": true,
+    "relativePath": "ms",
+    "href": "/ms",
+    "url": "https://m.egwwritings.org/ms",
+    "language_info": {
+      "name": "Malay",
+      "code": "/ms"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ml",
+    "isDirectory": true,
+    "relativePath": "ml",
+    "href": "/ml",
+    "url": "https://m.egwwritings.org/ml",
+    "language_info": {
+      "name": "Malayalam",
+      "code": "/ml"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/mi",
+    "isDirectory": true,
+    "relativePath": "mi",
+    "href": "/mi",
+    "url": "https://m.egwwritings.org/mi",
+    "language_info": {
+      "name": "Maori",
+      "code": "/mi"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/mrh",
+    "isDirectory": true,
+    "relativePath": "mrh",
+    "href": "/mrh",
+    "url": "https://m.egwwritings.org/mrh",
+    "language_info": {
+      "name": "Mara",
+      "code": "/mrh"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/mr",
+    "isDirectory": true,
+    "relativePath": "mr",
+    "href": "/mr",
+    "url": "https://m.egwwritings.org/mr",
+    "language_info": {
+      "name": "Marathi",
+      "code": "/mr"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/mfe",
+    "isDirectory": true,
+    "relativePath": "mfe",
+    "href": "/mfe",
+    "url": "https://m.egwwritings.org/mfe",
+    "language_info": {
+      "name": "Mauritian Creole",
+      "code": "/mfe"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/lus",
+    "isDirectory": true,
+    "relativePath": "lus",
+    "href": "/lus",
+    "url": "https://m.egwwritings.org/lus",
+    "language_info": {
+      "name": "Mizo",
+      "code": "/lus"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/mon",
+    "isDirectory": true,
+    "relativePath": "mon",
+    "href": "/mon",
+    "url": "https://m.egwwritings.org/mon",
+    "language_info": {
+      "name": "Mongolian",
+      "code": "/mon"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ne",
+    "isDirectory": true,
+    "relativePath": "ne",
+    "href": "/ne",
+    "url": "https://m.egwwritings.org/ne",
+    "language_info": {
+      "name": "Nepali",
+      "code": "/ne"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/nb",
+    "isDirectory": true,
+    "relativePath": "nb",
+    "href": "/nb",
+    "url": "https://m.egwwritings.org/nb",
+    "language_info": {
+      "name": "Norsk (Norwegian)",
+      "code": "/nb"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/or",
+    "isDirectory": true,
+    "relativePath": "or",
+    "href": "/or",
+    "url": "https://m.egwwritings.org/or",
+    "language_info": {
+      "name": "Odia",
+      "code": "/or"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/om",
+    "isDirectory": true,
+    "relativePath": "om",
+    "href": "/om",
+    "url": "https://m.egwwritings.org/om",
+    "language_info": {
+      "name": "Oromo",
+      "code": "/om"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/kj",
+    "isDirectory": true,
+    "relativePath": "kj",
+    "href": "/kj",
+    "url": "https://m.egwwritings.org/kj",
+    "language_info": {
+      "name": "Ovambo",
+      "code": "/kj"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/pam",
+    "isDirectory": true,
+    "relativePath": "pam",
+    "href": "/pam",
+    "url": "https://m.egwwritings.org/pam",
+    "language_info": {
+      "name": "Pampangan",
+      "code": "/pam"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/pag",
+    "isDirectory": true,
+    "relativePath": "pag",
+    "href": "/pag",
+    "url": "https://m.egwwritings.org/pag",
+    "language_info": {
+      "name": "Pangasinan",
+      "code": "/pag"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/pl",
+    "isDirectory": true,
+    "relativePath": "pl",
+    "href": "/pl",
+    "url": "https://m.egwwritings.org/pl",
+    "language_info": {
+      "name": "Polski (Polish)",
+      "code": "/pl"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/pt",
+    "isDirectory": true,
+    "relativePath": "pt",
+    "href": "/pt",
+    "url": "https://m.egwwritings.org/pt",
+    "language_info": {
+      "name": "Português (Portuguese)",
+      "code": "/pt"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/pa",
+    "isDirectory": true,
+    "relativePath": "pa",
+    "href": "/pa",
+    "url": "https://m.egwwritings.org/pa",
+    "language_info": {
+      "name": "Punjabi",
+      "code": "/pa"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/rar",
+    "isDirectory": true,
+    "relativePath": "rar",
+    "href": "/rar",
+    "url": "https://m.egwwritings.org/rar",
+    "language_info": {
+      "name": "Rarotongan",
+      "code": "/rar"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ro",
+    "isDirectory": true,
+    "relativePath": "ro",
+    "href": "/ro",
+    "url": "https://m.egwwritings.org/ro",
+    "language_info": {
+      "name": "Română (Romanian)",
+      "code": "/ro"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ru",
+    "isDirectory": true,
+    "relativePath": "ru",
+    "href": "/ru",
+    "url": "https://m.egwwritings.org/ru",
+    "language_info": {
+      "name": "Pусский (Russian)",
+      "code": "/ru"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/rue",
+    "isDirectory": true,
+    "relativePath": "rue",
+    "href": "/rue",
+    "url": "https://m.egwwritings.org/rue",
+    "language_info": {
+      "name": "Rusyn",
+      "code": "/rue"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/sm",
+    "isDirectory": true,
+    "relativePath": "sm",
+    "href": "/sm",
+    "url": "https://m.egwwritings.org/sm",
+    "language_info": {
+      "name": "Samoan",
+      "code": "/sm"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/sat",
+    "isDirectory": true,
+    "relativePath": "sat",
+    "href": "/sat",
+    "url": "https://m.egwwritings.org/sat",
+    "language_info": {
+      "name": "Santali",
+      "code": "/sat"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/sr",
+    "isDirectory": true,
+    "relativePath": "sr",
+    "href": "/sr",
+    "url": "https://m.egwwritings.org/sr",
+    "language_info": {
+      "name": "Cрпски (Serbian)",
+      "code": "/sr"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/sh",
+    "isDirectory": true,
+    "relativePath": "sh",
+    "href": "/sh",
+    "url": "https://m.egwwritings.org/sh",
+    "language_info": {
+      "name": "Serbo-Croatian",
+      "code": "/sh"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/sn",
+    "isDirectory": true,
+    "relativePath": "sn",
+    "href": "/sn",
+    "url": "https://m.egwwritings.org/sn",
+    "language_info": {
+      "name": "Shona",
+      "code": "/sn"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/si",
+    "isDirectory": true,
+    "relativePath": "si",
+    "href": "/si",
+    "url": "https://m.egwwritings.org/si",
+    "language_info": {
+      "name": "Sinhala",
+      "code": "/si"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/sk",
+    "isDirectory": true,
+    "relativePath": "sk",
+    "href": "/sk",
+    "url": "https://m.egwwritings.org/sk",
+    "language_info": {
+      "name": "Slovenský (Slovak)",
+      "code": "/sk"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/st",
+    "isDirectory": true,
+    "relativePath": "st",
+    "href": "/st",
+    "url": "https://m.egwwritings.org/st",
+    "language_info": {
+      "name": "Sotho",
+      "code": "/st"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/es",
+    "isDirectory": true,
+    "relativePath": "es",
+    "href": "/es",
+    "url": "https://m.egwwritings.org/es",
+    "language_info": {
+      "name": "Español (Spanish)",
+      "code": "/es"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/sw",
+    "isDirectory": true,
+    "relativePath": "sw",
+    "href": "/sw",
+    "url": "https://m.egwwritings.org/sw",
+    "language_info": {
+      "name": "Kiswahili (Swahili)",
+      "code": "/sw"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/sv",
+    "isDirectory": true,
+    "relativePath": "sv",
+    "href": "/sv",
+    "url": "https://m.egwwritings.org/sv",
+    "language_info": {
+      "name": "Svenska (Swedish)",
+      "code": "/sv"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/tl",
+    "isDirectory": true,
+    "relativePath": "tl",
+    "href": "/tl",
+    "url": "https://m.egwwritings.org/tl",
+    "language_info": {
+      "name": "Tagalog",
+      "code": "/tl"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ty",
+    "isDirectory": true,
+    "relativePath": "ty",
+    "href": "/ty",
+    "url": "https://m.egwwritings.org/ty",
+    "language_info": {
+      "name": "Tahitian",
+      "code": "/ty"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/tg",
+    "isDirectory": true,
+    "relativePath": "tg",
+    "href": "/tg",
+    "url": "https://m.egwwritings.org/tg",
+    "language_info": {
+      "name": "Tajik",
+      "code": "/tg"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ta",
+    "isDirectory": true,
+    "relativePath": "ta",
+    "href": "/ta",
+    "url": "https://m.egwwritings.org/ta",
+    "language_info": {
+      "name": "Tamil",
+      "code": "/ta"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/te",
+    "isDirectory": true,
+    "relativePath": "te",
+    "href": "/te",
+    "url": "https://m.egwwritings.org/te",
+    "language_info": {
+      "name": "Telugu",
+      "code": "/te"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/th",
+    "isDirectory": true,
+    "relativePath": "th",
+    "href": "/th",
+    "url": "https://m.egwwritings.org/th",
+    "language_info": {
+      "name": "Thai",
+      "code": "/th"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/tpi",
+    "isDirectory": true,
+    "relativePath": "tpi",
+    "href": "/tpi",
+    "url": "https://m.egwwritings.org/tpi",
+    "language_info": {
+      "name": "Tok Pisin",
+      "code": "/tpi"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/to",
+    "isDirectory": true,
+    "relativePath": "to",
+    "href": "/to",
+    "url": "https://m.egwwritings.org/to",
+    "language_info": {
+      "name": "Tongan",
+      "code": "/to"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/tn",
+    "isDirectory": true,
+    "relativePath": "tn",
+    "href": "/tn",
+    "url": "https://m.egwwritings.org/tn",
+    "language_info": {
+      "name": "Tswana",
+      "code": "/tn"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/tum",
+    "isDirectory": true,
+    "relativePath": "tum",
+    "href": "/tum",
+    "url": "https://m.egwwritings.org/tum",
+    "language_info": {
+      "name": "Tumbuka",
+      "code": "/tum"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/tr",
+    "isDirectory": true,
+    "relativePath": "tr",
+    "href": "/tr",
+    "url": "https://m.egwwritings.org/tr",
+    "language_info": {
+      "name": "Türkçe (Turkish)",
+      "code": "/tr"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/tk",
+    "isDirectory": true,
+    "relativePath": "tk",
+    "href": "/tk",
+    "url": "https://m.egwwritings.org/tk",
+    "language_info": {
+      "name": "Turkmen",
+      "code": "/tk"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ak",
+    "isDirectory": true,
+    "relativePath": "ak",
+    "href": "/ak",
+    "url": "https://m.egwwritings.org/ak",
+    "language_info": {
+      "name": "Twi",
+      "code": "/ak"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/uk",
+    "isDirectory": true,
+    "relativePath": "uk",
+    "href": "/uk",
+    "url": "https://m.egwwritings.org/uk",
+    "language_info": {
+      "name": "Українська (Ukrainian)",
+      "code": "/uk"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ur",
+    "isDirectory": true,
+    "relativePath": "ur",
+    "href": "/ur",
+    "url": "https://m.egwwritings.org/ur",
+    "language_info": {
+      "name": "Urdu",
+      "code": "/ur"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/uz",
+    "isDirectory": true,
+    "relativePath": "uz",
+    "href": "/uz",
+    "url": "https://m.egwwritings.org/uz",
+    "language_info": {
+      "name": "Uzbek",
+      "code": "/uz"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/ve",
+    "isDirectory": true,
+    "relativePath": "ve",
+    "href": "/ve",
+    "url": "https://m.egwwritings.org/ve",
+    "language_info": {
+      "name": "Venda",
+      "code": "/ve"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/vi",
+    "isDirectory": true,
+    "relativePath": "vi",
+    "href": "/vi",
+    "url": "https://m.egwwritings.org/vi",
+    "language_info": {
+      "name": "Tiếng Việt (Vietnamese)",
+      "code": "/vi"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/cy",
+    "isDirectory": true,
+    "relativePath": "cy",
+    "href": "/cy",
+    "url": "https://m.egwwritings.org/cy",
+    "language_info": {
+      "name": "Cymraeg (Welsh)",
+      "code": "/cy"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/xh",
+    "isDirectory": true,
+    "relativePath": "xh",
+    "href": "/xh",
+    "url": "https://m.egwwritings.org/xh",
+    "language_info": {
+      "name": "Xhosa",
+      "code": "/xh"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/yo",
+    "isDirectory": true,
+    "relativePath": "yo",
+    "href": "/yo",
+    "url": "https://m.egwwritings.org/yo",
+    "language_info": {
+      "name": "Yoruba",
+      "code": "/yo"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/zom",
+    "isDirectory": true,
+    "relativePath": "zom",
+    "href": "/zom",
+    "url": "https://m.egwwritings.org/zom",
+    "language_info": {
+      "name": "Zomi",
+      "code": "/zom"
+    },
+    "books": []
+  },
+  {
+    "language_id": "egwwritings/zu",
+    "isDirectory": true,
+    "relativePath": "zu",
+    "href": "/zu",
+    "url": "https://m.egwwritings.org/zu",
+    "language_info": {
+      "name": "Zulu",
+      "code": "/zu"
+    },
+    "books": []
+  }
+]

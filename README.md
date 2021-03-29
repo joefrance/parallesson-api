@@ -118,12 +118,59 @@ https://github.com/meetDeveloper/googleDictionaryAPI
   ### GraphQL Queries
 
   ```
-
-query allLanguages($source_id: ID!) {
-  getlanguages(source_id: $source_id) {
-    language_id
-    language_name
-    language_info
+# Write some queries
+query sources {
+  getsources {
+    source_id
+    source_name
+    source_logo
   }
 }
+
+query sourceById($id: ID!) {
+  getsource(id: $id) {
+    source_id
+    source_name
+    source_url
+    source_repo
+    source_desc
+  }
+}
+
+query languageById($id: ID!) {
+  getlanguage(id: $id) {
+    language_id
+    relativePath
+    isDirectory
+    books {
+      book_id
+      book_title
+    }
+    language_info {
+      code
+      name
+		}
+	}
+}
+
+query languagesBySourceId($source_id: ID!) {
+  getlanguages(source_id: $source_id) {
+    language_id
+    relativePath
+    isDirectory
+    language_info {
+      code
+      name
+		}
+	}
+}
   ```
+
+#### And the query variables
+
+```
+{
+  "id": "egwwritings/ru",
+  "source_id": "egwwritings"
+}
+```
