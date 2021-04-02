@@ -8,6 +8,7 @@ const sourceSchema = gql`
     source_url: String
     source_logo: String
     source_repo: String
+    source_local_files: String
   }
 
   extend type Query {

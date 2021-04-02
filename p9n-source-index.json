@@ -5,7 +5,8 @@
       "source_desc": "The Complete Published Writings of Ellen White are now available online in several languages. The latest version allows you to easily browse, read, search, and share the writings in Chinese, English, French, German, Italian, Portuguese, Romanian, Russian, and Spanish. There are currently a total of 130 various languages available.",
       "source_url": "https://m.egwwritings.org/languages",
       "source_logo": "https://m.egwwritings.org/images/logo.svg",
-      "source_repo": null
+      "source_repo": null,
+      "source_local_files": "/Users/josephfrance/github/Adventech/sabbath-school-lessons/"
   },
   {
       "source_id": "adventech",

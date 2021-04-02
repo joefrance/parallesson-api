@@ -90,6 +90,33 @@ async function getLanguages(baseUrl) {
     return langaugeFolders;    
 }
 
+async function getFolders(baseUrl, folder) {
+    var a = $('div[class="thumbnail transition"]').find('a');
+
+    for (let index = 0; index < a.length; index++) {
+        const element = a[index];
+
+        const folder = element.attribs['href'];
+
+        //console.log(element);
+        var langaugeFolder = {
+            language_id: `egwwritings${lang}`,
+            isDirectory: true,
+            relativePath: `${lang.replace('/', '')}`,
+            href: `${lang}`,
+            url: `${baseUrl}${lang}`,
+            language_info: {
+                name: element.firstChild.data,
+                code: lang
+            }
+        };
+
+        langaugeFolders.push(langaugeFolder);
+    }
+
+
+}
+
 async function getBooks(basePath, bookFolder) {
 
     if(!bookFolder.toString().endsWith('/')) {

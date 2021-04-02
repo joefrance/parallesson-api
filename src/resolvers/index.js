@@ -1,6 +1,7 @@
 import htmlHelper from '../helpers/htmlHelpers.js';
 import languageResolver from './language.js';
 import sourceResolver from './source.js';
+import bookResolver from './book.js';
 
 const rootResolver = {
     Query: {
@@ -22,7 +23,8 @@ const rootResolver = {
 const resolvers = [
     rootResolver,
     languageResolver,
-    sourceResolver
+    sourceResolver,
+    bookResolver
 ]
 
 export default resolvers
