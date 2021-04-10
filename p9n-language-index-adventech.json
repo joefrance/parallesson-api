@@ -551,6 +551,24 @@
           "name": "cover.png",
           "fileSize": 176051
         }
+      },
+      {
+        "book_id": "adventech/ar/2021-02",
+        "isDirectory": true,
+        "relativePath": "ar/2021-02",
+        "book_info": {
+          "title": "الوعد ُد: عهد ُد الله الأَبدي",
+          "description": "في سنة ١٥٨٨ نظرت سيدة إنكليزية في الشهر السابع من الحمل إلى البحر فرأت الأسطول البحري الإسباني الذي يضم ١٣٠ سفينة بتسليحها الثقيل يقترب من الشواطئ البريطانية ليغزوها. ومن شدة خوفها جاء عليها مخاض الولادة مبكرًا فولدت ابنها قبل أوانه فسمته القابلة باسم مستعار هو ‹الخوف›.",
+          "human_date": "أبريل · مايو · يونيو 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 223654
+        }
       }
     ]
   },
@@ -1375,6 +1393,24 @@
         "book_cover": {
           "name": "cover.png",
           "fileSize": 225659
+        }
+      },
+      {
+        "book_id": "adventech/da/2021-02",
+        "isDirectory": true,
+        "relativePath": "da/2021-02",
+        "book_info": {
+          "title": "Løftet: Guds evige pagt",
+          "description": "I 1588 så en ung engelsk kvinde, som var gravid i syvende måned, ud over havet. Der fik hun øje på den spanske armada med dens 130 tungt bevæbnede skibe, der var på vej for at indvadere England. Hun blev så bange, at frygten satte fødslen igang.",
+          "human_date": "April · Maj · Juni 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#4C6A50",
+          "color_primary_dark": "#2E5534"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 161300
         }
       }
     ]
@@ -2937,6 +2973,44 @@
           "name": "cover.png",
           "fileSize": 146864
         }
+      },
+      {
+        "book_id": "adventech/en/2021-02-cq",
+        "isDirectory": true,
+        "relativePath": "en/2021-02-cq",
+        "book_info": {
+          "title": "Decoding the Covenants",
+          "description": "In 1588, a young English woman (seven-months pregnant) looked out over the sea, and what she saw—the Spanish Armada, with 130 heavily armed ships planning to invade the island—so frightened her that she went into premature labor, the midwife being fear.",
+          "human_date": "April · May · June 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#6E9247",
+          "color_primary_dark": "#547F25",
+          "quarterly_name": "InVerse"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 140877
+        }
+      },
+      {
+        "book_id": "adventech/en/2021-02-er",
+        "isDirectory": true,
+        "relativePath": "en/2021-02-er",
+        "book_info": {
+          "title": "The Promise: God’s Everlasting Agreement",
+          "description": "In 1588, a young English woman looks over the sea. The young woman carries a baby in her belly. The baby will be born in two months. But the young woman sees something on the sea that scares her. She sees 130 ships from Spain. The ships plan to take England by force. The young woman is so frightened that she has her child two months early.",
+          "human_date": "April · May · June 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F",
+          "quarterly_name": "Easy Reading"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 146619
+        }
       }
     ]
   },
@@ -4143,6 +4217,24 @@
           "name": "cover.png",
           "fileSize": 228371
         }
+      },
+      {
+        "book_id": "adventech/fi/2021-02",
+        "isDirectory": true,
+        "relativePath": "fi/2021-02",
+        "book_info": {
+          "title": "Lupaus:  Jumalan ikuinen liitto",
+          "description": "Vuonna 1588 eräs nuori englantilaisnainen (joka oli kahdeksannella kuulla raskaana) katsoi ulos meren ulapalle, ja se, mitä hän näki – Espanjan armadan: sotalaivaston, johon kuului 130 raskaasti aseistettua alusta, joiden tarkoituksena oli vallata saari – pelästytti hänet niin pahasti, että hänen synnytyksensä käynnistyi ennenaikaisesti pelon kätilöimänä.",
+          "human_date": "Huhtikuu · Toukokuu · Kesäkuu 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 146470
+        }
       }
     ]
   },
@@ -4614,6 +4706,24 @@
         "book_cover": {
           "name": "cover.png",
           "fileSize": 277869
+        }
+      },
+      {
+        "book_id": "adventech/fr/2021-02",
+        "isDirectory": true,
+        "relativePath": "fr/2021-02",
+        "book_info": {
+          "title": "La Promesse: L’alliance éternelle de Dieu",
+          "description": "En 1588, une jeune femme anglaise enceinte de sept mois regarda la mer, et ce qu’elle vit, l’Armada espagnole, avec 130 navires lourdement armés qui prévoyaient d’envahir l’ile, l’effraya tellement qu’elle eut un accouchement prématuré, la sagefemme même était effrayée.",
+          "human_date": "Avril · Mai · Juin 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 126947
         }
       }
     ]
@@ -5181,6 +5291,24 @@
           "name": "cover.png",
           "fileSize": 187487
         }
+      },
+      {
+        "book_id": "adventech/hr/2021-02",
+        "isDirectory": true,
+        "relativePath": "hr/2021-02",
+        "book_info": {
+          "title": "Obećanje — Božji vječni savez",
+          "description": "Pouke iz Biblije",
+          "human_date": "Travanj · Svibanj · Lipanj 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 167576
+        }
       }
     ]
   },
@@ -5407,6 +5535,24 @@
         "book_cover": {
           "name": "cover.png",
           "fileSize": 454214
+        }
+      },
+      {
+        "book_id": "adventech/hu/2021-02",
+        "isDirectory": true,
+        "relativePath": "hu/2021-02",
+        "book_info": {
+          "title": "Az ígéret - Isten örök szövetsége",
+          "description": "Ebben a negyedévben közelebbről megvizsgáljuk Isten szövetségét, amit felkínál és amit megkövetel. Több forrásmunkát is igénybe vettünk, a tanulmány mégis főként a néhai Dr. Gerhard Hasel munkája alapján készült, akinek az észrevételei az Igével kapcsolatban (amelyben kinyilatkoztatást találunk a  szövetség ígéreteiről) bátorítást, reménységet és megértést kínálnak, hogy megtanulhassunk valamit, amit Hobbes talán sosem értett meg: „A szeretetben nincsen félelem; sőt a teljes szeretet kiűzi a félelmet” (1Jn 4:18).",
+          "human_date": "Április · Május · Június 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#266359",
+          "color_primary_dark": "#0F463C"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 331199
         }
       }
     ]
@@ -6291,6 +6437,24 @@
           "name": "cover.png",
           "fileSize": 177562
         }
+      },
+      {
+        "book_id": "adventech/it/2021-02",
+        "isDirectory": true,
+        "relativePath": "it/2021-02",
+        "book_info": {
+          "title": "La promessa: l'alleanza eterna di Dio",
+          "description": "Nel 1588, un giovane donna inglese in attesa di un bambino, mentre stava guardando il mare vide all’orizzonte qualcosa che la terrorizzò: la famigerata Armata spagnola, un convoglio formato da 130 imbarcazioni pesantemente armate che si preparavano a invadere l’isola. La paura fu tale da indurle un parto prematuro.",
+          "human_date": "Aprile · Maggio · Giugno 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#EA7356",
+          "color_primary_dark": "#D6431D"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 177562
+        }
       }
     ]
   },
@@ -6607,6 +6771,24 @@
         "book_cover": {
           "name": "cover.png",
           "fileSize": 162858
+        }
+      },
+      {
+        "book_id": "adventech/ja/2021-02",
+        "isDirectory": true,
+        "relativePath": "ja/2021-02",
+        "book_info": {
+          "title": "約束",
+          "description": "1588年のことでした。妊娠7か月のイギリス人の若い女性が海の向こうを見つめていました。そこに彼女が見たものは、イギリス本島に侵攻しようとする完全武装の130隻からなるスペイン艦隊でした。あまりの恐ろしさに彼女は産気づき、助産師が心配していた早産をしてしまいます。",
+          "human_date": "2021年2期（3 〜 6月）",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 43916
         }
       }
     ]
@@ -7137,6 +7319,24 @@
         "book_cover": {
           "name": "cover.png",
           "fileSize": 357054
+        }
+      },
+      {
+        "book_id": "adventech/ko/2021-02",
+        "isDirectory": true,
+        "relativePath": "ko/2021-02",
+        "book_info": {
+          "title": "영원한 하나님의 언약",
+          "description": "1588년, 임신 7개월이 된 한 젊은 영국 여인이 창밖으로 바다를 내다보다가 중무 장한 130척의 함선을 이끌고 영국을 침략하기 위해 몰려오는 스페인 함대를 목격했 다. 그녀는 너무 놀라 아이를 조산하게 되었고, 산파 역시 ‘두려움’에 사로잡혔다.",
+          "human_date": "4월 · 5월 · 6월 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#16574B",
+          "color_primary_dark": "#0A473C"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 257159
         }
       }
     ]
@@ -8342,6 +8542,24 @@
           "name": "cover.png",
           "fileSize": 225311
         }
+      },
+      {
+        "book_id": "adventech/ms/2021-02",
+        "isDirectory": true,
+        "relativePath": "ms/2021-02",
+        "book_info": {
+          "title": "Janji: Perjanjian Kekal Tuhan",
+          "description": "Pada tahun 1588, seorang wanita muda Inggeris (hamil tujuh bulan) melihat ke luar laut, dan apa yang dilihatnya — Armada Sepanyol, dengan 130 buah kapal bersenjata berat yang merancang untuk menyerang pulau itu — begitu menakutkannya sehingga dia bersalin pramatang, bidan menjadi ketakutan.",
+          "human_date": "April · Mei · Jun 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 195985
+        }
       }
     ]
   },
@@ -9117,6 +9335,24 @@
           "name": "cover.png",
           "fileSize": 320226
         }
+      },
+      {
+        "book_id": "adventech/pl/2021-02",
+        "isDirectory": true,
+        "relativePath": "pl/2021-02",
+        "book_info": {
+          "title": "Obietnica. Wieczne Boże przymierze",
+          "description": "W 1588 roku pewna młoda Angielka będąca w siódmym miesiącu ciąży skierowała wzrok na morze i ujrzała Hiszpańską Armadę  złożoną ze stu trzydziestu ciężko uzbrojonych okrętów przygotowujących się do ataku na Anglię. Z przerażenia zaczęła przedwcześnie rodzić, a jej akuszerką okazał się strach.",
+          "human_date": "Kwiecień · Maj · Czerwiec 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 249234
+        }
       }
     ]
   },
@@ -9444,6 +9680,24 @@
         "book_cover": {
           "name": "cover.png",
           "fileSize": 567780
+        }
+      },
+      {
+        "book_id": "adventech/ro/2021-02",
+        "isDirectory": true,
+        "relativePath": "ro/2021-02",
+        "book_info": {
+          "title": "Făgăduinţa: legământul cel veşnic al lui Dumnezeu",
+          "description": "În 1588, o tânără engleză (însărcinată în șapte luni) a privit deasupra mării și ceea ce a văzut - Armada spaniolă, cu 130 de nave puternic armate care plănuiau să invadeze insula - a înspăimântat-o atât de mult încât a intrat în travaliu prematur, moasa fiind frica.",
+          "human_date": "Aprilie · Mai · Iunie 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#1A576F",
+          "color_primary_dark": "#08435A"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 327585
         }
       }
     ]
@@ -10180,6 +10434,24 @@
           "name": "cover.png",
           "fileSize": 19506
         }
+      },
+      {
+        "book_id": "adventech/sk/2021-02",
+        "isDirectory": true,
+        "relativePath": "sk/2021-02",
+        "book_info": {
+          "title": "Božia večná zmluva",
+          "description": "Písal sa rok 1588. Mladá Angličanka v siedmom mesiaci tehotenstva pozorne hľadela na more. Obraz, ktorý sa jej zrazu naskytol, ju tak vyľakal, že dieťa porodila predčasne. K brehom sa blížilo 130 vojenských lodí španielskeho námorníctva pripravených zaútočiť na britské ostrovy.",
+          "human_date": "Apríl · Máj · Jún 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#BF614B",
+          "color_primary_dark": "#A93F26"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 30296
+        }
       }
     ]
   },
@@ -10335,6 +10607,24 @@
           "name": "cover.png",
           "fileSize": 191773
         }
+      },
+      {
+        "book_id": "adventech/sl/2021-02",
+        "isDirectory": true,
+        "relativePath": "sl/2021-02",
+        "book_info": {
+          "title": "Obljuba: Večna Božja zaveza",
+          "description": "Svetopisemski nauki",
+          "human_date": "April · Maj · Junij 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 164258
+        }
       }
     ]
   },
@@ -10453,6 +10743,24 @@
         "book_cover": {
           "name": "cover.png",
           "fileSize": 226508
+        }
+      },
+      {
+        "book_id": "adventech/sq/2021-02",
+        "isDirectory": true,
+        "relativePath": "sq/2021-02",
+        "book_info": {
+          "title": "Premtimi: Besëlidhja e përjetshme e Zotit",
+          "description": "Në vitin 1588, një grua e re angleze,shtatë muajshe shtatzënë ishte duke parë detin dhe, ajo çfarë ajo pa ishte Armada Spanjolle me 130 anije të armatosura rrugës për të pushtuar Anglinë. Ajo u frikësua aq shumë sa i filloi lindja e parakohshme.",
+          "human_date": "Prill · Maj · Qershor 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 215031
         }
       }
     ]
@@ -11171,6 +11479,24 @@
           "name": "cover.png",
           "fileSize": 229172
         }
+      },
+      {
+        "book_id": "adventech/sv/2021-02",
+        "isDirectory": true,
+        "relativePath": "sv/2021-02",
+        "book_info": {
+          "title": "Löftet: Guds eviga förbund",
+          "description": "År 1588 såg en ung kvinna (gravid i sjunde månaden) ut över havet, och det hon såg – den spanska flottan med 130 tungt beväpnade fartyg på väg att inva- dera ön – skrämde henne till en för tidig födsel, med fruktan som barnmorska.",
+          "human_date": "April · Maj · Juni 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 147745
+        }
       }
     ]
   },
@@ -11307,6 +11633,24 @@
         "book_cover": {
           "name": "cover.png",
           "fileSize": 227124
+        }
+      },
+      {
+        "book_id": "adventech/sw/2021-02",
+        "isDirectory": true,
+        "relativePath": "sw/2021-02",
+        "book_info": {
+          "title": "Ahadi: Agano la Mungu la Milele",
+          "description": "Mwaka 1588, mwanamke mmoja Mwingereza (mwenye uja uzito wa miezi saba) alitazama nje baharini, naye akaona, manowari za kivita zaKihispania, zenya meli 130 zikiwa tayari kuvamia kisiwa cha Uingereza - jambo lililomletea hofu na kujifungua mtoto njiti, mkunga akiwa hofu.",
+          "human_date": "Aprili · Mei · Juni 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 148272
         }
       }
     ]
@@ -11935,6 +12279,24 @@
           "name": "cover.png",
           "fileSize": 225826
         }
+      },
+      {
+        "book_id": "adventech/tl/2021-02",
+        "isDirectory": true,
+        "relativePath": "tl/2021-02",
+        "book_info": {
+          "title": "Ang Pangako: Walang Hanggang Tipan ng Diyos",
+          "description": "Noong 1588, isang batang babaeng Ingles (pitong buwang buntis) ang tumingin sa dagat, at kung ano ang nakita niya - ang Spanish Armada, na may 130 mga armadong barko na pinaplano na lusubin ang isla - kaya takot sa kanya kaya't napunta siya sa wala sa panahon na paggawa, ang hilot na takot.",
+          "human_date": "April · May · June 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 150490
+        }
       }
     ]
   },
@@ -12269,6 +12631,24 @@
         "book_cover": {
           "name": "cover.png",
           "fileSize": 144631
+        }
+      },
+      {
+        "book_id": "adventech/tr/2021-02",
+        "isDirectory": true,
+        "relativePath": "tr/2021-02",
+        "book_info": {
+          "title": "Vaat: Allah’ın Sonsuza Dek Kalıcı Antlaşması",
+          "description": "1588 yılında, yedi aylık hamile olan genç bir İngiliz kadın denize doğru baktı ve adayı istila etmek için gelmiş ağır silahlı 130 gemiden oluşan İspanyol donanmasını karşısında gördü. Bu görüntü karşısında yaşadığı korku onun erken doğum yapmasına yol açtı.",
+          "human_date": "Nisan · Mayıs · Haziran 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 109990
         }
       }
     ]
@@ -12832,6 +13212,24 @@
           "name": "cover.png",
           "fileSize": 228285
         }
+      },
+      {
+        "book_id": "adventech/vi/2021-02",
+        "isDirectory": true,
+        "relativePath": "vi/2021-02",
+        "book_info": {
+          "title": "Lời Hứa: Giao Ước Đời Đời Của Đức Chúa Trời",
+          "description": "Vào năm 1588, một phụ nữ trẻ người Anh (đang mang thai 7 tháng) nhìn ra biển và những gì cô ấy nhìn thấy là chiếc Armada của Tây Ban Nha, với 130 tàu vũ trang hạng nặng đang lên kế hoạch xâm chiếm hòn đảo - khiến cô ấy kinh hãi đến mức sinh non và khiến bà đỡ sợ hãi.",
+          "human_date": "Tháng 4 · Tháng 5 · Tháng 6 2021",
+          "start_date": "27/03/2021",
+          "end_date": "25/06/2021",
+          "color_primary": "#0A454E",
+          "color_primary_dark": "#01373F"
+        },
+        "book_cover": {
+          "name": "cover.png",
+          "fileSize": 149271
+        }
       }
     ]
   },
@@ -12959,7 +13357,7 @@
     "isDirectory": true,
     "relativePath": "zh",
     "language_info": {
-      "name": "Simplified Chinese",
+      "name": "Chinese",
       "code": "zh"
     },
     "books": [

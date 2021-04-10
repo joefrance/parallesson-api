@@ -6,11 +6,13 @@ import MarkdownIt from 'markdown-it';
 var md = new MarkdownIt();
 
 
-const lslLanguage = 'ar';
+const lslLanguage = 'ru';
 const rslLanguage = 'en';
+const chapterFolder = '2021-02';
+const chapterNumber = '02';
 
-const lslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/2021-01/13`;
-const rslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/2021-01/13`;
+const lslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/${chapterFolder}/${chapterNumber}`;
+const rslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/${chapterFolder}/${chapterNumber}`;
 
 // async function f() {
 //   return Promise.resolve(1);
@@ -92,56 +94,122 @@ async function getBooks(basePath, bookFolder) {
 }
 
 
-// var lslChapter = {
-//   language: lslLanguage,
-//   folder: lslFolder,
-//   chapter_info: getObjectFromYAML(`${lslFolder}/info.yml`),
-//   pages: await getPages(lslFolder)
-// };
+var lslChapter = {
+  language: lslLanguage,
+  folder: lslFolder,
+  chapter_info: getObjectFromYAML(`${lslFolder}/info.yml`),
+  pages: await getPages(lslFolder)
+};
 
-// var rslChapter = {
-//   language: rslLanguage,
-//   folder: rslFolder,
-//   chapter_info: getObjectFromYAML(`${rslFolder}/info.yml`),
-//   pages: await getPages(rslFolder)
-// };
-// console.log(lslChapter)
-// console.log(rslChapter)
+var rslChapter = {
+  language: rslLanguage,
+  folder: rslFolder,
+  chapter_info: getObjectFromYAML(`${rslFolder}/info.yml`),
+  pages: await getPages(rslFolder)
+};
+console.log(lslChapter)
+console.log(rslChapter)
 
-// var parallelGraph = [];
+//var lslChapterFilePath = `${lslFolder}/p9n-chapter.html`;
+//var rslChapterFilePath = `${rslFolder}/p9n-chapter.html`;
+var chapterPath = `./p9n-${lslLanguage}-${rslLanguage}-${chapterFolder}-${chapterNumber}/`;
+//fs.mkdirSync(chapterPath);
 
-// for(var pgx=0; pgx < lslPages.length; pgx++) {
-//   var html = '';
 
-//   var htmlFilePath = `${lslPages[pgx].page_id}`;
+for(var pgx=0; pgx < lslChapter.pages.length; pgx++) {
 
-//   httml += `
-//   <html>
-//   <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-//   <style>
-//   .fulljustify {
-//     text-align: justify;
-//   }
-//   .fulljustify:after {
-//     content: "";
-//     display: inline-block;
-//     width: 100%;
-//   }
-//   </style>
-//     <body>
-//       <table width="100%" border="1" cellpadding="0" cellspacing="0">
-//         <tr>
-//           <th width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: x-small; vertical-align: top;"><a target="_blank" href="">${lslLanguage}</a></th>
-//           <th width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: x-small; vertical-align: top;"><a target="_blank" href="">${rslLanguage}</a></th>
-//         </tr>
-//   `;
+  if(lslChapter.pages[pgx].page_title.indexOf('.yml') < 0) {
+    var html = '';
 
-// httml += `
-//   </table>
-// </body>
-// </html>
-// `;
-// }
+    const lslPages = lslChapter.pages[pgx];
+    const rslPages = rslChapter.pages[pgx];
+  
+    var htmlFilePath = `${chapterPath}${lslPages.page_title.replace('.md', '')}.html`;
+    
+    var parallelGraph = [];
+    var maxLength = Math.max(lslPages.paragraphs.length, rslPages.paragraphs.length);
+    for(var parx = 0; parx < maxLength; parx++) {
+      var lslHtml = '';
+      var rslHtml = '';
+      var lslParagraph = lslPages.paragraphs.length < parx ? {} : lslPages.paragraphs[parx];
+      var rslParagraph = rslPages.paragraphs.length < parx ? {} : rslPages.paragraphs[parx];
+  
+      if(
+          lslParagraph
+          &&
+          (
+          lslParagraph.paragraph_type === 'header:title'
+          || lslParagraph.paragraph_type === 'header:date'
+          || lslParagraph.paragraph_type === 'body'
+          )
+        ) {
+          lslHtml += lslParagraph.paragraph_html;
+      }
+  
+      if(
+        rslParagraph
+        &&
+        (
+          rslParagraph.paragraph_type === 'header:title'
+          || rslParagraph.paragraph_type === 'header:date'
+          || rslParagraph.paragraph_type === 'body'
+        )
+        ) {
+          rslHtml += rslParagraph.paragraph_html;
+      }
+  
+      if(lslHtml != '' || rslHtml !== '') {
+        parallelGraph.push({
+          lslHtml: lslHtml,
+          rslHtml: rslHtml
+        }
+        );
+      }
+    }
+  
+    html += `
+    <html>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <style>
+    .fulljustify {
+      text-align: justify;
+    }
+    .fulljustify:after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+    }
+    </style>
+      <body>
+        <table width="100%" border="1" cellpadding="0" cellspacing="0">
+          <tr>
+            <th width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;"><a target="_blank" href="">${lslLanguage}</a></th>
+            <th width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;"><a target="_blank" href="">${rslLanguage}</a></th>
+          </tr>
+    `;
+  
+    for(var parx = 0; parx < parallelGraph.length; parx++) {
+      html += `
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">${parallelGraph[parx].lslHtml.replace('\n', '').replace('&lt;p&gt;', '<b>').replace('&lt;/p&gt;', '</b>')}</td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">${parallelGraph[parx].rslHtml.replace('\n', '').replace('&lt;p&gt;', '<b>').replace('&lt;/p&gt;', '</b>')}</td>
+      </tr>
+  `;
+    }
+  
+  
+  
+  html += `
+    </table>
+  </body>
+  </html>
+  `;
+  
+  fs.writeFileSync(htmlFilePath, html);
+  
+  }
+
+}
 
 
 // async function main() {
