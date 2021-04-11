@@ -4,6 +4,22 @@ This project will provide the  GraphQL-based API for the [Parallesson project](h
 
 The online site will be available as an SPA mutli-device solution and limited in some functionality. The offline model will either be implemented as an Electron app. This will allow for the end-user to purchase Google Translation credits to use in the advanced features of the app.
 
+### Split to syllables
+
+- Node
+  - [syllabify](https://www.npmjs.com/package/syllabify)
+
+- **_A TECHNIQUE FOR CONSISTENT SPLITTING OF RUSSIAN WORDS_** - See `Split Russian NPL-1961-Davies-2.pdf` and other documents in `National Physical Laboratory` in this repo.
+- [2 Volume Set - Conference on Machine Translation of Languages and Applied Language Analysis,
+National Physical Laboratory](https://www.abebooks.com/servlet/BookDetailsPL?bi=10402305312&cm_sp=snippet-_-srp1-_-tile3&searchurl=sortby%3D17%26tn%3D1961%2BInternational%2BConference%2BMachine%2BTranslation%2BLanguages%2BApplied%2BLanguage%2BAnalysis)
+- [1961 International Conference on Machine Translation of Languages and Applied Language Analysis](https://books.google.com/books/about/1961_International_Conference_on_Machine.html?id=gcHWzAEACAAJ)
+- [An evaluation of the usefglness of machine translations
+nroduce~ at the National Physical Lab.oratory. Tea diD~ton,
+with a summary of the translation method.](https://www.aclweb.org/anthology/C67-1002.pdf)
+- [THE GRAMMATICAL INTERPRETATION OF RUSSIAN
+INFLECTED FORMS USING A STEM DICTIONARY](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.519.3189&rep=rep1&type=pdf)
+
+
 ### GrapQL queries
 
 ```gql
