@@ -9,6 +9,10 @@ The online site will be available as an SPA mutli-device solution and limited in
 - Node
   - [syllabify](https://www.npmjs.com/package/syllabify)
 
+### Russian NLP
+
+[Russian NLP](https://www.redhenlab.org/home/the-cognitive-core-research-topics-in-red-hen/the-barnyard/russian-nlp)
+
 - **_A TECHNIQUE FOR CONSISTENT SPLITTING OF RUSSIAN WORDS_** - See `Split Russian NPL-1961-Davies-2.pdf` and other documents in `National Physical Laboratory` in this repo.
 - [2 Volume Set - Conference on Machine Translation of Languages and Applied Language Analysis,
 National Physical Laboratory](https://www.abebooks.com/servlet/BookDetailsPL?bi=10402305312&cm_sp=snippet-_-srp1-_-tile3&searchurl=sortby%3D17%26tn%3D1961%2BInternational%2BConference%2BMachine%2BTranslation%2BLanguages%2BApplied%2BLanguage%2BAnalysis)

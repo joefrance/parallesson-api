@@ -15,8 +15,12 @@
         "express": "^4.17.1",
         "graphql": "^15.5.0",
         "markdown-it": "^12.0.4",
+        "natural": "^5.0.3",
         "pg": "^8.5.1",
+        "pos": "^0.4.2",
         "sequelize": "^6.5.1",
+        "syllabify": "^1.0.1",
+        "syllables": "^1.0.0",
         "sync-request": "^6.1.0",
         "yamljs": "^0.3.0"
     },
