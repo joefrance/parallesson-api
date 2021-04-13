@@ -22,6 +22,7 @@
         "syllabify": "^1.0.1",
         "syllables": "^1.0.0",
         "sync-request": "^6.1.0",
+        "translate": "^1.2.3",
         "yamljs": "^0.3.0"
     },
     "devDependencies": {
