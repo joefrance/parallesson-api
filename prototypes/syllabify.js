@@ -13,13 +13,20 @@ import natural from 'natural';
 
 // https://www.redhenlab.org/home/the-cognitive-core-research-topics-in-red-hen/the-barnyard/russian-nlp
 
-//var s = syllabify(process.argv[2])
+var word = process.argv[2];
+var syllables = syllabify(word)
 //=> [ 'Вдо', 'хно', 'ве', 'ни', 'е' ]
 
-//console.log(s)
 
-console.log(natural.PorterStemmer.stem(process.argv[2])); // stem a single word
-//console.log(natural.PorterStemmerRu.stem(process.argv[2]));
+//console.log(natural.PorterStemmer.stem(process.argv[2])); // stem a single word
+var stem = natural.PorterStemmerRu.stem(word)
+var token = {
+    word: word,
+    stem: stem,
+    syllables: syllables,
+    jointSyllables: syllables.join('-'),
+}
+console.log(token);
 //console.log(natural.PorterStemmerEs.stem("jugaría"));
 
 // natural.PorterStemmer.attach();
