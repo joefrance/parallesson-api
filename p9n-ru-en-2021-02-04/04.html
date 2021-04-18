@@ -1,7 +1,25 @@
 
     <html>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <script>
+    function unhighlight(x) {
+      x.style.color = "navy"
+      x.style.backgroundColor = "transparent"
+    }
+    
+    function highlight(x) {
+      x.style.color = "yellow"
+      x.style.backgroundColor = "green"
+    }
+    </script>
     <style>
+    
+    span {
+      color: navy;
+      display: inline;
+      cursor: hand;
+    }
+
     .fulljustify {
       text-align: justify;
     }
@@ -13,17 +31,9 @@
     </style>
       <body>
         <table width="100%" border="1" cellpadding="2" cellspacing="2">
-          <tr>
-            <th width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-            <a target="_blank" href="">ru</a>
-            </th>
-            <th width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-            <a target="_blank" href="">en</a>
-            </th>
-          </tr>
     
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p>Аврам становится Авраамом</p>
         </div>
@@ -36,7 +46,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p>20/04/2021</p>
         </div>
@@ -49,7 +59,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p>Не только имена Бога имеют духовное и богословское значение, но и имена людей. Для нас сегодня не так важно, какое имя дать девочке: Мария или Сусанна. Однако для древних семитов имя было исполнено духовного значения. Все семитские имена что-то означают и обычно состоят из фразы или короткого предложения, в которое входят пожелания или выражения благодарности со стороны родителя. Например: <em>Даниил</em> (евр. <em>Дани-Эль</em>) — «Судья — мой Бог», <em>Иоиль</em> (евр. <em>Йоэль</em>)— «Яхве—Бог» и <em>Нафан</em> (евр. <em>Натан</em>) — «Дар (Божий)».</p>
         </div>
@@ -62,7 +72,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p>Из-за значимости, придаваемой именам, их меняли, чтобы отразить важные изменения, произошедшие в жизни.</p>
         </div>
@@ -75,7 +85,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p><code>Прочитайте следующие тексты. Какие обстоятельства в них описаны и почему именно в этих обстоятельствах имена были изменены?</code></p>
         </div>
@@ -88,7 +98,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p><code>1. Быт. 32:28</code></p>
         </div>
@@ -101,7 +111,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p><code>2. Быт. 41:45</code></p>
         </div>
@@ -114,7 +124,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p><code>3. Дан. 1:7</code></p>
         </div>
@@ -127,7 +137,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p>Для нас сегодня не так уж и сложно понять связь имени с самим человеком. Если кого-то постоянно называть глупым или некрасивым, то рано или поздно это «имя» повлияет на то, как человек себя воспринимает. И наоборот, называя человека определенным именем или меняя его, можно изменить отношение человека к себе и повлиять на его поведение.</p>
         </div>
@@ -140,7 +150,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p>Учитывая это, не так сложно понять, почему Бог пожелал изменить имя Аврам на Авраам. Имя Аврам означает «Отец превознесен». Бог изменил его на Авраам, что означает «Отец множества». Когда мы читаем обетование завета, в котором Бог говорит: «Тьмы тем потомков Я дам тебе: произойдут от тебя народы, и царями будут потомки твои» (Быт. 17:6; ИПБ), эта смена имени имеет бо́льший смысл. Возможно, так Бог хотел помочь Аврааму поверить обетованию завета, данному 99-летнему мужчине, женатому на пожилой женщине, которая оставалась бесплодной. Одним словом, Бог сделал это, чтобы помочь Аврааму укрепить веру в обетования, данные ему.</p>
         </div>
@@ -152,20 +162,29 @@
         </td>
       </tr>
   
+<tr>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <div dir="ltl">
+  <b><i></i></b>
+  </div>
+  </td>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <div dir="ltr">
+  <b><i><u>Verbs:</u><br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">act - акт</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">addressing - решение</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">are - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">attached - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">be - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">been - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">being - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">called - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">came - пришел</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">changed - изменено</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">changing - изменение</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">come - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">comprised - в том числе</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">consist - Состоять</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">did - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">do - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">does - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">following - Следующее</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">giving - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">has - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">have - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">help - Помощь</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">helping - помощь</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">is - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">look - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Look - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">made - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">make - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">makes - делает</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">married - женат</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">meaning - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">means - означает</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">promises - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">reflect - Отражать</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">says - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">seems - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">understand - Понятно</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">used - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">view - Посмотреть</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">want - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">was - undefined</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">were - undefined</i></b>
+  </div>
+  </td>
+</tr>
+
 
   <tr>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-    NOTES:
-    <div style="height: 10px;"><hr/></div>
-    <div style="height: 10px;"><hr/></div>
+    NOTES: <a target="_blank" href="">ru</a>
     <div style="height: 10px;"><hr/></div>
     <div style="height: 10px;"><hr/></div>
     <div style="height: 10px;"><hr/></div>
   </td>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-    NOTES:
-    <div style="height: 10px;"><hr/></div>
-    <div style="height: 10px;"><hr/></div>
+    NOTES: <a target="_blank" href="">en</a>
     <div style="height: 10px;"><hr/></div>
     <div style="height: 10px;"><hr/></div>
     <div style="height: 10px;"><hr/></div>

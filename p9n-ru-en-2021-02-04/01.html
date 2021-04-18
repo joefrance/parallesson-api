@@ -1,7 +1,25 @@
 
     <html>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <script>
+    function unhighlight(x) {
+      x.style.color = "navy"
+      x.style.backgroundColor = "transparent"
+    }
+    
+    function highlight(x) {
+      x.style.color = "yellow"
+      x.style.backgroundColor = "green"
+    }
+    </script>
     <style>
+    
+    span {
+      color: navy;
+      display: inline;
+      cursor: hand;
+    }
+
     .fulljustify {
       text-align: justify;
     }
@@ -13,17 +31,9 @@
     </style>
       <body>
         <table width="100%" border="1" cellpadding="2" cellspacing="2">
-          <tr>
-            <th width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-            <a target="_blank" href="">ru</a>
-            </th>
-            <th width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-            <a target="_blank" href="">en</a>
-            </th>
-          </tr>
     
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p>Вечный завет</p>
         </div>
@@ -36,7 +46,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p>17/04/2021</p>
         </div>
@@ -49,7 +59,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <h3>Библейские тексты для исследования</h3>
         </div>
@@ -62,7 +72,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p>Исх. 3:14; Быт. 17:1–6; Быт. 41:45; Дан. 1:7; Быт. 15:7–18; Быт. 17:1–14; Откр. 14:6, 7.</p>
         </div>
@@ -75,7 +85,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <blockquote><p><b>Памятный стих</b></p>
 </blockquote>
@@ -92,7 +102,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <blockquote><p>«И поставлю завет Мой между Мною и тобою [Авраамом] и между потомками твоими после тебя в роды их, завет вечный в том, что Я буду Богом твоим и потомков твоих после тебя» (Быт. 17:7).</p>
 </blockquote>
@@ -109,7 +119,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p><strong>Ключевые вопросы:</strong></p>
         </div>
@@ -122,7 +132,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p>Каково Божье имя? Что оно означает? Какие имена использовал Бог, чтобы открыть Себя Авраму, и каково их значение? Почему Бог изменил имя Аврам на Авраам? Почему имена важны? Какие условия и обязательства прилагались к завету?</p>
         </div>
@@ -135,7 +145,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p>Помните ли вы болезнь, которой переболели в детстве и которая могла привести к осложнениям и более серьезным последствиям? В долгие, беспокойные ночи вы просыпались и видели уставших маму или папу, сидящих у вашей кровати в мягком свете ночника.</p>
         </div>
@@ -148,7 +158,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p>Подобным образом Бог сидел у постели больного грехом мира, когда спустя какое-то время после потопа вновь начала сгущаться моральная тьма. По этой причине Бог призвал Аврама. Через Своего верного слугу Он задумал избрать народ, которому мог бы доверить познание о Себе и даровать спасение миру.</p>
         </div>
@@ -161,7 +171,7 @@
       </tr>
   
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; vertical-align: top;">
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
         <p>Поэтому Бог вступил с Аврамом и его потомками в завет, расширивший понимание Божьего замысла спасения человечества от последствий греха. Господь не собирался оставлять мир, который так в Нем нуждался, без присмотра. Исследуя материал этой недели, мы увидим, как раскрываются новые обетования завета.</p>
         </div>
@@ -173,20 +183,29 @@
         </td>
       </tr>
   
+<tr>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <div dir="ltl">
+  <b><i></i></b>
+  </div>
+  </td>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <div dir="ltr">
+  <b><i><u>Verbs:</u><br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">are - есть</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">attached - Прикрепить</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">awaken - пробуждение</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">be - быть</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">bed - кровать</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">began - начался</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">called - называется</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">deepen - Глубина</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">did - сделал</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">does - делает</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">emphasized - акцент</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">entered - введён</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">entrust - доверять</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">establish - установить</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">give - дать</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">going - идёт</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">identify - идентифицировать</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">is - это</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">leave - Оставить</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">look - посмотреть</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">made - сделано</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">mean - означать</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">need - потребность</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">planned - запланировано</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">prepare - подготовить</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">promises - обещания</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">remember - запомнить</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">sat - сб</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">save - Сохранить</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">see - посмотреть</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">sitting - сидения</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">sleep - сон</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">something - что-то</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">unfolding - развертывание</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">used - используется</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">was - был</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">were - были</i></b>
+  </div>
+  </td>
+</tr>
+
 
   <tr>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-    NOTES:
-    <div style="height: 10px;"><hr/></div>
-    <div style="height: 10px;"><hr/></div>
+    NOTES: <a target="_blank" href="">ru</a>
     <div style="height: 10px;"><hr/></div>
     <div style="height: 10px;"><hr/></div>
     <div style="height: 10px;"><hr/></div>
   </td>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-    NOTES:
-    <div style="height: 10px;"><hr/></div>
-    <div style="height: 10px;"><hr/></div>
+    NOTES: <a target="_blank" href="">en</a>
     <div style="height: 10px;"><hr/></div>
     <div style="height: 10px;"><hr/></div>
     <div style="height: 10px;"><hr/></div>

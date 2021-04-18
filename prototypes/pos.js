@@ -18,7 +18,7 @@ import translate from "translate";
 
 // https://www.npmjs.com/search?q=syllables
 
-var words = new pos.Lexer().lex(`Many are the figures by which the Spirit of God has sought to illustrate this truth, and make it plain to souls that long to be freed from the burden of guilt. When, after his sin in deceiving Esau, Jacob fled from his father's home, he was weighed down with a sense of guilt. Lonely and outcast as he was, separated from all that had made life dear, the one thought that above all others pressed upon his soul, was the fear that his sin had cut him off from God, that he was forsaken of Heaven. In sadness he lay down to rest on the bare earth, around him only the lonely hills, and above, the heavens bright with stars. As he slept, a strange light broke upon his vision; and lo, from the plain on which he lay, vast shadowy stairs seemed to lead upward to the very gates of heaven, and upon them angels of God were passing up and down; while from the glory above, the divine voice was heard in a message of comfort and hope. Thus was made known to Jacob that which met the need and longing of his soul—a Saviour. With joy and gratitude he saw revealed a way by which he, a sinner, could be restored to communion with God. The mystic ladder of his dream represented Jesus, the only medium of communication between God and man.`);
+var words = new pos.Lexer().lex(`How many remember distinctly in our childhood a sickness or a touch of pneumonia that made us very sick, with the potential for something even worse? In the long feverish night, we would awaken from a half sleep to see our mother or father sitting in a chair beside our bed in the soft glow of the night-light.`);
 var tagger = new pos.Tagger();
 var taggedWords = tagger.tag(words);
 
