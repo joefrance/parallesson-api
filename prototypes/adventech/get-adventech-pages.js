@@ -5,11 +5,23 @@ import MarkdownIt from 'markdown-it';
 
 var md = new MarkdownIt();
 
+// Right-to-left languages
+// https://www.w3.org/International/questions/qa-html-dir#:~:text=Setting%20up%20a%20right%2Dto,direction%20for%20the%20whole%20document.
+// https://en.wikipedia.org/wiki/Right-to-left_script
 
-const lslLanguage = 'ru';
+// TL;DR
+// Arabic, Hebrew, Pashto, Persian, Urdu, and Sindhi
+// are the most widespread RTL writing systems in modern times.
+
+// More complete list
+// https://en.wikipedia.org/wiki/Right-to-left_script#List_of_RTL_scripts
+
+const lslLanguage = 'he';
+const lslLangDir = 'rtl';
 const rslLanguage = 'en';
+const rslLangDir = 'ltr';
 const chapterFolder = '2021-02';
-const chapterNumber = '02';
+const chapterNumber = '04';
 
 const lslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/${chapterFolder}/${chapterNumber}`;
 const rslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/${chapterFolder}/${chapterNumber}`;
@@ -57,7 +69,7 @@ async function getLanguages(folder) {
   }
   //var count = langaugeFolders.length;
   langaugeFolders.forEach(langaugeFolder => {
-    console.log(langaugeFolder.language_info.name, langaugeFolder.books.length);
+    //console.log(langaugeFolder.language_info.name, langaugeFolder.books.length);
   });
 
   var json = JSON.stringify(langaugeFolders, null, 2);
@@ -107,8 +119,8 @@ var rslChapter = {
   chapter_info: getObjectFromYAML(`${rslFolder}/info.yml`),
   pages: await getPages(rslFolder)
 };
-console.log(lslChapter)
-console.log(rslChapter)
+//console.log(lslChapter)
+//console.log(rslChapter)
 
 //var lslChapterFilePath = `${lslFolder}/p9n-chapter.html`;
 //var rslChapterFilePath = `${rslFolder}/p9n-chapter.html`;
@@ -126,7 +138,8 @@ for(var pgx=0; pgx < lslChapter.pages.length; pgx++) {
   
     var htmlFilePath = `${chapterPath}${lslPages.page_title.replace('.md', '')}.html`;
     
-    var parallelGraph = [];
+    var lslParagraphs = [];
+    var rslParagraphs = [];
     var maxLength = Math.max(lslPages.paragraphs.length, rslPages.paragraphs.length);
     for(var parx = 0; parx < maxLength; parx++) {
       var lslHtml = '';
@@ -158,15 +171,29 @@ for(var pgx=0; pgx < lslChapter.pages.length; pgx++) {
           rslHtml += rslParagraph.paragraph_html;
       }
   
-      if(lslHtml != '' || rslHtml !== '') {
+      if(lslHtml != '') {
+        lslParagraphs.push(lslHtml);
+      }
+
+      if(rslHtml !== '') {
+        rslParagraphs.push(rslHtml);
+      }
+    }
+    var parallelGraph = [];
+    maxLength = Math.max(lslParagraphs.length, rslParagraphs.length);
+    for(var parx = 0; parx < maxLength; parx++) {
+      
+      if(lslParagraphs[parx] !== '' || rslParagraphs[parx] !== '') {
         parallelGraph.push({
-          lslHtml: lslHtml,
-          rslHtml: rslHtml
+          lslHtml: lslParagraphs[parx] === undefined ? '' : lslParagraphs[parx],
+          rslHtml: rslParagraphs[parx] === undefined ? '' : rslParagraphs[parx]
         }
         );
       }
     }
-  
+
+    //console.log(parallelGraph);
+
     html += `
     <html>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
@@ -181,18 +208,22 @@ for(var pgx=0; pgx < lslChapter.pages.length; pgx++) {
     }
     </style>
       <body>
-        <table width="100%" border="1" cellpadding="0" cellspacing="0">
-          <tr>
-            <th width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;"><a target="_blank" href="">${lslLanguage}</a></th>
-            <th width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;"><a target="_blank" href="">${rslLanguage}</a></th>
-          </tr>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2">
     `;
   
     for(var parx = 0; parx < parallelGraph.length; parx++) {
       html += `
       <tr>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">${parallelGraph[parx].lslHtml.replace('\n', '').replace('&lt;p&gt;', '<b>').replace('&lt;/p&gt;', '</b>')}</td>
-        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">${parallelGraph[parx].rslHtml.replace('\n', '').replace('&lt;p&gt;', '<b>').replace('&lt;/p&gt;', '</b>')}</td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="${lslLangDir}">
+        ${parallelGraph[parx].lslHtml.replace('\n', '').replace('&lt;p&gt;', '<b>').replace('&lt;/p&gt;', '</b>')}
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="${rslLangDir}">
+        ${parallelGraph[parx].rslHtml.replace('\n', '').replace('&lt;p&gt;', '<b>').replace('&lt;/p&gt;', '</b>')}
+        </div>
+        </td>
       </tr>
   `;
     }
@@ -200,6 +231,22 @@ for(var pgx=0; pgx < lslChapter.pages.length; pgx++) {
   
   
   html += `
+
+  <tr>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+    NOTES: <a target="_blank" href="">${lslLanguage}</a>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+  </td>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+    NOTES: <a target="_blank" href="">${rslLanguage}</a>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+  </td>
+</tr>
+
     </table>
   </body>
   </html>

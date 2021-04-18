@@ -121,6 +121,10 @@ Goals:
 - Audio?
 - Notes lines?
 
+# Book of Mormon - languages
+
+[Book of Mormon - Select a Language](https://www.churchofjesuschrist.org/languages?lang=eng)
+
 First steps
 - GitHub repo - public
 - Stack
