@@ -1,0 +1,245 @@
+
+    <html>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <script>
+    function unhighlight(x, word) {
+      x.style.color = "navy"
+      x.style.backgroundColor = "transparent"
+      console.log(word)
+    }
+    
+    function highlight(x, word) {
+      x.style.color = "yellow"
+      x.style.backgroundColor = "green"
+    }
+    </script>
+    <style>
+    
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+      cursor: hand;
+    }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
+
+    .fulljustify {
+      text-align: justify;
+    }
+    .fulljustify:after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+    }
+    </style>
+      <body>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2">
+    
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        ' <div class="tooltip">An<span class="tooltiptext">eine</span></div> <div class="tooltip">Everlasting<span class="tooltiptext">immerwährend</span></div> <div class="tooltip">Covenant<span class="tooltiptext">Kovendel</span></div> ' 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">Ein<span class="tooltiptext">a</span></div> <div class="tooltip">ewiger<span class="tooltiptext">eternal</span></div> <div class="tooltip">Bund<span class="tooltiptext">bundes</span></div> 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        17 / 04 / 2021 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        17 / 04 / 2021 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">Read<span class="tooltiptext">lesen</span></div> <div class="tooltip">for<span class="tooltiptext">für</span></div> <div class="tooltip">This<span class="tooltiptext">das</span></div> <div class="tooltip">Week’s<span class="tooltiptext">Wochen</span></div> <div class="tooltip">Study<span class="tooltiptext">Studien</span></div> 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">Lies<span class="tooltiptext">read more</span></div> <div class="tooltip">für<span class="tooltiptext">for</span></div> <div class="tooltip">das<span class="tooltiptext">the</span></div> <div class="tooltip">Studium<span class="tooltiptext">Study</span></div> <div class="tooltip">dieser<span class="tooltiptext">the</span></div> <div class="tooltip">Woche<span class="tooltiptext">Week</span></div> 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">Exod<span class="tooltiptext">extrudiert</span></div> . 3 : 14 ; <div class="tooltip">Gen<span class="tooltiptext">Gen</span></div> . 17 : 1 – 6 ; Gen . 41 : 45 ; <div class="tooltip">Dan<span class="tooltiptext">Damm</span></div> . 1 : 7 ; Gen . 15 : 7 – 18 ; Gen . 17 : 1 – 14 ; <div class="tooltip">Rev<span class="tooltiptext">R</span></div> . 14 : 6 , 7 . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">Mose<span class="tooltiptext">maturation</span></div> 3 , 14 ; 1 . Mose 17 , 1 – 6 ; 41 , 45 ; <div class="tooltip">Daniel<span class="tooltiptext">daniel</span></div> 1 , 7 ; 1 . Mose 15 , 7 – 18 ; 17 , 1 – 14 ; <div class="tooltip">Offenbarung<span class="tooltiptext">manifestation</span></div> 14 , 6 – 7 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">&lt<span class="tooltiptext">&lt; &gt;</span></div> ; <div class="tooltip">p&gt<span class="tooltiptext">P&gt</span></div> ; <div class="tooltip">Memory<span class="tooltiptext">Speicher</span></div> <div class="tooltip">Text&lt<span class="tooltiptext">Text &lt;</span></div> ; / p&gt ; 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">&lt<span class="tooltiptext">&lt;</span></div> ; <div class="tooltip">p&gt<span class="tooltiptext">P&A</span></div> ; <div class="tooltip">Merktext&lt<span class="tooltiptext">Note</span></div> ; / p&gt ; 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        “ <div class="tooltip">‘I<span class="tooltiptext">„i</span></div> <div class="tooltip">[God]<span class="tooltiptext">(Gott)</span></div> <div class="tooltip">will<span class="tooltiptext">wird</span></div> <div class="tooltip">establish<span class="tooltiptext">Durchführung</span></div> <div class="tooltip">my<span class="tooltiptext">meine ich</span></div> covenant <div class="tooltip">between<span class="tooltiptext">zwischen</span></div> <div class="tooltip">me<span class="tooltiptext">ich</span></div> <div class="tooltip">and<span class="tooltiptext">und</span></div> <div class="tooltip">you<span class="tooltiptext">du</span></div> <div class="tooltip">[Abraham]<span class="tooltiptext">(Abraham)</span></div> and <div class="tooltip">your<span class="tooltiptext">Ihr</span></div> <div class="tooltip">descendants<span class="tooltiptext">Nachkommen</span></div> <div class="tooltip">after<span class="tooltiptext">nach</span></div> you <div class="tooltip">throughout<span class="tooltiptext">in</span></div> <div class="tooltip">their<span class="tooltiptext">ihr</span></div> <div class="tooltip">generations<span class="tooltiptext">Generationen</span></div> for an everlasting covenant , <div class="tooltip">to<span class="tooltiptext">bis</span></div> <div class="tooltip">be<span class="tooltiptext">werden</span></div> <div class="tooltip">God<span class="tooltiptext">Gott</span></div> to you and to your descendants after <div class="tooltip">you”<span class="tooltiptext">du“</span></div> ( <div class="tooltip">Genesis<span class="tooltiptext">Genesung</span></div> 17 : 7 , <div class="tooltip">RSV<span class="tooltiptext">rsv</span></div> ) . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">Und<span class="tooltiptext">and</span></div> <div class="tooltip">ich<span class="tooltiptext">I</span></div> <div class="tooltip">[Gott]<span class="tooltiptext">[God]</span></div> <div class="tooltip">will<span class="tooltiptext">will</span></div> <div class="tooltip">aufrichten<span class="tooltiptext">erect</span></div> <div class="tooltip">meinen<span class="tooltiptext">I</span></div> Bund <div class="tooltip">zwischen<span class="tooltiptext">between</span></div> <div class="tooltip">mir<span class="tooltiptext">me</span></div> und <div class="tooltip">dir<span class="tooltiptext">You</span></div> <div class="tooltip">[Abraham]<span class="tooltiptext">[abraham]</span></div> und <div class="tooltip">deinen<span class="tooltiptext">Your</span></div> <div class="tooltip">Nachkommen<span class="tooltiptext">accommodating</span></div> <div class="tooltip">von<span class="tooltiptext">of</span></div> <div class="tooltip">Geschlecht<span class="tooltiptext">Smooth</span></div> <div class="tooltip">zu<span class="tooltiptext">to</span></div> Geschlecht , <div class="tooltip">dass<span class="tooltiptext">that</span></div> <div class="tooltip">es<span class="tooltiptext">it</span></div> ein ewiger Bund <div class="tooltip">sei<span class="tooltiptext">the</span></div> , <div class="tooltip">sodass<span class="tooltiptext">so</span></div> ich <div class="tooltip">dein<span class="tooltiptext">you</span></div> und <div class="tooltip">deiner<span class="tooltiptext">Yours</span></div> Nachkommen <div class="tooltip">Gott<span class="tooltiptext">God</span></div> <div class="tooltip">bin<span class="tooltiptext">I am</span></div> . ( 1 <div class="tooltip">Mo<span class="tooltiptext">the</span></div> 17 , 7 ) 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">How<span class="tooltiptext">wie</span></div> <div class="tooltip">many<span class="tooltiptext">viele</span></div> <div class="tooltip">remember<span class="tooltiptext">Erinnern Sie sich daran</span></div> <div class="tooltip">distinctly<span class="tooltiptext">deutlich</span></div> <div class="tooltip">in<span class="tooltiptext">in</span></div> <div class="tooltip">our<span class="tooltiptext">unsere</span></div> <div class="tooltip">childhood<span class="tooltiptext">Kindheit</span></div> <div class="tooltip">a<span class="tooltiptext">eine</span></div> <div class="tooltip">sickness<span class="tooltiptext">Krankheit</span></div> <div class="tooltip">or<span class="tooltiptext">oder</span></div> a <div class="tooltip">touch<span class="tooltiptext">Kontakt</span></div> <div class="tooltip">of<span class="tooltiptext">von</span></div> <div class="tooltip">pneumonia<span class="tooltiptext">Lenz</span></div> <div class="tooltip">that<span class="tooltiptext">dass</span></div> <div class="tooltip">made<span class="tooltiptext">hergestellt</span></div> <div class="tooltip">us<span class="tooltiptext">wir</span></div> <div class="tooltip">very<span class="tooltiptext">sehr</span></div> <div class="tooltip">sick<span class="tooltiptext">krank</span></div> , <div class="tooltip">with<span class="tooltiptext">mit</span></div> <div class="tooltip">the<span class="tooltiptext">die</span></div> <div class="tooltip">potential<span class="tooltiptext">Potenzial</span></div> for <div class="tooltip">something<span class="tooltiptext">Was?</span></div> <div class="tooltip">even<span class="tooltiptext">sogar</span></div> <div class="tooltip">worse<span class="tooltiptext">!</span></div> ? In the <div class="tooltip">long<span class="tooltiptext">lang</span></div> <div class="tooltip">feverish<span class="tooltiptext">Fieber</span></div> <div class="tooltip">night<span class="tooltiptext">Nacht</span></div> , <div class="tooltip">we<span class="tooltiptext">wir</span></div> <div class="tooltip">would<span class="tooltiptext">würde</span></div> <div class="tooltip">awaken<span class="tooltiptext">Erwachen</span></div> <div class="tooltip">from<span class="tooltiptext">von</span></div> a <div class="tooltip">half<span class="tooltiptext">Hälfte</span></div> <div class="tooltip">sleep<span class="tooltiptext">Schlaf</span></div> to <div class="tooltip">see<span class="tooltiptext">siehe</span></div> our <div class="tooltip">mother<span class="tooltiptext">Mutter</span></div> or <div class="tooltip">father<span class="tooltiptext">Vater</span></div> <div class="tooltip">sitting<span class="tooltiptext">Sitzung</span></div> in a <div class="tooltip">chair<span class="tooltiptext">Stuhl</span></div> <div class="tooltip">beside<span class="tooltiptext">Neben</span></div> our <div class="tooltip">bed<span class="tooltiptext">Bett</span></div> in the <div class="tooltip">soft<span class="tooltiptext">weich</span></div> <div class="tooltip">glow<span class="tooltiptext">Glühen</span></div> of the <div class="tooltip">night-light<span class="tooltiptext">Nachtlicht</span></div> . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">Wer<span class="tooltiptext">who</span></div> <div class="tooltip">kann<span class="tooltiptext">can</span></div> <div class="tooltip">sich<span class="tooltiptext">and</span></div> <div class="tooltip">noch<span class="tooltiptext">still</span></div> <div class="tooltip">deutlich<span class="tooltiptext">clearly</span></div> <div class="tooltip">an<span class="tooltiptext">on</span></div> <div class="tooltip">eine<span class="tooltiptext">a</span></div> <div class="tooltip">Krankheit<span class="tooltiptext">Health</span></div> <div class="tooltip">oder<span class="tooltiptext">or</span></div> eine <div class="tooltip">leichte<span class="tooltiptext">light</span></div> <div class="tooltip">Lungenentzündung<span class="tooltiptext">pneumonia</span></div> <div class="tooltip">in<span class="tooltiptext">in</span></div> <div class="tooltip">der<span class="tooltiptext">the</span></div> <div class="tooltip">Kindheit<span class="tooltiptext">child</span></div> <div class="tooltip">erinnern<span class="tooltiptext">remember</span></div> , <div class="tooltip">die<span class="tooltiptext">the</span></div> <div class="tooltip">uns<span class="tooltiptext">us</span></div> <div class="tooltip">schwer<span class="tooltiptext">difficult</span></div> zu <div class="tooltip">schaffen<span class="tooltiptext">create</span></div> <div class="tooltip">machte<span class="tooltiptext">made</span></div> und <div class="tooltip">auch<span class="tooltiptext">also</span></div> <div class="tooltip">schlimm<span class="tooltiptext">Dangerous</span></div> <div class="tooltip">hätte<span class="tooltiptext">had</span></div> <div class="tooltip">ausgehen<span class="tooltiptext">Goals</span></div> <div class="tooltip">können<span class="tooltiptext">can be</span></div> ? <div class="tooltip">Wenn<span class="tooltiptext">where:</span></div> <div class="tooltip">wir<span class="tooltiptext">we have</span></div> <div class="tooltip">dann<span class="tooltiptext">then</span></div> in <div class="tooltip">einer<span class="tooltiptext">a</span></div> <div class="tooltip">langen<span class="tooltiptext">long</span></div> <div class="tooltip">Fiebernacht<span class="tooltiptext">arrogant</span></div> <div class="tooltip">aus<span class="tooltiptext">Of a kind used in the manufacture of a product,</span></div> <div class="tooltip">dem<span class="tooltiptext">the</span></div> <div class="tooltip">Halbschlaf<span class="tooltiptext">half sleep</span></div> <div class="tooltip">erwachten<span class="tooltiptext">awakened</span></div> , <div class="tooltip">sahen<span class="tooltiptext">see</span></div> wir <div class="tooltip">im<span class="tooltiptext">the</span></div> <div class="tooltip">sanften<span class="tooltiptext">gentle</span></div> <div class="tooltip">Schein<span class="tooltiptext">ikea</span></div> <div class="tooltip">des<span class="tooltiptext">the</span></div> <div class="tooltip">Nachtlichts<span class="tooltiptext">Night light</span></div> <div class="tooltip">Mutter<span class="tooltiptext">Mother</span></div> oder <div class="tooltip">Vater<span class="tooltiptext">vater</span></div> <div class="tooltip">auf<span class="tooltiptext">on</span></div> <div class="tooltip">einem<span class="tooltiptext">a</span></div> <div class="tooltip">Stuhl<span class="tooltiptext">chair</span></div> an <div class="tooltip">unserem<span class="tooltiptext">our</span></div> <div class="tooltip">Bett<span class="tooltiptext">bed</span></div> <div class="tooltip">sitzen<span class="tooltiptext">sitting</span></div> . 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">Just<span class="tooltiptext">Nur</span></div> <div class="tooltip">so<span class="tooltiptext">so</span></div> , in a <div class="tooltip">figurative<span class="tooltiptext">figurativ</span></div> , <div class="tooltip">human<span class="tooltiptext">Menschen</span></div> <div class="tooltip">sense<span class="tooltiptext">Sinn</span></div> , God <div class="tooltip">sat<span class="tooltiptext">mit einem Gehalt an</span></div> <div class="tooltip">by<span class="tooltiptext">von</span></div> the <div class="tooltip">bedside<span class="tooltiptext">Nacht</span></div> of a <div class="tooltip">sin-sick<span class="tooltiptext">Sinus-sick</span></div> <div class="tooltip">world<span class="tooltiptext">Welt</span></div> <div class="tooltip">as<span class="tooltiptext">wie</span></div> <div class="tooltip">moral<span class="tooltiptext">Moral</span></div> <div class="tooltip">darkness<span class="tooltiptext">Dunkelheit</span></div> <div class="tooltip">began<span class="tooltiptext">begann</span></div> to <div class="tooltip">deepen<span class="tooltiptext">vertieft</span></div> in the <div class="tooltip">centuries<span class="tooltiptext">Jahrhunderte</span></div> after the <div class="tooltip">Flood<span class="tooltiptext">Flut</span></div> . For this <div class="tooltip">reason<span class="tooltiptext">Grund</span></div> , <div class="tooltip">He<span class="tooltiptext">er</span></div> <div class="tooltip">called<span class="tooltiptext">genannt</span></div> <div class="tooltip">out<span class="tooltiptext">Raus!</span></div> <div class="tooltip">Abram<span class="tooltiptext">Abram</span></div> and <div class="tooltip">planned<span class="tooltiptext">geplant</span></div> to establish <div class="tooltip">through<span class="tooltiptext">durch</span></div> <div class="tooltip">His<span class="tooltiptext">sein</span></div> <div class="tooltip">faithful<span class="tooltiptext">Gläubige</span></div> <div class="tooltip">servant<span class="tooltiptext">Knecht</span></div> a <div class="tooltip">people<span class="tooltiptext">Menschen</span></div> to <div class="tooltip">whom<span class="tooltiptext">wen</span></div> He <div class="tooltip">could<span class="tooltiptext">könnte</span></div> <div class="tooltip">entrust<span class="tooltiptext">!</span></div> a <div class="tooltip">knowledge<span class="tooltiptext">Wissen</span></div> of <div class="tooltip">Himself<span class="tooltiptext">selbst</span></div> and <div class="tooltip">give<span class="tooltiptext">geben</span></div> <div class="tooltip">salvation<span class="tooltiptext">Rettung</span></div> . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Im <div class="tooltip">übertragenen<span class="tooltiptext">transferred</span></div> , <div class="tooltip">menschlichen<span class="tooltiptext">Human</span></div> <div class="tooltip">Sinn<span class="tooltiptext">Senses</span></div> <div class="tooltip">saß<span class="tooltiptext">the</span></div> Gott <div class="tooltip">ebenso<span class="tooltiptext">and</span></div> <div class="tooltip">am<span class="tooltiptext">the</span></div> Bett einer <div class="tooltip">sündenkranken<span class="tooltiptext">sunsick</span></div> <div class="tooltip">Welt<span class="tooltiptext">World</span></div> , <div class="tooltip">als<span class="tooltiptext">as</span></div> die <div class="tooltip">moralische<span class="tooltiptext">morale</span></div> <div class="tooltip">Finsternis<span class="tooltiptext">insidious</span></div> in <div class="tooltip">den<span class="tooltiptext">the</span></div> <div class="tooltip">Jahrhunderten<span class="tooltiptext">centuries</span></div> <div class="tooltip">nach<span class="tooltiptext">After</span></div> der <div class="tooltip">Flut<span class="tooltiptext">flu</span></div> <div class="tooltip">wieder<span class="tooltiptext">again</span></div> <div class="tooltip">zunahm<span class="tooltiptext">Adopted by</span></div> . <div class="tooltip">Deshalb<span class="tooltiptext">therefore</span></div> <div class="tooltip">berief<span class="tooltiptext">cereal</span></div> <div class="tooltip">er<span class="tooltiptext">he</span></div> <div class="tooltip">Abram<span class="tooltiptext">abram</span></div> . <div class="tooltip">Durch<span class="tooltiptext">by</span></div> <div class="tooltip">diesen<span class="tooltiptext">the</span></div> <div class="tooltip">treuen<span class="tooltiptext">faithful</span></div> <div class="tooltip">Diener<span class="tooltiptext">the</span></div> <div class="tooltip">wollte<span class="tooltiptext">will you</span></div> er ein <div class="tooltip">Volk<span class="tooltiptext">vol.</span></div> <div class="tooltip">ins<span class="tooltiptext">in</span></div> <div class="tooltip">Leben<span class="tooltiptext">Live</span></div> <div class="tooltip">rufen<span class="tooltiptext">call</span></div> , dem er <div class="tooltip">Kenntnis<span class="tooltiptext">knowledge</span></div> <div class="tooltip">über<span class="tooltiptext">on</span></div> sich <div class="tooltip">selbst<span class="tooltiptext">self-sufficient</span></div> <div class="tooltip">anvertrauen<span class="tooltiptext">confide in</span></div> und <div class="tooltip">Erlösung<span class="tooltiptext">redemption</span></div> <div class="tooltip">gewähren<span class="tooltiptext">grant</span></div> <div class="tooltip">konnte<span class="tooltiptext">the</span></div> . 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">Therefore<span class="tooltiptext">daher</span></div> , God <div class="tooltip">entered<span class="tooltiptext">eingetragen</span></div> <div class="tooltip">into<span class="tooltiptext">in</span></div> a covenant with Abram and his <div class="tooltip">posterity<span class="tooltiptext">Posten</span></div> that <div class="tooltip">emphasized<span class="tooltiptext">betont</span></div> in <div class="tooltip">more<span class="tooltiptext">mehr</span></div> <div class="tooltip">detail<span class="tooltiptext">Details</span></div> the <div class="tooltip">divine<span class="tooltiptext">Göttlich</span></div> <div class="tooltip">plan<span class="tooltiptext">Plan</span></div> to <div class="tooltip">save<span class="tooltiptext">Speichern</span></div> <div class="tooltip">humankind<span class="tooltiptext">Menschen</span></div> from the <div class="tooltip">results<span class="tooltiptext">Ergebnisse</span></div> of <div class="tooltip">sin<span class="tooltiptext">Sünde</span></div> . The <div class="tooltip">Lord<span class="tooltiptext">Herr Präsident!</span></div> <div class="tooltip">was<span class="tooltiptext">war</span></div> <div class="tooltip">not<span class="tooltiptext">nicht</span></div> <div class="tooltip">going<span class="tooltiptext">und</span></div> to <div class="tooltip">leave<span class="tooltiptext">Urlaub</span></div> His world <div class="tooltip">unattended<span class="tooltiptext">unbeaufsichtigt</span></div> , not with <div class="tooltip">it<span class="tooltiptext">es</span></div> in <div class="tooltip">such<span class="tooltiptext">B.</span></div> <div class="tooltip">dire<span class="tooltiptext">Schmutz</span></div> <div class="tooltip">need<span class="tooltiptext">Notwendigkeit</span></div> . This <div class="tooltip">week<span class="tooltiptext">Woche</span></div> we will <div class="tooltip">look<span class="tooltiptext">Sieht aus</span></div> <div class="tooltip">at<span class="tooltiptext">bei</span></div> the <div class="tooltip">unfolding<span class="tooltiptext">Entfaltung</span></div> of more covenant <div class="tooltip">promises<span class="tooltiptext">Versprechen</span></div> . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Deshalb <div class="tooltip">betont<span class="tooltiptext">emphasis</span></div> der Bund , den Gott <div class="tooltip">mit<span class="tooltiptext">with</span></div> Abram und <div class="tooltip">seinen<span class="tooltiptext">his</span></div> Nachkommen <div class="tooltip">schloss<span class="tooltiptext">the castle</span></div> , <div class="tooltip">ausführlicher<span class="tooltiptext">more detailed</span></div> den <div class="tooltip">Plan<span class="tooltiptext">plan</span></div> <div class="tooltip">Gottes<span class="tooltiptext">God</span></div> , die <div class="tooltip">Menschen<span class="tooltiptext">men</span></div> von den <div class="tooltip">Folgen<span class="tooltiptext">follow</span></div> der <div class="tooltip">Sünde<span class="tooltiptext">sin</span></div> zu <div class="tooltip">retten<span class="tooltiptext">save</span></div> . Gott wollte die Welt in dieser <div class="tooltip">großen<span class="tooltiptext">large</span></div> <div class="tooltip">Not<span class="tooltiptext">Not applicable</span></div> <div class="tooltip">nicht<span class="tooltiptext">not</span></div> sich selbst <div class="tooltip">überlassen<span class="tooltiptext">left to right</span></div> . In dieser Woche <div class="tooltip">werden<span class="tooltiptext">they will</span></div> wir uns <div class="tooltip">eingehender<span class="tooltiptext">more detailed</span></div> mit den <div class="tooltip">Bundesverheißungen<span class="tooltiptext">federation promises</span></div> <div class="tooltip">befassen<span class="tooltiptext">Action</span></div> . 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        The Week at a <div class="tooltip">Glance<span class="tooltiptext">Blick</span></div> : <div class="tooltip">What<span class="tooltiptext">Was?</span></div> <div class="tooltip">is<span class="tooltiptext">ist</span></div> the <div class="tooltip">name<span class="tooltiptext">Name</span></div> of God ? What <div class="tooltip">does<span class="tooltiptext">sie</span></div> it <div class="tooltip">mean<span class="tooltiptext">Mittel</span></div> ? What was the <div class="tooltip">significance<span class="tooltiptext">Bedeutung</span></div> of the <div class="tooltip">names<span class="tooltiptext">Namen</span></div> God <div class="tooltip">used<span class="tooltiptext">verwendet</span></div> to <div class="tooltip">identify<span class="tooltiptext">Identifizierung</span></div> Himself to Abram ? What names <div class="tooltip">did<span class="tooltiptext">würde</span></div> He <div class="tooltip">use<span class="tooltiptext">Verwendung</span></div> to identify Himself ? <div class="tooltip">Why<span class="tooltiptext">Warum?</span></div> did God <div class="tooltip">change<span class="tooltiptext">Änderung</span></div> <div class="tooltip">Abram’s<span class="tooltiptext">Abrams</span></div> name to <div class="tooltip">Abraham<span class="tooltiptext">Abraham</span></div> ? Why <div class="tooltip">are<span class="tooltiptext">werden</span></div> names <div class="tooltip">important<span class="tooltiptext">wichtig</span></div> ? What <div class="tooltip">conditions<span class="tooltiptext">Bedingungen</span></div> , or <div class="tooltip">obligations<span class="tooltiptext">Verpflichtungen</span></div> , <div class="tooltip">were<span class="tooltiptext">würde</span></div> <div class="tooltip">attached<span class="tooltiptext">mit einem Gehalt an</span></div> to the covenant ? 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Die Woche im <div class="tooltip">Überblick<span class="tooltiptext">Overview</span></div> : <div class="tooltip">Wie<span class="tooltiptext">and</span></div> <div class="tooltip">lautet<span class="tooltiptext">read</span></div> der <div class="tooltip">Name<span class="tooltiptext">Name</span></div> Gottes ? <div class="tooltip">Was<span class="tooltiptext">what?</span></div> <div class="tooltip">bedeutet<span class="tooltiptext">means</span></div> er ? <div class="tooltip">Welche<span class="tooltiptext">the</span></div> <div class="tooltip">Bedeutung<span class="tooltiptext">meaning</span></div> <div class="tooltip">hatten<span class="tooltiptext">they had</span></div> die <div class="tooltip">Namen<span class="tooltiptext">name</span></div> , mit <div class="tooltip">denen<span class="tooltiptext">the</span></div> sich Gott Abram <div class="tooltip">offenbarte<span class="tooltiptext">disclosed</span></div> ? Mit <div class="tooltip">welchen<span class="tooltiptext">which</span></div> Namen offenbarte er sich ? <div class="tooltip">Weshalb<span class="tooltiptext">Why?</span></div> <div class="tooltip">änderte<span class="tooltiptext">changes</span></div> Gott <div class="tooltip">Abrams<span class="tooltiptext">abrams</span></div> Namen zu <div class="tooltip">Abraham<span class="tooltiptext">abraham</span></div> ? <div class="tooltip">Warum<span class="tooltiptext">Why?</span></div> <div class="tooltip">sind<span class="tooltiptext">are</span></div> Namen <div class="tooltip">wichtig<span class="tooltiptext">important</span></div> ? Welche <div class="tooltip">Bedingungen<span class="tooltiptext">Conditions</span></div> oder <div class="tooltip">Verpflichtungen<span class="tooltiptext">obligations</span></div> <div class="tooltip">waren<span class="tooltiptext">were</span></div> mit dem Bund <div class="tooltip">verknüpft<span class="tooltiptext">linked</span></div> ? 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">*Study<span class="tooltiptext">*</span></div> this week’s <div class="tooltip">lesson<span class="tooltiptext">Unterricht</span></div> to <div class="tooltip">prepare<span class="tooltiptext">Vorbereitung</span></div> for <div class="tooltip">Sabbath<span class="tooltiptext">Sabbat</span></div> , <div class="tooltip">April<span class="tooltiptext">Apr</span></div> 24 . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        * <div class="tooltip">Studiere<span class="tooltiptext">study</span></div> <div class="tooltip">diese<span class="tooltiptext">these</span></div> <div class="tooltip">Lektion<span class="tooltiptext">lection</span></div> <div class="tooltip">zur<span class="tooltiptext">the</span></div> <div class="tooltip">Vorbereitung<span class="tooltiptext">Preparation</span></div> auf <div class="tooltip">Sabbat<span class="tooltiptext">sabbatical</span></div> , den 24 . <div class="tooltip">April<span class="tooltiptext">april</span></div> . 
+        </div>
+        </td>
+      </tr>
+  
+<tr>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <div dir="ltl">
+  <u>Glossary:</u><br /><span>‘I: <b><i>„i</i></b></span>, <span>[Abraham]: <b><i>(Abraham)</i></b></span>, <span>[God]: <b><i>(Gott)</i></b></span>, <span>*Study: <b><i>*</i></b></span>, <span>&lt: <b><i>&lt; &gt;</i></b></span>, <span>a: <b><i>eine</i></b></span>, <span>Abraham: <b><i>Abraham</i></b></span>, <span>Abram: <b><i>Abram</i></b></span>, <span>Abram’s: <b><i>Abrams</i></b></span>, <span>after: <b><i>nach</i></b></span>, <span>An: <b><i>eine</i></b></span>, <span>and: <b><i>und</i></b></span>, <span>April: <b><i>Apr</i></b></span>, <span>are: <b><i>werden</i></b></span>, <span>as: <b><i>wie</i></b></span>, <span>at: <b><i>bei</i></b></span>, <span>attached: <b><i>mit einem Gehalt an</i></b></span>, <span>awaken: <b><i>Erwachen</i></b></span>, <span>be: <b><i>werden</i></b></span>, <span>bed: <b><i>Bett</i></b></span>, <span>bedside: <b><i>Nacht</i></b></span>, <span>began: <b><i>begann</i></b></span>, <span>beside: <b><i>Neben</i></b></span>, <span>between: <b><i>zwischen</i></b></span>, <span>by: <b><i>von</i></b></span>, <span>called: <b><i>genannt</i></b></span>, <span>centuries: <b><i>Jahrhunderte</i></b></span>, <span>chair: <b><i>Stuhl</i></b></span>, <span>change: <b><i>Änderung</i></b></span>, <span>childhood: <b><i>Kindheit</i></b></span>, <span>conditions: <b><i>Bedingungen</i></b></span>, <span>could: <b><i>könnte</i></b></span>, <span>Covenant: <b><i>Kovendel</i></b></span>, <span>Dan: <b><i>Damm</i></b></span>, <span>darkness: <b><i>Dunkelheit</i></b></span>, <span>deepen: <b><i>vertieft</i></b></span>, <span>descendants: <b><i>Nachkommen</i></b></span>, <span>detail: <b><i>Details</i></b></span>, <span>did: <b><i>würde</i></b></span>, <span>dire: <b><i>Schmutz</i></b></span>, <span>distinctly: <b><i>deutlich</i></b></span>, <span>divine: <b><i>Göttlich</i></b></span>, <span>does: <b><i>sie</i></b></span>, <span>emphasized: <b><i>betont</i></b></span>, <span>entered: <b><i>eingetragen</i></b></span>, <span>entrust: <b><i>!</i></b></span>, <span>establish: <b><i>Durchführung</i></b></span>, <span>even: <b><i>sogar</i></b></span>, <span>Everlasting: <b><i>immerwährend</i></b></span>, <span>Exod: <b><i>extrudiert</i></b></span>, <span>faithful: <b><i>Gläubige</i></b></span>, <span>father: <b><i>Vater</i></b></span>, <span>feverish: <b><i>Fieber</i></b></span>, <span>figurative: <b><i>figurativ</i></b></span>, <span>Flood: <b><i>Flut</i></b></span>, <span>for: <b><i>für</i></b></span>, <span>from: <b><i>von</i></b></span>, <span>Gen: <b><i>Gen</i></b></span>, <span>generations: <b><i>Generationen</i></b></span>, <span>Genesis: <b><i>Genesung</i></b></span>, <span>give: <b><i>geben</i></b></span>, <span>Glance: <b><i>Blick</i></b></span>, <span>glow: <b><i>Glühen</i></b></span>, <span>God: <b><i>Gott</i></b></span>, <span>going: <b><i>und</i></b></span>, <span>half: <b><i>Hälfte</i></b></span>, <span>He: <b><i>er</i></b></span>, <span>Himself: <b><i>selbst</i></b></span>, <span>His: <b><i>sein</i></b></span>, <span>How: <b><i>wie</i></b></span>, <span>human: <b><i>Menschen</i></b></span>, <span>humankind: <b><i>Menschen</i></b></span>, <span>identify: <b><i>Identifizierung</i></b></span>, <span>important: <b><i>wichtig</i></b></span>, <span>in: <b><i>in</i></b></span>, <span>into: <b><i>in</i></b></span>, <span>is: <b><i>ist</i></b></span>, <span>it: <b><i>es</i></b></span>, <span>Just: <b><i>Nur</i></b></span>, <span>knowledge: <b><i>Wissen</i></b></span>, <span>leave: <b><i>Urlaub</i></b></span>, <span>lesson: <b><i>Unterricht</i></b></span>, <span>long: <b><i>lang</i></b></span>, <span>look: <b><i>Sieht aus</i></b></span>, <span>Lord: <b><i>Herr Präsident!</i></b></span>, <span>made: <b><i>hergestellt</i></b></span>, <span>many: <b><i>viele</i></b></span>, <span>me: <b><i>ich</i></b></span>, <span>mean: <b><i>Mittel</i></b></span>, <span>Memory: <b><i>Speicher</i></b></span>, <span>moral: <b><i>Moral</i></b></span>, <span>more: <b><i>mehr</i></b></span>, <span>mother: <b><i>Mutter</i></b></span>, <span>my: <b><i>meine ich</i></b></span>, <span>name: <b><i>Name</i></b></span>, <span>names: <b><i>Namen</i></b></span>, <span>need: <b><i>Notwendigkeit</i></b></span>, <span>night: <b><i>Nacht</i></b></span>, <span>night-light: <b><i>Nachtlicht</i></b></span>, <span>not: <b><i>nicht</i></b></span>, <span>obligations: <b><i>Verpflichtungen</i></b></span>, <span>of: <b><i>von</i></b></span>, <span>or: <b><i>oder</i></b></span>, <span>our: <b><i>unsere</i></b></span>, <span>out: <b><i>Raus!</i></b></span>, <span>p&gt: <b><i>P&gt</i></b></span>, <span>people: <b><i>Menschen</i></b></span>, <span>plan: <b><i>Plan</i></b></span>, <span>planned: <b><i>geplant</i></b></span>, <span>pneumonia: <b><i>Lenz</i></b></span>, <span>posterity: <b><i>Posten</i></b></span>, <span>potential: <b><i>Potenzial</i></b></span>, <span>prepare: <b><i>Vorbereitung</i></b></span>, <span>promises: <b><i>Versprechen</i></b></span>, <span>Read: <b><i>lesen</i></b></span>, <span>reason: <b><i>Grund</i></b></span>, <span>remember: <b><i>Erinnern Sie sich daran</i></b></span>, <span>results: <b><i>Ergebnisse</i></b></span>, <span>Rev: <b><i>R</i></b></span>, <span>RSV: <b><i>rsv</i></b></span>, <span>Sabbath: <b><i>Sabbat</i></b></span>, <span>salvation: <b><i>Rettung</i></b></span>, <span>sat: <b><i>mit einem Gehalt an</i></b></span>, <span>save: <b><i>Speichern</i></b></span>, <span>see: <b><i>siehe</i></b></span>, <span>sense: <b><i>Sinn</i></b></span>, <span>servant: <b><i>Knecht</i></b></span>, <span>sick: <b><i>krank</i></b></span>, <span>sickness: <b><i>Krankheit</i></b></span>, <span>significance: <b><i>Bedeutung</i></b></span>, <span>sin: <b><i>Sünde</i></b></span>, <span>sin-sick: <b><i>Sinus-sick</i></b></span>, <span>sitting: <b><i>Sitzung</i></b></span>, <span>sleep: <b><i>Schlaf</i></b></span>, <span>so: <b><i>so</i></b></span>, <span>soft: <b><i>weich</i></b></span>, <span>something: <b><i>Was?</i></b></span>, <span>Study: <b><i>Studien</i></b></span>, <span>such: <b><i>B.</i></b></span>, <span>Text&lt: <b><i>Text &lt;</i></b></span>, <span>that: <b><i>dass</i></b></span>, <span>the: <b><i>die</i></b></span>, <span>their: <b><i>ihr</i></b></span>, <span>Therefore: <b><i>daher</i></b></span>, <span>This: <b><i>das</i></b></span>, <span>through: <b><i>durch</i></b></span>, <span>throughout: <b><i>in</i></b></span>, <span>to: <b><i>bis</i></b></span>, <span>touch: <b><i>Kontakt</i></b></span>, <span>unattended: <b><i>unbeaufsichtigt</i></b></span>, <span>unfolding: <b><i>Entfaltung</i></b></span>, <span>us: <b><i>wir</i></b></span>, <span>use: <b><i>Verwendung</i></b></span>, <span>used: <b><i>verwendet</i></b></span>, <span>very: <b><i>sehr</i></b></span>, <span>was: <b><i>war</i></b></span>, <span>we: <b><i>wir</i></b></span>, <span>week: <b><i>Woche</i></b></span>, <span>Week’s: <b><i>Wochen</i></b></span>, <span>were: <b><i>würde</i></b></span>, <span>What: <b><i>Was?</i></b></span>, <span>whom: <b><i>wen</i></b></span>, <span>Why: <b><i>Warum?</i></b></span>, <span>will: <b><i>wird</i></b></span>, <span>with: <b><i>mit</i></b></span>, <span>world: <b><i>Welt</i></b></span>, <span>worse: <b><i>!</i></b></span>, <span>would: <b><i>würde</i></b></span>, <span>you: <b><i>du</i></b></span>, <span>you”: <b><i>du“</i></b></span>, <span>your: <b><i>Ihr</i></b>
+  </div>
+  </td>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <div dir="ltr">
+  <u>Glossary:</u><br /><span>[Abraham]: <b><i>[abraham]</i></b></span>, <span>[Gott]: <b><i>[God]</i></b></span>, <span>&lt: <b><i>&lt;</i></b></span>, <span>Abraham: <b><i>abraham</i></b></span>, <span>Abram: <b><i>abram</i></b></span>, <span>Abrams: <b><i>abrams</i></b></span>, <span>als: <b><i>as</i></b></span>, <span>am: <b><i>the</i></b></span>, <span>an: <b><i>on</i></b></span>, <span>änderte: <b><i>changes</i></b></span>, <span>anvertrauen: <b><i>confide in</i></b></span>, <span>April: <b><i>april</i></b></span>, <span>auch: <b><i>also</i></b></span>, <span>auf: <b><i>on</i></b></span>, <span>aufrichten: <b><i>erect</i></b></span>, <span>aus: <b><i>Of a kind used in the manufacture of a product,</i></b></span>, <span>ausführlicher: <b><i>more detailed</i></b></span>, <span>ausgehen: <b><i>Goals</i></b></span>, <span>bedeutet: <b><i>means</i></b></span>, <span>Bedeutung: <b><i>meaning</i></b></span>, <span>Bedingungen: <b><i>Conditions</i></b></span>, <span>befassen: <b><i>Action</i></b></span>, <span>berief: <b><i>cereal</i></b></span>, <span>betont: <b><i>emphasis</i></b></span>, <span>Bett: <b><i>bed</i></b></span>, <span>bin: <b><i>I am</i></b></span>, <span>Bund: <b><i>bundes</i></b></span>, <span>Bundesverheißungen: <b><i>federation promises</i></b></span>, <span>Daniel: <b><i>daniel</i></b></span>, <span>dann: <b><i>then</i></b></span>, <span>das: <b><i>the</i></b></span>, <span>dass: <b><i>that</i></b></span>, <span>dein: <b><i>you</i></b></span>, <span>deinen: <b><i>Your</i></b></span>, <span>deiner: <b><i>Yours</i></b></span>, <span>dem: <b><i>the</i></b></span>, <span>den: <b><i>the</i></b></span>, <span>denen: <b><i>the</i></b></span>, <span>der: <b><i>the</i></b></span>, <span>des: <b><i>the</i></b></span>, <span>Deshalb: <b><i>therefore</i></b></span>, <span>deutlich: <b><i>clearly</i></b></span>, <span>die: <b><i>the</i></b></span>, <span>Diener: <b><i>the</i></b></span>, <span>diese: <b><i>these</i></b></span>, <span>diesen: <b><i>the</i></b></span>, <span>dieser: <b><i>the</i></b></span>, <span>dir: <b><i>You</i></b></span>, <span>Durch: <b><i>by</i></b></span>, <span>ebenso: <b><i>and</i></b></span>, <span>Ein: <b><i>a</i></b></span>, <span>eine: <b><i>a</i></b></span>, <span>einem: <b><i>a</i></b></span>, <span>einer: <b><i>a</i></b></span>, <span>eingehender: <b><i>more detailed</i></b></span>, <span>er: <b><i>he</i></b></span>, <span>erinnern: <b><i>remember</i></b></span>, <span>Erlösung: <b><i>redemption</i></b></span>, <span>erwachten: <b><i>awakened</i></b></span>, <span>es: <b><i>it</i></b></span>, <span>ewiger: <b><i>eternal</i></b></span>, <span>Fiebernacht: <b><i>arrogant</i></b></span>, <span>Finsternis: <b><i>insidious</i></b></span>, <span>Flut: <b><i>flu</i></b></span>, <span>Folgen: <b><i>follow</i></b></span>, <span>für: <b><i>for</i></b></span>, <span>Geschlecht: <b><i>Smooth</i></b></span>, <span>gewähren: <b><i>grant</i></b></span>, <span>Gott: <b><i>God</i></b></span>, <span>Gottes: <b><i>God</i></b></span>, <span>großen: <b><i>large</i></b></span>, <span>Halbschlaf: <b><i>half sleep</i></b></span>, <span>hätte: <b><i>had</i></b></span>, <span>hatten: <b><i>they had</i></b></span>, <span>ich: <b><i>I</i></b></span>, <span>im: <b><i>the</i></b></span>, <span>in: <b><i>in</i></b></span>, <span>ins: <b><i>in</i></b></span>, <span>Jahrhunderten: <b><i>centuries</i></b></span>, <span>kann: <b><i>can</i></b></span>, <span>Kenntnis: <b><i>knowledge</i></b></span>, <span>Kindheit: <b><i>child</i></b></span>, <span>können: <b><i>can be</i></b></span>, <span>konnte: <b><i>the</i></b></span>, <span>Krankheit: <b><i>Health</i></b></span>, <span>langen: <b><i>long</i></b></span>, <span>lautet: <b><i>read</i></b></span>, <span>Leben: <b><i>Live</i></b></span>, <span>leichte: <b><i>light</i></b></span>, <span>Lektion: <b><i>lection</i></b></span>, <span>Lies: <b><i>read more</i></b></span>, <span>Lungenentzündung: <b><i>pneumonia</i></b></span>, <span>machte: <b><i>made</i></b></span>, <span>meinen: <b><i>I</i></b></span>, <span>Menschen: <b><i>men</i></b></span>, <span>menschlichen: <b><i>Human</i></b></span>, <span>Merktext&lt: <b><i>Note</i></b></span>, <span>mir: <b><i>me</i></b></span>, <span>mit: <b><i>with</i></b></span>, <span>Mo: <b><i>the</i></b></span>, <span>moralische: <b><i>morale</i></b></span>, <span>Mose: <b><i>maturation</i></b></span>, <span>Mutter: <b><i>Mother</i></b></span>, <span>nach: <b><i>After</i></b></span>, <span>Nachkommen: <b><i>accommodating</i></b></span>, <span>Nachtlichts: <b><i>Night light</i></b></span>, <span>Name: <b><i>Name</i></b></span>, <span>Namen: <b><i>name</i></b></span>, <span>nicht: <b><i>not</i></b></span>, <span>noch: <b><i>still</i></b></span>, <span>Not: <b><i>Not applicable</i></b></span>, <span>oder: <b><i>or</i></b></span>, <span>offenbarte: <b><i>disclosed</i></b></span>, <span>Offenbarung: <b><i>manifestation</i></b></span>, <span>p&gt: <b><i>P&A</i></b></span>, <span>Plan: <b><i>plan</i></b></span>, <span>retten: <b><i>save</i></b></span>, <span>rufen: <b><i>call</i></b></span>, <span>Sabbat: <b><i>sabbatical</i></b></span>, <span>sahen: <b><i>see</i></b></span>, <span>sanften: <b><i>gentle</i></b></span>, <span>saß: <b><i>the</i></b></span>, <span>schaffen: <b><i>create</i></b></span>, <span>Schein: <b><i>ikea</i></b></span>, <span>schlimm: <b><i>Dangerous</i></b></span>, <span>schloss: <b><i>the castle</i></b></span>, <span>schwer: <b><i>difficult</i></b></span>, <span>sei: <b><i>the</i></b></span>, <span>seinen: <b><i>his</i></b></span>, <span>selbst: <b><i>self-sufficient</i></b></span>, <span>sich: <b><i>and</i></b></span>, <span>sind: <b><i>are</i></b></span>, <span>Sinn: <b><i>Senses</i></b></span>, <span>sitzen: <b><i>sitting</i></b></span>, <span>sodass: <b><i>so</i></b></span>, <span>Studiere: <b><i>study</i></b></span>, <span>Studium: <b><i>Study</i></b></span>, <span>Stuhl: <b><i>chair</i></b></span>, <span>Sünde: <b><i>sin</i></b></span>, <span>sündenkranken: <b><i>sunsick</i></b></span>, <span>treuen: <b><i>faithful</i></b></span>, <span>über: <b><i>on</i></b></span>, <span>Überblick: <b><i>Overview</i></b></span>, <span>überlassen: <b><i>left to right</i></b></span>, <span>übertragenen: <b><i>transferred</i></b></span>, <span>Und: <b><i>and</i></b></span>, <span>uns: <b><i>us</i></b></span>, <span>unserem: <b><i>our</i></b></span>, <span>Vater: <b><i>vater</i></b></span>, <span>verknüpft: <b><i>linked</i></b></span>, <span>Verpflichtungen: <b><i>obligations</i></b></span>, <span>Volk: <b><i>vol.</i></b></span>, <span>von: <b><i>of</i></b></span>, <span>Vorbereitung: <b><i>Preparation</i></b></span>, <span>waren: <b><i>were</i></b></span>, <span>Warum: <b><i>Why?</i></b></span>, <span>Was: <b><i>what?</i></b></span>, <span>Welche: <b><i>the</i></b></span>, <span>welchen: <b><i>which</i></b></span>, <span>Welt: <b><i>World</i></b></span>, <span>Wenn: <b><i>where:</i></b></span>, <span>Wer: <b><i>who</i></b></span>, <span>werden: <b><i>they will</i></b></span>, <span>Weshalb: <b><i>Why?</i></b></span>, <span>wichtig: <b><i>important</i></b></span>, <span>Wie: <b><i>and</i></b></span>, <span>wieder: <b><i>again</i></b></span>, <span>will: <b><i>will</i></b></span>, <span>wir: <b><i>we have</i></b></span>, <span>Woche: <b><i>Week</i></b></span>, <span>wollte: <b><i>will you</i></b></span>, <span>zu: <b><i>to</i></b></span>, <span>zunahm: <b><i>Adopted by</i></b></span>, <span>zur: <b><i>the</i></b></span>, <span>zwischen: <b><i>between</i></b>
+  </div>
+  </td>
+</tr>
+
+
+  <tr>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+    NOTES: <a target="_blank" href="">en</a>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+  </td>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+    NOTES: <a target="_blank" href="">de</a>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+  </td>
+</tr>
+
+    </table>
+  </body>
+  </html>
+  

@@ -1,0 +1,258 @@
+
+    <html>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <script>
+    function unhighlight(x, word) {
+      x.style.color = "navy"
+      x.style.backgroundColor = "transparent"
+      console.log(word)
+    }
+    
+    function highlight(x, word) {
+      x.style.color = "yellow"
+      x.style.backgroundColor = "green"
+    }
+    </script>
+    <style>
+    
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+      cursor: hand;
+    }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
+
+    .fulljustify {
+      text-align: justify;
+    }
+    .fulljustify:after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+    }
+    </style>
+      <body>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2">
+    
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">Une<span class="tooltiptext">один</span></div> <div class="tooltip">alliance<span class="tooltiptext">Альянс</span></div> <div class="tooltip">perpétuelle<span class="tooltiptext">вечный</span></div> 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">Вечный<span class="tooltiptext">éternel</span></div> <div class="tooltip">завет<span class="tooltiptext">Lumière</span></div> 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        17 / 04 / 2021 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        17 / 04 / 2021 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">Sabbat<span class="tooltiptext">Саббат</span></div> <div class="tooltip">Après-Midi<span class="tooltiptext">п.м.</span></div> 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">Библейские<span class="tooltiptext">Bibles</span></div> <div class="tooltip">тексты<span class="tooltiptext">textes</span></div> <div class="tooltip">для<span class="tooltiptext">for</span></div> <div class="tooltip">исследования<span class="tooltiptext">Recherche</span></div> 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">Lecture<span class="tooltiptext">читать</span></div> <div class="tooltip">de<span class="tooltiptext">де</span></div> <div class="tooltip">la<span class="tooltiptext">и</span></div> <div class="tooltip">semaine<span class="tooltiptext">недели</span></div> 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">Исх<span class="tooltiptext">?</span></div> . 3 : 14 ; <div class="tooltip">Быт<span class="tooltiptext">J'adorerais.</span></div> . 17 : 1 <div class="tooltip">–<span class="tooltiptext">(Grognements)</span></div> 6 ; Быт . 41 : 45 ; <div class="tooltip">Дан<span class="tooltiptext">délivrées</span></div> . 1 : 7 ; Быт . 15 : 7 – 18 ; Быт . 17 : 1 – 14 ; <div class="tooltip">Откр<span class="tooltiptext">O.</span></div> . 14 : 6 , 7 . 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">Exo<span class="tooltiptext">эксо</span></div> . 3 : 14 ; <div class="tooltip">Gen<span class="tooltiptext">колено</span></div> . 17 : 1 - 6 ; Gen . 41 : 45 ; <div class="tooltip">Dan<span class="tooltiptext">дан</span></div> . 1 : 7 ; Gen . 15 : 7 - 18 ; Gen . 17 : 1 - 14 ; <div class="tooltip">Apoc<span class="tooltiptext">апоц</span></div> . 14 : 6 , 7 . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">&lt<span class="tooltiptext">&quot;</span></div> ; <div class="tooltip">p&gt<span class="tooltiptext">p.</span></div> ; <div class="tooltip">Памятный<span class="tooltiptext">Mémoire</span></div> <div class="tooltip">стих&lt<span class="tooltiptext">cverse</span></div> ; / p&gt ; 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">&lt<span class="tooltiptext">&quot;</span></div> ; <div class="tooltip">p&gt<span class="tooltiptext">Пквот</span></div> ; <div class="tooltip">Verset<span class="tooltiptext">стих</span></div> <div class="tooltip">à<span class="tooltiptext">в</span></div> <div class="tooltip">mémoriser&lt<span class="tooltiptext">запомнить</span></div> ; / p&gt ; 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">«И<span class="tooltiptext">“</span></div> <div class="tooltip">поставлю<span class="tooltiptext">Je le ferai.</span></div> завет <div class="tooltip">Мой<span class="tooltiptext">mine</span></div> <div class="tooltip">между<span class="tooltiptext">entre</span></div> <div class="tooltip">Мною<span class="tooltiptext">Je le suis.</span></div> <div class="tooltip">и<span class="tooltiptext">et</span></div> <div class="tooltip">тобою<span class="tooltiptext">Toi.</span></div> <div class="tooltip">[Авраамом]<span class="tooltiptext">[Abraham]</span></div> и между <div class="tooltip">потомками<span class="tooltiptext">descendants</span></div> <div class="tooltip">твоими<span class="tooltiptext">Le vôtre.</span></div> <div class="tooltip">после<span class="tooltiptext">après</span></div> <div class="tooltip">тебя<span class="tooltiptext">Toi.</span></div> <div class="tooltip">в<span class="tooltiptext">Total</span></div> <div class="tooltip">роды<span class="tooltiptext">naissance</span></div> <div class="tooltip">их<span class="tooltiptext">de leurs propres</span></div> , завет вечный в <div class="tooltip">том<span class="tooltiptext">volume</span></div> , <div class="tooltip">что<span class="tooltiptext">Quoi ?</span></div> <div class="tooltip">Я<span class="tooltiptext">Je le suis.</span></div> <div class="tooltip">буду<span class="tooltiptext">Je le ferai.</span></div> <div class="tooltip">Богом<span class="tooltiptext">Dieu</span></div> <div class="tooltip">твоим<span class="tooltiptext">le vôtre</span></div> и <div class="tooltip">потомков<span class="tooltiptext">descendants</span></div> <div class="tooltip">твоих<span class="tooltiptext">de la vôtre</span></div> после <div class="tooltip">тебя»<span class="tooltiptext">&quot;</span></div> ( Быт . 17 : 7 ) . 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        « <div class="tooltip">J’établirai<span class="tooltiptext">Я установим</span></div> <div class="tooltip">Mon<span class="tooltiptext">ЛЕКА</span></div> alliance <div class="tooltip">entre<span class="tooltiptext">между</span></div> <div class="tooltip">Moi<span class="tooltiptext">Я</span></div> <div class="tooltip">et<span class="tooltiptext">и</span></div> <div class="tooltip">toi<span class="tooltiptext">Вы</span></div> <div class="tooltip">[Abraham]<span class="tooltiptext">[абрахам]</span></div> , et <div class="tooltip">tes<span class="tooltiptext">Ваш</span></div> <div class="tooltip">descendants<span class="tooltiptext">потомки</span></div> <div class="tooltip">après<span class="tooltiptext">после</span></div> toi , <div class="tooltip">selon<span class="tooltiptext">по</span></div> <div class="tooltip">leurs<span class="tooltiptext">их</span></div> <div class="tooltip">générations<span class="tooltiptext">поколения</span></div> : <div class="tooltip">ce<span class="tooltiptext">ЛЕКА</span></div> <div class="tooltip">sera<span class="tooltiptext">будет</span></div> une alliance perpétuelle , <div class="tooltip">en<span class="tooltiptext">Зарегистрироваться</span></div> <div class="tooltip">vertu<span class="tooltiptext">добродетель</span></div> de <div class="tooltip">laquelle<span class="tooltiptext">который</span></div> <div class="tooltip">Je<span class="tooltiptext">Я.</span></div> <div class="tooltip">serai<span class="tooltiptext">ЛЕКА</span></div> <div class="tooltip">ton<span class="tooltiptext">ЛЕКА</span></div> <div class="tooltip">Dieu<span class="tooltiptext">Бог.</span></div> et <div class="tooltip">celui<span class="tooltiptext">один</span></div> de <div class="tooltip">ta<span class="tooltiptext">ваш</span></div> <div class="tooltip">postérité<span class="tooltiptext">Постерство</span></div> après toi » ( <div class="tooltip">Genèse<span class="tooltiptext">Генезис</span></div> 17 : 7 , <div class="tooltip">LSG<span class="tooltiptext">лсг</span></div> ) . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">Ключевые<span class="tooltiptext">Key</span></div> <div class="tooltip">вопросы<span class="tooltiptext">questions</span></div> : 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">Combien<span class="tooltiptext">Сколько</span></div> <div class="tooltip">se<span class="tooltiptext">ЛЕКА</span></div> <div class="tooltip">souviennent<span class="tooltiptext">ЛЕКА</span></div> <div class="tooltip">distinctement<span class="tooltiptext">отличительно</span></div> , <div class="tooltip">dans<span class="tooltiptext">в</span></div> <div class="tooltip">leur<span class="tooltiptext">их</span></div> <div class="tooltip">enfance<span class="tooltiptext">детство</span></div> , <div class="tooltip">d’une<span class="tooltiptext">д’уне</span></div> <div class="tooltip">maladie<span class="tooltiptext">заболевание</span></div> <div class="tooltip">ou<span class="tooltiptext">или</span></div> <div class="tooltip">d’un<span class="tooltiptext">д’ун</span></div> <div class="tooltip">peu<span class="tooltiptext">немного</span></div> de <div class="tooltip">pneumonie<span class="tooltiptext">пневмония</span></div> <div class="tooltip">qui<span class="tooltiptext">кто</span></div> <div class="tooltip">les<span class="tooltiptext">ЛЕКА</span></div> <div class="tooltip">a<span class="tooltiptext">а</span></div> <div class="tooltip">rendus<span class="tooltiptext">рендеринг</span></div> <div class="tooltip">très<span class="tooltiptext">очень</span></div> <div class="tooltip">malades<span class="tooltiptext">боль</span></div> , <div class="tooltip">avec<span class="tooltiptext">с</span></div> la <div class="tooltip">possibilité<span class="tooltiptext">возможность</span></div> de <div class="tooltip">quelque<span class="tooltiptext">что-то</span></div> <div class="tooltip">chose<span class="tooltiptext">Что-то</span></div> <div class="tooltip">d’encore<span class="tooltiptext">еще</span></div> <div class="tooltip">pire<span class="tooltiptext">хуже</span></div> ? <div class="tooltip">Pendant<span class="tooltiptext">во время</span></div> la <div class="tooltip">longue<span class="tooltiptext">долго</span></div> <div class="tooltip">nuit<span class="tooltiptext">ночь</span></div> <div class="tooltip">fébrile<span class="tooltiptext">фебрайл</span></div> , <div class="tooltip">nous<span class="tooltiptext">мы</span></div> nous <div class="tooltip">réveillions<span class="tooltiptext">Мы просыпаемся</span></div> d’un <div class="tooltip">demi-sommeil<span class="tooltiptext">полусоммиил</span></div> <div class="tooltip">pour<span class="tooltiptext">для</span></div> <div class="tooltip">voir<span class="tooltiptext">посмотреть</span></div> <div class="tooltip">notre<span class="tooltiptext">наши</span></div> <div class="tooltip">mère<span class="tooltiptext">мать</span></div> ou notre <div class="tooltip">père<span class="tooltiptext">отец</span></div> <div class="tooltip">assis<span class="tooltiptext">сидения</span></div> <div class="tooltip">sur<span class="tooltiptext">на</span></div> une <div class="tooltip">chaise<span class="tooltiptext">стул</span></div> à <div class="tooltip">côté<span class="tooltiptext">сторона</span></div> de notre <div class="tooltip">lit<span class="tooltiptext">кровать</span></div> dans la <div class="tooltip">douce<span class="tooltiptext">мягкий</span></div> <div class="tooltip">lueur<span class="tooltiptext">свет</span></div> de la <div class="tooltip">veilleuse<span class="tooltiptext">смотреть</span></div> . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">Каково<span class="tooltiptext">Comment</span></div> <div class="tooltip">Божье<span class="tooltiptext">Dieu</span></div> <div class="tooltip">имя<span class="tooltiptext">Nom</span></div> ? Что <div class="tooltip">оно<span class="tooltiptext">C'est vrai.</span></div> <div class="tooltip">означает<span class="tooltiptext">moyens</span></div> ? <div class="tooltip">Какие<span class="tooltiptext">qui</span></div> <div class="tooltip">имена<span class="tooltiptext">Noms</span></div> <div class="tooltip">использовал<span class="tooltiptext">Utilisé pour l'utiliser.</span></div> <div class="tooltip">Бог<span class="tooltiptext">Mon Dieu.</span></div> , <div class="tooltip">чтобы<span class="tooltiptext">♪</span></div> <div class="tooltip">открыть<span class="tooltiptext">Ouvre la porte.</span></div> <div class="tooltip">Себя<span class="tooltiptext">Sois sage.</span></div> <div class="tooltip">Авраму<span class="tooltiptext">avramu</span></div> , и каково их <div class="tooltip">значение<span class="tooltiptext">valeur</span></div> ? <div class="tooltip">Почему<span class="tooltiptext">Pourquoi ?</span></div> Бог <div class="tooltip">изменил<span class="tooltiptext">changé.</span></div> имя <div class="tooltip">Аврам<span class="tooltiptext">Avra.</span></div> <div class="tooltip">на<span class="tooltiptext">♪</span></div> <div class="tooltip">Авраам<span class="tooltiptext">Abraham</span></div> ? Почему имена <div class="tooltip">важны<span class="tooltiptext">Importations</span></div> ? Какие <div class="tooltip">условия<span class="tooltiptext">conditions</span></div> и <div class="tooltip">обязательства<span class="tooltiptext">obligations</span></div> <div class="tooltip">прилагались<span class="tooltiptext">appended</span></div> <div class="tooltip">к<span class="tooltiptext">to</span></div> <div class="tooltip">завету<span class="tooltiptext">Lumière</span></div> ? 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">Ainsi<span class="tooltiptext">и</span></div> , <div class="tooltip">au<span class="tooltiptext">на</span></div> <div class="tooltip">sens<span class="tooltiptext">чувство</span></div> <div class="tooltip">figuré<span class="tooltiptext">Фигура</span></div> et <div class="tooltip">humain<span class="tooltiptext">человек</span></div> <div class="tooltip">du<span class="tooltiptext">из</span></div> <div class="tooltip">terme<span class="tooltiptext">термин</span></div> , Dieu <div class="tooltip">s’asseyait<span class="tooltiptext">сб</span></div> au <div class="tooltip">chevet<span class="tooltiptext">кровать</span></div> d’un <div class="tooltip">monde<span class="tooltiptext">Мир</span></div> <div class="tooltip">malade<span class="tooltiptext">боль</span></div> du <div class="tooltip">péché<span class="tooltiptext">грех</span></div> <div class="tooltip">alors<span class="tooltiptext">так</span></div> <div class="tooltip">que<span class="tooltiptext">только</span></div> les <div class="tooltip">ténèbres<span class="tooltiptext">темнота</span></div> <div class="tooltip">morales<span class="tooltiptext">мораль</span></div> <div class="tooltip">commençaient<span class="tooltiptext">старт</span></div> à <div class="tooltip">s’approfondir<span class="tooltiptext">углубление</span></div> dans les <div class="tooltip">siècles<span class="tooltiptext">века</span></div> qui <div class="tooltip">ont<span class="tooltiptext">есть</span></div> <div class="tooltip">suivi<span class="tooltiptext">следовать-вверх</span></div> <div class="tooltip">le<span class="tooltiptext">и</span></div> <div class="tooltip">déluge<span class="tooltiptext">Дезюг</span></div> . Pour <div class="tooltip">cette<span class="tooltiptext">это</span></div> <div class="tooltip">raison<span class="tooltiptext">причина</span></div> , <div class="tooltip">Il<span class="tooltiptext">он</span></div> a <div class="tooltip">appelé<span class="tooltiptext">называется</span></div> <div class="tooltip">Abram<span class="tooltiptext">Абрам</span></div> et a <div class="tooltip">prévu<span class="tooltiptext">Планируемые</span></div> <div class="tooltip">d’établir<span class="tooltiptext">установить</span></div> , <div class="tooltip">par<span class="tooltiptext">пар</span></div> <div class="tooltip">l’intermédiaire<span class="tooltiptext">посредника</span></div> de <div class="tooltip">Son<span class="tooltiptext">звук</span></div> <div class="tooltip">fidèle<span class="tooltiptext">верно</span></div> <div class="tooltip">serviteur<span class="tooltiptext">слуга</span></div> , <div class="tooltip">un<span class="tooltiptext">один</span></div> <div class="tooltip">peuple<span class="tooltiptext">Люди</span></div> <div class="tooltip">auquel<span class="tooltiptext">в</span></div> Il <div class="tooltip">pourrait<span class="tooltiptext">может</span></div> <div class="tooltip">confier<span class="tooltiptext">доверять</span></div> la <div class="tooltip">connaissance<span class="tooltiptext">знания</span></div> de <div class="tooltip">Sa<span class="tooltiptext">са</span></div> <div class="tooltip">Personne<span class="tooltiptext">человек</span></div> et <div class="tooltip">donner<span class="tooltiptext">дать</span></div> le <div class="tooltip">salut<span class="tooltiptext">ЛЕКА</span></div> . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">Помните<span class="tooltiptext">Souviens-toi.</span></div> <div class="tooltip">ли<span class="tooltiptext">ou</span></div> <div class="tooltip">вы<span class="tooltiptext">Tu l'es.</span></div> <div class="tooltip">болезнь<span class="tooltiptext">Maladie</span></div> , <div class="tooltip">которой<span class="tooltiptext">dont</span></div> <div class="tooltip">переболели<span class="tooltiptext">Je suis malade.</span></div> в <div class="tooltip">детстве<span class="tooltiptext">enfants</span></div> и <div class="tooltip">которая<span class="tooltiptext">qui</span></div> <div class="tooltip">могла<span class="tooltiptext">J'aurais pu.</span></div> <div class="tooltip">привести<span class="tooltiptext">plomb</span></div> к <div class="tooltip">осложнениям<span class="tooltiptext">Complications</span></div> и <div class="tooltip">более<span class="tooltiptext">plus que</span></div> <div class="tooltip">серьезным<span class="tooltiptext">graves graves graves graves graves graves graves graves</span></div> <div class="tooltip">последствиям<span class="tooltiptext">conséquences</span></div> ? В <div class="tooltip">долгие<span class="tooltiptext">Long</span></div> , <div class="tooltip">беспокойные<span class="tooltiptext">troublés</span></div> <div class="tooltip">ночи<span class="tooltiptext">Bonne nuit.</span></div> вы <div class="tooltip">просыпались<span class="tooltiptext">Réveille-toi.</span></div> и <div class="tooltip">видели<span class="tooltiptext">Ils les ont vus.</span></div> <div class="tooltip">уставших<span class="tooltiptext">Survivants</span></div> <div class="tooltip">маму<span class="tooltiptext">Maman.</span></div> <div class="tooltip">или<span class="tooltiptext">ou</span></div> <div class="tooltip">папу<span class="tooltiptext">Papa.</span></div> , <div class="tooltip">сидящих<span class="tooltiptext">assis</span></div> <div class="tooltip">у<span class="tooltiptext">Ooh.</span></div> <div class="tooltip">вашей<span class="tooltiptext">Le vôtre.</span></div> <div class="tooltip">кровати<span class="tooltiptext">lit</span></div> в <div class="tooltip">мягком<span class="tooltiptext">doux</span></div> <div class="tooltip">свете<span class="tooltiptext">lumière</span></div> <div class="tooltip">ночника<span class="tooltiptext">Nightmare</span></div> . 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        Par <div class="tooltip">conséquent<span class="tooltiptext">Поэтому</span></div> , Dieu a <div class="tooltip">conclu<span class="tooltiptext">завершено</span></div> avec Abram et sa postérité une alliance qui <div class="tooltip">mettait<span class="tooltiptext">ЛЕКА</span></div> <div class="tooltip">l’accent<span class="tooltiptext">акцент</span></div> <div class="tooltip">plus<span class="tooltiptext">больше</span></div> en <div class="tooltip">détail<span class="tooltiptext">детали</span></div> sur le <div class="tooltip">plan<span class="tooltiptext">план</span></div> <div class="tooltip">divin<span class="tooltiptext">Божественное</span></div> <div class="tooltip">visant<span class="tooltiptext">таргетинг</span></div> à <div class="tooltip">sauver<span class="tooltiptext">Сохранить</span></div> <div class="tooltip">l’humanité<span class="tooltiptext">человечество</span></div> <div class="tooltip">des<span class="tooltiptext">из</span></div> <div class="tooltip">conséquences<span class="tooltiptext">последствия</span></div> du péché . Le <div class="tooltip">Seigneur<span class="tooltiptext">Господь</span></div> <div class="tooltip">n’allait<span class="tooltiptext">n’allait</span></div> <div class="tooltip">pas<span class="tooltiptext">Пока нет.</span></div> <div class="tooltip">laisser<span class="tooltiptext">Давай оставим.</span></div> Son monde <div class="tooltip">sans<span class="tooltiptext">без</span></div> <div class="tooltip">surveillance<span class="tooltiptext">мониторинг</span></div> , Il <div class="tooltip">ne<span class="tooltiptext">не</span></div> <div class="tooltip">pouvait<span class="tooltiptext">может</span></div> pas ne pas <div class="tooltip">être<span class="tooltiptext">быть</span></div> avec <div class="tooltip">lui<span class="tooltiptext">Он</span></div> alors <div class="tooltip">qu’il<span class="tooltiptext">что он</span></div> <div class="tooltip">était<span class="tooltiptext">был</span></div> dans un <div class="tooltip">si<span class="tooltiptext">так</span></div> <div class="tooltip">grand<span class="tooltiptext">великолепно</span></div> <div class="tooltip">besoin<span class="tooltiptext">потребность</span></div> . Cette semaine , nous nous <div class="tooltip">pencherons<span class="tooltiptext">Пойдем</span></div> sur le <div class="tooltip">déploiement<span class="tooltiptext">развертывание</span></div> de <div class="tooltip">nouvelles<span class="tooltiptext">новые разработки</span></div> <div class="tooltip">promesses<span class="tooltiptext">обещания</span></div> <div class="tooltip">d’alliance<span class="tooltiptext">Альянса</span></div> . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">Подобным<span class="tooltiptext">de types similaires</span></div> <div class="tooltip">образом<span class="tooltiptext">d &apos; une manière</span></div> Бог <div class="tooltip">сидел<span class="tooltiptext">J'étais assis là.</span></div> у <div class="tooltip">постели<span class="tooltiptext">lit</span></div> <div class="tooltip">больного<span class="tooltiptext">malades</span></div> <div class="tooltip">грехом<span class="tooltiptext">par le péché</span></div> <div class="tooltip">мира<span class="tooltiptext">paix</span></div> , <div class="tooltip">когда<span class="tooltiptext">quand</span></div> <div class="tooltip">спустя<span class="tooltiptext">Plus tard</span></div> <div class="tooltip">какое-то<span class="tooltiptext">Quelque chose.</span></div> <div class="tooltip">время<span class="tooltiptext">Heure</span></div> после <div class="tooltip">потопа<span class="tooltiptext">inondations</span></div> <div class="tooltip">вновь<span class="tooltiptext">Encore une fois.</span></div> <div class="tooltip">начала<span class="tooltiptext">début</span></div> <div class="tooltip">сгущаться<span class="tooltiptext">Allez.</span></div> <div class="tooltip">моральная<span class="tooltiptext">moral</span></div> <div class="tooltip">тьма<span class="tooltiptext">Darkness</span></div> . <div class="tooltip">По<span class="tooltiptext">by</span></div> <div class="tooltip">этой<span class="tooltiptext">C'est celui qui a été en premier lieu.</span></div> <div class="tooltip">причине<span class="tooltiptext">raison</span></div> Бог <div class="tooltip">призвал<span class="tooltiptext">appelé</span></div> <div class="tooltip">Аврама<span class="tooltiptext">Avra</span></div> . <div class="tooltip">Через<span class="tooltiptext">♪</span></div> <div class="tooltip">Своего<span class="tooltiptext">de mes propres</span></div> <div class="tooltip">верного<span class="tooltiptext">des fidèles</span></div> <div class="tooltip">слугу<span class="tooltiptext">serviteur</span></div> <div class="tooltip">Он<span class="tooltiptext">C'est vrai.</span></div> <div class="tooltip">задумал<span class="tooltiptext">Je pense.</span></div> <div class="tooltip">избрать<span class="tooltiptext">Choisissez.</span></div> <div class="tooltip">народ<span class="tooltiptext">Personnes</span></div> , <div class="tooltip">которому<span class="tooltiptext">à qui</span></div> <div class="tooltip">мог<span class="tooltiptext">J'aurais pu.</span></div> <div class="tooltip">бы<span class="tooltiptext">J'aimerais pouvoir.</span></div> <div class="tooltip">доверить<span class="tooltiptext">Fais-moi confiance.</span></div> <div class="tooltip">познание<span class="tooltiptext">connaissances</span></div> <div class="tooltip">о<span class="tooltiptext">Oh.</span></div> <div class="tooltip">Себе<span class="tooltiptext">♪</span></div> и <div class="tooltip">даровать<span class="tooltiptext">♪</span></div> <div class="tooltip">спасение<span class="tooltiptext">Rescue</span></div> <div class="tooltip">миру<span class="tooltiptext">paix</span></div> . 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        <div class="tooltip">Aperçu<span class="tooltiptext">обзор</span></div> de la semaine : <div class="tooltip">Quel<span class="tooltiptext">что</span></div> <div class="tooltip">est<span class="tooltiptext">это</span></div> le <div class="tooltip">nom<span class="tooltiptext">имя</span></div> de Dieu ? Que <div class="tooltip">signifie-t-il<span class="tooltiptext">Он значит</span></div> ? <div class="tooltip">Quelle<span class="tooltiptext">что</span></div> est la <div class="tooltip">signification<span class="tooltiptext">смысл</span></div> des <div class="tooltip">noms<span class="tooltiptext">имена</span></div> que Dieu a <div class="tooltip">utilisés<span class="tooltiptext">используется</span></div> pour <div class="tooltip">s’identifier<span class="tooltiptext">определить себя</span></div> à Abram ? <div class="tooltip">Quels<span class="tooltiptext">который</span></div> noms <div class="tooltip">a-t-Il<span class="tooltiptext">он</span></div> utilisés pour s’identifier ? <div class="tooltip">Pourquoi<span class="tooltiptext">почему</span></div> Dieu a-t-Il <div class="tooltip">changé<span class="tooltiptext">изменено</span></div> le nom <div class="tooltip">d’Abram<span class="tooltiptext">Абрам</span></div> en <div class="tooltip">Abraham<span class="tooltiptext">абрахам</span></div> ? Pourquoi les noms <div class="tooltip">sont-ils<span class="tooltiptext">они</span></div> <div class="tooltip">importants<span class="tooltiptext">важно</span></div> ? <div class="tooltip">Quelles<span class="tooltiptext">который</span></div> <div class="tooltip">conditions<span class="tooltiptext">условия</span></div> , ou <div class="tooltip">obligations<span class="tooltiptext">обязательства</span></div> , <div class="tooltip">étaient<span class="tooltiptext">были</span></div> <div class="tooltip">attachées<span class="tooltiptext">Прикрепить</span></div> à <div class="tooltip">l’alliance<span class="tooltiptext">завет</span></div> ? 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        <div class="tooltip">Поэтому<span class="tooltiptext">C'est pour ça.</span></div> Бог <div class="tooltip">вступил<span class="tooltiptext">Entrées</span></div> <div class="tooltip">с<span class="tooltiptext">c</span></div> <div class="tooltip">Аврамом<span class="tooltiptext">Abraham</span></div> и <div class="tooltip">его<span class="tooltiptext">Lui.</span></div> потомками в завет , <div class="tooltip">расширивший<span class="tooltiptext">extension</span></div> <div class="tooltip">понимание<span class="tooltiptext">compréhension</span></div> <div class="tooltip">Божьего<span class="tooltiptext">Dieu</span></div> <div class="tooltip">замысла<span class="tooltiptext">Plant</span></div> <div class="tooltip">спасения<span class="tooltiptext">Rescue</span></div> <div class="tooltip">человечества<span class="tooltiptext">de l &apos; humanité</span></div> <div class="tooltip">от<span class="tooltiptext">de</span></div> <div class="tooltip">последствий<span class="tooltiptext">conséquences des conséquences des conséquences</span></div> <div class="tooltip">греха<span class="tooltiptext">péché</span></div> . <div class="tooltip">Господь<span class="tooltiptext">Seigneur</span></div> <div class="tooltip">не<span class="tooltiptext">Non.</span></div> <div class="tooltip">собирался<span class="tooltiptext">J'allais y aller.</span></div> <div class="tooltip">оставлять<span class="tooltiptext">congés</span></div> <div class="tooltip">мир<span class="tooltiptext">paix</span></div> , <div class="tooltip">который<span class="tooltiptext">qui</span></div> <div class="tooltip">так<span class="tooltiptext">C'est vrai.</span></div> в <div class="tooltip">Нем<span class="tooltiptext">of the</span></div> <div class="tooltip">нуждался<span class="tooltiptext">nécessaire</span></div> , <div class="tooltip">без<span class="tooltiptext">gratuit</span></div> <div class="tooltip">присмотра<span class="tooltiptext">Watch</span></div> . <div class="tooltip">Исследуя<span class="tooltiptext">Et je vais enquêter.</span></div> <div class="tooltip">материал<span class="tooltiptext">Matériel</span></div> этой <div class="tooltip">недели<span class="tooltiptext">Semaine</span></div> , <div class="tooltip">мы<span class="tooltiptext">Nous le sommes.</span></div> <div class="tooltip">увидим<span class="tooltiptext">A plus tard.</span></div> , <div class="tooltip">как<span class="tooltiptext">Comme,</span></div> <div class="tooltip">раскрываются<span class="tooltiptext">Open</span></div> <div class="tooltip">новые<span class="tooltiptext">nouveau</span></div> <div class="tooltip">обетования<span class="tooltiptext">Entités</span></div> <div class="tooltip">завета<span class="tooltiptext">Lumières</span></div> . 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        * <div class="tooltip">Étudiez<span class="tooltiptext">Учеба</span></div> cette <div class="tooltip">leçon<span class="tooltiptext">урок</span></div> pour le sabbat 24 <div class="tooltip">Avril<span class="tooltiptext">Апрель</span></div> . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        
+        </div>
+        </td>
+      </tr>
+  
+<tr>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <div dir="ltl">
+  <u>Glossary:</u><br /><span>[Abraham]: <b><i>[абрахам]</i></b></span>, <span>&lt: <b><i>&quot;</i></b></span>, <span>a: <b><i>а</i></b></span>, <span>à: <b><i>в</i></b></span>, <span>a-t-Il: <b><i>он</i></b></span>, <span>Abraham: <b><i>абрахам</i></b></span>, <span>Abram: <b><i>Абрам</i></b></span>, <span>Ainsi: <b><i>и</i></b></span>, <span>alliance: <b><i>Альянс</i></b></span>, <span>alors: <b><i>так</i></b></span>, <span>Aperçu: <b><i>обзор</i></b></span>, <span>Apoc: <b><i>апоц</i></b></span>, <span>appelé: <b><i>называется</i></b></span>, <span>après: <b><i>после</i></b></span>, <span>Après-Midi: <b><i>п.м.</i></b></span>, <span>assis: <b><i>сидения</i></b></span>, <span>attachées: <b><i>Прикрепить</i></b></span>, <span>au: <b><i>на</i></b></span>, <span>auquel: <b><i>в</i></b></span>, <span>avec: <b><i>с</i></b></span>, <span>Avril: <b><i>Апрель</i></b></span>, <span>besoin: <b><i>потребность</i></b></span>, <span>ce: <b><i>ЛЕКА</i></b></span>, <span>celui: <b><i>один</i></b></span>, <span>cette: <b><i>это</i></b></span>, <span>chaise: <b><i>стул</i></b></span>, <span>changé: <b><i>изменено</i></b></span>, <span>chevet: <b><i>кровать</i></b></span>, <span>chose: <b><i>Что-то</i></b></span>, <span>Combien: <b><i>Сколько</i></b></span>, <span>commençaient: <b><i>старт</i></b></span>, <span>conclu: <b><i>завершено</i></b></span>, <span>conditions: <b><i>условия</i></b></span>, <span>confier: <b><i>доверять</i></b></span>, <span>connaissance: <b><i>знания</i></b></span>, <span>conséquences: <b><i>последствия</i></b></span>, <span>conséquent: <b><i>Поэтому</i></b></span>, <span>côté: <b><i>сторона</i></b></span>, <span>d’Abram: <b><i>Абрам</i></b></span>, <span>d’alliance: <b><i>Альянса</i></b></span>, <span>d’encore: <b><i>еще</i></b></span>, <span>d’établir: <b><i>установить</i></b></span>, <span>d’un: <b><i>д’ун</i></b></span>, <span>d’une: <b><i>д’уне</i></b></span>, <span>Dan: <b><i>дан</i></b></span>, <span>dans: <b><i>в</i></b></span>, <span>de: <b><i>де</i></b></span>, <span>déluge: <b><i>Дезюг</i></b></span>, <span>demi-sommeil: <b><i>полусоммиил</i></b></span>, <span>déploiement: <b><i>развертывание</i></b></span>, <span>des: <b><i>из</i></b></span>, <span>descendants: <b><i>потомки</i></b></span>, <span>détail: <b><i>детали</i></b></span>, <span>Dieu: <b><i>Бог.</i></b></span>, <span>distinctement: <b><i>отличительно</i></b></span>, <span>divin: <b><i>Божественное</i></b></span>, <span>donner: <b><i>дать</i></b></span>, <span>douce: <b><i>мягкий</i></b></span>, <span>du: <b><i>из</i></b></span>, <span>en: <b><i>Зарегистрироваться</i></b></span>, <span>enfance: <b><i>детство</i></b></span>, <span>entre: <b><i>между</i></b></span>, <span>est: <b><i>это</i></b></span>, <span>et: <b><i>и</i></b></span>, <span>étaient: <b><i>были</i></b></span>, <span>était: <b><i>был</i></b></span>, <span>être: <b><i>быть</i></b></span>, <span>Étudiez: <b><i>Учеба</i></b></span>, <span>Exo: <b><i>эксо</i></b></span>, <span>fébrile: <b><i>фебрайл</i></b></span>, <span>fidèle: <b><i>верно</i></b></span>, <span>figuré: <b><i>Фигура</i></b></span>, <span>Gen: <b><i>колено</i></b></span>, <span>générations: <b><i>поколения</i></b></span>, <span>Genèse: <b><i>Генезис</i></b></span>, <span>grand: <b><i>великолепно</i></b></span>, <span>humain: <b><i>человек</i></b></span>, <span>Il: <b><i>он</i></b></span>, <span>importants: <b><i>важно</i></b></span>, <span>J’établirai: <b><i>Я установим</i></b></span>, <span>Je: <b><i>Я.</i></b></span>, <span>l’accent: <b><i>акцент</i></b></span>, <span>l’alliance: <b><i>завет</i></b></span>, <span>l’humanité: <b><i>человечество</i></b></span>, <span>l’intermédiaire: <b><i>посредника</i></b></span>, <span>la: <b><i>и</i></b></span>, <span>laisser: <b><i>Давай оставим.</i></b></span>, <span>laquelle: <b><i>который</i></b></span>, <span>le: <b><i>и</i></b></span>, <span>leçon: <b><i>урок</i></b></span>, <span>Lecture: <b><i>читать</i></b></span>, <span>les: <b><i>ЛЕКА</i></b></span>, <span>leur: <b><i>их</i></b></span>, <span>leurs: <b><i>их</i></b></span>, <span>lit: <b><i>кровать</i></b></span>, <span>longue: <b><i>долго</i></b></span>, <span>LSG: <b><i>лсг</i></b></span>, <span>lueur: <b><i>свет</i></b></span>, <span>lui: <b><i>Он</i></b></span>, <span>malade: <b><i>боль</i></b></span>, <span>malades: <b><i>боль</i></b></span>, <span>maladie: <b><i>заболевание</i></b></span>, <span>mémoriser&lt: <b><i>запомнить</i></b></span>, <span>mère: <b><i>мать</i></b></span>, <span>mettait: <b><i>ЛЕКА</i></b></span>, <span>Moi: <b><i>Я</i></b></span>, <span>Mon: <b><i>ЛЕКА</i></b></span>, <span>monde: <b><i>Мир</i></b></span>, <span>morales: <b><i>мораль</i></b></span>, <span>n’allait: <b><i>n’allait</i></b></span>, <span>ne: <b><i>не</i></b></span>, <span>nom: <b><i>имя</i></b></span>, <span>noms: <b><i>имена</i></b></span>, <span>notre: <b><i>наши</i></b></span>, <span>nous: <b><i>мы</i></b></span>, <span>nouvelles: <b><i>новые разработки</i></b></span>, <span>nuit: <b><i>ночь</i></b></span>, <span>obligations: <b><i>обязательства</i></b></span>, <span>ont: <b><i>есть</i></b></span>, <span>ou: <b><i>или</i></b></span>, <span>p&gt: <b><i>Пквот</i></b></span>, <span>par: <b><i>пар</i></b></span>, <span>pas: <b><i>Пока нет.</i></b></span>, <span>péché: <b><i>грех</i></b></span>, <span>pencherons: <b><i>Пойдем</i></b></span>, <span>Pendant: <b><i>во время</i></b></span>, <span>père: <b><i>отец</i></b></span>, <span>perpétuelle: <b><i>вечный</i></b></span>, <span>Personne: <b><i>человек</i></b></span>, <span>peu: <b><i>немного</i></b></span>, <span>peuple: <b><i>Люди</i></b></span>, <span>pire: <b><i>хуже</i></b></span>, <span>plan: <b><i>план</i></b></span>, <span>plus: <b><i>больше</i></b></span>, <span>pneumonie: <b><i>пневмония</i></b></span>, <span>possibilité: <b><i>возможность</i></b></span>, <span>postérité: <b><i>Постерство</i></b></span>, <span>pour: <b><i>для</i></b></span>, <span>Pourquoi: <b><i>почему</i></b></span>, <span>pourrait: <b><i>может</i></b></span>, <span>pouvait: <b><i>может</i></b></span>, <span>prévu: <b><i>Планируемые</i></b></span>, <span>promesses: <b><i>обещания</i></b></span>, <span>qu’il: <b><i>что он</i></b></span>, <span>que: <b><i>только</i></b></span>, <span>Quel: <b><i>что</i></b></span>, <span>Quelle: <b><i>что</i></b></span>, <span>Quelles: <b><i>который</i></b></span>, <span>quelque: <b><i>что-то</i></b></span>, <span>Quels: <b><i>который</i></b></span>, <span>qui: <b><i>кто</i></b></span>, <span>raison: <b><i>причина</i></b></span>, <span>rendus: <b><i>рендеринг</i></b></span>, <span>réveillions: <b><i>Мы просыпаемся</i></b></span>, <span>s’approfondir: <b><i>углубление</i></b></span>, <span>s’asseyait: <b><i>сб</i></b></span>, <span>s’identifier: <b><i>определить себя</i></b></span>, <span>Sa: <b><i>са</i></b></span>, <span>Sabbat: <b><i>Саббат</i></b></span>, <span>salut: <b><i>ЛЕКА</i></b></span>, <span>sans: <b><i>без</i></b></span>, <span>sauver: <b><i>Сохранить</i></b></span>, <span>se: <b><i>ЛЕКА</i></b></span>, <span>Seigneur: <b><i>Господь</i></b></span>, <span>selon: <b><i>по</i></b></span>, <span>semaine: <b><i>недели</i></b></span>, <span>sens: <b><i>чувство</i></b></span>, <span>sera: <b><i>будет</i></b></span>, <span>serai: <b><i>ЛЕКА</i></b></span>, <span>serviteur: <b><i>слуга</i></b></span>, <span>si: <b><i>так</i></b></span>, <span>siècles: <b><i>века</i></b></span>, <span>signification: <b><i>смысл</i></b></span>, <span>signifie-t-il: <b><i>Он значит</i></b></span>, <span>Son: <b><i>звук</i></b></span>, <span>sont-ils: <b><i>они</i></b></span>, <span>souviennent: <b><i>ЛЕКА</i></b></span>, <span>suivi: <b><i>следовать-вверх</i></b></span>, <span>sur: <b><i>на</i></b></span>, <span>surveillance: <b><i>мониторинг</i></b></span>, <span>ta: <b><i>ваш</i></b></span>, <span>ténèbres: <b><i>темнота</i></b></span>, <span>terme: <b><i>термин</i></b></span>, <span>tes: <b><i>Ваш</i></b></span>, <span>toi: <b><i>Вы</i></b></span>, <span>ton: <b><i>ЛЕКА</i></b></span>, <span>très: <b><i>очень</i></b></span>, <span>un: <b><i>один</i></b></span>, <span>Une: <b><i>один</i></b></span>, <span>utilisés: <b><i>используется</i></b></span>, <span>veilleuse: <b><i>смотреть</i></b></span>, <span>Verset: <b><i>стих</i></b></span>, <span>vertu: <b><i>добродетель</i></b></span>, <span>visant: <b><i>таргетинг</i></b></span>, <span>voir: <b><i>посмотреть</i></b>
+  </div>
+  </td>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <div dir="ltr">
+  <u>Glossary:</u><br /><span>–: <b><i>(Grognements)</i></b></span>, <span>«И: <b><i>“</i></b></span>, <span>[Авраамом]: <b><i>[Abraham]</i></b></span>, <span>&lt: <b><i>&quot;</i></b></span>, <span>p&gt: <b><i>p.</i></b></span>, <span>Авраам: <b><i>Abraham</i></b></span>, <span>Аврам: <b><i>Avra.</i></b></span>, <span>Аврама: <b><i>Avra</i></b></span>, <span>Аврамом: <b><i>Abraham</i></b></span>, <span>Авраму: <b><i>avramu</i></b></span>, <span>без: <b><i>gratuit</i></b></span>, <span>беспокойные: <b><i>troublés</i></b></span>, <span>Библейские: <b><i>Bibles</i></b></span>, <span>Бог: <b><i>Mon Dieu.</i></b></span>, <span>Богом: <b><i>Dieu</i></b></span>, <span>Божье: <b><i>Dieu</i></b></span>, <span>Божьего: <b><i>Dieu</i></b></span>, <span>более: <b><i>plus que</i></b></span>, <span>болезнь: <b><i>Maladie</i></b></span>, <span>больного: <b><i>malades</i></b></span>, <span>буду: <b><i>Je le ferai.</i></b></span>, <span>бы: <b><i>J'aimerais pouvoir.</i></b></span>, <span>Быт: <b><i>J'adorerais.</i></b></span>, <span>в: <b><i>Total</i></b></span>, <span>важны: <b><i>Importations</i></b></span>, <span>вашей: <b><i>Le vôtre.</i></b></span>, <span>верного: <b><i>des fidèles</i></b></span>, <span>Вечный: <b><i>éternel</i></b></span>, <span>видели: <b><i>Ils les ont vus.</i></b></span>, <span>вновь: <b><i>Encore une fois.</i></b></span>, <span>вопросы: <b><i>questions</i></b></span>, <span>время: <b><i>Heure</i></b></span>, <span>вступил: <b><i>Entrées</i></b></span>, <span>вы: <b><i>Tu l'es.</i></b></span>, <span>Господь: <b><i>Seigneur</i></b></span>, <span>греха: <b><i>péché</i></b></span>, <span>грехом: <b><i>par le péché</i></b></span>, <span>Дан: <b><i>délivrées</i></b></span>, <span>даровать: <b><i>♪</i></b></span>, <span>детстве: <b><i>enfants</i></b></span>, <span>для: <b><i>for</i></b></span>, <span>доверить: <b><i>Fais-moi confiance.</i></b></span>, <span>долгие: <b><i>Long</i></b></span>, <span>его: <b><i>Lui.</i></b></span>, <span>завет: <b><i>Lumière</i></b></span>, <span>завета: <b><i>Lumières</i></b></span>, <span>завету: <b><i>Lumière</i></b></span>, <span>задумал: <b><i>Je pense.</i></b></span>, <span>замысла: <b><i>Plant</i></b></span>, <span>значение: <b><i>valeur</i></b></span>, <span>и: <b><i>et</i></b></span>, <span>избрать: <b><i>Choisissez.</i></b></span>, <span>изменил: <b><i>changé.</i></b></span>, <span>или: <b><i>ou</i></b></span>, <span>имена: <b><i>Noms</i></b></span>, <span>имя: <b><i>Nom</i></b></span>, <span>использовал: <b><i>Utilisé pour l'utiliser.</i></b></span>, <span>исследования: <b><i>Recherche</i></b></span>, <span>Исследуя: <b><i>Et je vais enquêter.</i></b></span>, <span>Исх: <b><i>?</i></b></span>, <span>их: <b><i>de leurs propres</i></b></span>, <span>к: <b><i>to</i></b></span>, <span>как: <b><i>Comme,</i></b></span>, <span>Какие: <b><i>qui</i></b></span>, <span>Каково: <b><i>Comment</i></b></span>, <span>какое-то: <b><i>Quelque chose.</i></b></span>, <span>Ключевые: <b><i>Key</i></b></span>, <span>когда: <b><i>quand</i></b></span>, <span>которая: <b><i>qui</i></b></span>, <span>которой: <b><i>dont</i></b></span>, <span>которому: <b><i>à qui</i></b></span>, <span>который: <b><i>qui</i></b></span>, <span>кровати: <b><i>lit</i></b></span>, <span>ли: <b><i>ou</i></b></span>, <span>маму: <b><i>Maman.</i></b></span>, <span>материал: <b><i>Matériel</i></b></span>, <span>между: <b><i>entre</i></b></span>, <span>мир: <b><i>paix</i></b></span>, <span>мира: <b><i>paix</i></b></span>, <span>миру: <b><i>paix</i></b></span>, <span>Мною: <b><i>Je le suis.</i></b></span>, <span>мог: <b><i>J'aurais pu.</i></b></span>, <span>могла: <b><i>J'aurais pu.</i></b></span>, <span>Мой: <b><i>mine</i></b></span>, <span>моральная: <b><i>moral</i></b></span>, <span>мы: <b><i>Nous le sommes.</i></b></span>, <span>мягком: <b><i>doux</i></b></span>, <span>на: <b><i>♪</i></b></span>, <span>народ: <b><i>Personnes</i></b></span>, <span>начала: <b><i>début</i></b></span>, <span>не: <b><i>Non.</i></b></span>, <span>недели: <b><i>Semaine</i></b></span>, <span>Нем: <b><i>of the</i></b></span>, <span>новые: <b><i>nouveau</i></b></span>, <span>ночи: <b><i>Bonne nuit.</i></b></span>, <span>ночника: <b><i>Nightmare</i></b></span>, <span>нуждался: <b><i>nécessaire</i></b></span>, <span>о: <b><i>Oh.</i></b></span>, <span>обетования: <b><i>Entités</i></b></span>, <span>образом: <b><i>d &apos; une manière</i></b></span>, <span>обязательства: <b><i>obligations</i></b></span>, <span>означает: <b><i>moyens</i></b></span>, <span>Он: <b><i>C'est vrai.</i></b></span>, <span>оно: <b><i>C'est vrai.</i></b></span>, <span>осложнениям: <b><i>Complications</i></b></span>, <span>оставлять: <b><i>congés</i></b></span>, <span>от: <b><i>de</i></b></span>, <span>Откр: <b><i>O.</i></b></span>, <span>открыть: <b><i>Ouvre la porte.</i></b></span>, <span>Памятный: <b><i>Mémoire</i></b></span>, <span>папу: <b><i>Papa.</i></b></span>, <span>переболели: <b><i>Je suis malade.</i></b></span>, <span>По: <b><i>by</i></b></span>, <span>Подобным: <b><i>de types similaires</i></b></span>, <span>познание: <b><i>connaissances</i></b></span>, <span>Помните: <b><i>Souviens-toi.</i></b></span>, <span>понимание: <b><i>compréhension</i></b></span>, <span>после: <b><i>après</i></b></span>, <span>последствий: <b><i>conséquences des conséquences des conséquences</i></b></span>, <span>последствиям: <b><i>conséquences</i></b></span>, <span>поставлю: <b><i>Je le ferai.</i></b></span>, <span>постели: <b><i>lit</i></b></span>, <span>потомками: <b><i>descendants</i></b></span>, <span>потомков: <b><i>descendants</i></b></span>, <span>потопа: <b><i>inondations</i></b></span>, <span>Почему: <b><i>Pourquoi ?</i></b></span>, <span>Поэтому: <b><i>C'est pour ça.</i></b></span>, <span>привести: <b><i>plomb</i></b></span>, <span>призвал: <b><i>appelé</i></b></span>, <span>прилагались: <b><i>appended</i></b></span>, <span>присмотра: <b><i>Watch</i></b></span>, <span>причине: <b><i>raison</i></b></span>, <span>просыпались: <b><i>Réveille-toi.</i></b></span>, <span>раскрываются: <b><i>Open</i></b></span>, <span>расширивший: <b><i>extension</i></b></span>, <span>роды: <b><i>naissance</i></b></span>, <span>с: <b><i>c</i></b></span>, <span>свете: <b><i>lumière</i></b></span>, <span>Своего: <b><i>de mes propres</i></b></span>, <span>сгущаться: <b><i>Allez.</i></b></span>, <span>Себе: <b><i>♪</i></b></span>, <span>Себя: <b><i>Sois sage.</i></b></span>, <span>серьезным: <b><i>graves graves graves graves graves graves graves graves</i></b></span>, <span>сидел: <b><i>J'étais assis là.</i></b></span>, <span>сидящих: <b><i>assis</i></b></span>, <span>слугу: <b><i>serviteur</i></b></span>, <span>собирался: <b><i>J'allais y aller.</i></b></span>, <span>спасение: <b><i>Rescue</i></b></span>, <span>спасения: <b><i>Rescue</i></b></span>, <span>спустя: <b><i>Plus tard</i></b></span>, <span>стих&lt: <b><i>cverse</i></b></span>, <span>так: <b><i>C'est vrai.</i></b></span>, <span>твоим: <b><i>le vôtre</i></b></span>, <span>твоими: <b><i>Le vôtre.</i></b></span>, <span>твоих: <b><i>de la vôtre</i></b></span>, <span>тебя: <b><i>Toi.</i></b></span>, <span>тебя»: <b><i>&quot;</i></b></span>, <span>тексты: <b><i>textes</i></b></span>, <span>тобою: <b><i>Toi.</i></b></span>, <span>том: <b><i>volume</i></b></span>, <span>тьма: <b><i>Darkness</i></b></span>, <span>у: <b><i>Ooh.</i></b></span>, <span>увидим: <b><i>A plus tard.</i></b></span>, <span>условия: <b><i>conditions</i></b></span>, <span>уставших: <b><i>Survivants</i></b></span>, <span>человечества: <b><i>de l &apos; humanité</i></b></span>, <span>Через: <b><i>♪</i></b></span>, <span>что: <b><i>Quoi ?</i></b></span>, <span>чтобы: <b><i>♪</i></b></span>, <span>этой: <b><i>C'est celui qui a été en premier lieu.</i></b></span>, <span>Я: <b><i>Je le suis.</i></b>
+  </div>
+  </td>
+</tr>
+
+
+  <tr>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+    NOTES: <a target="_blank" href="">fr</a>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+  </td>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+    NOTES: <a target="_blank" href="">ru</a>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+  </td>
+</tr>
+
+    </table>
+  </body>
+  </html>
+  

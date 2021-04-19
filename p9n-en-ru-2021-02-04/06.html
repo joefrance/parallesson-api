@@ -2,23 +2,58 @@
     <html>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <script>
-    function unhighlight(x) {
+    function unhighlight(x, word) {
       x.style.color = "navy"
       x.style.backgroundColor = "transparent"
+      console.log(word)
     }
     
-    function highlight(x) {
+    function highlight(x, word) {
       x.style.color = "yellow"
       x.style.backgroundColor = "green"
     }
     </script>
     <style>
     
-    span {
-      color: navy;
-      display: inline;
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
       cursor: hand;
     }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
 
     .fulljustify {
       text-align: justify;
@@ -35,12 +70,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>'Covenant Obligations'</p>
+        ' Covenant Obligations ' 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Обязательства завета</p>
+        Обязательства завета 
         </div>
         </td>
       </tr>
@@ -48,12 +83,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>22/04/2021</p>
+        22 / 04 / 2021 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>22/04/2021</p>
+        22 / 04 / 2021 
         </div>
         </td>
       </tr>
@@ -61,12 +96,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>“ ‘For I know him, that he will command his children and his household after him, and they shall keep the way of the LORD, to do justice and judgment; that the LORD may bring upon Abraham that which he hath spoken of him’ ” (Gen. 18:19).</p>
+        “ ‘For I know him , that he will command his children and his household after him , and they shall keep the way of the LORD , to do justice and judgment ; that the LORD may bring upon Abraham that which he hath spoken of him’ ” ( Gen . 18 : 19 ) . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>«Ибо Я избрал его для того, чтобы он заповедал сынам своим и дому своему после себя ходить путем Господним, творя правду и суд; и исполнит Господь над Авраамом, что сказал о нем» (Быт. 18:19).</p>
+        <div class="tooltip">«Ибо<span class="tooltiptext">&quot; Or</span></div> Я <div class="tooltip">избрал<span class="tooltiptext">elected</span></div> его для того , чтобы он <div class="tooltip">заповедал<span class="tooltiptext">Commandment.</span></div> <div class="tooltip">сынам<span class="tooltiptext">children</span></div> <div class="tooltip">своим<span class="tooltiptext">♪</span></div> и <div class="tooltip">дому<span class="tooltiptext">Home</span></div> <div class="tooltip">своему<span class="tooltiptext">of my own</span></div> после себя <div class="tooltip">ходить<span class="tooltiptext">Go.</span></div> <div class="tooltip">путем<span class="tooltiptext">by</span></div> <div class="tooltip">Господним<span class="tooltiptext">I'm sorry.</span></div> , <div class="tooltip">творя<span class="tooltiptext">creation</span></div> <div class="tooltip">правду<span class="tooltiptext">The truth.</span></div> и <div class="tooltip">суд<span class="tooltiptext">Court</span></div> ; и <div class="tooltip">исполнит<span class="tooltiptext">♪</span></div> Господь над Авраамом , что сказал о <div class="tooltip">нем»<span class="tooltiptext">&quot;</span></div> ( Быт . 18 : 19 ) . 
         </div>
         </td>
       </tr>
@@ -74,12 +109,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>As we have seen so far, the covenant is always a covenant of grace, of God doing for us what we could never do for ourselves. There is no exception in the covenant with Abraham.</p>
+        As we have seen so far , the covenant is always a covenant of grace , of God doing for us what we could never do for ourselves . There is no exception in the covenant with Abraham . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Завет — это всегда завет благодати, завет Бога, Который делает ради нас то, что мы никогда не смогли бы сделать ради себя. Завет с Авраамом не исключение.</p>
+        Завет — это всегда завет благодати , завет Бога , Который <div class="tooltip">делает<span class="tooltiptext">It does.</span></div> <div class="tooltip">ради<span class="tooltiptext">For my sake.</span></div> нас то , что мы <div class="tooltip">никогда<span class="tooltiptext">Never</span></div> не <div class="tooltip">смогли<span class="tooltiptext">Yes, we did.</span></div> бы <div class="tooltip">сделать<span class="tooltiptext">Do what</span></div> ради себя . Завет с Авраамом не <div class="tooltip">исключение<span class="tooltiptext">exception</span></div> . 
         </div>
         </td>
       </tr>
@@ -87,12 +122,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>In His grace, God had chosen Abraham as His instrument to assist in proclaiming the plan of salvation to the world. God’s fulfillment of His covenant promises was, however, linked to Abraham’s willingness to do righteously and to obey Him by faith. Without that obedience on Abraham’s part, God could not use him.</p>
+        In His grace , God had chosen Abraham as His instrument to assist in proclaiming the plan of salvation to the world . God’s fulfillment of His covenant promises was , however , linked to Abraham’s willingness to do righteously and to obey Him by faith . Without that obedience on Abraham’s part , God could not use him . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>По Своей благодати Бог избрал Авраама Своим орудием для содействия в провозглашении искупительного замысла миру. Исполнение Богом обетований завета было связано с готовностью Авраама поступать праведно и повиноваться Ему верой. Без послушания Авраама Бог не смог бы использовать его.</p>
+        По <div class="tooltip">Своей<span class="tooltiptext">Yours.</span></div> благодати Бог избрал Авраама Своим <div class="tooltip">орудием<span class="tooltiptext">Equipment</span></div> для <div class="tooltip">содействия<span class="tooltiptext">Assistance</span></div> в <div class="tooltip">провозглашении<span class="tooltiptext">proclamation</span></div> <div class="tooltip">искупительного<span class="tooltiptext">and</span></div> замысла миру . <div class="tooltip">Исполнение<span class="tooltiptext">performance</span></div> Богом <div class="tooltip">обетований<span class="tooltiptext">Travel</span></div> завета было <div class="tooltip">связано<span class="tooltiptext">related</span></div> с <div class="tooltip">готовностью<span class="tooltiptext">Preparedness</span></div> Авраама <div class="tooltip">поступать<span class="tooltiptext">to do so</span></div> <div class="tooltip">праведно<span class="tooltiptext">Right.</span></div> и <div class="tooltip">повиноваться<span class="tooltiptext">Obey.</span></div> Ему верой . Без послушания Авраама Бог не <div class="tooltip">смог<span class="tooltiptext">I did.</span></div> бы <div class="tooltip">использовать<span class="tooltiptext">Use</span></div> его . 
         </div>
         </td>
       </tr>
@@ -100,12 +135,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>Genesis 18:19 demonstrates how grace and law are related. It opens with grace (“I know him”) and is followed by the fact that Abraham is someone who will obey the Lord and have his family obey, as well. Faith and works, then, appear here in a close union, as they must. (See James 2:17.)</p>
+        Genesis 18 : 19 demonstrates how grace and law are related . It opens with grace ( “I know him” ) and is followed by the fact that Abraham is someone who will obey the Lord and have his family obey , as well . Faith and works , then , appear here in a close union , as they must . ( See James 2 : 17 . ) 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>В Быт. 18:19 показана связь благодати и закона. Этот стих начинается с благодати («Я избрал его»), а за ним следует тот факт, что Авраам будет повиноваться Господу, и его семья также будет повиноваться Ему. Таким образом, вера и дела представлены здесь в тесном союзе, как и должно быть. (См. Иак. 2:17).</p>
+        В Быт . 18 : 19 <div class="tooltip">показана<span class="tooltiptext">shown</span></div> связь благодати и <div class="tooltip">закона<span class="tooltiptext">Law</span></div> . <div class="tooltip">Этот<span class="tooltiptext">This is the one.</span></div> стих <div class="tooltip">начинается<span class="tooltiptext">starting</span></div> с благодати ( «Я избрал <div class="tooltip">его»<span class="tooltiptext">&quot;</span></div> ) , а за ним <div class="tooltip">следует<span class="tooltiptext">should be</span></div> тот <div class="tooltip">факт<span class="tooltiptext">fact</span></div> , что Авраам будет повиноваться <div class="tooltip">Господу<span class="tooltiptext">God.</span></div> , и его <div class="tooltip">семья<span class="tooltiptext">Family</span></div> также будет повиноваться Ему . Таким образом , <div class="tooltip">вера<span class="tooltiptext">faith</span></div> и <div class="tooltip">дела<span class="tooltiptext">Cases</span></div> <div class="tooltip">представлены<span class="tooltiptext">submitted</span></div> здесь в <div class="tooltip">тесном<span class="tooltiptext">close</span></div> <div class="tooltip">союзе<span class="tooltiptext">Union</span></div> , как и <div class="tooltip">должно<span class="tooltiptext">must be</span></div> быть . ( См . <div class="tooltip">Иак<span class="tooltiptext">Yay.</span></div> . 2 : 17 ) . 
         </div>
         </td>
       </tr>
@@ -113,12 +148,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>Notice, however, the phrasing of Genesis 18:19, particularly the last clause. What is it saying here about Abraham’s obedience? Though obedience is not the means of salvation, what importance is it given here? According to this text, could the covenant be fulfilled without it? Explain your answer.</code></p>
+        Notice , however , the phrasing of Genesis 18 : 19 , particularly the last clause . What is it saying here about Abraham’s obedience ? Though obedience is not the means of salvation , what importance is it given here ? According to this text , could the covenant be fulfilled without it ? Explain your answer . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Обратите внимание на Быт. 18:19, в частности, на заключительные слова. Что здесь говорится о послушании Авраама? Хотя послушание не является средством спасения, какое значение ему здесь придается? Согласно этому тексту, мог ли завет быть исполнен без послушания? Поясните свой ответ.</code></p>
+        Обратите внимание на Быт . 18 : 19 , в <div class="tooltip">частности<span class="tooltiptext">in particular</span></div> , на <div class="tooltip">заключительные<span class="tooltiptext">concluding observations</span></div> слова . Что здесь говорится о послушании Авраама ? Хотя <div class="tooltip">послушание<span class="tooltiptext">listening</span></div> не является <div class="tooltip">средством<span class="tooltiptext">by</span></div> спасения , какое значение ему здесь <div class="tooltip">придается<span class="tooltiptext">issued</span></div> ? Согласно <div class="tooltip">этому<span class="tooltiptext">this is it.</span></div> тексту , мог ли завет быть <div class="tooltip">исполнен<span class="tooltiptext">executed</span></div> без послушания ? <div class="tooltip">Поясните<span class="tooltiptext">Please explain.</span></div> <div class="tooltip">свой<span class="tooltiptext">♪</span></div> <div class="tooltip">ответ<span class="tooltiptext">Response</span></div> . 
         </div>
         </td>
       </tr>
@@ -126,12 +161,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>The blessings of the covenant could not be enjoyed or maintained unless certain conditions were met by the beneficiaries. Though the conditions were not needed to establish the covenant, they were to be the responses of love, faith, and obedience. They were to be the manifestation of a relationship between humankind and God. Obedience was the means by which God could fulfill His covenant promises to the people.</p>
+        The blessings of the covenant could not be enjoyed or maintained unless certain conditions were met by the beneficiaries . Though the conditions were not needed to establish the covenant , they were to be the responses of love , faith , and obedience . They were to be the manifestation of a relationship between humankind and God . Obedience was the means by which God could fulfill His covenant promises to the people . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Благословениями завета нельзя было пользоваться, как и нельзя было их сохранить, если получатели не соблюдали определенные условия. Хотя эти условия не были необходимы для заключения завета, они должны были быть ответом любви, веры и послушания. Они должны были быть проявлением отношений между человечеством и Богом. Послушание было средством, с помощью которого Бог мог выполнить Свои обетования завета, данные людям.</p>
+        <div class="tooltip">Благословениями<span class="tooltiptext">of blessings</span></div> завета <div class="tooltip">нельзя<span class="tooltiptext">No.</span></div> было <div class="tooltip">пользоваться<span class="tooltiptext">of use</span></div> , как и нельзя было их <div class="tooltip">сохранить<span class="tooltiptext">retained</span></div> , если <div class="tooltip">получатели<span class="tooltiptext">recipients</span></div> не <div class="tooltip">соблюдали<span class="tooltiptext">respected</span></div> <div class="tooltip">определенные<span class="tooltiptext">Defined</span></div> условия . Хотя эти условия не были <div class="tooltip">необходимы<span class="tooltiptext">necessary</span></div> для <div class="tooltip">заключения<span class="tooltiptext">detention</span></div> завета , они должны были быть <div class="tooltip">ответом<span class="tooltiptext">Response</span></div> <div class="tooltip">любви<span class="tooltiptext">love</span></div> , <div class="tooltip">веры<span class="tooltiptext">faith</span></div> и послушания . Они должны были быть <div class="tooltip">проявлением<span class="tooltiptext">manifestation</span></div> <div class="tooltip">отношений<span class="tooltiptext">relations</span></div> между <div class="tooltip">человечеством<span class="tooltiptext">humanity</span></div> и Богом . Послушание было средством , с <div class="tooltip">помощью<span class="tooltiptext">assistance</span></div> <div class="tooltip">которого<span class="tooltiptext">of which</span></div> Бог мог <div class="tooltip">выполнить<span class="tooltiptext">I'm sorry.</span></div> <div class="tooltip">Свои<span class="tooltiptext">their own</span></div> обетования завета , данные <div class="tooltip">людям<span class="tooltiptext">People</span></div> . 
         </div>
         </td>
       </tr>
@@ -139,12 +174,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>Covenant breaking, through disobedience, is unfaithfulness to an established relationship. When the covenant is broken, what is broken is not the condition of bestowal but the condition of fulfillment.</p>
+        Covenant breaking , through disobedience , is unfaithfulness to an established relationship . When the covenant is broken , what is broken is not the condition of bestowal but the condition of fulfillment . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Нарушение завета вследствие непослушания — это неверность установленным взаимоотношениям. Когда завет нарушается, нарушается не условие дарения, а условие исполнения.</p>
+        <div class="tooltip">Нарушение<span class="tooltiptext">violation</span></div> завета <div class="tooltip">вследствие<span class="tooltiptext">by</span></div> <div class="tooltip">непослушания<span class="tooltiptext">Non-observance</span></div> — это <div class="tooltip">неверность<span class="tooltiptext">Infidelity</span></div> <div class="tooltip">установленным<span class="tooltiptext">Established</span></div> <div class="tooltip">взаимоотношениям<span class="tooltiptext">relationship</span></div> . Когда завет <div class="tooltip">нарушается<span class="tooltiptext">violated</span></div> , нарушается не <div class="tooltip">условие<span class="tooltiptext">condition</span></div> <div class="tooltip">дарения<span class="tooltiptext">gifts</span></div> , а условие <div class="tooltip">исполнения<span class="tooltiptext">Performance</span></div> . 
         </div>
         </td>
       </tr>
@@ -152,25 +187,16 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>In your own experience with the Lord, can you see why obedience is so important? Can you think of any examples, either from the Bible or from your own experience, where disobedience makes the fulfillment of covenant promises impossible? If so, what are they, and, more important, what is the remedy?</code></p>
+        In your own experience with the Lord , can you see why obedience is so important ? Can you think of any examples , either from the Bible or from your own experience , where disobedience makes the fulfillment of covenant promises impossible ? If so , what are they , and , more important , what is the remedy ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>В вашем собственном опыте с Господом видите ли вы, почему послушание так важно? Можете ли вы привести какие-либо примеры из Библии или из собственного опыта, когда непослушание делает невозможным исполнение обетований завета? Как стать послушным?</code></p>
+        В <div class="tooltip">вашем<span class="tooltiptext">Your your yours.</span></div> <div class="tooltip">собственном<span class="tooltiptext">of the</span></div> <div class="tooltip">опыте<span class="tooltiptext">experiences</span></div> с <div class="tooltip">Господом<span class="tooltiptext">God</span></div> <div class="tooltip">видите<span class="tooltiptext">See?</span></div> ли вы , почему послушание так важно ? Можете ли вы привести <div class="tooltip">какие-либо<span class="tooltiptext">of any kind</span></div> <div class="tooltip">примеры<span class="tooltiptext">examples</span></div> из <div class="tooltip">Библии<span class="tooltiptext">Bibles</span></div> или из <div class="tooltip">собственного<span class="tooltiptext">of own</span></div> <div class="tooltip">опыта<span class="tooltiptext">experience</span></div> , когда <div class="tooltip">непослушание<span class="tooltiptext">non-observance</span></div> делает <div class="tooltip">невозможным<span class="tooltiptext">impossible</span></div> исполнение обетований завета ? Как <div class="tooltip">стать<span class="tooltiptext">Become</span></div> <div class="tooltip">послушным<span class="tooltiptext">to be careful.</span></div> ? 
         </div>
         </td>
       </tr>
   
-<tr>
-  <td colspan="2" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-  <div dir="ltl">
-  <u>Verbs:</u><br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">According: <b><i>согласно</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">appear: <b><i>появиться</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">are: <b><i>есть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">assist: <b><i>Помощь</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">be: <b><i>быть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">breaking: <b><i>сломать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">bring: <b><i>принести</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">broken: <b><i>сломанный</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">chosen: <b><i>выбрано</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">demonstrates: <b><i>демонстрировать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">do: <b><i>сделать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">doing: <b><i>делать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">enjoyed: <b><i>Наслаждайтесь</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">establish: <b><i>установить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">established: <b><i>установленный</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Explain: <b><i>объяснить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">followed: <b><i>после</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">fulfill: <b><i>исполнить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">fulfilled: <b><i>выполнено</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">given: <b><i>дано</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">had: <b><i>было</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">hath: <b><i>Гэт</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">have: <b><i>есть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">is: <b><i>это</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">keep: <b><i>держать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">know: <b><i>знать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">linked: <b><i>ссылка</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">maintained: <b><i>поддерживается</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">makes: <b><i>делает</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">means: <b><i>означает</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">met: <b><i>Встретить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">needed: <b><i>необходимо</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">obey: <b><i>повин</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">opens: <b><i>ОТКРЫТЫ</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">phrasing: <b><i>Фразирование</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">proclaiming: <b><i>провозглашение</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">promises: <b><i>обещания</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">related: <b><i>Связанные</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">saying: <b><i>говорить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">See: <b><i>посмотреть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">seen: <b><i>вид</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">spoken: <b><i>разговор</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">think: <b><i>думать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">was: <b><i>был</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">were: <b><i>были</i></b>
-  
-  </div>
-  </td>
-</tr>
-
 
   <tr>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">

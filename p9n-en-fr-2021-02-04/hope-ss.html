@@ -2,23 +2,58 @@
     <html>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <script>
-    function unhighlight(x) {
+    function unhighlight(x, word) {
       x.style.color = "navy"
       x.style.backgroundColor = "transparent"
+      console.log(word)
     }
     
-    function highlight(x) {
+    function highlight(x, word) {
       x.style.color = "yellow"
       x.style.backgroundColor = "green"
     }
     </script>
     <style>
     
-    span {
-      color: navy;
-      display: inline;
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
       cursor: hand;
     }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
 
     .fulljustify {
       text-align: justify;
@@ -35,7 +70,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>Hope Sabbath School Outline</p>
+        Hope Sabbath <div class="tooltip">School<span class="tooltiptext">école</span></div> <div class="tooltip">Outline<span class="tooltiptext">esquisse</span></div> 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -48,7 +83,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>23/04/2021</p>
+        23 / 04 / 2021 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -61,7 +96,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>&lt;center&gt;&lt;img src=&quot;https://sabbath-school.adventech.io/api/v1/images/misc/hope-ss-logo.jpg&quot; /&gt;&lt;/center&gt;</p>
+        &lt ; <div class="tooltip">center&gt<span class="tooltiptext">centre</span></div> ; &lt ; <div class="tooltip">img<span class="tooltiptext">img</span></div> <div class="tooltip">src=&quot<span class="tooltiptext">src=dentif</span></div> ; <div class="tooltip">https://sabbath-school.adventech.io/api/v1/images/misc/hope-ss-logo.jpg<span class="tooltiptext">https://sabbath-school.adventech.io/api/v1/images/misc/hope-ss-logo.jpg</span></div> <div class="tooltip">&quot<span class="tooltiptext">&quot;</span></div> ; / <div class="tooltip">&gt<span class="tooltiptext">&gt;</span></div> ; &lt ; / center&gt ; 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -74,7 +109,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <h3>Outline #4	The LORD’s Everlasting Covenant</h3>
+        Outline # 4 The LORD’s Everlasting Covenant 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -87,9 +122,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <ul><li>YHWH (Yahweh) – the personal name of God</li>
-</ul>
-
+        YHWH ( Yahweh ) – the personal name of God 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -102,7 +135,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* Genesis 15:7 How did God identify Himself when He spoke to Abram?</code></pre>
+        * Genesis 15 : 7 How did God identify Himself when He <div class="tooltip">spoke<span class="tooltiptext">Intervenant</span></div> to Abram ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -115,7 +148,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* The name YHWH (printed as LORD in KJV and NKJV) is used 6,828 times in the Hebrew Scriptures. What is the meaning of this name God uses to identify Himself? Exodus 3:14 (see John 8:58)</code></pre>
+        * The name YHWH ( printed as LORD in KJV and <div class="tooltip">NKJV<span class="tooltiptext">nkjv</span></div> ) is used 6 , 828 times in the <div class="tooltip">Hebrew<span class="tooltiptext">Hebrew</span></div> <div class="tooltip">Scriptures<span class="tooltiptext">scriptures</span></div> . What is the meaning of this name God <div class="tooltip">uses<span class="tooltiptext">utilisations</span></div> to identify Himself ? Exodus 3 : 14 ( see <div class="tooltip">John<span class="tooltiptext">john</span></div> 8 : 58 ) 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -128,7 +161,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* Psalm 9:1-2,9-10 What are some reasons the Psalmist gives for praising the name of YHWH?</code></pre>
+        * <div class="tooltip">Psalm<span class="tooltiptext">psalm</span></div> 9 : 1 - 2 , 9 - 10 What are some <div class="tooltip">reasons<span class="tooltiptext">raisons</span></div> the <div class="tooltip">Psalmist<span class="tooltiptext">psalmiste</span></div> <div class="tooltip">gives<span class="tooltiptext">donne</span></div> for <div class="tooltip">praising<span class="tooltiptext">louant</span></div> the name of YHWH ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -141,7 +174,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* What are some reasons you have for praising the name of the LORD (YHWH) today?</code></pre>
+        * What are some reasons you have for praising the name of the LORD ( YHWH ) today ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -154,9 +187,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <ul><li>El Shaddai – God Almighty</li>
-</ul>
-
+        <div class="tooltip">El<span class="tooltiptext">el</span></div> Shaddai – God Almighty 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -169,7 +200,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* Genesis 17:1 This is the first mention of El Shaddai in the Hebrew Scriptures.  Is this another god, or another name for the one true God?</code></pre>
+        * Genesis 17 : 1 This is the first <div class="tooltip">mention<span class="tooltiptext">mention</span></div> of El Shaddai in the Hebrew Scriptures . Is this <div class="tooltip">another<span class="tooltiptext">un autre</span></div> god , or another name for the one true God ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -182,7 +213,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* What is the meaning of El Shaddai and why does the LORD choose this name when identifying Himself to Abram?</code></pre>
+        * What is the meaning of El Shaddai and why does the LORD <div class="tooltip">choose<span class="tooltiptext">choisir</span></div> this name when <div class="tooltip">identifying<span class="tooltiptext">Identification</span></div> Himself to Abram ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -195,7 +226,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* What lessons can we learn from other occasions when the LORD identified Himself as El Shaddai? Genesis 35:9-11, Job 40:1-2</code></pre>
+        * What <div class="tooltip">lessons<span class="tooltiptext">leçons</span></div> can we learn from other <div class="tooltip">occasions<span class="tooltiptext">occasions</span></div> when the LORD <div class="tooltip">identified<span class="tooltiptext">identifiés</span></div> Himself as El Shaddai ? Genesis 35 : 9 - 11 , Job 40 : 1 - 2 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -208,7 +239,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* Share a time when you needed to remember that the LORD God, the Great I AM, is also El Shaddai.</code></pre>
+        * <div class="tooltip">Share<span class="tooltiptext">action</span></div> a time when you needed to remember that the LORD God , the Great I AM , is also El Shaddai . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -221,9 +252,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <ul><li>From Abram to Abraham</li>
-</ul>
-
+        From Abram to Abraham 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -236,7 +265,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* Genesis 17:1-5 Why did the LORD, El Shaddai, change Abram’s name to Abraham? (“Father is exalted” to “Father of a multitude”)</code></pre>
+        * Genesis 17 : 1 - 5 Why did the LORD , El Shaddai , change Abram’s name to Abraham ? ( “Father is exalted” to “Father of a <div class="tooltip">multitude”<span class="tooltiptext">multitude</span></div> ) 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -249,7 +278,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* Consider the story of another Bible character whose name was changed by God. Genesis 32:24-30</code></pre>
+        * <div class="tooltip">Consider<span class="tooltiptext">Examen</span></div> the <div class="tooltip">story<span class="tooltiptext">histoire</span></div> of another Bible <div class="tooltip">character<span class="tooltiptext">caractère</span></div> <div class="tooltip">whose<span class="tooltiptext">dont le</span></div> name was changed by God . Genesis 32 : 24 - 30 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -262,7 +291,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* Identify some Bible characters whose names were changed by human powers, but they still chose to remain faithful to God. Genesis 41:45, Daniel 1:7</code></pre>
+        * Identify some Bible <div class="tooltip">characters<span class="tooltiptext">personnages</span></div> whose names were changed by human <div class="tooltip">powers<span class="tooltiptext">pouvoirs</span></div> , but they still <div class="tooltip">chose<span class="tooltiptext">choisi</span></div> to remain faithful to God . Genesis 41 : 45 , Daniel 1 : 7 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -275,7 +304,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* Share someone you know whose name was changed as a result of an encounter with God.</code></pre>
+        * Share someone you know whose name was changed as a <div class="tooltip">result<span class="tooltiptext">résultat</span></div> of an <div class="tooltip">encounter<span class="tooltiptext">rencontre</span></div> with God . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -288,9 +317,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <ul><li>The LORD’s everlasting covenant with Abram/Abraham</li>
-</ul>
-
+        The LORD’s everlasting covenant with Abram / Abraham 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -303,7 +330,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* Genesis 12:1-4 What important elements do you see in the LORD’s covenant with Abram?</code></pre>
+        * Genesis 12 : 1 - 4 What important <div class="tooltip">elements<span class="tooltiptext">éléments</span></div> do you see in the LORD’s covenant with Abram ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -316,7 +343,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* Notice the LORD takes the initiative in making this covenant. What does the proactive behavior of our covenant-making LORD teach us about His character? Support your response from Scripture (e.g. John 3:16, Romans 5:8, Ephesians 2:8)</code></pre>
+        * Notice the LORD <div class="tooltip">takes<span class="tooltiptext">,</span></div> the <div class="tooltip">initiative<span class="tooltiptext">initiative</span></div> in making this covenant . What does the <div class="tooltip">proactive<span class="tooltiptext">proactive</span></div> <div class="tooltip">behavior<span class="tooltiptext">comportement</span></div> of our <div class="tooltip">covenant-making<span class="tooltiptext">pactes</span></div> LORD <div class="tooltip">teach<span class="tooltiptext">enseigner</span></div> us about His character ? <div class="tooltip">Support<span class="tooltiptext">appui</span></div> your <div class="tooltip">response<span class="tooltiptext">Réponse</span></div> from <div class="tooltip">Scripture<span class="tooltiptext">scripture</span></div> ( <div class="tooltip">e<span class="tooltiptext">e</span></div> . g . John 3 : 16 , <div class="tooltip">Romans<span class="tooltiptext">romans</span></div> 5 : 8 , <div class="tooltip">Ephesians<span class="tooltiptext">ephesians</span></div> 2 : 8 ) 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -329,7 +356,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* Genesis 17:7 How can we be certain we are included in this everlasting covenant with the LORD, God Almighty, even though we may not be physical descendants of Abraham? Galatians 3:7-9,29</code></pre>
+        * Genesis 17 : 7 How can we be certain we are <div class="tooltip">included<span class="tooltiptext">inclus</span></div> in this everlasting covenant with the LORD , God Almighty , even though we may not be <div class="tooltip">physical<span class="tooltiptext">physique</span></div> descendants of Abraham ? Galatians 3 : 7 - 9 , 29 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -342,7 +369,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <pre><code>* Why is obedience to the LORD so important in the context of this covenant relationship? Genesis 18:19</code></pre>
+        * Why is obedience to the LORD so important in the context of this covenant relationship ? Genesis 18 : 19 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -355,7 +382,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>&lt;small&gt;Hope Sabbath School Outline is provided by Hope Channel. Learn more here: https://www.hopetv.org/hopess/&lt;/small&gt;</p>
+        &lt ; <div class="tooltip">small&gt<span class="tooltiptext">petit mot</span></div> ; Hope Sabbath School Outline is <div class="tooltip">provided<span class="tooltiptext">fournis</span></div> by Hope <div class="tooltip">Channel<span class="tooltiptext">canal</span></div> . Learn more here : <div class="tooltip">https://www.hopetv.org/hopess/<span class="tooltiptext">https://www.hopetv.org/hopess</span></div> &lt ; / small&gt ; 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -368,12 +395,12 @@
 <tr>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
   <div dir="ltl">
-  <b><i><u>Verbs:</u><br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">are: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">be: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">changed: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">choose: choisir</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">chose: choisi</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Consider: Examen</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">covenant-making: pactes</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">did: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">do: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">does: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">gives: donne</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">have: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">identified: identifiés</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">identify: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Identify: Identification</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">identifying: Identification</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">included: inclus</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">is: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Is: Est</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">know: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">learn: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Learn: Apprendre</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">making: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">meaning: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">mention: mention</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">needed: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">praising: louant</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">printed: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">provided: fournis</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">remain: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">remember: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">see: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">spoke: Intervenant</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">takes: ,</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">teach: enseigner</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">used: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">uses: utilisations</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">was: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">were: undefined</i></b>
+  <u>Glossary:</u><br /><span>“Father: <b><i></i></b></span>, <span>&gt: <b><i>&gt;</i></b></span>, <span>&lt: <b><i></i></b></span>, <span>&quot: <b><i>&quot;</i></b></span>, <span>a: <b><i></i></b></span>, <span>about: <b><i></i></b></span>, <span>Abraham: <b><i></i></b></span>, <span>Abram: <b><i></i></b></span>, <span>Abram’s: <b><i></i></b></span>, <span>Almighty: <b><i></i></b></span>, <span>also: <b><i></i></b></span>, <span>AM: <b><i></i></b></span>, <span>an: <b><i></i></b></span>, <span>and: <b><i></i></b></span>, <span>another: <b><i>un autre</i></b></span>, <span>are: <b><i></i></b></span>, <span>as: <b><i></i></b></span>, <span>be: <b><i></i></b></span>, <span>behavior: <b><i>comportement</i></b></span>, <span>Bible: <b><i></i></b></span>, <span>but: <b><i></i></b></span>, <span>by: <b><i></i></b></span>, <span>can: <b><i></i></b></span>, <span>center&gt: <b><i>centre</i></b></span>, <span>certain: <b><i></i></b></span>, <span>change: <b><i></i></b></span>, <span>changed: <b><i></i></b></span>, <span>Channel: <b><i>canal</i></b></span>, <span>character: <b><i>caractère</i></b></span>, <span>characters: <b><i>personnages</i></b></span>, <span>choose: <b><i>choisir</i></b></span>, <span>chose: <b><i>choisi</i></b></span>, <span>Consider: <b><i>Examen</i></b></span>, <span>context: <b><i></i></b></span>, <span>Covenant: <b><i></i></b></span>, <span>covenant-making: <b><i>pactes</i></b></span>, <span>Daniel: <b><i></i></b></span>, <span>descendants: <b><i></i></b></span>, <span>did: <b><i></i></b></span>, <span>do: <b><i></i></b></span>, <span>does: <b><i></i></b></span>, <span>e: <b><i>e</i></b></span>, <span>El: <b><i>el</i></b></span>, <span>elements: <b><i>éléments</i></b></span>, <span>encounter: <b><i>rencontre</i></b></span>, <span>Ephesians: <b><i>ephesians</i></b></span>, <span>even: <b><i></i></b></span>, <span>Everlasting: <b><i></i></b></span>, <span>exalted”: <b><i></i></b></span>, <span>Exodus: <b><i></i></b></span>, <span>faithful: <b><i></i></b></span>, <span>first: <b><i></i></b></span>, <span>for: <b><i></i></b></span>, <span>from: <b><i></i></b></span>, <span>g: <b><i></i></b></span>, <span>Galatians: <b><i></i></b></span>, <span>Genesis: <b><i></i></b></span>, <span>gives: <b><i>donne</i></b></span>, <span>God: <b><i></i></b></span>, <span>Great: <b><i></i></b></span>, <span>have: <b><i></i></b></span>, <span>He: <b><i></i></b></span>, <span>Hebrew: <b><i>Hebrew</i></b></span>, <span>here: <b><i></i></b></span>, <span>Himself: <b><i></i></b></span>, <span>His: <b><i></i></b></span>, <span>Hope: <b><i></i></b></span>, <span>How: <b><i></i></b></span>, <span>https://sabbath-school.adventech.io/api/v1/images/misc/hope-ss-logo.jpg: <b><i>https://sabbath-school.adventech.io/api/v1/images/misc/hope-ss-logo.jpg</i></b></span>, <span>https://www.hopetv.org/hopess/: <b><i>https://www.hopetv.org/hopess</i></b></span>, <span>human: <b><i></i></b></span>, <span>I: <b><i></i></b></span>, <span>identified: <b><i>identifiés</i></b></span>, <span>identify: <b><i></i></b></span>, <span>identifying: <b><i>Identification</i></b></span>, <span>img: <b><i>img</i></b></span>, <span>important: <b><i></i></b></span>, <span>in: <b><i></i></b></span>, <span>included: <b><i>inclus</i></b></span>, <span>initiative: <b><i>initiative</i></b></span>, <span>is: <b><i></i></b></span>, <span>Job: <b><i></i></b></span>, <span>John: <b><i>john</i></b></span>, <span>KJV: <b><i></i></b></span>, <span>know: <b><i></i></b></span>, <span>learn: <b><i></i></b></span>, <span>lessons: <b><i>leçons</i></b></span>, <span>LORD: <b><i></i></b></span>, <span>LORD’s: <b><i></i></b></span>, <span>making: <b><i></i></b></span>, <span>may: <b><i></i></b></span>, <span>meaning: <b><i></i></b></span>, <span>mention: <b><i>mention</i></b></span>, <span>more: <b><i></i></b></span>, <span>multitude”: <b><i>multitude</i></b></span>, <span>name: <b><i></i></b></span>, <span>names: <b><i></i></b></span>, <span>needed: <b><i></i></b></span>, <span>NKJV: <b><i>nkjv</i></b></span>, <span>not: <b><i></i></b></span>, <span>Notice: <b><i></i></b></span>, <span>obedience: <b><i></i></b></span>, <span>occasions: <b><i>occasions</i></b></span>, <span>of: <b><i></i></b></span>, <span>one: <b><i></i></b></span>, <span>or: <b><i></i></b></span>, <span>other: <b><i></i></b></span>, <span>our: <b><i></i></b></span>, <span>Outline: <b><i>esquisse</i></b></span>, <span>personal: <b><i></i></b></span>, <span>physical: <b><i>physique</i></b></span>, <span>powers: <b><i>pouvoirs</i></b></span>, <span>praising: <b><i>louant</i></b></span>, <span>printed: <b><i></i></b></span>, <span>proactive: <b><i>proactive</i></b></span>, <span>provided: <b><i>fournis</i></b></span>, <span>Psalm: <b><i>psalm</i></b></span>, <span>Psalmist: <b><i>psalmiste</i></b></span>, <span>reasons: <b><i>raisons</i></b></span>, <span>relationship: <b><i></i></b></span>, <span>remain: <b><i></i></b></span>, <span>remember: <b><i></i></b></span>, <span>response: <b><i>Réponse</i></b></span>, <span>result: <b><i>résultat</i></b></span>, <span>Romans: <b><i>romans</i></b></span>, <span>Sabbath: <b><i></i></b></span>, <span>School: <b><i>école</i></b></span>, <span>Scripture: <b><i>scripture</i></b></span>, <span>Scriptures: <b><i>scriptures</i></b></span>, <span>see: <b><i></i></b></span>, <span>Shaddai: <b><i></i></b></span>, <span>Share: <b><i>action</i></b></span>, <span>small&gt: <b><i>petit mot</i></b></span>, <span>so: <b><i></i></b></span>, <span>some: <b><i></i></b></span>, <span>someone: <b><i></i></b></span>, <span>spoke: <b><i>Intervenant</i></b></span>, <span>src=&quot: <b><i>src=dentif</i></b></span>, <span>still: <b><i></i></b></span>, <span>story: <b><i>histoire</i></b></span>, <span>Support: <b><i>appui</i></b></span>, <span>takes: <b><i>,</i></b></span>, <span>teach: <b><i>enseigner</i></b></span>, <span>that: <b><i></i></b></span>, <span>The: <b><i></i></b></span>, <span>they: <b><i></i></b></span>, <span>this: <b><i></i></b></span>, <span>though: <b><i></i></b></span>, <span>time: <b><i></i></b></span>, <span>times: <b><i></i></b></span>, <span>to: <b><i></i></b></span>, <span>today: <b><i></i></b></span>, <span>true: <b><i></i></b></span>, <span>us: <b><i></i></b></span>, <span>used: <b><i></i></b></span>, <span>uses: <b><i>utilisations</i></b></span>, <span>was: <b><i></i></b></span>, <span>we: <b><i></i></b></span>, <span>were: <b><i></i></b></span>, <span>What: <b><i></i></b></span>, <span>when: <b><i></i></b></span>, <span>whose: <b><i>dont le</i></b></span>, <span>why: <b><i></i></b></span>, <span>with: <b><i></i></b></span>, <span>Yahweh: <b><i></i></b></span>, <span>YHWH: <b><i></i></b></span>, <span>you: <b><i></i></b></span>, <span>your: <b><i></i></b>
   </div>
   </td>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
   <div dir="ltr">
-  <b><i></i></b>
+  
   </div>
   </td>
 </tr>

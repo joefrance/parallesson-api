@@ -7,6 +7,7 @@ import translate from "translate";
 //import { readdir } from 'fs/promises';
 import YAML from 'yamljs';
 import MarkdownIt from 'markdown-it';
+import { isNamedType } from 'graphql';
 
 var md = new MarkdownIt();
 
@@ -23,25 +24,29 @@ var md = new MarkdownIt();
 
 const lslLanguage = 'en';
 const lslLangDir = 'ltl';
-const rslLanguage = 'ru';
+const rslLanguage = 'pt';
 const rslLangDir = 'ltr';
 const chapterFolder = '2021-02';
 const chapterNumber = '04';
 const lslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/${chapterFolder}/${chapterNumber}`;
 const rslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/${chapterFolder}/${chapterNumber}`;
-var nonPosLang = rslLanguage === 'en' ? lslLanguage : rslLanguage;
 const apiEndpoint = "http://localhost:5000/translate"
-var glossary = {
-  nouns: [],
-  verbs: []
+var lslGlossary = {
+  lang: lslLanguage,
+  tokens: []
+};
+
+var rslGlossary = {
+  lang: rslLanguage,
+  tokens: []
 };
 
 var lslPos = {
-  verbs: []
+  tokens: []
 };
 
 var rslPos = {
-  verbs: []
+  tokens: []
 };
 
 // async function f() {
@@ -52,14 +57,41 @@ var rslPos = {
 //   console.log(value)
 // });
 
-function getVerbTranslationFromGlossary(word, glossary) {
-  var wt = glossary.verbs.find(entry => entry.word.toLowerCase() === word.toLowerCase());
-  if(wt !== null) return wt.tx;
+function getTranslationFromGlossary(word, glossary) {
+  var wt = glossary.tokens.find(entry => entry.word.toLowerCase() === word.toLowerCase());
+  if(wt !== null) return wt.translation;
 
   return '';
 }
 
-async function translateText(sourceText, sourceLanguage, targetLanguage, apiEndpoint, glossary) {
+
+function getHtmlParagraphFromPos(pos) {
+  var paragraph = ''; //'<span onmouseover="highlight(this);" onmouseout="unhighlight(this)">';
+
+  if(pos.oringinalSeqence === undefined) return '';
+
+  for(var ox = 0; ox < pos.oringinalSeqence.length; ox++) {
+    var wt = pos.oringinalSeqence[ox];
+    if(wt.isPunctuation) {
+      paragraph += `${wt.word} `;
+    } else {
+      if(wt.translation !== '') {
+        //paragraph += `<span onmouseover="highlight(this, '${wt.word}');" onmouseout="unhighlight(this, '${wt.word}')">${wt.word}</span> `;
+        paragraph += `<div class="tooltip">${wt.word}<span class="tooltiptext">${wt.translation}</span></div> `;
+      } else {
+        paragraph += `${wt.word} `;
+      }
+    }
+  }
+
+  return paragraph;
+}
+
+async function translateText(sourceText, sourceLanguage, targetLanguage, apiEndpoint) {
+
+  if(!isNaN(sourceText)) {
+    return '';
+  }
 
   const res = await fetch(apiEndpoint, {
       method: "POST",
@@ -72,12 +104,17 @@ async function translateText(sourceText, sourceLanguage, targetLanguage, apiEndp
   });
 
   var result = await res.json();
-  console.log(sourceText, result.translatedText)
+
+  if(!isNaN(result.translatedText)) {
+    return '';
+  }
+
+  //console.log(sourceText, result.translatedText)
   return result.translatedText;
 }
 
-async function getPartsOfSpeech(paragraph, nonPosLang, apiEndpoint, glossary) {
-  var punctuation = '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~';
+async function getPartsOfSpeech(paragraph, sourceLanguage, targetLanguage, apiEndpoint, glossary) {
+  var punctuation = '!"#$%&\'()*+,-–./:;<=>?@[\\]^_`{|}~«»„“”';
   var withoutHtml = paragraph.replace(/(<([^>]+)>)/gi, "");
   
   var oringinalSeqence = [];
@@ -88,57 +125,113 @@ async function getPartsOfSpeech(paragraph, nonPosLang, apiEndpoint, glossary) {
   var others = [];
   var punctuations = [];
   var allTags = [];
+
+  if(sourceLanguage === 'en') {
+    var words = new pos.Lexer().lex(withoutHtml);
+    var tagger = new pos.Tagger();
+    var taggedWords = tagger.tag(words);
+    for (var i = 0; i < taggedWords.length; i++ ) {
+      var taggedWord = taggedWords[i];
+      var syllableCount = syllables(taggedWord[0]);
+      var key = taggedWord[0].toLowerCase() + "~|~" + taggedWord[1].toLowerCase();
+      var stem = natural.PorterStemmer.stem(taggedWord[0]);
+      var translation = '';
   
-  var words = new pos.Lexer().lex(withoutHtml);
-  var tagger = new pos.Tagger();
-  var taggedWords = tagger.tag(words);
-  for (var i = 0; i < taggedWords.length; i++ ) {
-    var taggedWord = taggedWords[i];
-    var syls = syllables(taggedWord[0]);
-    // try {
-    //     syls = syllables(taggedWord[0])
-    //   } catch (error) {
-    //     //console.error(error);
-    //     // expected output: ReferenceError: nonExistentFunction is not defined
-    //     // Note - error messages will vary depending on browser
-    //   }
-
-    var key = taggedWord[0].toLowerCase() + "~|~" + taggedWord[1].toLowerCase();
-    var stem = natural.PorterStemmer.stem(taggedWord[0]);
-    var wt = {
-        word: taggedWord[0],
-        tag: taggedWord[1],
-        stem: stem,
-        syllables: syls,
-        isPunctuation: punctuation.indexOf(taggedWord[0]) > -1,
-        translation: ''
-    };
-    wt.key = key;
-
-
-    if(!allTags.includes(wt.tag)) allTags.push(wt.tag);
-
-    oringinalSeqence.push(wt);
-
-    //console.log(wt);
-    
-    if(wt.isPunctuation) { if(!punctuations.find(element => element.key === key)) punctuations.push(wt); }
-    else if(wt.tag.substr(0, 1) === 'V') {
-      if(!glossary.verbs.find(element => element.word.toLowerCase() === wt.word.toLowerCase())) {
-        wt.tx = await translateText(wt.word.toLowerCase(), 'en', nonPosLang, apiEndpoint);
-        if(wt.tx !== undefined) {
-          glossary.verbs.push(wt);
+      var wt = {
+          word: taggedWord[0],
+          tag: taggedWord[1],
+          stem: stem,
+          syllableCount: syllableCount,
+          isPunctuation: punctuation.indexOf(taggedWord[0]) > -1,
+          isNumber: !isNaN(taggedWord[0]),
+          translation: ''
+      };
+      wt.key = key;
+  
+      //if(sourceLanguage !== lslLanguage && !wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
+      if(!wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
+  
+        if(!glossary.tokens.find(element => element.word.toLowerCase() === wt.word.toLowerCase())) {
+          translation = await translateText(wt.word.toLowerCase(), sourceLanguage, targetLanguage, apiEndpoint);
+          if(translation !== undefined && translation !== '') {
+            wt.translation = translation;
+            console.log(`'${wt.word}' => '${wt.translation}'`)
+            glossary.tokens.push(wt);
+          }
+        }
+  
+      }
+  
+      if(!allTags.includes(wt.tag)) allTags.push(wt.tag);
+  
+      oringinalSeqence.push(wt);
+  
+      
+      if(wt.isPunctuation) { if(!punctuations.find(element => element.key === key)) punctuations.push(wt); }
+      else if(wt.tag.substr(0, 1) === 'V') {
+        if(!verbs.find(element => element.key === key)) {
+          verbs.push(wt);
         }
       }
-      if(!verbs.find(element => element.key === key)) {
-        verbs.push(wt);
+      else if(wt.tag.substr(0, 1) === 'N') { if(!nouns.find(element => element.key === key)) nouns.push(wt); }
+      else if(wt.tag === 'DT') { if(!determiners.find(element => element.key === key)) determiners.push(wt); }
+      else if(wt.tag === 'IN') { if(!prepositions.find(element => element.key === key)) prepositions.push(wt); }    
+      else if(!others.find(element => element.key === key)) others.push(wt);
+    } 
+  
+  } else {
+
+    var words = new pos.Lexer().lex(withoutHtml);
+    for (var i = 0; i < words.length; i++ ) {
+      var taggedWord = [ words[i], '' ];
+      var syllableCount = 0;
+
+      var key = taggedWord[0].toLowerCase() + "~|~" + taggedWord[1].toLowerCase();
+      var stem = '';
+      var translation = '';
+
+      var wt = {
+          word: taggedWord[0],
+          tag: taggedWord[1],
+          stem: stem,
+          syllableCount: syllableCount,
+          isPunctuation: punctuation.indexOf(taggedWord[0]) > -1,
+          isNumber: !isNaN(taggedWord[0]),        
+          translation: ''
+      };
+      wt.key = key;
+
+      //if(sourceLanguage !== lslLanguage && !wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
+      if(!wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
+
+        if(!glossary.tokens.find(element => element.word.toLowerCase() === wt.word.toLowerCase())) {
+          translation = await translateText(wt.word.toLowerCase(), sourceLanguage, targetLanguage, apiEndpoint);
+          if(translation !== undefined && translation !== '') {
+            wt.translation = translation;
+            console.log(`'${wt.word}' => '${wt.translation}'`)
+            glossary.tokens.push(wt);
+          }
+        }
+
       }
-    }
-    else if(wt.tag.substr(0, 1) === 'N') { if(!nouns.find(element => element.key === key)) nouns.push(wt); }
-    else if(wt.tag === 'DT') { if(!determiners.find(element => element.key === key)) determiners.push(wt); }
-    else if(wt.tag === 'IN') { if(!prepositions.find(element => element.key === key)) prepositions.push(wt); }    
-    else if(!others.find(element => element.key === key)) others.push(wt);
-  } 
+
+      if(!allTags.includes(wt.tag)) allTags.push(wt.tag);
+
+      oringinalSeqence.push(wt);
+
+      
+      if(wt.isPunctuation) { if(!punctuations.find(element => element.key === key)) punctuations.push(wt); }
+      else if(wt.tag.substr(0, 1) === 'V') {
+        if(!verbs.find(element => element.key === key)) {
+          verbs.push(wt);
+        }
+      }
+      else if(wt.tag.substr(0, 1) === 'N') { if(!nouns.find(element => element.key === key)) nouns.push(wt); }
+      else if(wt.tag === 'DT') { if(!determiners.find(element => element.key === key)) determiners.push(wt); }
+      else if(wt.tag === 'IN') { if(!prepositions.find(element => element.key === key)) prepositions.push(wt); }    
+      else if(!others.find(element => element.key === key)) others.push(wt);
+    } 
+  }
 
   var allWords = {
       oringinalSeqence: oringinalSeqence,
@@ -245,13 +338,15 @@ var rslChapter = {
 //var lslChapterFilePath = `${lslFolder}/p9n-chapter.html`;
 //var rslChapterFilePath = `${rslFolder}/p9n-chapter.html`;
 var chapterPath = `./p9n-${lslLanguage}-${rslLanguage}-${chapterFolder}-${chapterNumber}/`;
-//fs.mkdirSync(chapterPath);
+if(!fs.existsSync(chapterPath)) {
+  fs.mkdirSync(chapterPath);
+}
 
 
 for(var pgx=0; pgx < lslChapter.pages.length; pgx++) {
 
-  lslPos.verbs = [];
-  rslPos.verbs = [];
+  lslPos.tokens = [];
+  rslPos.tokens = [];
 
   if(lslChapter.pages[pgx].page_title.indexOf('.yml') < 0) {
     var html = '';
@@ -311,25 +406,42 @@ for(var pgx=0; pgx < lslChapter.pages.length; pgx++) {
       
       if(lslParagraphs[parx] !== '' || rslParagraphs[parx] !== '') {
 
-        if(lslParagraphs[parx] !== undefined && lslLanguage === 'en') {
-          var lpos = await getPartsOfSpeech(lslParagraphs[parx], nonPosLang, apiEndpoint, glossary);
-          for(var vx=0; vx < lpos.verbs.length; vx++) {
-            if(!lslPos.verbs.find(element => element.key === lpos.verbs[vx].key)) lslPos.verbs.push(lpos.verbs[vx]);
+        var lpos = [];
+        var rpos = [];
+
+        if(lslParagraphs[parx] !== undefined) {
+          lpos = await getPartsOfSpeech(lslParagraphs[parx], lslLanguage, rslLanguage, apiEndpoint, lslGlossary);
+          for(var ox=0; ox < lpos.oringinalSeqence.length; ox++) {
+            if(
+              !lpos.oringinalSeqence[ox].isPunctuation
+              && !lpos.oringinalSeqence[ox].isNumber
+              && !lslPos.tokens.find(element => element.word.toLowerCase() === lpos.oringinalSeqence[ox].word.toLowerCase())) lslPos.tokens.push(lpos.oringinalSeqence[ox]);
           }
         }
 
-        if(rslParagraphs[parx] !== undefined && rslLanguage === 'en') {
-          var rpos = await getPartsOfSpeech(rslParagraphs[parx], nonPosLang, apiEndpoint, glossary);
-          for(var vx=0; vx < rpos.verbs.length; vx++) {
-            if(!rslPos.verbs.find(element => element.key === rpos.verbs[vx].key)) rslPos.verbs.push(rpos.verbs[vx]);
+        if(rslParagraphs[parx] !== undefined) {
+          rpos = await getPartsOfSpeech(rslParagraphs[parx], rslLanguage, lslLanguage, apiEndpoint, rslGlossary);
+          for(var ox=0; ox < rpos.oringinalSeqence.length; ox++) {
+            if(
+              !rpos.oringinalSeqence[ox].isPunctuation
+              && !rpos.oringinalSeqence[ox].isNumber
+              && !rslPos.tokens.find(element => element.word.toLowerCase() === rpos.oringinalSeqence[ox].word.toLowerCase())) rslPos.tokens.push(rpos.oringinalSeqence[ox]);
           }
         }
+
+        var lslParagraph = lslParagraphs[parx] === undefined ? '' : lslParagraphs[parx];
+        var rslParagraph = rslParagraphs[parx] === undefined ? '' : rslParagraphs[parx];
+
+        //if(rslLanguage === 'en') {
+          rslParagraph = getHtmlParagraphFromPos(rpos);
+        //} else {
+          lslParagraph = getHtmlParagraphFromPos(lpos);
+        //}
 
         parallelGraph.push({
-          lslHtml: lslParagraphs[parx] === undefined ? '' : lslParagraphs[parx],
-          rslHtml: rslParagraphs[parx] === undefined ? '' : rslParagraphs[parx]
-        }
-        );
+          lslHtml: lslParagraph,
+          rslHtml: rslParagraph
+        });
       }
     }
 
@@ -339,23 +451,58 @@ for(var pgx=0; pgx < lslChapter.pages.length; pgx++) {
     <html>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <script>
-    function unhighlight(x) {
+    function unhighlight(x, word) {
       x.style.color = "navy"
       x.style.backgroundColor = "transparent"
+      console.log(word)
     }
     
-    function highlight(x) {
+    function highlight(x, word) {
       x.style.color = "yellow"
       x.style.backgroundColor = "green"
     }
     </script>
     <style>
     
-    span {
-      color: navy;
-      display: inline;
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
       cursor: hand;
     }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
 
     .fulljustify {
       text-align: justify;
@@ -388,22 +535,29 @@ for(var pgx=0; pgx < lslChapter.pages.length; pgx++) {
 }
 
 if(
-  (lslPos.verbs.length > 0)
+  (lslPos.tokens.length > 0)
   ||
-  (rslPos.verbs.length > 0)
+  (rslPos.tokens.length > 0)
   )
 {
-html += `
+var pageGlossaryHtml = `
 <tr>
-  <td colspan="2" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
   <div dir="${lslLangDir}">
-  ${lslPos.verbs.length > 0 ? '<u>Verbs:</u><br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">' + lslPos.verbs.sort((a, b) => a.word.localeCompare(b.word)).map(wt => wt.word + ': <b><i>' + getVerbTranslationFromGlossary(wt.word, glossary) + '</i></b>').join('</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">') : ''}
-  ${rslPos.verbs.length > 0 ? '<u>Verbs:</u><br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">' + rslPos.verbs.sort((a, b) => a.word.localeCompare(b.word)).map(wt => wt.word + ': <b><i>' + getVerbTranslationFromGlossary(wt.word, glossary) + '</i></b>').join('</span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">') : ''}
+  ${lslPos.tokens.length > 0 ? '<u>Glossary:</u><br /><span>' + lslPos.tokens.sort((a, b) => a.word.localeCompare(b.word)).map(wt => wt.word + ': <b><i>' + wt.translation + '</i></b>').join('</span>, <span>') : ''}
+  </div>
+  </td>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <div dir="${rslLangDir}">
+  ${rslPos.tokens.length > 0 ? '<u>Glossary:</u><br /><span>' + rslPos.tokens.sort((a, b) => a.word.localeCompare(b.word)).map(wt => wt.word + ': <b><i>' + wt.translation + '</i></b>').join('</span>, <span>') : ''}
   </div>
   </td>
 </tr>
 `;
 }
+
+  html += pageGlossaryHtml;
+
   html += `
 
   <tr>
@@ -426,6 +580,7 @@ html += `
   </html>
   `;
   
+  console.log(htmlFilePath);
   fs.writeFileSync(htmlFilePath, html);
   
   }
@@ -516,6 +671,34 @@ function getParagraphs(fullFilePath, page) {
     });
 
     return paragraphs;
+}
+
+
+function isTranslatable(sourceLanguage, targetLanguage) {
+  var translatableLangs = [
+    'ar',
+    'de',
+    'en',
+    'es',
+    'fr',
+    'it',
+    'pt',
+    'ru',
+    'zh',
+    'ja',
+    'hi',
+    'ga',
+    'pl',
+    'ko',
+    'tr'
+  ];
+
+  if(
+    !translatableLangs.includes(sourceLanguage)
+    || !translatableLangs.includes(targetLanguage)
+  ) return false;
+
+  return true;
 }
 
 // await main();

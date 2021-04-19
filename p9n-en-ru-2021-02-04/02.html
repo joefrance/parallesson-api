@@ -2,23 +2,58 @@
     <html>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <script>
-    function unhighlight(x) {
+    function unhighlight(x, word) {
       x.style.color = "navy"
       x.style.backgroundColor = "transparent"
+      console.log(word)
     }
     
-    function highlight(x) {
+    function highlight(x, word) {
       x.style.color = "yellow"
       x.style.backgroundColor = "green"
     }
     </script>
     <style>
     
-    span {
-      color: navy;
-      display: inline;
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
       cursor: hand;
     }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
 
     .fulljustify {
       text-align: justify;
@@ -35,12 +70,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>'Yahweh And The Abrahamic Covenant'</p>
+        ' Yahweh And The Abrahamic Covenant ' 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Яхве и завет с Авраамом</p>
+        <div class="tooltip">Яхве<span class="tooltiptext">yacht</span></div> и завет с <div class="tooltip">Авраамом<span class="tooltiptext">Abraham</span></div> 
         </div>
         </td>
       </tr>
@@ -48,12 +83,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>18/04/2021</p>
+        18 / 04 / 2021 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>18/04/2021</p>
+        18 / 04 / 2021 
         </div>
         </td>
       </tr>
@@ -61,12 +96,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>“And he said unto him, I am the LORD that brought thee out of Ur of the Chaldees, to give thee this land to inherit it” (Gen. 15:7).</p>
+        “And he said unto him , I am the LORD that brought thee out of Ur of the Chaldees , to give thee this land to inherit it” ( Gen . 15 : 7 ) . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>«И сказал ему: Я Господь, Который вывел тебя из Ура Халдейского, чтобы дать тебе землю сию во владение» (Быт. 15:7).</p>
+        «И <div class="tooltip">сказал<span class="tooltiptext">Said</span></div> <div class="tooltip">ему<span class="tooltiptext">to him.</span></div> : Я Господь , Который <div class="tooltip">вывел<span class="tooltiptext">♪</span></div> тебя <div class="tooltip">из<span class="tooltiptext">of</span></div> <div class="tooltip">Ура<span class="tooltiptext">Yay</span></div> <div class="tooltip">Халдейского<span class="tooltiptext">Haldian</span></div> , чтобы <div class="tooltip">дать<span class="tooltiptext">Let's go.</span></div> <div class="tooltip">тебе<span class="tooltiptext">You're the one you want.</span></div> <div class="tooltip">землю<span class="tooltiptext">land</span></div> <div class="tooltip">сию<span class="tooltiptext">South Asia</span></div> <div class="tooltip">во<span class="tooltiptext">♪</span></div> <div class="tooltip">владение»<span class="tooltiptext">Ownership</span></div> ( Быт . 15 : 7 ) . 
         </div>
         </td>
       </tr>
@@ -74,12 +109,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>Names can sometimes be like trademarks. They become so closely associated in our minds with certain characteristics that when we hear the name we immediately recall these traits. What traits come to mind, for instance, when you think of these names: Albert Einstein, Martin Luther King Jr., Gandhi, or Dorcas? Each one is associated with certain characteristics and ideals.</p>
+        Names can sometimes be like trademarks . They become so closely associated in our minds with certain characteristics that when we hear the name we immediately recall these traits . What traits come to mind , for instance , when you think of these names : Albert Einstein , Martin Luther King Jr . , Gandhi , or Dorcas ? Each one is associated with certain characteristics and ideals . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Имена похожи на названия компаний и их продуктов. Названия связаны в нашем разуме с определенными характеристиками. Например: «Мерседес» — престиж, «Найк» — удобство и т. д. Так же и с именами. Какие характеристики приходят вам в голову, когда вы слышите эти имена: Альберт Эйнштейн, Мартин Лютер Кинг, Ганди или мать Тереза?</p>
+        Имена <div class="tooltip">похожи<span class="tooltiptext">similarly similar.</span></div> на <div class="tooltip">названия<span class="tooltiptext">Name</span></div> <div class="tooltip">компаний<span class="tooltiptext">companies</span></div> и их <div class="tooltip">продуктов<span class="tooltiptext">Products</span></div> . Названия <div class="tooltip">связаны<span class="tooltiptext">related</span></div> в <div class="tooltip">нашем<span class="tooltiptext">ours.</span></div> <div class="tooltip">разуме<span class="tooltiptext">reason</span></div> с <div class="tooltip">определенными<span class="tooltiptext">defined</span></div> <div class="tooltip">характеристиками<span class="tooltiptext">characteristics</span></div> . <div class="tooltip">Например<span class="tooltiptext">e.g.</span></div> : <div class="tooltip">«Мерседес»<span class="tooltiptext">Mercedes</span></div> <div class="tooltip">—<span class="tooltiptext">(SIGHS)</span></div> <div class="tooltip">престиж<span class="tooltiptext">Priest</span></div> , <div class="tooltip">«Найк»<span class="tooltiptext">Nike</span></div> — <div class="tooltip">удобство<span class="tooltiptext">convenience</span></div> и <div class="tooltip">т<span class="tooltiptext">t</span></div> . <div class="tooltip">д<span class="tooltiptext">d</span></div> . Так <div class="tooltip">же<span class="tooltiptext">Yes.</span></div> и с <div class="tooltip">именами<span class="tooltiptext">names</span></div> . Какие <div class="tooltip">характеристики<span class="tooltiptext">characteristics</span></div> <div class="tooltip">приходят<span class="tooltiptext">Come.</span></div> <div class="tooltip">вам<span class="tooltiptext">to you.</span></div> в <div class="tooltip">голову<span class="tooltiptext">head head</span></div> , когда вы <div class="tooltip">слышите<span class="tooltiptext">You hear me.</span></div> <div class="tooltip">эти<span class="tooltiptext">these are the ones.</span></div> имена : <div class="tooltip">Альберт<span class="tooltiptext">Albert</span></div> <div class="tooltip">Эйнштейн<span class="tooltiptext">Einstein</span></div> , <div class="tooltip">Мартин<span class="tooltiptext">Marchin</span></div> <div class="tooltip">Лютер<span class="tooltiptext">Luther</span></div> <div class="tooltip">Кинг<span class="tooltiptext">King</span></div> , <div class="tooltip">Ганди<span class="tooltiptext">Gand</span></div> или <div class="tooltip">мать<span class="tooltiptext">Mother</span></div> <div class="tooltip">Тереза<span class="tooltiptext">Therez</span></div> ? 
         </div>
         </td>
       </tr>
@@ -87,12 +122,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>During Bible times, people of the Near East attached great importance to the meaning of names. “The Hebrews always thought of a name as indicating either the personal characteristics of the one named, or the thoughts and emotions of the one giving the name, or attendant circumstances at the time the name was given.”–The SDA Bible Commentary, vol. 1, p. 523.</p>
+        During Bible times , people of the Near East attached great importance to the meaning of names . “The Hebrews always thought of a name as indicating either the personal characteristics of the one named , or the thoughts and emotions of the one giving the name , or attendant circumstances at the time the name was given . ”–The SDA Bible Commentary , vol . 1 , p . 523 . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>В библейские времена народы Ближнего Востока придавали большое значение имени. «Евреи всегда считали, что имя указывает либо на личные характеристики названного, либо на мысли и эмоции того, кто дает имя, либо на сопутствующие обстоятельства в то время, когда это имя было дано» (Библейский комментарий АСД, т. 1, с. 523).</p>
+        В библейские <div class="tooltip">времена<span class="tooltiptext">times</span></div> <div class="tooltip">народы<span class="tooltiptext">peoples</span></div> <div class="tooltip">Ближнего<span class="tooltiptext">Dipped by the</span></div> <div class="tooltip">Востока<span class="tooltiptext">East</span></div> <div class="tooltip">придавали<span class="tooltiptext">I don't know.</span></div> <div class="tooltip">большое<span class="tooltiptext">large</span></div> значение <div class="tooltip">имени<span class="tooltiptext">Name</span></div> . <div class="tooltip">«Евреи<span class="tooltiptext">“Jews</span></div> <div class="tooltip">всегда<span class="tooltiptext">Always.</span></div> <div class="tooltip">считали<span class="tooltiptext">I thought</span></div> , что имя <div class="tooltip">указывает<span class="tooltiptext">the</span></div> <div class="tooltip">либо<span class="tooltiptext">or</span></div> на <div class="tooltip">личные<span class="tooltiptext">personal personal personal personal</span></div> характеристики <div class="tooltip">названного<span class="tooltiptext">Name</span></div> , либо на <div class="tooltip">мысли<span class="tooltiptext">thoughts</span></div> и <div class="tooltip">эмоции<span class="tooltiptext">emotions</span></div> <div class="tooltip">того<span class="tooltiptext">of the</span></div> , <div class="tooltip">кто<span class="tooltiptext">Whoo!</span></div> <div class="tooltip">дает<span class="tooltiptext">&quot;</span></div> имя , либо на <div class="tooltip">сопутствующие<span class="tooltiptext">related</span></div> <div class="tooltip">обстоятельства<span class="tooltiptext">circumstances</span></div> в <div class="tooltip">то<span class="tooltiptext">I'm sorry.</span></div> время , когда <div class="tooltip">это<span class="tooltiptext">That's it.</span></div> имя <div class="tooltip">было<span class="tooltiptext">It was.</span></div> <div class="tooltip">дано»<span class="tooltiptext">yesno</span></div> ( <div class="tooltip">Библейский<span class="tooltiptext">Bible</span></div> <div class="tooltip">комментарий<span class="tooltiptext">Commentary</span></div> <div class="tooltip">АСД<span class="tooltiptext">Asd</span></div> , т . 1 , с . 523 ) . 
         </div>
         </td>
       </tr>
@@ -100,12 +135,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>When God first entered into a covenant relationship with Abram, He made Himself known to the patriarch under the name YHWH (printed as LORD, in capitals in the KJV [Gen. 15:7] and pronounced Yahweh). Thus, Genesis 15:7 reads literally, “I am YHWH who brought thee out of . . . .”</p>
+        When God first entered into a covenant relationship with Abram , He made Himself known to the patriarch under the name YHWH ( printed as LORD , in capitals in the KJV [Gen . 15 : 7 ] and pronounced Yahweh ) . Thus , Genesis 15 : 7 reads literally , “I am YHWH who brought thee out of . . . . ” 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Когда Бог впервые вступил в отношения завета с Аврамом, Он открыл Себя патриарху под именем <em>Яхве</em> (Господь, см. Быт. 15:7). Таким образом, буквально это текст звучит так: «Я Яхве, Который вывел тебя из...» (Быт. 15:7).</p>
+        Когда Бог <div class="tooltip">впервые<span class="tooltiptext">for the first time</span></div> вступил в <div class="tooltip">отношения<span class="tooltiptext">relationship</span></div> завета с Аврамом , Он <div class="tooltip">открыл<span class="tooltiptext">opened.</span></div> Себя <div class="tooltip">патриарху<span class="tooltiptext">Patriarch</span></div> <div class="tooltip">под<span class="tooltiptext">under the</span></div> <div class="tooltip">именем<span class="tooltiptext">Name</span></div> Яхве ( Господь , <div class="tooltip">см<span class="tooltiptext">cm</span></div> . Быт . 15 : 7 ) . <div class="tooltip">Таким<span class="tooltiptext">such as</span></div> образом , <div class="tooltip">буквально<span class="tooltiptext">literally.</span></div> это <div class="tooltip">текст<span class="tooltiptext">text</span></div> <div class="tooltip">звучит<span class="tooltiptext">Sounds like a sound.</span></div> так : <div class="tooltip">«Я<span class="tooltiptext">“I</span></div> Яхве , Который вывел тебя из . . . » ( Быт . 15 : 7 ) . 
         </div>
         </td>
       </tr>
@@ -113,12 +148,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>The name YHWH, though appearing 6,828 times in the Old Testament, is somewhat shrouded in mystery. It seems to be a form of the verb hayah, ‘to be,’ in which case it would mean, “the Eternal One,” “the Existent One,” “the Self-Existing One,” “the Self-Sufficient One,” or “the One who lives eternally.” The divine attributes that seem to be emphasized by this title are that of self-existence and faithfulness. They point to the Lord as the living God, the Source of life, in contrast with the gods of the heathen, which had no existence apart from the imagination of their worshipers.</p>
+        The name YHWH , though appearing 6 , 828 times in the Old Testament , is somewhat shrouded in mystery . It seems to be a form of the verb hayah , ‘to be , ’ in which case it would mean , “the Eternal One , ” “the Existent One , ” “the Self-Existing One , ” “the Self-Sufficient One , ” or “the One who lives eternally . ” The divine attributes that seem to be emphasized by this title are that of self-existence and faithfulness . They point to the Lord as the living God , the Source of life , in contrast with the gods of the heathen , which had no existence apart from the imagination of their worshipers . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Имя <em>Яхве</em>, хотя и встречается в Ветхом Завете 6 828 раз, отчасти окутано тайной. По-видимому, это форма глагола <em>хайя</em> (быть), и в данном случае она будет означать Вечный, Сущий, Самосущий, Самодостаточный или «Тот, Кто живет вечно». Божественные атрибуты, которые, похоже, подчеркиваются этим глаголом, — это самобытность и верность. Они указывают на Господа как на живого Бога, Источника жизни, в отличие от языческих богов, которые существовали только в воображении тех, кто им поклонялся.</p>
+        Имя Яхве , <div class="tooltip">хотя<span class="tooltiptext">Although</span></div> и <div class="tooltip">встречается<span class="tooltiptext">dating.</span></div> в <div class="tooltip">Ветхом<span class="tooltiptext">♪</span></div> <div class="tooltip">Завете<span class="tooltiptext">Lights</span></div> 6 828 <div class="tooltip">раз<span class="tooltiptext">once</span></div> , <div class="tooltip">отчасти<span class="tooltiptext">Partly</span></div> <div class="tooltip">окутано<span class="tooltiptext">Ocutano</span></div> <div class="tooltip">тайной<span class="tooltiptext">secret</span></div> . <div class="tooltip">По-видимому<span class="tooltiptext">Apparently</span></div> , это <div class="tooltip">форма<span class="tooltiptext">form</span></div> <div class="tooltip">глагола<span class="tooltiptext">verb</span></div> <div class="tooltip">хайя<span class="tooltiptext">Hai.</span></div> ( <div class="tooltip">быть<span class="tooltiptext">be it.</span></div> ) , и в <div class="tooltip">данном<span class="tooltiptext">here.</span></div> <div class="tooltip">случае<span class="tooltiptext">case</span></div> <div class="tooltip">она<span class="tooltiptext">She is.</span></div> <div class="tooltip">будет<span class="tooltiptext">I'll be there.</span></div> <div class="tooltip">означать<span class="tooltiptext">means</span></div> Вечный , <div class="tooltip">Сущий<span class="tooltiptext">Cruising</span></div> , <div class="tooltip">Самосущий<span class="tooltiptext">self-sustaining</span></div> , <div class="tooltip">Самодостаточный<span class="tooltiptext">self-sufficient</span></div> или <div class="tooltip">«Тот<span class="tooltiptext">Tote</span></div> , Кто <div class="tooltip">живет<span class="tooltiptext">Lives.</span></div> <div class="tooltip">вечно»<span class="tooltiptext">forever</span></div> . <div class="tooltip">Божественные<span class="tooltiptext">Divine</span></div> <div class="tooltip">атрибуты<span class="tooltiptext">attributes</span></div> , <div class="tooltip">которые<span class="tooltiptext">which</span></div> , <div class="tooltip">похоже<span class="tooltiptext">Looks like it's like it's like it's like it's like it's like it's like it's like it's like it's like it's like it's like it's like it's like it's like it's like it looks like it's like it's like it's like it's like it's like it's like it's like it's like it's like it's like it looks like it looks like it's like it's like it's like it looks like it's like it's like it's like it's like it looks like it looks like it looks like it looks like it looks like it looks like it looks like it looks like it's like it looks like it looks like it looks like it looks like it's like it's like it looks like it's like it looks like it looks like it looks like it looks like it looks like it looks like it looks like it looks like it looks like it looks like it looks like it looks like it's like it looks like it looks like it looks like it looks like it</span></div> , <div class="tooltip">подчеркиваются<span class="tooltiptext">stressed.</span></div> <div class="tooltip">этим<span class="tooltiptext">That's it.</span></div> <div class="tooltip">глаголом<span class="tooltiptext">glag</span></div> , — это <div class="tooltip">самобытность<span class="tooltiptext">identity</span></div> и <div class="tooltip">верность<span class="tooltiptext">loyalty</span></div> . <div class="tooltip">Они<span class="tooltiptext">They're the ones they're.</span></div> <div class="tooltip">указывают<span class="tooltiptext">points</span></div> на <div class="tooltip">Господа<span class="tooltiptext">Gentlemen.</span></div> как на <div class="tooltip">живого<span class="tooltiptext">living</span></div> <div class="tooltip">Бога<span class="tooltiptext">God.</span></div> , <div class="tooltip">Источника<span class="tooltiptext">source</span></div> <div class="tooltip">жизни<span class="tooltiptext">of life</span></div> , в <div class="tooltip">отличие<span class="tooltiptext">Unlikely</span></div> от <div class="tooltip">языческих<span class="tooltiptext">Language</span></div> <div class="tooltip">богов<span class="tooltiptext">Gods</span></div> , которые <div class="tooltip">существовали<span class="tooltiptext">existed.</span></div> <div class="tooltip">только<span class="tooltiptext">only</span></div> в <div class="tooltip">воображении<span class="tooltiptext">imagination</span></div> <div class="tooltip">тех<span class="tooltiptext">those</span></div> , кто <div class="tooltip">им<span class="tooltiptext">to them.</span></div> <div class="tooltip">поклонялся<span class="tooltiptext">worshipped</span></div> . 
         </div>
         </td>
       </tr>
@@ -126,12 +161,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>God Himself explains the meaning of Yahweh in Exodus 3:14–“ ‘I AM WHO I AM’ ” (RSV, NASB). This meaning expresses the reality of God’s unconditioned existence, while it also suggests His rule over past, present, and future.</p>
+        God Himself explains the meaning of Yahweh in Exodus 3 : 14 –“ ‘I AM WHO I AM’ ” ( RSV , NASB ) . This meaning expresses the reality of God’s unconditioned existence , while it also suggests His rule over past , present , and future . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Сам Бог объясняет значение <em>Яхве</em> в Исх. 3:14: «Я есмь Тот, Кто есть» (ИПБ). Это значение выражает реальность безусловного существования Бога и в то же время предполагает Его власть над прошлым, настоящим и будущим.</p>
+        <div class="tooltip">Сам<span class="tooltiptext">I'll do it.</span></div> Бог <div class="tooltip">объясняет<span class="tooltiptext">Explanation</span></div> значение Яхве в Исх . 3 : 14 : «Я <div class="tooltip">есмь<span class="tooltiptext">♪</span></div> <div class="tooltip">Тот<span class="tooltiptext">That's it.</span></div> , Кто <div class="tooltip">есть»<span class="tooltiptext">yes</span></div> ( <div class="tooltip">ИПБ<span class="tooltiptext">(Grunts)</span></div> ) . Это значение <div class="tooltip">выражает<span class="tooltiptext">Expresses</span></div> <div class="tooltip">реальность<span class="tooltiptext">reality</span></div> <div class="tooltip">безусловного<span class="tooltiptext">unconditional</span></div> <div class="tooltip">существования<span class="tooltiptext">of existence</span></div> Бога и в то же время <div class="tooltip">предполагает<span class="tooltiptext">presupposed</span></div> Его <div class="tooltip">власть<span class="tooltiptext">Power</span></div> <div class="tooltip">над<span class="tooltiptext">above</span></div> <div class="tooltip">прошлым<span class="tooltiptext">The past.</span></div> , <div class="tooltip">настоящим<span class="tooltiptext">here.</span></div> и <div class="tooltip">будущим<span class="tooltiptext">future</span></div> . 
         </div>
         </td>
       </tr>
@@ -139,12 +174,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>Yahweh is also God’s personal name. The identification of Yahweh as the One who brought Abram out of Ur refers to the announcement of God’s covenant with him in Genesis 12:1–3. God wants Abram to know His name, because that name reveals aspects of His identity, personal nature, and character—and from this knowledge we can learn to trust in His promises (Ps. 9:10, Ps. 91:14).</p>
+        Yahweh is also God’s personal name . The identification of Yahweh as the One who brought Abram out of Ur refers to the announcement of God’s covenant with him in Genesis 12 : 1 – 3 . God wants Abram to know His name , because that name reveals aspects of His identity , personal nature , and character—and from this knowledge we can learn to trust in His promises ( Ps . 9 : 10 , Ps . 91 : 14 ) . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><em>Яхве</em> — это также личное имя Бога. Определение <em>Яхве</em> как Того, Кто вывел Аврама из Ура, относится к провозглашению Божьего завета с ним в Быт. 12:1–3. Бог желает, чтобы Аврам узнал Его имя, потому что оно раскрывает аспекты Его личности, природы и характера, и, исходя из этого знания, научился доверять Его обетованиям (см. Пс. 9:11; 90:14).</p>
+        Яхве — это <div class="tooltip">также<span class="tooltiptext">also</span></div> <div class="tooltip">личное<span class="tooltiptext">Personal</span></div> имя Бога . <div class="tooltip">Определение<span class="tooltiptext">Definition</span></div> Яхве как Того , Кто вывел Аврама из Ура , <div class="tooltip">относится<span class="tooltiptext">related</span></div> к <div class="tooltip">провозглашению<span class="tooltiptext">proclamation</span></div> Божьего завета с <div class="tooltip">ним<span class="tooltiptext">him.</span></div> в Быт . 12 : 1 – 3 . Бог <div class="tooltip">желает<span class="tooltiptext">wishes</span></div> , чтобы Аврам <div class="tooltip">узнал<span class="tooltiptext">I found out.</span></div> Его имя , <div class="tooltip">потому<span class="tooltiptext">'Cause you're the one that's why</span></div> что оно <div class="tooltip">раскрывает<span class="tooltiptext">Open.</span></div> <div class="tooltip">аспекты<span class="tooltiptext">aspects</span></div> Его <div class="tooltip">личности<span class="tooltiptext">Personalities</span></div> , <div class="tooltip">природы<span class="tooltiptext">Nature of Nature</span></div> и <div class="tooltip">характера<span class="tooltiptext">nature</span></div> , и , <div class="tooltip">исходя<span class="tooltiptext">Based on</span></div> из <div class="tooltip">этого<span class="tooltiptext">this is the last one.</span></div> <div class="tooltip">знания<span class="tooltiptext">knowledge</span></div> , <div class="tooltip">научился<span class="tooltiptext">learned</span></div> <div class="tooltip">доверять<span class="tooltiptext">Trust me.</span></div> Его <div class="tooltip">обетованиям<span class="tooltiptext">Entities</span></div> ( см . <div class="tooltip">Пс<span class="tooltiptext">ps</span></div> . 9 : 11 ; 90 : 14 ) . 
         </div>
         </td>
       </tr>
@@ -152,25 +187,16 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>When you think or hear the name Yahweh, what traits or characteristics automatically come to mind? Those of love, kindness, and care or those of fear, strictness, and discipline? What thoughts automatically come to mind when you think of the name Jesus?</code></p>
+        When you think or hear the name Yahweh , what traits or characteristics automatically come to mind ? Those of love , kindness , and care or those of fear , strictness , and discipline ? What thoughts automatically come to mind when you think of the name Jesus ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Когда вы размышляете об имени Яхве или слышите его, какие качества или характеристики сразу же приходят на ум? Любовь, доброта, забота или страх, строгость и дисциплина? Какие мысли приходят вам в голову, когда вы размышляете об имени Иисус (значение имени Иисус, евр. Егошуа — Яхве спасает)?</code></p>
+        Когда вы <div class="tooltip">размышляете<span class="tooltiptext">Thinking.</span></div> <div class="tooltip">об<span class="tooltiptext">C</span></div> имени Яхве или слышите его , какие <div class="tooltip">качества<span class="tooltiptext">quality</span></div> или характеристики <div class="tooltip">сразу<span class="tooltiptext">Right away.</span></div> же приходят на <div class="tooltip">ум<span class="tooltiptext">Um...</span></div> ? <div class="tooltip">Любовь<span class="tooltiptext">love</span></div> , <div class="tooltip">доброта<span class="tooltiptext">goodness</span></div> , <div class="tooltip">забота<span class="tooltiptext">Care</span></div> или <div class="tooltip">страх<span class="tooltiptext">fear</span></div> , <div class="tooltip">строгость<span class="tooltiptext">Strictness</span></div> и <div class="tooltip">дисциплина<span class="tooltiptext">discipline</span></div> ? Какие мысли приходят вам в голову , когда вы размышляете об имени <div class="tooltip">Иисус<span class="tooltiptext">Irisus.</span></div> ( значение имени Иисус , <div class="tooltip">евр<span class="tooltiptext">Euro</span></div> . <div class="tooltip">Егошуа<span class="tooltiptext">Hisshu.</span></div> — Яхве <div class="tooltip">спасает<span class="tooltiptext">Saving.</span></div> ) ? 
         </div>
         </td>
       </tr>
   
-<tr>
-  <td colspan="2" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-  <div dir="ltl">
-  <u>Verbs:</u><br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">am: <b><i>Я</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">appearing: <b><i>появление</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">are: <b><i>есть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">associated: <b><i>Связанные</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">attached: <b><i>Прикрепить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">be: <b><i>быть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">become: <b><i>стать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">brought: <b><i>принес</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">come: <b><i>Приходите</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">emphasized: <b><i>акцент</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">entered: <b><i>введён</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">explains: <b><i>объясняет</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">expresses: <b><i>выражает</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">give: <b><i>дать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">given: <b><i>дано</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">giving: <b><i>давать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">had: <b><i>было</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">hear: <b><i>Слышать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">indicating: <b><i>с указанием</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">inherit: <b><i>наследство</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">is: <b><i>это</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">King: <b><i>король</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">know: <b><i>знать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">known: <b><i>известно</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">learn: <b><i>учиться</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">living: <b><i>Живая</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">made: <b><i>сделано</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">mean: <b><i>означать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">meaning: <b><i>смысл</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">named: <b><i>по имени</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">printed: <b><i>печать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">promises: <b><i>обещания</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">pronounced: <b><i>произносится</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">reads: <b><i>читать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">recall: <b><i>Напомнить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">refers: <b><i>ссылка</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">reveals: <b><i>показывает</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">said: <b><i>сказал</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">seem: <b><i>показать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">seems: <b><i>кажется</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Self-Existing: <b><i>самосущие</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">shrouded: <b><i>потохнули</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">suggests: <b><i>предложения</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">think: <b><i>думать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">thought: <b><i>мысли</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">wants: <b><i>хочет</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">was: <b><i>был</i></b>
-  
-  </div>
-  </td>
-</tr>
-
 
   <tr>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">

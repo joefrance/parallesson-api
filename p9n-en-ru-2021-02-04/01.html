@@ -2,23 +2,58 @@
     <html>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <script>
-    function unhighlight(x) {
+    function unhighlight(x, word) {
       x.style.color = "navy"
       x.style.backgroundColor = "transparent"
+      console.log(word)
     }
     
-    function highlight(x) {
+    function highlight(x, word) {
       x.style.color = "yellow"
       x.style.backgroundColor = "green"
     }
     </script>
     <style>
     
-    span {
-      color: navy;
-      display: inline;
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
       cursor: hand;
     }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
 
     .fulljustify {
       text-align: justify;
@@ -35,12 +70,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>'An Everlasting Covenant'</p>
+        ' An Everlasting Covenant ' 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Вечный завет</p>
+        <div class="tooltip">Вечный<span class="tooltiptext">eternal</span></div> <div class="tooltip">завет<span class="tooltiptext">Light</span></div> 
         </div>
         </td>
       </tr>
@@ -48,12 +83,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>17/04/2021</p>
+        17 / 04 / 2021 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>17/04/2021</p>
+        17 / 04 / 2021 
         </div>
         </td>
       </tr>
@@ -61,12 +96,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <h3>Read for This Week’s Study</h3>
+        Read for This Week’s Study 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <h3>Библейские тексты для исследования</h3>
+        <div class="tooltip">Библейские<span class="tooltiptext">Bibles</span></div> <div class="tooltip">тексты<span class="tooltiptext">texts</span></div> <div class="tooltip">для<span class="tooltiptext">for</span></div> <div class="tooltip">исследования<span class="tooltiptext">Research</span></div> 
         </div>
         </td>
       </tr>
@@ -74,12 +109,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>Exod. 3:14; Gen. 17:1–6; Gen. 41:45; Dan. 1:7; Gen. 15:7–18; Gen. 17:1–14; Rev. 14:6, 7.</p>
+        Exod . 3 : 14 ; Gen . 17 : 1 – 6 ; Gen . 41 : 45 ; Dan . 1 : 7 ; Gen . 15 : 7 – 18 ; Gen . 17 : 1 – 14 ; Rev . 14 : 6 , 7 . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Исх. 3:14; Быт. 17:1–6; Быт. 41:45; Дан. 1:7; Быт. 15:7–18; Быт. 17:1–14; Откр. 14:6, 7.</p>
+        <div class="tooltip">Исх<span class="tooltiptext">?</span></div> . 3 : 14 ; <div class="tooltip">Быт<span class="tooltiptext">I'd love to.</span></div> . 17 : 1 <div class="tooltip">–<span class="tooltiptext">(Grunts)</span></div> 6 ; Быт . 41 : 45 ; <div class="tooltip">Дан<span class="tooltiptext">issued</span></div> . 1 : 7 ; Быт . 15 : 7 – 18 ; Быт . 17 : 1 – 14 ; <div class="tooltip">Откр<span class="tooltiptext">O.</span></div> . 14 : 6 , 7 . 
         </div>
         </td>
       </tr>
@@ -87,16 +122,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <blockquote><p><b>Memory Text</b></p>
-</blockquote>
-
+        &lt ; p&gt ; Memory Text&lt ; / p&gt ; 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <blockquote><p><b>Памятный стих</b></p>
-</blockquote>
-
+        <div class="tooltip">&lt<span class="tooltiptext">&quot;</span></div> ; <div class="tooltip">p&gt<span class="tooltiptext">p.</span></div> ; <div class="tooltip">Памятный<span class="tooltiptext">Memory</span></div> <div class="tooltip">стих&lt<span class="tooltiptext">cverse</span></div> ; / p&gt ; 
         </div>
         </td>
       </tr>
@@ -104,16 +135,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <blockquote><p>“ ‘I [God] will establish my covenant between me and you [Abraham] and your descendants after you throughout their generations for an everlasting covenant, to be God to you and to your descendants after you” (Genesis 17:7, RSV).</p>
-</blockquote>
-
+        “ ‘I [God] will establish my covenant between me and you [Abraham] and your descendants after you throughout their generations for an everlasting covenant , to be God to you and to your descendants after you” ( Genesis 17 : 7 , RSV ) . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <blockquote><p>«И поставлю завет Мой между Мною и тобою [Авраамом] и между потомками твоими после тебя в роды их, завет вечный в том, что Я буду Богом твоим и потомков твоих после тебя» (Быт. 17:7).</p>
-</blockquote>
-
+        <div class="tooltip">«И<span class="tooltiptext">“</span></div> <div class="tooltip">поставлю<span class="tooltiptext">I will.</span></div> завет <div class="tooltip">Мой<span class="tooltiptext">mine</span></div> <div class="tooltip">между<span class="tooltiptext">between</span></div> <div class="tooltip">Мною<span class="tooltiptext">I am.</span></div> <div class="tooltip">и<span class="tooltiptext">and</span></div> <div class="tooltip">тобою<span class="tooltiptext">You.</span></div> <div class="tooltip">[Авраамом]<span class="tooltiptext">[Abraham]</span></div> и между <div class="tooltip">потомками<span class="tooltiptext">descendants</span></div> <div class="tooltip">твоими<span class="tooltiptext">Yours.</span></div> <div class="tooltip">после<span class="tooltiptext">after</span></div> <div class="tooltip">тебя<span class="tooltiptext">You.</span></div> <div class="tooltip">в<span class="tooltiptext">Total</span></div> <div class="tooltip">роды<span class="tooltiptext">birth</span></div> <div class="tooltip">их<span class="tooltiptext">of their own</span></div> , завет вечный в <div class="tooltip">том<span class="tooltiptext">volume</span></div> , <div class="tooltip">что<span class="tooltiptext">what?</span></div> <div class="tooltip">Я<span class="tooltiptext">I am.</span></div> <div class="tooltip">буду<span class="tooltiptext">I will.</span></div> <div class="tooltip">Богом<span class="tooltiptext">God</span></div> <div class="tooltip">твоим<span class="tooltiptext">yours</span></div> и <div class="tooltip">потомков<span class="tooltiptext">descendants</span></div> <div class="tooltip">твоих<span class="tooltiptext">of yours</span></div> после <div class="tooltip">тебя»<span class="tooltiptext">&quot;</span></div> ( Быт . 17 : 7 ) . 
         </div>
         </td>
       </tr>
@@ -121,12 +148,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>How many remember distinctly in our childhood a sickness or a touch of pneumonia that made us very sick, with the potential for something even worse? In the long feverish night, we would awaken from a half sleep to see our mother or father sitting in a chair beside our bed in the soft glow of the night-light.</p>
+        How many remember distinctly in our childhood a sickness or a touch of pneumonia that made us very sick , with the potential for something even worse ? In the long feverish night , we would awaken from a half sleep to see our mother or father sitting in a chair beside our bed in the soft glow of the night-light . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><strong>Ключевые вопросы:</strong></p>
+        <div class="tooltip">Ключевые<span class="tooltiptext">Key</span></div> <div class="tooltip">вопросы<span class="tooltiptext">questions</span></div> : 
         </div>
         </td>
       </tr>
@@ -134,12 +161,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>Just so, in a figurative, human sense, God sat by the bedside of a sin-sick world as moral darkness began to deepen in the centuries after the Flood. For this reason, He called out Abram and planned to establish through His faithful servant a people to whom He could entrust a knowledge of Himself and give salvation.</p>
+        Just so , in a figurative , human sense , God sat by the bedside of a sin-sick world as moral darkness began to deepen in the centuries after the Flood . For this reason , He called out Abram and planned to establish through His faithful servant a people to whom He could entrust a knowledge of Himself and give salvation . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Каково Божье имя? Что оно означает? Какие имена использовал Бог, чтобы открыть Себя Авраму, и каково их значение? Почему Бог изменил имя Аврам на Авраам? Почему имена важны? Какие условия и обязательства прилагались к завету?</p>
+        <div class="tooltip">Каково<span class="tooltiptext">How</span></div> <div class="tooltip">Божье<span class="tooltiptext">God</span></div> <div class="tooltip">имя<span class="tooltiptext">Name</span></div> ? Что <div class="tooltip">оно<span class="tooltiptext">it is.</span></div> <div class="tooltip">означает<span class="tooltiptext">means</span></div> ? <div class="tooltip">Какие<span class="tooltiptext">which</span></div> <div class="tooltip">имена<span class="tooltiptext">Names</span></div> <div class="tooltip">использовал<span class="tooltiptext">Used to use it.</span></div> <div class="tooltip">Бог<span class="tooltiptext">God.</span></div> , <div class="tooltip">чтобы<span class="tooltiptext">♪</span></div> <div class="tooltip">открыть<span class="tooltiptext">Open the door.</span></div> <div class="tooltip">Себя<span class="tooltiptext">Behave yourself.</span></div> <div class="tooltip">Авраму<span class="tooltiptext">avramu</span></div> , и каково их <div class="tooltip">значение<span class="tooltiptext">value</span></div> ? <div class="tooltip">Почему<span class="tooltiptext">why?</span></div> Бог <div class="tooltip">изменил<span class="tooltiptext">changed.</span></div> имя <div class="tooltip">Аврам<span class="tooltiptext">Avra.</span></div> <div class="tooltip">на<span class="tooltiptext">♪</span></div> <div class="tooltip">Авраам<span class="tooltiptext">Abraham</span></div> ? Почему имена <div class="tooltip">важны<span class="tooltiptext">Imports</span></div> ? Какие <div class="tooltip">условия<span class="tooltiptext">conditions</span></div> и <div class="tooltip">обязательства<span class="tooltiptext">obligations</span></div> <div class="tooltip">прилагались<span class="tooltiptext">appended</span></div> <div class="tooltip">к<span class="tooltiptext">to</span></div> <div class="tooltip">завету<span class="tooltiptext">Light</span></div> ? 
         </div>
         </td>
       </tr>
@@ -147,12 +174,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>Therefore, God entered into a covenant with Abram and his posterity that emphasized in more detail the divine plan to save humankind from the results of sin. The Lord was not going to leave His world unattended, not with it in such dire need. This week we will look at the unfolding of more covenant promises.</p>
+        Therefore , God entered into a covenant with Abram and his posterity that emphasized in more detail the divine plan to save humankind from the results of sin . The Lord was not going to leave His world unattended , not with it in such dire need . This week we will look at the unfolding of more covenant promises . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Помните ли вы болезнь, которой переболели в детстве и которая могла привести к осложнениям и более серьезным последствиям? В долгие, беспокойные ночи вы просыпались и видели уставших маму или папу, сидящих у вашей кровати в мягком свете ночника.</p>
+        <div class="tooltip">Помните<span class="tooltiptext">Remember.</span></div> <div class="tooltip">ли<span class="tooltiptext">whether</span></div> <div class="tooltip">вы<span class="tooltiptext">You are.</span></div> <div class="tooltip">болезнь<span class="tooltiptext">Disease</span></div> , <div class="tooltip">которой<span class="tooltiptext">of which</span></div> <div class="tooltip">переболели<span class="tooltiptext">I'm sick.</span></div> в <div class="tooltip">детстве<span class="tooltiptext">children</span></div> и <div class="tooltip">которая<span class="tooltiptext">which</span></div> <div class="tooltip">могла<span class="tooltiptext">I could have.</span></div> <div class="tooltip">привести<span class="tooltiptext">lead</span></div> к <div class="tooltip">осложнениям<span class="tooltiptext">Complications</span></div> и <div class="tooltip">более<span class="tooltiptext">more than</span></div> <div class="tooltip">серьезным<span class="tooltiptext">serious serious serious serious serious serious serious serious</span></div> <div class="tooltip">последствиям<span class="tooltiptext">consequences</span></div> ? В <div class="tooltip">долгие<span class="tooltiptext">Long</span></div> , <div class="tooltip">беспокойные<span class="tooltiptext">troubled</span></div> <div class="tooltip">ночи<span class="tooltiptext">Good night.</span></div> вы <div class="tooltip">просыпались<span class="tooltiptext">Wake up.</span></div> и <div class="tooltip">видели<span class="tooltiptext">They saw them.</span></div> <div class="tooltip">уставших<span class="tooltiptext">Survivors</span></div> <div class="tooltip">маму<span class="tooltiptext">Mom.</span></div> <div class="tooltip">или<span class="tooltiptext">or</span></div> <div class="tooltip">папу<span class="tooltiptext">Dad.</span></div> , <div class="tooltip">сидящих<span class="tooltiptext">seated</span></div> <div class="tooltip">у<span class="tooltiptext">Ooh.</span></div> <div class="tooltip">вашей<span class="tooltiptext">Yours.</span></div> <div class="tooltip">кровати<span class="tooltiptext">bed</span></div> в <div class="tooltip">мягком<span class="tooltiptext">soft</span></div> <div class="tooltip">свете<span class="tooltiptext">light</span></div> <div class="tooltip">ночника<span class="tooltiptext">Nightmare</span></div> . 
         </div>
         </td>
       </tr>
@@ -160,12 +187,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><strong>The Week at a Glance</strong>: What is the name of God? What does it mean? What was the significance of the names God used to identify Himself to Abram? What names did He use to identify Himself? Why did God change Abram’s name to Abraham? Why are names important? What conditions, or obligations, were attached to the covenant?</p>
+        The Week at a Glance : What is the name of God ? What does it mean ? What was the significance of the names God used to identify Himself to Abram ? What names did He use to identify Himself ? Why did God change Abram’s name to Abraham ? Why are names important ? What conditions , or obligations , were attached to the covenant ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Подобным образом Бог сидел у постели больного грехом мира, когда спустя какое-то время после потопа вновь начала сгущаться моральная тьма. По этой причине Бог призвал Аврама. Через Своего верного слугу Он задумал избрать народ, которому мог бы доверить познание о Себе и даровать спасение миру.</p>
+        <div class="tooltip">Подобным<span class="tooltiptext">of similar kinds</span></div> <div class="tooltip">образом<span class="tooltiptext">in a manner</span></div> Бог <div class="tooltip">сидел<span class="tooltiptext">I sat there.</span></div> у <div class="tooltip">постели<span class="tooltiptext">bed</span></div> <div class="tooltip">больного<span class="tooltiptext">sick</span></div> <div class="tooltip">грехом<span class="tooltiptext">by sin</span></div> <div class="tooltip">мира<span class="tooltiptext">peace</span></div> , <div class="tooltip">когда<span class="tooltiptext">when</span></div> <div class="tooltip">спустя<span class="tooltiptext">later</span></div> <div class="tooltip">какое-то<span class="tooltiptext">Something.</span></div> <div class="tooltip">время<span class="tooltiptext">Time</span></div> после <div class="tooltip">потопа<span class="tooltiptext">flood</span></div> <div class="tooltip">вновь<span class="tooltiptext">Again</span></div> <div class="tooltip">начала<span class="tooltiptext">beginning</span></div> <div class="tooltip">сгущаться<span class="tooltiptext">Go.</span></div> <div class="tooltip">моральная<span class="tooltiptext">moral</span></div> <div class="tooltip">тьма<span class="tooltiptext">Darkness</span></div> . <div class="tooltip">По<span class="tooltiptext">by</span></div> <div class="tooltip">этой<span class="tooltiptext">This is the one that's been in the first place.</span></div> <div class="tooltip">причине<span class="tooltiptext">reason</span></div> Бог <div class="tooltip">призвал<span class="tooltiptext">called</span></div> <div class="tooltip">Аврама<span class="tooltiptext">Avra</span></div> . <div class="tooltip">Через<span class="tooltiptext">♪</span></div> <div class="tooltip">Своего<span class="tooltiptext">of my own</span></div> <div class="tooltip">верного<span class="tooltiptext">of the faithful</span></div> <div class="tooltip">слугу<span class="tooltiptext">servant</span></div> <div class="tooltip">Он<span class="tooltiptext">He is.</span></div> <div class="tooltip">задумал<span class="tooltiptext">I'm thinking.</span></div> <div class="tooltip">избрать<span class="tooltiptext">Choose.</span></div> <div class="tooltip">народ<span class="tooltiptext">People</span></div> , <div class="tooltip">которому<span class="tooltiptext">to whom</span></div> <div class="tooltip">мог<span class="tooltiptext">I could have.</span></div> <div class="tooltip">бы<span class="tooltiptext">I wish I could.</span></div> <div class="tooltip">доверить<span class="tooltiptext">Trust me.</span></div> <div class="tooltip">познание<span class="tooltiptext">knowledge</span></div> <div class="tooltip">о<span class="tooltiptext">Oh.</span></div> <div class="tooltip">Себе<span class="tooltiptext">♪</span></div> и <div class="tooltip">даровать<span class="tooltiptext">♪</span></div> <div class="tooltip">спасение<span class="tooltiptext">Rescue</span></div> <div class="tooltip">миру<span class="tooltiptext">peace</span></div> . 
         </div>
         </td>
       </tr>
@@ -173,25 +200,16 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><em>*Study this week’s lesson to prepare for Sabbath, April 24.</em></p>
+        *Study this week’s lesson to prepare for Sabbath , April 24 . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Поэтому Бог вступил с Аврамом и его потомками в завет, расширивший понимание Божьего замысла спасения человечества от последствий греха. Господь не собирался оставлять мир, который так в Нем нуждался, без присмотра. Исследуя материал этой недели, мы увидим, как раскрываются новые обетования завета.</p>
+        <div class="tooltip">Поэтому<span class="tooltiptext">That's why.</span></div> Бог <div class="tooltip">вступил<span class="tooltiptext">Entered</span></div> <div class="tooltip">с<span class="tooltiptext">c</span></div> <div class="tooltip">Аврамом<span class="tooltiptext">Abraham</span></div> и <div class="tooltip">его<span class="tooltiptext">Him.</span></div> потомками в завет , <div class="tooltip">расширивший<span class="tooltiptext">extension</span></div> <div class="tooltip">понимание<span class="tooltiptext">understanding</span></div> <div class="tooltip">Божьего<span class="tooltiptext">God</span></div> <div class="tooltip">замысла<span class="tooltiptext">Plant</span></div> <div class="tooltip">спасения<span class="tooltiptext">Rescue</span></div> <div class="tooltip">человечества<span class="tooltiptext">of mankind</span></div> <div class="tooltip">от<span class="tooltiptext">from</span></div> <div class="tooltip">последствий<span class="tooltiptext">consequences of the consequences of the consequences of the consequences</span></div> <div class="tooltip">греха<span class="tooltiptext">sin</span></div> . <div class="tooltip">Господь<span class="tooltiptext">Lord</span></div> <div class="tooltip">не<span class="tooltiptext">Not</span></div> <div class="tooltip">собирался<span class="tooltiptext">I was going to go.</span></div> <div class="tooltip">оставлять<span class="tooltiptext">leave</span></div> <div class="tooltip">мир<span class="tooltiptext">peace</span></div> , <div class="tooltip">который<span class="tooltiptext">who</span></div> <div class="tooltip">так<span class="tooltiptext">That's right.</span></div> в <div class="tooltip">Нем<span class="tooltiptext">of the</span></div> <div class="tooltip">нуждался<span class="tooltiptext">needed</span></div> , <div class="tooltip">без<span class="tooltiptext">free</span></div> <div class="tooltip">присмотра<span class="tooltiptext">Watch</span></div> . <div class="tooltip">Исследуя<span class="tooltiptext">And I'm going to investigate.</span></div> <div class="tooltip">материал<span class="tooltiptext">material</span></div> этой <div class="tooltip">недели<span class="tooltiptext">Weekly</span></div> , <div class="tooltip">мы<span class="tooltiptext">We are.</span></div> <div class="tooltip">увидим<span class="tooltiptext">See you.</span></div> , <div class="tooltip">как<span class="tooltiptext">like,</span></div> <div class="tooltip">раскрываются<span class="tooltiptext">Open</span></div> <div class="tooltip">новые<span class="tooltiptext">new</span></div> <div class="tooltip">обетования<span class="tooltiptext">Entities</span></div> <div class="tooltip">завета<span class="tooltiptext">Lights</span></div> . 
         </div>
         </td>
       </tr>
   
-<tr>
-  <td colspan="2" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-  <div dir="ltl">
-  <u>Verbs:</u><br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">are: <b><i>есть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">attached: <b><i>Прикрепить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">awaken: <b><i>пробуждение</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">be: <b><i>быть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">bed: <b><i>кровать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">began: <b><i>начался</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">called: <b><i>называется</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">deepen: <b><i>Глубина</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">did: <b><i>сделал</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">does: <b><i>делает</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">emphasized: <b><i>акцент</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">entered: <b><i>введён</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">entrust: <b><i>доверять</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">establish: <b><i>установить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">give: <b><i>дать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">going: <b><i>идёт</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">identify: <b><i>идентифицировать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">is: <b><i>это</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">leave: <b><i>Оставить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">look: <b><i>посмотреть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">made: <b><i>сделано</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">mean: <b><i>означать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">need: <b><i>потребность</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">planned: <b><i>запланировано</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">prepare: <b><i>подготовить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">promises: <b><i>обещания</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">remember: <b><i>запомнить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">sat: <b><i>сб</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">save: <b><i>Сохранить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">see: <b><i>посмотреть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">sitting: <b><i>сидения</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">sleep: <b><i>сон</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">something: <b><i>что-то</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">unfolding: <b><i>развертывание</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">used: <b><i>используется</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">was: <b><i>был</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">were: <b><i>были</i></b>
-  
-  </div>
-  </td>
-</tr>
-
 
   <tr>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">

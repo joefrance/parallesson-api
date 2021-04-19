@@ -2,23 +2,58 @@
     <html>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <script>
-    function unhighlight(x) {
+    function unhighlight(x, word) {
       x.style.color = "navy"
       x.style.backgroundColor = "transparent"
+      console.log(word)
     }
     
-    function highlight(x) {
+    function highlight(x, word) {
       x.style.color = "yellow"
       x.style.backgroundColor = "green"
     }
     </script>
     <style>
     
-    span {
-      color: navy;
-      display: inline;
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
       cursor: hand;
     }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
 
     .fulljustify {
       text-align: justify;
@@ -35,12 +70,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>'From Abram To Abraham'</p>
+        ' From Abram To Abraham ' 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Аврам становится Авраамом</p>
+        Аврам <div class="tooltip">становится<span class="tooltiptext">It's getting worse.</span></div> Авраамом 
         </div>
         </td>
       </tr>
@@ -48,12 +83,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>20/04/2021</p>
+        20 / 04 / 2021 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>20/04/2021</p>
+        20 / 04 / 2021 
         </div>
         </td>
       </tr>
@@ -61,12 +96,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>Though the names of God come with spiritual and theological significance, they do not end just with God. Names of people in the ancient Near East were not just meaningless ways of identification as often they are to us. To name a girl Mary or Susy does not make much of a difference today. For the ancient Semites, however, human names came heavy-laden with spiritual significance. All Semitic names of people have meaning and usually consist of a phrase or short sentence that comprised of a wish or an expression of gratitude on the part of the parent. For example, Daniel means “God is judge”; Joel means “Yahweh is God”; or Nathan means “Gift of God.”</p>
+        Though the names of God come with spiritual and theological significance , they do not end just with God . Names of people in the ancient Near East were not just meaningless ways of identification as often they are to us . To name a girl Mary or Susy does not make much of a difference today . For the ancient Semites , however , human names came heavy-laden with spiritual significance . All Semitic names of people have meaning and usually consist of a phrase or short sentence that comprised of a wish or an expression of gratitude on the part of the parent . For example , Daniel means “God is judge” ; Joel means “Yahweh is God” ; or Nathan means “Gift of God . ” 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Не только имена Бога имеют духовное и богословское значение, но и имена людей. Для нас сегодня не так важно, какое имя дать девочке: Мария или Сусанна. Однако для древних семитов имя было исполнено духовного значения. Все семитские имена что-то означают и обычно состоят из фразы или короткого предложения, в которое входят пожелания или выражения благодарности со стороны родителя. Например: <em>Даниил</em> (евр. <em>Дани-Эль</em>) — «Судья — мой Бог», <em>Иоиль</em> (евр. <em>Йоэль</em>)— «Яхве—Бог» и <em>Нафан</em> (евр. <em>Натан</em>) — «Дар (Божий)».</p>
+        Не только имена Бога <div class="tooltip">имеют<span class="tooltiptext">with</span></div> <div class="tooltip">духовное<span class="tooltiptext">spiritual</span></div> и <div class="tooltip">богословское<span class="tooltiptext">Bogoslovsky</span></div> значение , но и имена <div class="tooltip">людей<span class="tooltiptext">people</span></div> . Для <div class="tooltip">нас<span class="tooltiptext">us.</span></div> <div class="tooltip">сегодня<span class="tooltiptext">Today.</span></div> не так <div class="tooltip">важно<span class="tooltiptext">Important</span></div> , <div class="tooltip">какое<span class="tooltiptext">What?</span></div> имя дать <div class="tooltip">девочке<span class="tooltiptext">Girl</span></div> : <div class="tooltip">Мария<span class="tooltiptext">Marie</span></div> или <div class="tooltip">Сусанна<span class="tooltiptext">Susan</span></div> . <div class="tooltip">Однако<span class="tooltiptext">However,</span></div> для <div class="tooltip">древних<span class="tooltiptext">ancient</span></div> <div class="tooltip">семитов<span class="tooltiptext">7x</span></div> имя было <div class="tooltip">исполнено<span class="tooltiptext">executed</span></div> <div class="tooltip">духовного<span class="tooltiptext">spiritual</span></div> значения . <div class="tooltip">Все<span class="tooltiptext">All</span></div> <div class="tooltip">семитские<span class="tooltiptext">7th</span></div> имена <div class="tooltip">что-то<span class="tooltiptext">Something.</span></div> <div class="tooltip">означают<span class="tooltiptext">means</span></div> и <div class="tooltip">обычно<span class="tooltiptext">usually</span></div> <div class="tooltip">состоят<span class="tooltiptext">to be held</span></div> из <div class="tooltip">фразы<span class="tooltiptext">sentences</span></div> или <div class="tooltip">короткого<span class="tooltiptext">short</span></div> <div class="tooltip">предложения<span class="tooltiptext">Proposal</span></div> , в которое <div class="tooltip">входят<span class="tooltiptext">and</span></div> <div class="tooltip">пожелания<span class="tooltiptext">wishes</span></div> или <div class="tooltip">выражения<span class="tooltiptext">expression</span></div> <div class="tooltip">благодарности<span class="tooltiptext">Thank you.</span></div> <div class="tooltip">со<span class="tooltiptext">c</span></div> стороны <div class="tooltip">родителя<span class="tooltiptext">parent</span></div> . Например : <div class="tooltip">Даниил<span class="tooltiptext">Days</span></div> ( евр . <div class="tooltip">Дани-Эль<span class="tooltiptext">Dani el</span></div> ) — <div class="tooltip">«Судья<span class="tooltiptext">&quot; Judges</span></div> — мой Бог» , <div class="tooltip">Иоиль<span class="tooltiptext">yoil</span></div> ( евр . <div class="tooltip">Йоэль<span class="tooltiptext">Yoel</span></div> ) — <div class="tooltip">«Яхве—Бог»<span class="tooltiptext">“Ahwe-bogh”</span></div> и <div class="tooltip">Нафан<span class="tooltiptext">Nafan</span></div> ( евр . <div class="tooltip">Натан<span class="tooltiptext">Nathan.</span></div> ) — <div class="tooltip">«Дар<span class="tooltiptext">&quot; gifts</span></div> ( <div class="tooltip">Божий<span class="tooltiptext">of God</span></div> ) » . 
         </div>
         </td>
       </tr>
@@ -74,12 +109,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>Because of the significance attached to names, names would often be changed to reflect a radical change in someone’s life and circumstances.</p>
+        Because of the significance attached to names , names would often be changed to reflect a radical change in someone’s life and circumstances . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Из-за значимости, придаваемой именам, их меняли, чтобы отразить важные изменения, произошедшие в жизни.</p>
+        <div class="tooltip">Из-за<span class="tooltiptext">Because</span></div> <div class="tooltip">значимости<span class="tooltiptext">relevance</span></div> , <div class="tooltip">придаваемой<span class="tooltiptext">to be given</span></div> <div class="tooltip">именам<span class="tooltiptext">names</span></div> , их <div class="tooltip">меняли<span class="tooltiptext">Change</span></div> , чтобы <div class="tooltip">отразить<span class="tooltiptext">reflect</span></div> <div class="tooltip">важные<span class="tooltiptext">Important</span></div> <div class="tooltip">изменения<span class="tooltiptext">change</span></div> , <div class="tooltip">произошедшие<span class="tooltiptext">what happened</span></div> в жизни . 
         </div>
         </td>
       </tr>
@@ -87,12 +122,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><strong>Look up the following texts. What situations are they addressing, and why were the names changed in these situations?</strong></p>
+        Look up the following texts . What situations are they addressing , and why were the names changed in these situations ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Прочитайте следующие тексты. Какие обстоятельства в них описаны и почему именно в этих обстоятельствах имена были изменены?</code></p>
+        Прочитайте <div class="tooltip">следующие<span class="tooltiptext">following:</span></div> тексты . Какие обстоятельства в <div class="tooltip">них<span class="tooltiptext">them.</span></div> <div class="tooltip">описаны<span class="tooltiptext">described</span></div> и почему <div class="tooltip">именно<span class="tooltiptext">Exactly.</span></div> в этих <div class="tooltip">обстоятельствах<span class="tooltiptext">circumstances</span></div> имена <div class="tooltip">были<span class="tooltiptext">We were.</span></div> <div class="tooltip">изменены<span class="tooltiptext">modified</span></div> ? 
         </div>
         </td>
       </tr>
@@ -100,12 +135,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>1. Gen. 32:28</code></p>
+        1 . Gen . 32 : 28 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>1. Быт. 32:28</code></p>
+        1 . Быт . 32 : 28 
         </div>
         </td>
       </tr>
@@ -113,12 +148,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>2. Gen. 41:45</code></p>
+        2 . Gen . 41 : 45 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>2. Быт. 41:45</code></p>
+        2 . Быт . 41 : 45 
         </div>
         </td>
       </tr>
@@ -126,12 +161,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>3. Dan. 1:7</code></p>
+        3 . Dan . 1 : 7 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>3. Дан. 1:7</code></p>
+        3 . Дан . 1 : 7 
         </div>
         </td>
       </tr>
@@ -139,12 +174,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>In one sense, however, it is not that hard, even for modern minds, to understand the significance of what a person is called. There are subtle and, at times, not so subtle effects. If someone is constantly called “stupid” or “ugly,” and if those are the appellations used for them all the time by a lot of people—sooner or later those names could have an impact on how the person views himself or herself. In the same way, by giving people certain names, or changing their names, it seems possible to influence how they would view themselves and thus influence how they would act.</p>
+        In one sense , however , it is not that hard , even for modern minds , to understand the significance of what a person is called . There are subtle and , at times , not so subtle effects . If someone is constantly called “stupid” or “ugly , ” and if those are the appellations used for them all the time by a lot of people—sooner or later those names could have an impact on how the person views himself or herself . In the same way , by giving people certain names , or changing their names , it seems possible to influence how they would view themselves and thus influence how they would act . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Для нас сегодня не так уж и сложно понять связь имени с самим человеком. Если кого-то постоянно называть глупым или некрасивым, то рано или поздно это «имя» повлияет на то, как человек себя воспринимает. И наоборот, называя человека определенным именем или меняя его, можно изменить отношение человека к себе и повлиять на его поведение.</p>
+        Для нас сегодня не так <div class="tooltip">уж<span class="tooltiptext">Yeah.</span></div> и <div class="tooltip">сложно<span class="tooltiptext">complicated.</span></div> <div class="tooltip">понять<span class="tooltiptext">understand.</span></div> <div class="tooltip">связь<span class="tooltiptext">Communications</span></div> имени с <div class="tooltip">самим<span class="tooltiptext">themselves</span></div> <div class="tooltip">человеком<span class="tooltiptext">human being</span></div> . Если <div class="tooltip">кого-то<span class="tooltiptext">Someone.</span></div> <div class="tooltip">постоянно<span class="tooltiptext">All the time.</span></div> <div class="tooltip">называть<span class="tooltiptext">Call it a name.</span></div> <div class="tooltip">глупым<span class="tooltiptext">stupid</span></div> или <div class="tooltip">некрасивым<span class="tooltiptext">in colour</span></div> , то <div class="tooltip">рано<span class="tooltiptext">early</span></div> или <div class="tooltip">поздно<span class="tooltiptext">late</span></div> это <div class="tooltip">«имя»<span class="tooltiptext">“name”</span></div> <div class="tooltip">повлияет<span class="tooltiptext">It's gonna hurt.</span></div> на то , как <div class="tooltip">человек<span class="tooltiptext">man</span></div> себя <div class="tooltip">воспринимает<span class="tooltiptext">I see.</span></div> . И <div class="tooltip">наоборот<span class="tooltiptext">Conversely,</span></div> , <div class="tooltip">называя<span class="tooltiptext">Call</span></div> <div class="tooltip">человека<span class="tooltiptext">Human Rights</span></div> <div class="tooltip">определенным<span class="tooltiptext">defined</span></div> именем или <div class="tooltip">меняя<span class="tooltiptext">change</span></div> его , можно <div class="tooltip">изменить<span class="tooltiptext">change</span></div> <div class="tooltip">отношение<span class="tooltiptext">relationship</span></div> человека к себе и <div class="tooltip">повлиять<span class="tooltiptext">influence</span></div> на его <div class="tooltip">поведение<span class="tooltiptext">Conduct</span></div> . 
         </div>
         </td>
       </tr>
@@ -152,25 +187,16 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>With this in mind, it is not so hard to understand why God would want to change Abram to Abraham. Abram means “Father is exalted”; God changed it to Abraham, which means “Father of a multitude.” When you look at the covenant promise in which God says “ ‘I will make you exceedingly fruitful; and I will make nations of you, and kings shall come forth from you’ ” (Gen. 17:6, RSV), the name change makes better sense. Perhaps it was God’s way of helping Abraham trust in the covenant promise, which was being made to a 99-year-old man married to an old woman who has henceforth been barren). In short, God did it to help increase Abraham’s faith in God’s promises to him.</p>
+        With this in mind , it is not so hard to understand why God would want to change Abram to Abraham . Abram means “Father is exalted” ; God changed it to Abraham , which means “Father of a multitude . ” When you look at the covenant promise in which God says “ ‘I will make you exceedingly fruitful ; and I will make nations of you , and kings shall come forth from you’ ” ( Gen . 17 : 6 , RSV ) , the name change makes better sense . Perhaps it was God’s way of helping Abraham trust in the covenant promise , which was being made to a 99-year-old man married to an old woman who has henceforth been barren ) . In short , God did it to help increase Abraham’s faith in God’s promises to him . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Учитывая это, не так сложно понять, почему Бог пожелал изменить имя Аврам на Авраам. Имя Аврам означает «Отец превознесен». Бог изменил его на Авраам, что означает «Отец множества». Когда мы читаем обетование завета, в котором Бог говорит: «Тьмы тем потомков Я дам тебе: произойдут от тебя народы, и царями будут потомки твои» (Быт. 17:6; ИПБ), эта смена имени имеет бо́льший смысл. Возможно, так Бог хотел помочь Аврааму поверить обетованию завета, данному 99-летнему мужчине, женатому на пожилой женщине, которая оставалась бесплодной. Одним словом, Бог сделал это, чтобы помочь Аврааму укрепить веру в обетования, данные ему.</p>
+        <div class="tooltip">Учитывая<span class="tooltiptext">Bearing in mind</span></div> это , не так сложно понять , почему Бог <div class="tooltip">пожелал<span class="tooltiptext">If you wish</span></div> изменить имя Аврам на Авраам . Имя Аврам означает «Отец превознесен» . Бог изменил его на Авраам , что означает «Отец множества» . Когда мы <div class="tooltip">читаем<span class="tooltiptext">read</span></div> обетование завета , в <div class="tooltip">котором<span class="tooltiptext">of which</span></div> Бог говорит : <div class="tooltip">«Тьмы<span class="tooltiptext">“Themes</span></div> тем потомков Я <div class="tooltip">дам<span class="tooltiptext">Yes.</span></div> тебе : <div class="tooltip">произойдут<span class="tooltiptext">They're coming.</span></div> от тебя народы , и <div class="tooltip">царями<span class="tooltiptext">Kings</span></div> <div class="tooltip">будут<span class="tooltiptext">to be</span></div> <div class="tooltip">потомки<span class="tooltiptext">descendants</span></div> <div class="tooltip">твои»<span class="tooltiptext">Yours</span></div> ( Быт . 17 : 6 ; ИПБ ) , <div class="tooltip">эта<span class="tooltiptext">This is the one.</span></div> <div class="tooltip">смена<span class="tooltiptext">Replacement</span></div> имени имеет <div class="tooltip">бо́льший<span class="tooltiptext">Greater</span></div> <div class="tooltip">смысл<span class="tooltiptext">meaning</span></div> . <div class="tooltip">Возможно<span class="tooltiptext">Maybe.</span></div> , так Бог хотел <div class="tooltip">помочь<span class="tooltiptext">help.</span></div> <div class="tooltip">Аврааму<span class="tooltiptext">abraham</span></div> поверить <div class="tooltip">обетованию<span class="tooltiptext">decontamination</span></div> завета , <div class="tooltip">данному<span class="tooltiptext">this is the case.</span></div> 99 <div class="tooltip">-летнему<span class="tooltiptext">- Let's go.</span></div> <div class="tooltip">мужчине<span class="tooltiptext">Men</span></div> , <div class="tooltip">женатому<span class="tooltiptext">Married</span></div> на <div class="tooltip">пожилой<span class="tooltiptext">Older Persons</span></div> <div class="tooltip">женщине<span class="tooltiptext">Women</span></div> , которая <div class="tooltip">оставалась<span class="tooltiptext">remained</span></div> <div class="tooltip">бесплодной<span class="tooltiptext">inferior</span></div> . <div class="tooltip">Одним<span class="tooltiptext">One</span></div> <div class="tooltip">словом<span class="tooltiptext">by</span></div> , Бог <div class="tooltip">сделал<span class="tooltiptext">did.</span></div> это , чтобы помочь Аврааму <div class="tooltip">укрепить<span class="tooltiptext">Strengthen</span></div> веру в обетования , <div class="tooltip">данные<span class="tooltiptext">data</span></div> ему . 
         </div>
         </td>
       </tr>
   
-<tr>
-  <td colspan="2" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-  <div dir="ltl">
-  <u>Verbs:</u><br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">act: <b><i>акт</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">addressing: <b><i>решение</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">are: <b><i>есть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">attached: <b><i>Прикрепить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">be: <b><i>быть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">been: <b><i>были</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">being: <b><i>быть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">called: <b><i>называется</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">came: <b><i>пришел</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">changed: <b><i>изменено</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">changing: <b><i>изменение</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">come: <b><i>Приходите</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">comprised: <b><i>в том числе</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">consist: <b><i>Состоять</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">did: <b><i>сделал</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">do: <b><i>сделать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">does: <b><i>делает</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">following: <b><i>Следующее</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">giving: <b><i>давать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">has: <b><i>имеет</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">have: <b><i>есть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">help: <b><i>Помощь</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">helping: <b><i>помощь</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">is: <b><i>это</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Look: <b><i>посмотреть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">made: <b><i>сделано</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">make: <b><i>сделать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">makes: <b><i>делает</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">married: <b><i>женат</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">meaning: <b><i>смысл</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">means: <b><i>означает</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">promises: <b><i>обещания</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">reflect: <b><i>Отражать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">says: <b><i>говорит</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">seems: <b><i>кажется</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">understand: <b><i>Понятно</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">used: <b><i>используется</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">view: <b><i>Посмотреть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">want: <b><i>Хочу</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">was: <b><i>был</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">were: <b><i>были</i></b>
-  
-  </div>
-  </td>
-</tr>
-
 
   <tr>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">

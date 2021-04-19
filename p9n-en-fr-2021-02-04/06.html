@@ -2,23 +2,58 @@
     <html>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <script>
-    function unhighlight(x) {
+    function unhighlight(x, word) {
       x.style.color = "navy"
       x.style.backgroundColor = "transparent"
+      console.log(word)
     }
     
-    function highlight(x) {
+    function highlight(x, word) {
       x.style.color = "yellow"
       x.style.backgroundColor = "green"
     }
     </script>
     <style>
     
-    span {
-      color: navy;
-      display: inline;
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
       cursor: hand;
     }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
 
     .fulljustify {
       text-align: justify;
@@ -35,12 +70,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>'Covenant Obligations'</p>
+        ' Covenant Obligations ' 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Les obligations de l’alliance</p>
+        Les obligations de l’alliance 
         </div>
         </td>
       </tr>
@@ -48,12 +83,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>22/04/2021</p>
+        22 / 04 / 2021 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>22/04/2021</p>
+        22 / 04 / 2021 
         </div>
         </td>
       </tr>
@@ -61,12 +96,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>“ ‘For I know him, that he will command his children and his household after him, and they shall keep the way of the LORD, to do justice and judgment; that the LORD may bring upon Abraham that which he hath spoken of him’ ” (Gen. 18:19).</p>
+        “ <div class="tooltip">‘For<span class="tooltiptext">Pour</span></div> I know him , that he will command his <div class="tooltip">children<span class="tooltiptext">enfants</span></div> and his <div class="tooltip">household<span class="tooltiptext">ménage</span></div> after him , and they shall <div class="tooltip">keep<span class="tooltiptext">Continue.</span></div> the way of the LORD , to do <div class="tooltip">justice<span class="tooltiptext">justice</span></div> and <div class="tooltip">judgment<span class="tooltiptext">jugement</span></div> ; that the LORD <div class="tooltip">may<span class="tooltiptext">may</span></div> <div class="tooltip">bring<span class="tooltiptext">apportez.</span></div> upon Abraham that which he <div class="tooltip">hath<span class="tooltiptext">A.</span></div> <div class="tooltip">spoken<span class="tooltiptext">parlé</span></div> of <div class="tooltip">him’<span class="tooltiptext">lui ’</span></div> ” ( Gen . 18 : 19 ) . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>« Car je l’ai choisi, afin qu’il ordonne à ses fils et à sa maison après lui de garder la voie de l’Éternel, en pratiquant la droiture et la justice, et qu’ainsi l’Éternel accomplisse en faveur d’Abraham les promesses qu’Il a faites » (Gen. 18:19)</p>
+        « Car je <div class="tooltip">l’ai<span class="tooltiptext">l’ai</span></div> <div class="tooltip">choisi<span class="tooltiptext">chosen</span></div> , <div class="tooltip">afin<span class="tooltiptext">for</span></div> qu’il <div class="tooltip">ordonne<span class="tooltiptext">ordain</span></div> à ses <div class="tooltip">fils<span class="tooltiptext">son</span></div> et à sa <div class="tooltip">maison<span class="tooltiptext">house</span></div> après lui de <div class="tooltip">garder<span class="tooltiptext">Keep</span></div> la <div class="tooltip">voie<span class="tooltiptext">track</span></div> de l’Éternel , en <div class="tooltip">pratiquant<span class="tooltiptext">practitioner</span></div> la <div class="tooltip">droiture<span class="tooltiptext">Right</span></div> et la <div class="tooltip">justice<span class="tooltiptext">justice</span></div> , et <div class="tooltip">qu’ainsi<span class="tooltiptext">and so on</span></div> l’Éternel <div class="tooltip">accomplisse<span class="tooltiptext">performance report</span></div> en <div class="tooltip">faveur<span class="tooltiptext">favour</span></div> d’Abraham les promesses qu’Il a faites » ( Gen . 18 : 19 ) 
         </div>
         </td>
       </tr>
@@ -74,12 +109,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>As we have seen so far, the covenant is always a covenant of grace, of God doing for us what we could never do for ourselves. There is no exception in the covenant with Abraham.</p>
+        As we have <div class="tooltip">seen<span class="tooltiptext">vue</span></div> so far , the covenant is always a covenant of grace , of God <div class="tooltip">doing<span class="tooltiptext">Je m'en vais.</span></div> for us what we could <div class="tooltip">never<span class="tooltiptext">Jamais</span></div> do for <div class="tooltip">ourselves<span class="tooltiptext">nous-mêmes</span></div> . There is no <div class="tooltip">exception<span class="tooltiptext">exception</span></div> in the covenant with Abraham . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Comme nous l’avons vu jusqu’à présent, l’alliance est toujours une alliance de grâce, de Dieu faisant pour nous ce que nous ne pourrions jamais faire pour nous-mêmes. L’alliance avec Abraham ne fait pas exception à la règle.</p>
+        Comme nous <div class="tooltip">l’avons<span class="tooltiptext">we have</span></div> <div class="tooltip">vu<span class="tooltiptext">seen</span></div> <div class="tooltip">jusqu’à<span class="tooltiptext">up to</span></div> présent , l’alliance est toujours une alliance de grâce , de Dieu <div class="tooltip">faisant<span class="tooltiptext">by</span></div> pour nous ce que nous ne <div class="tooltip">pourrions<span class="tooltiptext">Maybe</span></div> <div class="tooltip">jamais<span class="tooltiptext">Never</span></div> <div class="tooltip">faire<span class="tooltiptext">to</span></div> pour <div class="tooltip">nous-mêmes<span class="tooltiptext">ourselves</span></div> . L’alliance avec Abraham ne fait pas <div class="tooltip">exception<span class="tooltiptext">exception</span></div> à la <div class="tooltip">règle<span class="tooltiptext">Rule</span></div> . 
         </div>
         </td>
       </tr>
@@ -87,12 +122,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>In His grace, God had chosen Abraham as His instrument to assist in proclaiming the plan of salvation to the world. God’s fulfillment of His covenant promises was, however, linked to Abraham’s willingness to do righteously and to obey Him by faith. Without that obedience on Abraham’s part, God could not use him.</p>
+        In His grace , God had <div class="tooltip">chosen<span class="tooltiptext">choisi</span></div> Abraham as His <div class="tooltip">instrument<span class="tooltiptext">Instrument</span></div> to <div class="tooltip">assist<span class="tooltiptext">Aide</span></div> in <div class="tooltip">proclaiming<span class="tooltiptext">proclamant</span></div> the plan of salvation to the world . God’s <div class="tooltip">fulfillment<span class="tooltiptext">l &apos; exécution</span></div> of His covenant promises was , however , <div class="tooltip">linked<span class="tooltiptext">liée</span></div> to Abraham’s <div class="tooltip">willingness<span class="tooltiptext">la volonté</span></div> to do <div class="tooltip">righteously<span class="tooltiptext">justes</span></div> and to <div class="tooltip">obey<span class="tooltiptext">obéis</span></div> Him by faith . <div class="tooltip">Without<span class="tooltiptext">sans</span></div> that obedience on Abraham’s part , God could not use him . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Dans Sa grâce, Dieu avait choisi Abraham comme instrument pour proclamer le plan du salut au monde.</p>
+        Dans Sa grâce , Dieu <div class="tooltip">avait<span class="tooltiptext">had</span></div> choisi Abraham comme <div class="tooltip">instrument<span class="tooltiptext">instrument</span></div> pour <div class="tooltip">proclamer<span class="tooltiptext">proclaim</span></div> le plan du salut au monde . 
         </div>
         </td>
       </tr>
@@ -100,12 +135,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>Genesis 18:19 demonstrates how grace and law are related. It opens with grace (“I know him”) and is followed by the fact that Abraham is someone who will obey the Lord and have his family obey, as well. Faith and works, then, appear here in a close union, as they must. (See James 2:17.)</p>
+        Genesis 18 : 19 <div class="tooltip">demonstrates<span class="tooltiptext">des démonstrations</span></div> how grace and <div class="tooltip">law<span class="tooltiptext">droit</span></div> are <div class="tooltip">related<span class="tooltiptext">connexes</span></div> . It <div class="tooltip">opens<span class="tooltiptext">Ouverture</span></div> with grace ( “I know <div class="tooltip">him”<span class="tooltiptext">lui</span></div> ) and is <div class="tooltip">followed<span class="tooltiptext">suivie</span></div> by the <div class="tooltip">fact<span class="tooltiptext">fait</span></div> that Abraham is someone who will obey the Lord and have his <div class="tooltip">family<span class="tooltiptext">famille</span></div> obey , as <div class="tooltip">well<span class="tooltiptext">Bien.</span></div> . Faith and <div class="tooltip">works<span class="tooltiptext">Travaux</span></div> , then , <div class="tooltip">appear<span class="tooltiptext">apparaissant</span></div> <div class="tooltip">here<span class="tooltiptext">ici.</span></div> in a <div class="tooltip">close<span class="tooltiptext">proche</span></div> <div class="tooltip">union<span class="tooltiptext">union</span></div> , as they <div class="tooltip">must<span class="tooltiptext">doit</span></div> . ( See <div class="tooltip">James<span class="tooltiptext">james</span></div> 2 : 17 . ) 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>L’accomplissement par Dieu des promesses de Son alliance était cependant lié à la volonté d’Abraham de faire ce qui est juste et de Lui obéir par la foi. Sans cette obéissance de la part d’Abraham, Dieu ne pouvait pas l’utiliser.</p>
+        <div class="tooltip">L’accomplissement<span class="tooltiptext">performance</span></div> par Dieu des promesses de Son alliance était cependant <div class="tooltip">lié<span class="tooltiptext">related</span></div> à la <div class="tooltip">volonté<span class="tooltiptext">will</span></div> d’Abraham de faire ce qui est <div class="tooltip">juste<span class="tooltiptext">Just</span></div> et de Lui <div class="tooltip">obéir<span class="tooltiptext">obey</span></div> par la foi . Sans cette obéissance de la part d’Abraham , Dieu ne pouvait pas <div class="tooltip">l’utiliser<span class="tooltiptext">use it</span></div> . 
         </div>
         </td>
       </tr>
@@ -113,12 +148,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>Notice, however, the phrasing of Genesis 18:19, particularly the last clause. What is it saying here about Abraham’s obedience? Though obedience is not the means of salvation, what importance is it given here? According to this text, could the covenant be fulfilled without it? Explain your answer.</code></p>
+        <div class="tooltip">Notice<span class="tooltiptext">Avis</span></div> , however , the <div class="tooltip">phrasing<span class="tooltiptext">phrasé</span></div> of Genesis 18 : 19 , particularly the <div class="tooltip">last<span class="tooltiptext">dernière</span></div> <div class="tooltip">clause<span class="tooltiptext">clause</span></div> . What is it saying here <div class="tooltip">about<span class="tooltiptext">à propos</span></div> Abraham’s obedience ? Though obedience is not the means of salvation , what importance is it given here ? <div class="tooltip">According<span class="tooltiptext">d)</span></div> to this text , could the covenant be <div class="tooltip">fulfilled<span class="tooltiptext">accomplie</span></div> without it ? <div class="tooltip">Explain<span class="tooltiptext">expliquer</span></div> your <div class="tooltip">answer<span class="tooltiptext">Réponse</span></div> . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Genèse 18:19 montre comment la grâce et la loi sont liées. Elle s’ouvre sur la grâce (« Je l’ai choisi ») et est suivie par le fait qu’Abraham est quelqu’un qui obéira au Seigneur et fera également obéir sa famille. La foi et les œuvres apparaissent donc ici en étroite union, comme il se doit (Voir Jacques 2:17.)</p>
+        Genèse 18 : 19 <div class="tooltip">montre<span class="tooltiptext">watch</span></div> comment la grâce et la <div class="tooltip">loi<span class="tooltiptext">Law</span></div> sont <div class="tooltip">liées<span class="tooltiptext">related</span></div> . <div class="tooltip">Elle<span class="tooltiptext">She</span></div> <div class="tooltip">s’ouvre<span class="tooltiptext">opens</span></div> sur la grâce ( « Je l’ai choisi » ) et est <div class="tooltip">suivie<span class="tooltiptext">Follow-up</span></div> par le fait <div class="tooltip">qu’Abraham<span class="tooltiptext">abraham</span></div> est quelqu’un qui <div class="tooltip">obéira<span class="tooltiptext">obey</span></div> au Seigneur et <div class="tooltip">fera<span class="tooltiptext">will</span></div> également obéir sa <div class="tooltip">famille<span class="tooltiptext">family</span></div> . La foi et les <div class="tooltip">œuvres<span class="tooltiptext">works</span></div> <div class="tooltip">apparaissent<span class="tooltiptext">appear</span></div> <div class="tooltip">donc<span class="tooltiptext">so</span></div> <div class="tooltip">ici<span class="tooltiptext">here</span></div> en <div class="tooltip">étroite<span class="tooltiptext">narrow</span></div> <div class="tooltip">union<span class="tooltiptext">union</span></div> , comme il se <div class="tooltip">doit<span class="tooltiptext">must</span></div> ( Voir <div class="tooltip">Jacques<span class="tooltiptext">jacque</span></div> 2 : 17 . ) 
         </div>
         </td>
       </tr>
@@ -126,12 +161,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>The blessings of the covenant could not be enjoyed or maintained unless certain conditions were met by the beneficiaries. Though the conditions were not needed to establish the covenant, they were to be the responses of love, faith, and obedience. They were to be the manifestation of a relationship between humankind and God. Obedience was the means by which God could fulfill His covenant promises to the people.</p>
+        The <div class="tooltip">blessings<span class="tooltiptext">bénédictions</span></div> of the covenant could not be <div class="tooltip">enjoyed<span class="tooltiptext">apprécié</span></div> or <div class="tooltip">maintained<span class="tooltiptext">maintenus</span></div> <div class="tooltip">unless<span class="tooltiptext">sauf</span></div> certain conditions were <div class="tooltip">met<span class="tooltiptext">met</span></div> by the <div class="tooltip">beneficiaries<span class="tooltiptext">bénéficiaires</span></div> . Though the conditions were not <div class="tooltip">needed<span class="tooltiptext">nécessaire</span></div> to establish the covenant , they were to be the <div class="tooltip">responses<span class="tooltiptext">réponses</span></div> of love , faith , and obedience . They were to be the <div class="tooltip">manifestation<span class="tooltiptext">manifestation</span></div> of a relationship between humankind and God . Obedience was the means by which God could <div class="tooltip">fulfill<span class="tooltiptext">accomplie</span></div> His covenant promises to the people . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Remarquez cependant la formulation de Genèse 18:19, en particulier la dernière proposition. Que dit-elle ici au sujet de l’obéissance d’Abraham? Bien que l’obéissance ne soit pas le moyen du salut, quelle importance a-t-elle ici? D’après ce texte, l’alliance pourrait-elle s’accomplir sans elle? Expliquez votre réponse.</code></p>
+        <div class="tooltip">Remarquez<span class="tooltiptext">remark</span></div> cependant la <div class="tooltip">formulation<span class="tooltiptext">formulation</span></div> de Genèse 18 : 19 , en <div class="tooltip">particulier<span class="tooltiptext">particular</span></div> la dernière <div class="tooltip">proposition<span class="tooltiptext">proposal</span></div> . Que <div class="tooltip">dit-elle<span class="tooltiptext">Says she</span></div> ici au <div class="tooltip">sujet<span class="tooltiptext">topic</span></div> de l’obéissance d’Abraham ? Bien que l’obéissance ne soit pas le <div class="tooltip">moyen<span class="tooltiptext">average</span></div> du salut , quelle importance <div class="tooltip">a-t-elle<span class="tooltiptext">has she</span></div> ici ? <div class="tooltip">D’après<span class="tooltiptext">based on</span></div> ce texte , l’alliance <div class="tooltip">pourrait-elle<span class="tooltiptext">Could she</span></div> <div class="tooltip">s’accomplir<span class="tooltiptext">is accomplished</span></div> sans elle ? <div class="tooltip">Expliquez<span class="tooltiptext">explain</span></div> votre <div class="tooltip">réponse<span class="tooltiptext">response</span></div> . 
         </div>
         </td>
       </tr>
@@ -139,12 +174,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>Covenant breaking, through disobedience, is unfaithfulness to an established relationship. When the covenant is broken, what is broken is not the condition of bestowal but the condition of fulfillment.</p>
+        Covenant <div class="tooltip">breaking<span class="tooltiptext">rupture</span></div> , through <div class="tooltip">disobedience<span class="tooltiptext">désobéissance</span></div> , is <div class="tooltip">unfaithfulness<span class="tooltiptext">infidèle</span></div> to an <div class="tooltip">established<span class="tooltiptext">créé</span></div> relationship . When the covenant is <div class="tooltip">broken<span class="tooltiptext">cassé</span></div> , what is broken is not the <div class="tooltip">condition<span class="tooltiptext">condition</span></div> of <div class="tooltip">bestowal<span class="tooltiptext">de l &apos; effusion</span></div> but the condition of fulfillment . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Les bénédictions de l’alliance ne pouvaient être appréciées ou maintenues à moins que certaines conditions soient remplies par les bénéficiaires. Bien que les conditions ne soient pas nécessaires pour établir l’alliance, elles doivent être les réponses de l’amour, de la foi et de l’obéissance. Elles devaient être la manifestation d’une relation entre l’homme et Dieu. L’obéissance était le moyen par lequel Dieu pouvait accomplir Ses promesses de l’alliance envers le peuple.</p>
+        Les <div class="tooltip">bénédictions<span class="tooltiptext">blessings</span></div> de l’alliance ne <div class="tooltip">pouvaient<span class="tooltiptext">could</span></div> être <div class="tooltip">appréciées<span class="tooltiptext">appreciated</span></div> ou <div class="tooltip">maintenues<span class="tooltiptext">maintained</span></div> à <div class="tooltip">moins<span class="tooltiptext">less</span></div> que certaines conditions soient <div class="tooltip">remplies<span class="tooltiptext">filled</span></div> par les <div class="tooltip">bénéficiaires<span class="tooltiptext">beneficiaries</span></div> . Bien que les conditions ne soient pas <div class="tooltip">nécessaires<span class="tooltiptext">necessary</span></div> pour <div class="tooltip">établir<span class="tooltiptext">establish</span></div> l’alliance , elles <div class="tooltip">doivent<span class="tooltiptext">shall</span></div> être les <div class="tooltip">réponses<span class="tooltiptext">answers</span></div> de l’amour , de la foi et de l’obéissance . Elles devaient être la <div class="tooltip">manifestation<span class="tooltiptext">event</span></div> d’une relation entre l’homme et Dieu . L’obéissance était le moyen par <div class="tooltip">lequel<span class="tooltiptext">which</span></div> Dieu pouvait <div class="tooltip">accomplir<span class="tooltiptext">accomplishment</span></div> Ses promesses de l’alliance <div class="tooltip">envers<span class="tooltiptext">to</span></div> le peuple . 
         </div>
         </td>
       </tr>
@@ -152,12 +187,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>In your own experience with the Lord, can you see why obedience is so important? Can you think of any examples, either from the Bible or from your own experience, where disobedience makes the fulfillment of covenant promises impossible? If so, what are they, and, more important, what is the remedy?</code></p>
+        In your <div class="tooltip">own<span class="tooltiptext">propre</span></div> <div class="tooltip">experience<span class="tooltiptext">expérience</span></div> with the Lord , can you see why obedience is so important ? Can you think of any <div class="tooltip">examples<span class="tooltiptext">exemples</span></div> , either from the Bible or from your own experience , where disobedience makes the fulfillment of covenant promises <div class="tooltip">impossible<span class="tooltiptext">impossible</span></div> ? If so , what are they , and , more important , what is the <div class="tooltip">remedy<span class="tooltiptext">recours</span></div> ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>La rupture de l’alliance, par la désobéissance, est l’infidélité à une relation établie. Lorsque l’alliance est rompue, ce qui est rompu n’est pas la condition de l’octroi, mais la condition de l’accomplissement.</p>
+        La <div class="tooltip">rupture<span class="tooltiptext">rupture</span></div> de l’alliance , par la <div class="tooltip">désobéissance<span class="tooltiptext">Obedience</span></div> , est <div class="tooltip">l’infidélité<span class="tooltiptext">infidelity</span></div> à une relation <div class="tooltip">établie<span class="tooltiptext">prepared</span></div> . Lorsque l’alliance est <div class="tooltip">rompue<span class="tooltiptext">broken</span></div> , ce qui est <div class="tooltip">rompu<span class="tooltiptext">broken</span></div> n’est pas la <div class="tooltip">condition<span class="tooltiptext">condition</span></div> de <div class="tooltip">l’octroi<span class="tooltiptext">the award</span></div> , mais la condition de l’accomplissement . 
         </div>
         </td>
       </tr>
@@ -170,7 +205,7 @@
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Dans votre propre expérience avec le Seigneur, pouvez-vous comprendre pourquoi l’obéissance est si importante? Pouvez-vous penser à des exemples, tirés de la Bible ou de votre propre expérience, où la désobéissance rend impossible l’accomplissement des promesses de l’alliance? Si oui, quels sont-ils, et, plus important encore, quel est le remède?</code></p>
+        Dans votre <div class="tooltip">propre<span class="tooltiptext">clean</span></div> <div class="tooltip">expérience<span class="tooltiptext">experience</span></div> avec le Seigneur , pouvez-vous comprendre pourquoi l’obéissance est si <div class="tooltip">importante<span class="tooltiptext">important</span></div> ? Pouvez-vous <div class="tooltip">penser<span class="tooltiptext">Think</span></div> à des <div class="tooltip">exemples<span class="tooltiptext">examples</span></div> , <div class="tooltip">tirés<span class="tooltiptext">to be taken</span></div> de la Bible ou de votre propre expérience , où la désobéissance <div class="tooltip">rend<span class="tooltiptext">render</span></div> <div class="tooltip">impossible<span class="tooltiptext">impossible</span></div> l’accomplissement des promesses de l’alliance ? Si <div class="tooltip">oui<span class="tooltiptext">Yes</span></div> , quels sont-ils , et , plus <div class="tooltip">important<span class="tooltiptext">important</span></div> encore , quel est le <div class="tooltip">remède<span class="tooltiptext">remedy</span></div> ? 
         </div>
         </td>
       </tr>
@@ -178,12 +213,12 @@
 <tr>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
   <div dir="ltl">
-  <b><i><u>Verbs:</u><br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">According: D &apos; après les informations</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">appear: apparaissant</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">are: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">assist: Aide</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">be: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">breaking: rupture</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">bring: apportez.</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">broken: cassé</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">chosen: choisi</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">demonstrates: des démonstrations</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">do: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">doing: Je m'en vais.</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">enjoyed: apprécié</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">establish: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">established: créé</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Explain: Expliquer</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">followed: suivie</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">fulfill: accomplie</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">fulfilled: accomplie</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">given: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">had: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">hath: A.</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">have: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">is: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">keep: Continue.</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">know: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">linked: liée</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">maintained: maintenus</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">makes: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">means: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">met: met</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">needed: nécessaire</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">obey: obéis</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">opens: Ouverture</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">phrasing: phrasé</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">proclaiming: proclamant</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">promises: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">related: connexes</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">saying: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">see: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">See: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">seen: vue</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">spoken: parlé</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">think: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">was: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">were: undefined</i></b>
+  <u>Glossary:</u><br /><span>‘For: <b><i>Pour</i></b></span>, <span>“I: <b><i></i></b></span>, <span>a: <b><i></i></b></span>, <span>about: <b><i>à propos</i></b></span>, <span>Abraham: <b><i></i></b></span>, <span>Abraham’s: <b><i></i></b></span>, <span>According: <b><i>d)</i></b></span>, <span>after: <b><i></i></b></span>, <span>always: <b><i></i></b></span>, <span>an: <b><i></i></b></span>, <span>and: <b><i></i></b></span>, <span>answer: <b><i>Réponse</i></b></span>, <span>any: <b><i></i></b></span>, <span>appear: <b><i>apparaissant</i></b></span>, <span>are: <b><i></i></b></span>, <span>As: <b><i></i></b></span>, <span>assist: <b><i>Aide</i></b></span>, <span>be: <b><i></i></b></span>, <span>beneficiaries: <b><i>bénéficiaires</i></b></span>, <span>bestowal: <b><i>de l &apos; effusion</i></b></span>, <span>between: <b><i></i></b></span>, <span>Bible: <b><i></i></b></span>, <span>blessings: <b><i>bénédictions</i></b></span>, <span>breaking: <b><i>rupture</i></b></span>, <span>bring: <b><i>apportez.</i></b></span>, <span>broken: <b><i>cassé</i></b></span>, <span>but: <b><i></i></b></span>, <span>by: <b><i></i></b></span>, <span>can: <b><i></i></b></span>, <span>certain: <b><i></i></b></span>, <span>children: <b><i>enfants</i></b></span>, <span>chosen: <b><i>choisi</i></b></span>, <span>clause: <b><i>clause</i></b></span>, <span>close: <b><i>proche</i></b></span>, <span>command: <b><i></i></b></span>, <span>condition: <b><i>condition</i></b></span>, <span>conditions: <b><i></i></b></span>, <span>could: <b><i></i></b></span>, <span>Covenant: <b><i></i></b></span>, <span>demonstrates: <b><i>des démonstrations</i></b></span>, <span>disobedience: <b><i>désobéissance</i></b></span>, <span>do: <b><i></i></b></span>, <span>doing: <b><i>Je m'en vais.</i></b></span>, <span>either: <b><i></i></b></span>, <span>enjoyed: <b><i>apprécié</i></b></span>, <span>establish: <b><i></i></b></span>, <span>established: <b><i>créé</i></b></span>, <span>examples: <b><i>exemples</i></b></span>, <span>exception: <b><i>exception</i></b></span>, <span>experience: <b><i>expérience</i></b></span>, <span>Explain: <b><i>expliquer</i></b></span>, <span>fact: <b><i>fait</i></b></span>, <span>faith: <b><i></i></b></span>, <span>family: <b><i>famille</i></b></span>, <span>far: <b><i></i></b></span>, <span>followed: <b><i>suivie</i></b></span>, <span>for: <b><i></i></b></span>, <span>from: <b><i></i></b></span>, <span>fulfill: <b><i>accomplie</i></b></span>, <span>fulfilled: <b><i>accomplie</i></b></span>, <span>fulfillment: <b><i>l &apos; exécution</i></b></span>, <span>Gen: <b><i></i></b></span>, <span>Genesis: <b><i></i></b></span>, <span>given: <b><i></i></b></span>, <span>God: <b><i></i></b></span>, <span>God’s: <b><i></i></b></span>, <span>grace: <b><i></i></b></span>, <span>had: <b><i></i></b></span>, <span>hath: <b><i>A.</i></b></span>, <span>have: <b><i></i></b></span>, <span>he: <b><i></i></b></span>, <span>here: <b><i>ici.</i></b></span>, <span>him: <b><i></i></b></span>, <span>him’: <b><i>lui ’</i></b></span>, <span>him”: <b><i>lui</i></b></span>, <span>his: <b><i></i></b></span>, <span>household: <b><i>ménage</i></b></span>, <span>how: <b><i></i></b></span>, <span>however: <b><i></i></b></span>, <span>humankind: <b><i></i></b></span>, <span>I: <b><i></i></b></span>, <span>If: <b><i></i></b></span>, <span>importance: <b><i></i></b></span>, <span>important: <b><i></i></b></span>, <span>impossible: <b><i>impossible</i></b></span>, <span>in: <b><i></i></b></span>, <span>instrument: <b><i>Instrument</i></b></span>, <span>is: <b><i></i></b></span>, <span>It: <b><i></i></b></span>, <span>James: <b><i>james</i></b></span>, <span>judgment: <b><i>jugement</i></b></span>, <span>justice: <b><i>justice</i></b></span>, <span>keep: <b><i>Continue.</i></b></span>, <span>know: <b><i></i></b></span>, <span>last: <b><i>dernière</i></b></span>, <span>law: <b><i>droit</i></b></span>, <span>linked: <b><i>liée</i></b></span>, <span>LORD: <b><i></i></b></span>, <span>love: <b><i></i></b></span>, <span>maintained: <b><i>maintenus</i></b></span>, <span>makes: <b><i></i></b></span>, <span>manifestation: <b><i>manifestation</i></b></span>, <span>may: <b><i>may</i></b></span>, <span>means: <b><i></i></b></span>, <span>met: <b><i>met</i></b></span>, <span>more: <b><i></i></b></span>, <span>must: <b><i>doit</i></b></span>, <span>needed: <b><i>nécessaire</i></b></span>, <span>never: <b><i>Jamais</i></b></span>, <span>no: <b><i></i></b></span>, <span>not: <b><i></i></b></span>, <span>Notice: <b><i>Avis</i></b></span>, <span>obedience: <b><i></i></b></span>, <span>obey: <b><i>obéis</i></b></span>, <span>Obligations: <b><i></i></b></span>, <span>of: <b><i></i></b></span>, <span>on: <b><i></i></b></span>, <span>opens: <b><i>Ouverture</i></b></span>, <span>or: <b><i></i></b></span>, <span>ourselves: <b><i>nous-mêmes</i></b></span>, <span>own: <b><i>propre</i></b></span>, <span>part: <b><i></i></b></span>, <span>particularly: <b><i></i></b></span>, <span>people: <b><i></i></b></span>, <span>phrasing: <b><i>phrasé</i></b></span>, <span>plan: <b><i></i></b></span>, <span>proclaiming: <b><i>proclamant</i></b></span>, <span>promises: <b><i></i></b></span>, <span>related: <b><i>connexes</i></b></span>, <span>relationship: <b><i></i></b></span>, <span>remedy: <b><i>recours</i></b></span>, <span>responses: <b><i>réponses</i></b></span>, <span>righteously: <b><i>justes</i></b></span>, <span>salvation: <b><i></i></b></span>, <span>saying: <b><i></i></b></span>, <span>See: <b><i></i></b></span>, <span>seen: <b><i>vue</i></b></span>, <span>shall: <b><i></i></b></span>, <span>so: <b><i></i></b></span>, <span>someone: <b><i></i></b></span>, <span>spoken: <b><i>parlé</i></b></span>, <span>text: <b><i></i></b></span>, <span>that: <b><i></i></b></span>, <span>the: <b><i></i></b></span>, <span>then: <b><i></i></b></span>, <span>There: <b><i></i></b></span>, <span>they: <b><i></i></b></span>, <span>think: <b><i></i></b></span>, <span>this: <b><i></i></b></span>, <span>Though: <b><i></i></b></span>, <span>through: <b><i></i></b></span>, <span>to: <b><i></i></b></span>, <span>unfaithfulness: <b><i>infidèle</i></b></span>, <span>union: <b><i>union</i></b></span>, <span>unless: <b><i>sauf</i></b></span>, <span>upon: <b><i></i></b></span>, <span>us: <b><i></i></b></span>, <span>use: <b><i></i></b></span>, <span>was: <b><i></i></b></span>, <span>way: <b><i></i></b></span>, <span>we: <b><i></i></b></span>, <span>well: <b><i>Bien.</i></b></span>, <span>were: <b><i></i></b></span>, <span>what: <b><i></i></b></span>, <span>When: <b><i></i></b></span>, <span>where: <b><i></i></b></span>, <span>which: <b><i></i></b></span>, <span>who: <b><i></i></b></span>, <span>why: <b><i></i></b></span>, <span>will: <b><i></i></b></span>, <span>willingness: <b><i>la volonté</i></b></span>, <span>with: <b><i></i></b></span>, <span>Without: <b><i>sans</i></b></span>, <span>works: <b><i>Travaux</i></b></span>, <span>world: <b><i></i></b></span>, <span>you: <b><i></i></b></span>, <span>your: <b><i></i></b>
   </div>
   </td>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
   <div dir="ltr">
-  <b><i></i></b>
+  <u>Glossary:</u><br /><span>a: <b><i></i></b></span>, <span>à: <b><i></i></b></span>, <span>a-t-elle: <b><i>has she</i></b></span>, <span>Abraham: <b><i></i></b></span>, <span>accomplir: <b><i>accomplishment</i></b></span>, <span>accomplisse: <b><i>performance report</i></b></span>, <span>afin: <b><i>for</i></b></span>, <span>alliance: <b><i></i></b></span>, <span>apparaissent: <b><i>appear</i></b></span>, <span>appréciées: <b><i>appreciated</i></b></span>, <span>après: <b><i></i></b></span>, <span>au: <b><i></i></b></span>, <span>avait: <b><i>had</i></b></span>, <span>avec: <b><i></i></b></span>, <span>bénédictions: <b><i>blessings</i></b></span>, <span>bénéficiaires: <b><i>beneficiaries</i></b></span>, <span>Bible: <b><i></i></b></span>, <span>Bien: <b><i></i></b></span>, <span>Car: <b><i></i></b></span>, <span>ce: <b><i></i></b></span>, <span>cependant: <b><i></i></b></span>, <span>certaines: <b><i></i></b></span>, <span>cette: <b><i></i></b></span>, <span>choisi: <b><i>chosen</i></b></span>, <span>Comme: <b><i></i></b></span>, <span>comment: <b><i></i></b></span>, <span>comprendre: <b><i></i></b></span>, <span>condition: <b><i>condition</i></b></span>, <span>conditions: <b><i></i></b></span>, <span>d’Abraham: <b><i></i></b></span>, <span>D’après: <b><i>based on</i></b></span>, <span>d’une: <b><i></i></b></span>, <span>Dans: <b><i></i></b></span>, <span>de: <b><i></i></b></span>, <span>dernière: <b><i></i></b></span>, <span>des: <b><i></i></b></span>, <span>désobéissance: <b><i>Obedience</i></b></span>, <span>devaient: <b><i></i></b></span>, <span>Dieu: <b><i></i></b></span>, <span>dit-elle: <b><i>Says she</i></b></span>, <span>doit: <b><i>must</i></b></span>, <span>doivent: <b><i>shall</i></b></span>, <span>donc: <b><i>so</i></b></span>, <span>droiture: <b><i>Right</i></b></span>, <span>du: <b><i></i></b></span>, <span>également: <b><i></i></b></span>, <span>Elle: <b><i>She</i></b></span>, <span>elles: <b><i></i></b></span>, <span>en: <b><i></i></b></span>, <span>encore: <b><i></i></b></span>, <span>entre: <b><i></i></b></span>, <span>envers: <b><i>to</i></b></span>, <span>est: <b><i></i></b></span>, <span>et: <b><i></i></b></span>, <span>établie: <b><i>prepared</i></b></span>, <span>établir: <b><i>establish</i></b></span>, <span>était: <b><i></i></b></span>, <span>être: <b><i></i></b></span>, <span>étroite: <b><i>narrow</i></b></span>, <span>exception: <b><i>exception</i></b></span>, <span>exemples: <b><i>examples</i></b></span>, <span>expérience: <b><i>experience</i></b></span>, <span>Expliquez: <b><i>explain</i></b></span>, <span>faire: <b><i>to</i></b></span>, <span>faisant: <b><i>by</i></b></span>, <span>fait: <b><i></i></b></span>, <span>faites: <b><i></i></b></span>, <span>famille: <b><i>family</i></b></span>, <span>faveur: <b><i>favour</i></b></span>, <span>fera: <b><i>will</i></b></span>, <span>fils: <b><i>son</i></b></span>, <span>foi: <b><i></i></b></span>, <span>formulation: <b><i>formulation</i></b></span>, <span>garder: <b><i>Keep</i></b></span>, <span>Gen: <b><i></i></b></span>, <span>Genèse: <b><i></i></b></span>, <span>grâce: <b><i></i></b></span>, <span>ici: <b><i>here</i></b></span>, <span>il: <b><i></i></b></span>, <span>importance: <b><i></i></b></span>, <span>important: <b><i>important</i></b></span>, <span>importante: <b><i>important</i></b></span>, <span>impossible: <b><i>impossible</i></b></span>, <span>instrument: <b><i>instrument</i></b></span>, <span>Jacques: <b><i>jacque</i></b></span>, <span>jamais: <b><i>Never</i></b></span>, <span>je: <b><i></i></b></span>, <span>jusqu’à: <b><i>up to</i></b></span>, <span>juste: <b><i>Just</i></b></span>, <span>justice: <b><i>justice</i></b></span>, <span>L’accomplissement: <b><i>performance</i></b></span>, <span>l’ai: <b><i>l’ai</i></b></span>, <span>l’alliance: <b><i></i></b></span>, <span>l’amour: <b><i></i></b></span>, <span>l’avons: <b><i>we have</i></b></span>, <span>l’Éternel: <b><i></i></b></span>, <span>l’homme: <b><i></i></b></span>, <span>l’infidélité: <b><i>infidelity</i></b></span>, <span>l’obéissance: <b><i></i></b></span>, <span>l’octroi: <b><i>the award</i></b></span>, <span>l’utiliser: <b><i>use it</i></b></span>, <span>la: <b><i></i></b></span>, <span>le: <b><i></i></b></span>, <span>lequel: <b><i>which</i></b></span>, <span>Les: <b><i></i></b></span>, <span>lié: <b><i>related</i></b></span>, <span>liées: <b><i>related</i></b></span>, <span>loi: <b><i>Law</i></b></span>, <span>Lorsque: <b><i></i></b></span>, <span>lui: <b><i></i></b></span>, <span>maintenues: <b><i>maintained</i></b></span>, <span>mais: <b><i></i></b></span>, <span>maison: <b><i>house</i></b></span>, <span>manifestation: <b><i>event</i></b></span>, <span>moins: <b><i>less</i></b></span>, <span>monde: <b><i></i></b></span>, <span>montre: <b><i>watch</i></b></span>, <span>moyen: <b><i>average</i></b></span>, <span>n’est: <b><i></i></b></span>, <span>ne: <b><i></i></b></span>, <span>nécessaires: <b><i>necessary</i></b></span>, <span>nous: <b><i></i></b></span>, <span>nous-mêmes: <b><i>ourselves</i></b></span>, <span>obéir: <b><i>obey</i></b></span>, <span>obéira: <b><i>obey</i></b></span>, <span>obéissance: <b><i></i></b></span>, <span>obligations: <b><i></i></b></span>, <span>œuvres: <b><i>works</i></b></span>, <span>ordonne: <b><i>ordain</i></b></span>, <span>ou: <b><i></i></b></span>, <span>où: <b><i></i></b></span>, <span>oui: <b><i>Yes</i></b></span>, <span>par: <b><i></i></b></span>, <span>part: <b><i></i></b></span>, <span>particulier: <b><i>particular</i></b></span>, <span>pas: <b><i></i></b></span>, <span>penser: <b><i>Think</i></b></span>, <span>peuple: <b><i></i></b></span>, <span>plan: <b><i></i></b></span>, <span>plus: <b><i></i></b></span>, <span>pour: <b><i></i></b></span>, <span>pourquoi: <b><i></i></b></span>, <span>pourrait-elle: <b><i>Could she</i></b></span>, <span>pourrions: <b><i>Maybe</i></b></span>, <span>pouvaient: <b><i>could</i></b></span>, <span>pouvait: <b><i></i></b></span>, <span>pouvez-vous: <b><i></i></b></span>, <span>pratiquant: <b><i>practitioner</i></b></span>, <span>présent: <b><i></i></b></span>, <span>proclamer: <b><i>proclaim</i></b></span>, <span>promesses: <b><i></i></b></span>, <span>proposition: <b><i>proposal</i></b></span>, <span>propre: <b><i>clean</i></b></span>, <span>qu’Abraham: <b><i>abraham</i></b></span>, <span>qu’ainsi: <b><i>and so on</i></b></span>, <span>qu’il: <b><i></i></b></span>, <span>que: <b><i></i></b></span>, <span>quel: <b><i></i></b></span>, <span>quelle: <b><i></i></b></span>, <span>quelqu’un: <b><i></i></b></span>, <span>quels: <b><i></i></b></span>, <span>qui: <b><i></i></b></span>, <span>règle: <b><i>Rule</i></b></span>, <span>relation: <b><i></i></b></span>, <span>Remarquez: <b><i>remark</i></b></span>, <span>remède: <b><i>remedy</i></b></span>, <span>remplies: <b><i>filled</i></b></span>, <span>rend: <b><i>render</i></b></span>, <span>réponse: <b><i>response</i></b></span>, <span>réponses: <b><i>answers</i></b></span>, <span>rompu: <b><i>broken</i></b></span>, <span>rompue: <b><i>broken</i></b></span>, <span>rupture: <b><i>rupture</i></b></span>, <span>s’accomplir: <b><i>is accomplished</i></b></span>, <span>s’ouvre: <b><i>opens</i></b></span>, <span>sa: <b><i></i></b></span>, <span>salut: <b><i></i></b></span>, <span>Sans: <b><i></i></b></span>, <span>se: <b><i></i></b></span>, <span>Seigneur: <b><i></i></b></span>, <span>ses: <b><i></i></b></span>, <span>si: <b><i></i></b></span>, <span>soient: <b><i></i></b></span>, <span>soit: <b><i></i></b></span>, <span>Son: <b><i></i></b></span>, <span>sont: <b><i></i></b></span>, <span>sont-ils: <b><i></i></b></span>, <span>suivie: <b><i>Follow-up</i></b></span>, <span>sujet: <b><i>topic</i></b></span>, <span>sur: <b><i></i></b></span>, <span>texte: <b><i></i></b></span>, <span>tirés: <b><i>to be taken</i></b></span>, <span>toujours: <b><i></i></b></span>, <span>une: <b><i></i></b></span>, <span>union: <b><i>union</i></b></span>, <span>voie: <b><i>track</i></b></span>, <span>Voir: <b><i></i></b></span>, <span>volonté: <b><i>will</i></b></span>, <span>votre: <b><i></i></b></span>, <span>vu: <b><i>seen</i></b>
   </div>
   </td>
 </tr>

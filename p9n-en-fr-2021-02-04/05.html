@@ -2,23 +2,58 @@
     <html>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <script>
-    function unhighlight(x) {
+    function unhighlight(x, word) {
       x.style.color = "navy"
       x.style.backgroundColor = "transparent"
+      console.log(word)
     }
     
-    function highlight(x) {
+    function highlight(x, word) {
       x.style.color = "yellow"
       x.style.backgroundColor = "green"
     }
     </script>
     <style>
     
-    span {
-      color: navy;
-      display: inline;
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
       cursor: hand;
     }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
 
     .fulljustify {
       text-align: justify;
@@ -35,12 +70,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>'Covenant Stages'</p>
+        ' Covenant <div class="tooltip">Stages<span class="tooltiptext">étapes</span></div> ' 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Les étapes de l’alliance</p>
+        Les <div class="tooltip">étapes<span class="tooltiptext">Steps</span></div> de l’alliance 
         </div>
         </td>
       </tr>
@@ -48,12 +83,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>21/04/2021</p>
+        21 / 04 / 2021 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>21/04/2021</p>
+        21 / 04 / 2021 
         </div>
         </td>
       </tr>
@@ -61,12 +96,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>In those two verses the first stage of God’s covenant promise to Abram (there are three) is revealed. God approached Abram, gave him a command, and then the made him a promise. The approach expresses God’s gracious election of Abram to be the first major figure of His special covenant of grace. The command involves the test of total trust in God (Heb. 11:8). The promise (Gen. 12:1–3, 7), though made specifically to Abram’s descendants, ultimately includes a promise to the whole human race (Gen. 12:3, Gal. 3:6–9).</p>
+        In those two <div class="tooltip">verses<span class="tooltiptext">verses</span></div> the first <div class="tooltip">stage<span class="tooltiptext">étape</span></div> of God’s covenant promise to Abram ( there are <div class="tooltip">three<span class="tooltiptext">trois</span></div> ) is <div class="tooltip">revealed<span class="tooltiptext">révélé</span></div> . God <div class="tooltip">approached<span class="tooltiptext">approchée</span></div> Abram , <div class="tooltip">gave<span class="tooltiptext">donné</span></div> him a <div class="tooltip">command<span class="tooltiptext">command</span></div> , and <div class="tooltip">then<span class="tooltiptext">Puis</span></div> the made him a promise . The <div class="tooltip">approach<span class="tooltiptext">approche</span></div> expresses God’s <div class="tooltip">gracious<span class="tooltiptext">gracieuse</span></div> <div class="tooltip">election<span class="tooltiptext">aux élections</span></div> of Abram to be the first <div class="tooltip">major<span class="tooltiptext">majeur</span></div> <div class="tooltip">figure<span class="tooltiptext">figure</span></div> of His <div class="tooltip">special<span class="tooltiptext">spécial</span></div> covenant of <div class="tooltip">grace<span class="tooltiptext">grâce</span></div> . The command <div class="tooltip">involves<span class="tooltiptext">implique</span></div> the <div class="tooltip">test<span class="tooltiptext">Essai</span></div> of <div class="tooltip">total<span class="tooltiptext">total</span></div> trust in God ( <div class="tooltip">Heb<span class="tooltiptext">heb</span></div> . 11 : 8 ) . The promise ( Gen . 12 : 1 – 3 , 7 ) , though made <div class="tooltip">specifically<span class="tooltiptext">spécifiquement</span></div> to Abram’s descendants , <div class="tooltip">ultimately<span class="tooltiptext">finalement</span></div> <div class="tooltip">includes<span class="tooltiptext">comprend</span></div> a promise to the <div class="tooltip">whole<span class="tooltiptext">tout entier</span></div> human <div class="tooltip">race<span class="tooltiptext">course</span></div> ( Gen . 12 : 3 , <div class="tooltip">Gal<span class="tooltiptext">gal</span></div> . 3 : 6 – 9 ) . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Dans ces deux versets, la première étape de la promesse d’alliance de Dieu à Abram (il y en a trois) est révélée. Dieu s’est approché d’Abram, lui a donné un ordre, puis une promesse. Cette approche exprime l’élection gracieuse d’Abram par Dieu pour être la première grande figure de Son alliance de grâce spéciale. Le commandement implique l’épreuve de la confiance totale en Dieu (Heb. 11:8). La promesse (Gen. 12:1-3, 7), bien que faite spécifiquement aux descendants d’Abram, comprend finalement une promesse à toute la race humaine (Gen. 12:3, Gal. 3:6-9).</p>
+        Dans ces deux <div class="tooltip">versets<span class="tooltiptext">verses</span></div> , la première <div class="tooltip">étape<span class="tooltiptext">stage</span></div> de la promesse d’alliance de Dieu à Abram ( il y en a <div class="tooltip">trois<span class="tooltiptext">three</span></div> ) est <div class="tooltip">révélée<span class="tooltiptext">revealed</span></div> . Dieu s’est <div class="tooltip">approché<span class="tooltiptext">approach</span></div> d’Abram , lui a donné un <div class="tooltip">ordre<span class="tooltiptext">Order</span></div> , <div class="tooltip">puis<span class="tooltiptext">then</span></div> une promesse . Cette <div class="tooltip">approche<span class="tooltiptext">approach</span></div> exprime <div class="tooltip">l’élection<span class="tooltiptext">election</span></div> <div class="tooltip">gracieuse<span class="tooltiptext">gracious</span></div> d’Abram par Dieu pour être la première grande <div class="tooltip">figure<span class="tooltiptext">figure</span></div> de Son alliance de <div class="tooltip">grâce<span class="tooltiptext">grace</span></div> <div class="tooltip">spéciale<span class="tooltiptext">Special</span></div> . Le <div class="tooltip">commandement<span class="tooltiptext">Command</span></div> <div class="tooltip">implique<span class="tooltiptext">implies</span></div> <div class="tooltip">l’épreuve<span class="tooltiptext">the test</span></div> de la confiance <div class="tooltip">totale<span class="tooltiptext">total</span></div> en Dieu ( <div class="tooltip">Heb<span class="tooltiptext">heb</span></div> . 11 : 8 ) . La promesse ( Gen . 12 : 1 - 3 , 7 ) , bien que faite <div class="tooltip">spécifiquement<span class="tooltiptext">specifically</span></div> aux descendants d’Abram , comprend <div class="tooltip">finalement<span class="tooltiptext">finally</span></div> une promesse à <div class="tooltip">toute<span class="tooltiptext">all</span></div> la <div class="tooltip">race<span class="tooltiptext">race</span></div> <div class="tooltip">humaine<span class="tooltiptext">human</span></div> ( Gen . 12 : 3 , <div class="tooltip">Gal<span class="tooltiptext">gal</span></div> . 3 : 6 - 9 ) . 
         </div>
         </td>
       </tr>
@@ -74,12 +109,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><strong>The second stage of God’s covenant with Abram appears in Genesis 15:7–18. In what verses do we find some of the same steps that appeared in the first stage?</strong></p>
+        The <div class="tooltip">second<span class="tooltiptext">deuxième</span></div> stage of God’s covenant with Abram appears in Genesis 15 : 7 – 18 . In what verses do we <div class="tooltip">find<span class="tooltiptext">trouver</span></div> <div class="tooltip">some<span class="tooltiptext">Quelques-uns.</span></div> of the same <div class="tooltip">steps<span class="tooltiptext">étapes</span></div> that appeared in the first stage ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><strong>La deuxième étape de l’alliance de Dieu avec Abram apparait dans Genèse 15:7-18. Dans quels versets retrouve-t-on certaines des étapes qui sont apparues dans la première étape?</strong></p>
+        La <div class="tooltip">deuxième<span class="tooltiptext">second</span></div> étape de l’alliance de Dieu avec Abram apparait dans Genèse 15 : 7 - 18 . Dans quels versets <div class="tooltip">retrouve-t-on<span class="tooltiptext">We'll find out.</span></div> certaines des étapes qui sont <div class="tooltip">apparues<span class="tooltiptext">appeared</span></div> dans la première étape ? 
         </div>
         </td>
       </tr>
@@ -87,12 +122,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>The approach of God to man? Verses?</code></p>
+        The approach of God to man ? Verses ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>- L’approche de Dieu vers l’homme?</code></p>
+        - <div class="tooltip">L’approche<span class="tooltiptext">approach</span></div> de Dieu <div class="tooltip">vers<span class="tooltiptext">towards</span></div> <div class="tooltip">l’homme<span class="tooltiptext">man</span></div> ? 
         </div>
         </td>
       </tr>
@@ -100,12 +135,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>The call to human obedience? Verses?</code></p>
+        The <div class="tooltip">call<span class="tooltiptext">Appel</span></div> to human obedience ? Verses ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>- L’appel à l’obéissance de l’homme?</code></p>
+        - <div class="tooltip">L’appel<span class="tooltiptext">the appeal</span></div> à l’obéissance de l’homme ? 
         </div>
         </td>
       </tr>
@@ -113,12 +148,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>The divine promise? Verses?</code></p>
+        The divine promise ? Verses ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>- La promesse divine?</code></p>
+        - La promesse <div class="tooltip">divine<span class="tooltiptext">Divine</span></div> ? 
         </div>
         </td>
       </tr>
@@ -126,12 +161,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>In the solemn ritual of stage two, the Lord appeared to Abram and passed between the carefully arranged pieces of animals. Each of the three animals was slaughtered and divided and the two halves placed one against the other, with a space between. The birds were killed but not divided. Those entering into the covenant were to walk between the divided pieces, symbolically vowing perpetual obedience to the provisions thus solemnly agreed upon.</p>
+        In the <div class="tooltip">solemn<span class="tooltiptext">solennelle</span></div> <div class="tooltip">ritual<span class="tooltiptext">rituel</span></div> of stage two , the Lord appeared to Abram and <div class="tooltip">passed<span class="tooltiptext">passé</span></div> between the <div class="tooltip">carefully<span class="tooltiptext">soigneusement</span></div> <div class="tooltip">arranged<span class="tooltiptext">arrangé</span></div> <div class="tooltip">pieces<span class="tooltiptext">morceaux</span></div> of <div class="tooltip">animals<span class="tooltiptext">animaux</span></div> . Each of the three animals was <div class="tooltip">slaughtered<span class="tooltiptext">abattus</span></div> and <div class="tooltip">divided<span class="tooltiptext">divisée divisée divisée divisée</span></div> and the two <div class="tooltip">halves<span class="tooltiptext">Halves</span></div> <div class="tooltip">placed<span class="tooltiptext">placé</span></div> one <div class="tooltip">against<span class="tooltiptext">contre</span></div> the other , with a <div class="tooltip">space<span class="tooltiptext">espace</span></div> between . The <div class="tooltip">birds<span class="tooltiptext">oiseaux</span></div> were <div class="tooltip">killed<span class="tooltiptext">tués</span></div> <div class="tooltip">but<span class="tooltiptext">mais</span></div> not divided . Those <div class="tooltip">entering<span class="tooltiptext">Entrée</span></div> into the covenant were to walk between the divided pieces , <div class="tooltip">symbolically<span class="tooltiptext">symboliquement</span></div> <div class="tooltip">vowing<span class="tooltiptext">Vœu</span></div> <div class="tooltip">perpetual<span class="tooltiptext">perpétuellement</span></div> obedience to the <div class="tooltip">provisions<span class="tooltiptext">dispositions</span></div> thus <div class="tooltip">solemnly<span class="tooltiptext">solennellement</span></div> <div class="tooltip">agreed<span class="tooltiptext">Accord</span></div> upon . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Lors du rituel solennel de la deuxième étape, l’Éternel est apparu à Abram et est passé entre les morceaux d’animaux soigneusement disposés. Chacun des trois animaux a été abattu et divisé et les deux moitiés ont été placées l’une contre l’autre, avec un espace entre elles. Les oiseaux furent tués mais pas divisés. Ceux qui s’engageaient dans l’alliance devaient marcher entre les morceaux divisés, jurant symboliquement une obéissance perpétuelle aux dispositions ainsi solennellement convenues.</p>
+        <div class="tooltip">Lors<span class="tooltiptext">during the</span></div> du <div class="tooltip">rituel<span class="tooltiptext">ritual</span></div> <div class="tooltip">solennel<span class="tooltiptext">Solemn</span></div> de la deuxième étape , l’Éternel est apparu à Abram et est passé entre les <div class="tooltip">morceaux<span class="tooltiptext">pieces</span></div> <div class="tooltip">d’animaux<span class="tooltiptext">Animals</span></div> <div class="tooltip">soigneusement<span class="tooltiptext">carefully carefully</span></div> <div class="tooltip">disposés<span class="tooltiptext">disposed</span></div> . Chacun des trois <div class="tooltip">animaux<span class="tooltiptext">Animals</span></div> a été <div class="tooltip">abattu<span class="tooltiptext">shot</span></div> et <div class="tooltip">divisé<span class="tooltiptext">divided</span></div> et les deux <div class="tooltip">moitiés<span class="tooltiptext">half</span></div> ont été <div class="tooltip">placées<span class="tooltiptext">placed</span></div> <div class="tooltip">l’une<span class="tooltiptext">one</span></div> <div class="tooltip">contre<span class="tooltiptext">against</span></div> <div class="tooltip">l’autre<span class="tooltiptext">the other</span></div> , avec un <div class="tooltip">espace<span class="tooltiptext">space</span></div> entre <div class="tooltip">elles<span class="tooltiptext">They</span></div> . Les <div class="tooltip">oiseaux<span class="tooltiptext">birds</span></div> <div class="tooltip">furent<span class="tooltiptext">were</span></div> <div class="tooltip">tués<span class="tooltiptext">killed</span></div> <div class="tooltip">mais<span class="tooltiptext">but</span></div> pas <div class="tooltip">divisés<span class="tooltiptext">divided</span></div> . Ceux qui <div class="tooltip">s’engageaient<span class="tooltiptext">committed</span></div> dans l’alliance <div class="tooltip">devaient<span class="tooltiptext">should</span></div> <div class="tooltip">marcher<span class="tooltiptext">Walk</span></div> entre les morceaux divisés , <div class="tooltip">jurant<span class="tooltiptext">jurant</span></div> <div class="tooltip">symboliquement<span class="tooltiptext">symbolically</span></div> une <div class="tooltip">obéissance<span class="tooltiptext">Obedience</span></div> perpétuelle aux <div class="tooltip">dispositions<span class="tooltiptext">provisions</span></div> ainsi <div class="tooltip">solennellement<span class="tooltiptext">solemnly</span></div> <div class="tooltip">convenues<span class="tooltiptext">agreed upon</span></div> . 
         </div>
         </td>
       </tr>
@@ -139,12 +174,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>Describe what took place during the third and final stage of divine covenant making with Abraham. (See Gen. 17:1–14.)</code></p>
+        <div class="tooltip">Describe<span class="tooltiptext">décrire</span></div> what <div class="tooltip">took<span class="tooltiptext">prise</span></div> place during the <div class="tooltip">third<span class="tooltiptext">troisième</span></div> and <div class="tooltip">final<span class="tooltiptext">final</span></div> stage of divine covenant <div class="tooltip">making<span class="tooltiptext">faire</span></div> with Abraham . ( See Gen . 17 : 1 – 14 . ) 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Décrivez ce qui s’est passé lors de la troisième et dernière étape de l’alliance divine avec Abraham. (Voir Gen. 17:1-14.)</code></p>
+        <div class="tooltip">Décrivez<span class="tooltiptext">describe</span></div> ce qui s’est passé lors de la <div class="tooltip">troisième<span class="tooltiptext">Third</span></div> et <div class="tooltip">dernière<span class="tooltiptext">last</span></div> étape de l’alliance divine avec Abraham . ( Voir Gen . 17 : 1 - 14 . ) 
         </div>
         </td>
       </tr>
@@ -152,12 +187,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>The meaning of the name Abraham underscores God’s desire and design to save all peoples. The “many nations” would include both Jews and Gentiles. The New Testament makes it abundantly clear that the true descendants of Abraham are those who have the faith of Abraham and who trust in the merits of the promised Messiah. (See Gal. 3:7, 29.) Thus, as far back as Abraham, the Lord’s intention was to save as many human beings as He could, whatever nations they lived in. No doubt, it’s no different today.</p>
+        The meaning of the name Abraham <div class="tooltip">underscores<span class="tooltiptext">soulignes</span></div> God’s <div class="tooltip">desire<span class="tooltiptext">désir</span></div> and <div class="tooltip">design<span class="tooltiptext">design</span></div> to save all <div class="tooltip">peoples<span class="tooltiptext">peuples</span></div> . The <div class="tooltip">“many<span class="tooltiptext">"many</span></div> <div class="tooltip">nations”<span class="tooltiptext">nations</span></div> would <div class="tooltip">include<span class="tooltiptext">inclure:</span></div> <div class="tooltip">both<span class="tooltiptext">les deux</span></div> <div class="tooltip">Jews<span class="tooltiptext">Juifs</span></div> and <div class="tooltip">Gentiles<span class="tooltiptext">gentiles</span></div> . The <div class="tooltip">New<span class="tooltiptext">nouveau</span></div> Testament makes it <div class="tooltip">abundantly<span class="tooltiptext">abondante</span></div> <div class="tooltip">clear<span class="tooltiptext">clair</span></div> that the <div class="tooltip">true<span class="tooltiptext">Vrai</span></div> descendants of Abraham are those who have the faith of Abraham and who trust in the <div class="tooltip">merits<span class="tooltiptext">mérites</span></div> of the <div class="tooltip">promised<span class="tooltiptext">promis</span></div> <div class="tooltip">Messiah<span class="tooltiptext">messiah</span></div> . ( See Gal . 3 : 7 , 29 . ) Thus , as <div class="tooltip">far<span class="tooltiptext">loin</span></div> <div class="tooltip">back<span class="tooltiptext">Reculez.</span></div> as Abraham , the Lord’s <div class="tooltip">intention<span class="tooltiptext">intention</span></div> was to save as many human <div class="tooltip">beings<span class="tooltiptext">êtres</span></div> as He could , <div class="tooltip">whatever<span class="tooltiptext">Peu importe</span></div> nations they <div class="tooltip">lived<span class="tooltiptext">vécue</span></div> in . No <div class="tooltip">doubt<span class="tooltiptext">doute</span></div> , <div class="tooltip">it’s<span class="tooltiptext">c’est</span></div> no <div class="tooltip">different<span class="tooltiptext">différent</span></div> today . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>La signification du nom Abraham souligne le désir et le dessein de Dieu de sauver tous les peuples. Les « multitudes de nations » incluraient à la fois les Juifs et les païens. Le Nouveau Testament indique très clairement que les véritables descendants d’Abraham sont ceux qui ont la foi d’Abraham et qui placent leur confiance dans les mérites du Messie promis. (Voir Gal. 3:7, 29.) Ainsi, dès l’époque d’Abraham, l’intention du Seigneur était de sauver autant d’êtres humains qu’Il le pouvait, quelles que soient les nations dans lesquelles ils vivaient. Il n’y a aucun doute que ce dessein de Dieu n’est pas différent aujourd’hui.</p>
+        La signification du nom Abraham <div class="tooltip">souligne<span class="tooltiptext">underlines</span></div> le <div class="tooltip">désir<span class="tooltiptext">desire</span></div> et le <div class="tooltip">dessein<span class="tooltiptext">dessein</span></div> de Dieu de sauver tous les peuples . Les « <div class="tooltip">multitudes<span class="tooltiptext">multitudes</span></div> de nations » <div class="tooltip">incluraient<span class="tooltiptext">would include</span></div> à la fois les <div class="tooltip">Juifs<span class="tooltiptext">Jews</span></div> et les païens . Le Nouveau Testament <div class="tooltip">indique<span class="tooltiptext">indicates</span></div> très <div class="tooltip">clairement<span class="tooltiptext">clearly</span></div> que les <div class="tooltip">véritables<span class="tooltiptext">real</span></div> descendants d’Abraham sont ceux qui ont la foi d’Abraham et qui <div class="tooltip">placent<span class="tooltiptext">placent</span></div> leur confiance dans les <div class="tooltip">mérites<span class="tooltiptext">merits</span></div> du <div class="tooltip">Messie<span class="tooltiptext">messiah</span></div> <div class="tooltip">promis<span class="tooltiptext">I promise</span></div> . ( Voir Gal . 3 : 7 , 29 . ) Ainsi , <div class="tooltip">dès<span class="tooltiptext">from</span></div> l’époque d’Abraham , <div class="tooltip">l’intention<span class="tooltiptext">of intent</span></div> du Seigneur était de sauver <div class="tooltip">autant<span class="tooltiptext">as much as</span></div> <div class="tooltip">d’êtres<span class="tooltiptext">of beings</span></div> humains qu’Il le pouvait , quelles que <div class="tooltip">soient<span class="tooltiptext">be</span></div> les nations dans <div class="tooltip">lesquelles<span class="tooltiptext">of which</span></div> ils <div class="tooltip">vivaient<span class="tooltiptext">lived</span></div> . Il <div class="tooltip">n’y<span class="tooltiptext">n’y</span></div> a <div class="tooltip">aucun<span class="tooltiptext">none</span></div> <div class="tooltip">doute<span class="tooltiptext">doubt</span></div> que ce dessein de Dieu n’est pas <div class="tooltip">différent<span class="tooltiptext">different</span></div> aujourd’hui . 
         </div>
         </td>
       </tr>
@@ -165,12 +200,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>Read Revelation 14:6, 7, the first angel’s message. What parallels can you find between what the angel is saying and what happened in the Abrahamic covenant? In what ways are the issues the same?</code></p>
+        Read <div class="tooltip">Revelation<span class="tooltiptext">révélation</span></div> 14 : 6 , 7 , the first <div class="tooltip">angel’s<span class="tooltiptext">Ange</span></div> <div class="tooltip">message<span class="tooltiptext">message</span></div> . What <div class="tooltip">parallels<span class="tooltiptext">parallèles</span></div> can you find between what the <div class="tooltip">angel<span class="tooltiptext">Ange</span></div> is saying and what <div class="tooltip">happened<span class="tooltiptext">C'est arrivé.</span></div> in the Abrahamic covenant ? In what ways are the <div class="tooltip">issues<span class="tooltiptext">questions</span></div> the same ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Lisez Apocalypse 14:6, 7, le message du premier ange. Quels parallèles pouvez-vous trouver entre ce que dit l’ange et ce qui s’est passé dans l’alliance d’Abraham? En quoi les questions sont-elles les mêmes?</code></p>
+        Lisez <div class="tooltip">Apocalypse<span class="tooltiptext">apocalypse</span></div> 14 : 6 , 7 , le <div class="tooltip">message<span class="tooltiptext">message</span></div> du <div class="tooltip">premier<span class="tooltiptext">first</span></div> <div class="tooltip">ange<span class="tooltiptext">angel</span></div> . Quels <div class="tooltip">parallèles<span class="tooltiptext">parallels</span></div> <div class="tooltip">pouvez-vous<span class="tooltiptext">Can you</span></div> <div class="tooltip">trouver<span class="tooltiptext">find</span></div> entre ce que dit <div class="tooltip">l’ange<span class="tooltiptext">the angel</span></div> et ce qui s’est passé dans l’alliance d’Abraham ? En <div class="tooltip">quoi<span class="tooltiptext">What?</span></div> les <div class="tooltip">questions<span class="tooltiptext">questions</span></div> <div class="tooltip">sont-elles<span class="tooltiptext">are they</span></div> les <div class="tooltip">mêmes<span class="tooltiptext">same</span></div> ? 
         </div>
         </td>
       </tr>
@@ -178,12 +213,12 @@
 <tr>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
   <div dir="ltl">
-  <b><i><u>Verbs:</u><br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">agreed: Accord</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">appeared: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">appears: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">approached: approchée</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">are: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">arranged: arrangé</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">be: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Describe: Décrivez</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">divided: divisée divisée divisée divisée</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">do: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">entering: Entrée</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">expresses: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">find: trouver</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">gave: donné</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">happened: C'est arrivé.</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">have: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">include: inclure:</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">includes: comprend</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">involves: implique</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">is: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">killed: tués</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">lived: vécue</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">made: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">makes: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">making: faire</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">meaning: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">passed: passé</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">placed: placé</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">promised: promis</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">revealed: révélé</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">save: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">saying: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">See: Voir</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">slaughtered: abattus</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">took: prise</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">underscores: soulignes</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">vowing: Vœu</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">walk: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">was: undefined</span>,<br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">were: undefined</i></b>
+  <u>Glossary:</u><br /><span>“many: <b><i>"many</i></b></span>, <span>a: <b><i></i></b></span>, <span>Abraham: <b><i></i></b></span>, <span>Abrahamic: <b><i></i></b></span>, <span>Abram: <b><i></i></b></span>, <span>Abram’s: <b><i></i></b></span>, <span>abundantly: <b><i>abondante</i></b></span>, <span>against: <b><i>contre</i></b></span>, <span>agreed: <b><i>Accord</i></b></span>, <span>all: <b><i></i></b></span>, <span>and: <b><i></i></b></span>, <span>angel: <b><i>Ange</i></b></span>, <span>angel’s: <b><i>Ange</i></b></span>, <span>animals: <b><i>animaux</i></b></span>, <span>appeared: <b><i></i></b></span>, <span>appears: <b><i></i></b></span>, <span>approach: <b><i>approche</i></b></span>, <span>approached: <b><i>approchée</i></b></span>, <span>are: <b><i></i></b></span>, <span>arranged: <b><i>arrangé</i></b></span>, <span>as: <b><i></i></b></span>, <span>back: <b><i>Reculez.</i></b></span>, <span>be: <b><i></i></b></span>, <span>beings: <b><i>êtres</i></b></span>, <span>between: <b><i></i></b></span>, <span>birds: <b><i>oiseaux</i></b></span>, <span>both: <b><i>les deux</i></b></span>, <span>but: <b><i>mais</i></b></span>, <span>call: <b><i>Appel</i></b></span>, <span>can: <b><i></i></b></span>, <span>carefully: <b><i>soigneusement</i></b></span>, <span>clear: <b><i>clair</i></b></span>, <span>command: <b><i>command</i></b></span>, <span>could: <b><i></i></b></span>, <span>Covenant: <b><i></i></b></span>, <span>descendants: <b><i></i></b></span>, <span>Describe: <b><i>décrire</i></b></span>, <span>design: <b><i>design</i></b></span>, <span>desire: <b><i>désir</i></b></span>, <span>different: <b><i>différent</i></b></span>, <span>divided: <b><i>divisée divisée divisée divisée</i></b></span>, <span>divine: <b><i></i></b></span>, <span>do: <b><i></i></b></span>, <span>doubt: <b><i>doute</i></b></span>, <span>during: <b><i></i></b></span>, <span>Each: <b><i></i></b></span>, <span>election: <b><i>aux élections</i></b></span>, <span>entering: <b><i>Entrée</i></b></span>, <span>expresses: <b><i></i></b></span>, <span>faith: <b><i></i></b></span>, <span>far: <b><i>loin</i></b></span>, <span>figure: <b><i>figure</i></b></span>, <span>final: <b><i>final</i></b></span>, <span>find: <b><i>trouver</i></b></span>, <span>first: <b><i></i></b></span>, <span>Gal: <b><i>gal</i></b></span>, <span>gave: <b><i>donné</i></b></span>, <span>Gen: <b><i></i></b></span>, <span>Genesis: <b><i></i></b></span>, <span>Gentiles: <b><i>gentiles</i></b></span>, <span>God: <b><i></i></b></span>, <span>God’s: <b><i></i></b></span>, <span>grace: <b><i>grâce</i></b></span>, <span>gracious: <b><i>gracieuse</i></b></span>, <span>halves: <b><i>Halves</i></b></span>, <span>happened: <b><i>C'est arrivé.</i></b></span>, <span>have: <b><i></i></b></span>, <span>He: <b><i></i></b></span>, <span>Heb: <b><i>heb</i></b></span>, <span>him: <b><i></i></b></span>, <span>His: <b><i></i></b></span>, <span>human: <b><i></i></b></span>, <span>In: <b><i></i></b></span>, <span>include: <b><i>inclure:</i></b></span>, <span>includes: <b><i>comprend</i></b></span>, <span>intention: <b><i>intention</i></b></span>, <span>into: <b><i></i></b></span>, <span>involves: <b><i>implique</i></b></span>, <span>is: <b><i></i></b></span>, <span>issues: <b><i>questions</i></b></span>, <span>it: <b><i></i></b></span>, <span>it’s: <b><i>c’est</i></b></span>, <span>Jews: <b><i>Juifs</i></b></span>, <span>killed: <b><i>tués</i></b></span>, <span>lived: <b><i>vécue</i></b></span>, <span>Lord: <b><i></i></b></span>, <span>Lord’s: <b><i></i></b></span>, <span>made: <b><i></i></b></span>, <span>major: <b><i>majeur</i></b></span>, <span>makes: <b><i></i></b></span>, <span>making: <b><i>faire</i></b></span>, <span>man: <b><i></i></b></span>, <span>many: <b><i></i></b></span>, <span>meaning: <b><i></i></b></span>, <span>merits: <b><i>mérites</i></b></span>, <span>message: <b><i>message</i></b></span>, <span>Messiah: <b><i>messiah</i></b></span>, <span>name: <b><i></i></b></span>, <span>nations: <b><i></i></b></span>, <span>nations”: <b><i>nations</i></b></span>, <span>New: <b><i>nouveau</i></b></span>, <span>No: <b><i></i></b></span>, <span>not: <b><i></i></b></span>, <span>obedience: <b><i></i></b></span>, <span>of: <b><i></i></b></span>, <span>one: <b><i></i></b></span>, <span>other: <b><i></i></b></span>, <span>parallels: <b><i>parallèles</i></b></span>, <span>passed: <b><i>passé</i></b></span>, <span>peoples: <b><i>peuples</i></b></span>, <span>perpetual: <b><i>perpétuellement</i></b></span>, <span>pieces: <b><i>morceaux</i></b></span>, <span>place: <b><i></i></b></span>, <span>placed: <b><i>placé</i></b></span>, <span>promise: <b><i></i></b></span>, <span>promised: <b><i>promis</i></b></span>, <span>provisions: <b><i>dispositions</i></b></span>, <span>race: <b><i>course</i></b></span>, <span>Read: <b><i></i></b></span>, <span>revealed: <b><i>révélé</i></b></span>, <span>Revelation: <b><i>révélation</i></b></span>, <span>ritual: <b><i>rituel</i></b></span>, <span>same: <b><i></i></b></span>, <span>save: <b><i></i></b></span>, <span>saying: <b><i></i></b></span>, <span>second: <b><i>deuxième</i></b></span>, <span>See: <b><i></i></b></span>, <span>slaughtered: <b><i>abattus</i></b></span>, <span>solemn: <b><i>solennelle</i></b></span>, <span>solemnly: <b><i>solennellement</i></b></span>, <span>some: <b><i>Quelques-uns.</i></b></span>, <span>space: <b><i>espace</i></b></span>, <span>special: <b><i>spécial</i></b></span>, <span>specifically: <b><i>spécifiquement</i></b></span>, <span>stage: <b><i>étape</i></b></span>, <span>Stages: <b><i>étapes</i></b></span>, <span>steps: <b><i>étapes</i></b></span>, <span>symbolically: <b><i>symboliquement</i></b></span>, <span>test: <b><i>Essai</i></b></span>, <span>Testament: <b><i></i></b></span>, <span>that: <b><i></i></b></span>, <span>the: <b><i></i></b></span>, <span>then: <b><i>Puis</i></b></span>, <span>there: <b><i></i></b></span>, <span>they: <b><i></i></b></span>, <span>third: <b><i>troisième</i></b></span>, <span>those: <b><i></i></b></span>, <span>though: <b><i></i></b></span>, <span>three: <b><i>trois</i></b></span>, <span>thus: <b><i></i></b></span>, <span>to: <b><i></i></b></span>, <span>today: <b><i></i></b></span>, <span>took: <b><i>prise</i></b></span>, <span>total: <b><i>total</i></b></span>, <span>true: <b><i>Vrai</i></b></span>, <span>trust: <b><i></i></b></span>, <span>two: <b><i></i></b></span>, <span>ultimately: <b><i>finalement</i></b></span>, <span>underscores: <b><i>soulignes</i></b></span>, <span>upon: <b><i></i></b></span>, <span>verses: <b><i>verses</i></b></span>, <span>vowing: <b><i>Vœu</i></b></span>, <span>walk: <b><i></i></b></span>, <span>was: <b><i></i></b></span>, <span>ways: <b><i></i></b></span>, <span>we: <b><i></i></b></span>, <span>were: <b><i></i></b></span>, <span>what: <b><i></i></b></span>, <span>whatever: <b><i>Peu importe</i></b></span>, <span>who: <b><i></i></b></span>, <span>whole: <b><i>tout entier</i></b></span>, <span>with: <b><i></i></b></span>, <span>would: <b><i></i></b></span>, <span>you: <b><i></i></b>
   </div>
   </td>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
   <div dir="ltr">
-  <b><i></i></b>
+  <u>Glossary:</u><br /><span>a: <b><i></i></b></span>, <span>à: <b><i></i></b></span>, <span>abattu: <b><i>shot</i></b></span>, <span>Abraham: <b><i></i></b></span>, <span>Abram: <b><i></i></b></span>, <span>ainsi: <b><i></i></b></span>, <span>alliance: <b><i></i></b></span>, <span>ange: <b><i>angel</i></b></span>, <span>animaux: <b><i>Animals</i></b></span>, <span>Apocalypse: <b><i>apocalypse</i></b></span>, <span>apparait: <b><i></i></b></span>, <span>apparu: <b><i></i></b></span>, <span>apparues: <b><i>appeared</i></b></span>, <span>approche: <b><i>approach</i></b></span>, <span>approché: <b><i>approach</i></b></span>, <span>aucun: <b><i>none</i></b></span>, <span>aujourd’hui: <b><i></i></b></span>, <span>autant: <b><i>as much as</i></b></span>, <span>aux: <b><i></i></b></span>, <span>avec: <b><i></i></b></span>, <span>bien: <b><i></i></b></span>, <span>ce: <b><i></i></b></span>, <span>certaines: <b><i></i></b></span>, <span>ces: <b><i></i></b></span>, <span>Cette: <b><i></i></b></span>, <span>Ceux: <b><i></i></b></span>, <span>Chacun: <b><i></i></b></span>, <span>clairement: <b><i>clearly</i></b></span>, <span>commandement: <b><i>Command</i></b></span>, <span>comprend: <b><i></i></b></span>, <span>confiance: <b><i></i></b></span>, <span>contre: <b><i>against</i></b></span>, <span>convenues: <b><i>agreed upon</i></b></span>, <span>d’Abraham: <b><i></i></b></span>, <span>d’Abram: <b><i></i></b></span>, <span>d’alliance: <b><i></i></b></span>, <span>d’animaux: <b><i>Animals</i></b></span>, <span>d’êtres: <b><i>of beings</i></b></span>, <span>Dans: <b><i></i></b></span>, <span>de: <b><i></i></b></span>, <span>Décrivez: <b><i>describe</i></b></span>, <span>dernière: <b><i>last</i></b></span>, <span>des: <b><i></i></b></span>, <span>dès: <b><i>from</i></b></span>, <span>descendants: <b><i></i></b></span>, <span>désir: <b><i>desire</i></b></span>, <span>dessein: <b><i>dessein</i></b></span>, <span>deux: <b><i></i></b></span>, <span>deuxième: <b><i>second</i></b></span>, <span>devaient: <b><i>should</i></b></span>, <span>Dieu: <b><i></i></b></span>, <span>différent: <b><i>different</i></b></span>, <span>disposés: <b><i>disposed</i></b></span>, <span>dispositions: <b><i>provisions</i></b></span>, <span>dit: <b><i></i></b></span>, <span>divine: <b><i>Divine</i></b></span>, <span>divisé: <b><i>divided</i></b></span>, <span>divisés: <b><i>divided</i></b></span>, <span>donné: <b><i></i></b></span>, <span>doute: <b><i>doubt</i></b></span>, <span>du: <b><i></i></b></span>, <span>elles: <b><i>They</i></b></span>, <span>en: <b><i></i></b></span>, <span>entre: <b><i></i></b></span>, <span>espace: <b><i>space</i></b></span>, <span>est: <b><i></i></b></span>, <span>et: <b><i></i></b></span>, <span>était: <b><i></i></b></span>, <span>étape: <b><i>stage</i></b></span>, <span>étapes: <b><i>Steps</i></b></span>, <span>été: <b><i></i></b></span>, <span>être: <b><i></i></b></span>, <span>exprime: <b><i></i></b></span>, <span>faite: <b><i></i></b></span>, <span>figure: <b><i>figure</i></b></span>, <span>finalement: <b><i>finally</i></b></span>, <span>foi: <b><i></i></b></span>, <span>fois: <b><i></i></b></span>, <span>furent: <b><i>were</i></b></span>, <span>Gal: <b><i>gal</i></b></span>, <span>Gen: <b><i></i></b></span>, <span>Genèse: <b><i></i></b></span>, <span>grâce: <b><i>grace</i></b></span>, <span>gracieuse: <b><i>gracious</i></b></span>, <span>grande: <b><i></i></b></span>, <span>Heb: <b><i>heb</i></b></span>, <span>humaine: <b><i>human</i></b></span>, <span>humains: <b><i></i></b></span>, <span>il: <b><i></i></b></span>, <span>ils: <b><i></i></b></span>, <span>implique: <b><i>implies</i></b></span>, <span>incluraient: <b><i>would include</i></b></span>, <span>indique: <b><i>indicates</i></b></span>, <span>Juifs: <b><i>Jews</i></b></span>, <span>jurant: <b><i>jurant</i></b></span>, <span>l’alliance: <b><i></i></b></span>, <span>l’ange: <b><i>the angel</i></b></span>, <span>L’appel: <b><i>the appeal</i></b></span>, <span>L’approche: <b><i>approach</i></b></span>, <span>l’autre: <b><i>the other</i></b></span>, <span>l’élection: <b><i>election</i></b></span>, <span>l’époque: <b><i></i></b></span>, <span>l’épreuve: <b><i>the test</i></b></span>, <span>l’Éternel: <b><i></i></b></span>, <span>l’homme: <b><i>man</i></b></span>, <span>l’intention: <b><i>of intent</i></b></span>, <span>l’obéissance: <b><i></i></b></span>, <span>l’une: <b><i>one</i></b></span>, <span>la: <b><i></i></b></span>, <span>Le: <b><i></i></b></span>, <span>Les: <b><i></i></b></span>, <span>lesquelles: <b><i>of which</i></b></span>, <span>leur: <b><i></i></b></span>, <span>Lisez: <b><i></i></b></span>, <span>Lors: <b><i>during the</i></b></span>, <span>lui: <b><i></i></b></span>, <span>mais: <b><i>but</i></b></span>, <span>marcher: <b><i>Walk</i></b></span>, <span>mêmes: <b><i>same</i></b></span>, <span>mérites: <b><i>merits</i></b></span>, <span>message: <b><i>message</i></b></span>, <span>Messie: <b><i>messiah</i></b></span>, <span>moitiés: <b><i>half</i></b></span>, <span>morceaux: <b><i>pieces</i></b></span>, <span>multitudes: <b><i>multitudes</i></b></span>, <span>n’est: <b><i></i></b></span>, <span>n’y: <b><i>n’y</i></b></span>, <span>nations: <b><i></i></b></span>, <span>nom: <b><i></i></b></span>, <span>Nouveau: <b><i></i></b></span>, <span>obéissance: <b><i>Obedience</i></b></span>, <span>oiseaux: <b><i>birds</i></b></span>, <span>ont: <b><i></i></b></span>, <span>ordre: <b><i>Order</i></b></span>, <span>païens: <b><i></i></b></span>, <span>par: <b><i></i></b></span>, <span>parallèles: <b><i>parallels</i></b></span>, <span>pas: <b><i></i></b></span>, <span>passé: <b><i></i></b></span>, <span>perpétuelle: <b><i></i></b></span>, <span>peuples: <b><i></i></b></span>, <span>placées: <b><i>placed</i></b></span>, <span>placent: <b><i>placent</i></b></span>, <span>pour: <b><i></i></b></span>, <span>pouvait: <b><i></i></b></span>, <span>pouvez-vous: <b><i>Can you</i></b></span>, <span>premier: <b><i>first</i></b></span>, <span>première: <b><i></i></b></span>, <span>promesse: <b><i></i></b></span>, <span>promis: <b><i>I promise</i></b></span>, <span>puis: <b><i>then</i></b></span>, <span>qu’Il: <b><i></i></b></span>, <span>que: <b><i></i></b></span>, <span>quelles: <b><i></i></b></span>, <span>quels: <b><i></i></b></span>, <span>questions: <b><i>questions</i></b></span>, <span>qui: <b><i></i></b></span>, <span>quoi: <b><i>What?</i></b></span>, <span>race: <b><i>race</i></b></span>, <span>retrouve-t-on: <b><i>We'll find out.</i></b></span>, <span>révélée: <b><i>revealed</i></b></span>, <span>rituel: <b><i>ritual</i></b></span>, <span>s’engageaient: <b><i>committed</i></b></span>, <span>s’est: <b><i></i></b></span>, <span>sauver: <b><i></i></b></span>, <span>Seigneur: <b><i></i></b></span>, <span>signification: <b><i></i></b></span>, <span>soient: <b><i>be</i></b></span>, <span>soigneusement: <b><i>carefully carefully</i></b></span>, <span>solennel: <b><i>Solemn</i></b></span>, <span>solennellement: <b><i>solemnly</i></b></span>, <span>Son: <b><i></i></b></span>, <span>sont: <b><i></i></b></span>, <span>sont-elles: <b><i>are they</i></b></span>, <span>souligne: <b><i>underlines</i></b></span>, <span>spéciale: <b><i>Special</i></b></span>, <span>spécifiquement: <b><i>specifically</i></b></span>, <span>symboliquement: <b><i>symbolically</i></b></span>, <span>Testament: <b><i></i></b></span>, <span>totale: <b><i>total</i></b></span>, <span>tous: <b><i></i></b></span>, <span>toute: <b><i>all</i></b></span>, <span>très: <b><i></i></b></span>, <span>trois: <b><i>three</i></b></span>, <span>troisième: <b><i>Third</i></b></span>, <span>trouver: <b><i>find</i></b></span>, <span>tués: <b><i>killed</i></b></span>, <span>un: <b><i></i></b></span>, <span>une: <b><i></i></b></span>, <span>véritables: <b><i>real</i></b></span>, <span>vers: <b><i>towards</i></b></span>, <span>versets: <b><i>verses</i></b></span>, <span>vivaient: <b><i>lived</i></b></span>, <span>Voir: <b><i></i></b></span>, <span>y: <b><i></i></b>
   </div>
   </td>
 </tr>

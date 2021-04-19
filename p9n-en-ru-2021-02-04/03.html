@@ -2,23 +2,58 @@
     <html>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <script>
-    function unhighlight(x) {
+    function unhighlight(x, word) {
       x.style.color = "navy"
       x.style.backgroundColor = "transparent"
+      console.log(word)
     }
     
-    function highlight(x) {
+    function highlight(x, word) {
       x.style.color = "yellow"
       x.style.backgroundColor = "green"
     }
     </script>
     <style>
     
-    span {
-      color: navy;
-      display: inline;
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
       cursor: hand;
     }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
 
     .fulljustify {
       text-align: justify;
@@ -35,12 +70,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>'‘El Shaddai'</p>
+        ' ‘El Shaddai ' 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Эль-Шаддай</p>
+        <div class="tooltip">Эль-Шаддай<span class="tooltiptext">Al-Shadday</span></div> 
         </div>
         </td>
       </tr>
@@ -48,12 +83,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>19/04/2021</p>
+        19 / 04 / 2021 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>19/04/2021</p>
+        19 / 04 / 2021 
         </div>
         </td>
       </tr>
@@ -61,12 +96,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>“And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect” (Gen. 17:1).</p>
+        “And when Abram was ninety years old and nine , the LORD appeared to Abram , and said unto him , I am the Almighty God ; walk before me , and be thou perfect” ( Gen . 17 : 1 ) . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>«Аврам был девяноста девяти лет, и Господь явился Авраму и сказал ему: Я Бог Всемогущий; ходи предо Мною и будь непорочен» (Быт. 17:1).</p>
+        <div class="tooltip">«Аврам<span class="tooltiptext">“Army”</span></div> <div class="tooltip">был<span class="tooltiptext">was</span></div> <div class="tooltip">девяноста<span class="tooltiptext">9th</span></div> <div class="tooltip">девяти<span class="tooltiptext">Nine.</span></div> <div class="tooltip">лет<span class="tooltiptext">Years</span></div> , и Господь <div class="tooltip">явился<span class="tooltiptext">Here we go.</span></div> Авраму и сказал ему : Я Бог <div class="tooltip">Всемогущий<span class="tooltiptext">All-going</span></div> ; <div class="tooltip">ходи<span class="tooltiptext">Go.</span></div> <div class="tooltip">предо<span class="tooltiptext">pre</span></div> Мною и <div class="tooltip">будь<span class="tooltiptext">Be careful.</span></div> <div class="tooltip">непорочен»<span class="tooltiptext">&quot;</span></div> ( Быт . 17 : 1 ) . 
         </div>
         </td>
       </tr>
@@ -74,12 +109,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>Yahweh had appeared to Abraham several times before (Gen. 12:1, 7; Gen. 13:14; Gen. 15:1, 7, 18). Now, in the above text, Yahweh again appears to Abram (“the LORD appeared to Abram”), presenting Himself as “Almighty God”—a name that is used only in the book of Genesis and in the book of Job. The name “Almighty God” consists first of ‘El, the basic name for God used among the Semites. Though the exact meaning of Shaddai is not entirely certain, the translation “Almighty” seems the most accurate. (Compare Isa. 13:6 and Joel 1:15.) The crucial idea in the use of this name seems to be that of contrasting the might and power of God with the weakness and frailty of humanity.</p>
+        Yahweh had appeared to Abraham several times before ( Gen . 12 : 1 , 7 ; Gen . 13 : 14 ; Gen . 15 : 1 , 7 , 18 ) . Now , in the above text , Yahweh again appears to Abram ( “the LORD appeared to Abram” ) , presenting Himself as “Almighty God”—a name that is used only in the book of Genesis and in the book of Job . The name “Almighty God” consists first of ‘El , the basic name for God used among the Semites . Though the exact meaning of Shaddai is not entirely certain , the translation “Almighty” seems the most accurate . ( Compare Isa . 13 : 6 and Joel 1 : 15 . ) The crucial idea in the use of this name seems to be that of contrasting the might and power of God with the weakness and frailty of humanity . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>До этого Яхве являлся Авраму несколько раз (см. Быт. 12:1, 7; Быт. 13:14; Быт. 15:1, 7, 18). Теперь, в вышеприведенном тексте, Яхве снова является Авраму («Господь явился Авраму»), открывая Себя как «всемогущий Бог» — имя, которое используется, за двумя исключениями, только в книгах Бытие и Иова. Имя всемогущий Бог состоит в первую очередь из <em>эль</em>, которое в семитских языках означает «бог». Хотя точное значение слова <em>шаддай</em> не вполне понятно, его можно перевести как «Крепкий» или «Сильный», перевод «Всемогущий» обязан греческому переводу этого слова как <em>Пантократор,</em> например, в Иов. 5:17 (ср. Ис. 13:6 и Иоил. 1:15). Ключевая идея использования этого имени, похоже, заключается в противопоставлении могущества и силы Бога слабости и немощи человечества.</p>
+        <div class="tooltip">До<span class="tooltiptext">before</span></div> этого Яхве <div class="tooltip">являлся<span class="tooltiptext">was</span></div> Авраму <div class="tooltip">несколько<span class="tooltiptext">A few.</span></div> раз ( см . Быт . 12 : 1 , 7 ; Быт . 13 : 14 ; Быт . 15 : 1 , 7 , 18 ) . <div class="tooltip">Теперь<span class="tooltiptext">Now now.</span></div> , в <div class="tooltip">вышеприведенном<span class="tooltiptext">above</span></div> <div class="tooltip">тексте<span class="tooltiptext">text</span></div> , Яхве <div class="tooltip">снова<span class="tooltiptext">Again</span></div> <div class="tooltip">является<span class="tooltiptext">Yes</span></div> Авраму ( <div class="tooltip">«Господь<span class="tooltiptext">&quot;</span></div> явился <div class="tooltip">Авраму»<span class="tooltiptext">April</span></div> ) , <div class="tooltip">открывая<span class="tooltiptext">opening</span></div> Себя как <div class="tooltip">«всемогущий<span class="tooltiptext">“Total</span></div> <div class="tooltip">Бог»<span class="tooltiptext">God</span></div> — имя , <div class="tooltip">которое<span class="tooltiptext">which</span></div> <div class="tooltip">используется<span class="tooltiptext">used</span></div> , <div class="tooltip">за<span class="tooltiptext">for the</span></div> <div class="tooltip">двумя<span class="tooltiptext">two</span></div> <div class="tooltip">исключениями<span class="tooltiptext">exemptions</span></div> , только в <div class="tooltip">книгах<span class="tooltiptext">books</span></div> <div class="tooltip">Бытие<span class="tooltiptext">Date</span></div> и <div class="tooltip">Иова<span class="tooltiptext">Iowa.</span></div> . Имя всемогущий Бог <div class="tooltip">состоит<span class="tooltiptext">consists of</span></div> в <div class="tooltip">первую<span class="tooltiptext">First</span></div> <div class="tooltip">очередь<span class="tooltiptext">Line</span></div> из <div class="tooltip">эль<span class="tooltiptext">El</span></div> , которое в <div class="tooltip">семитских<span class="tooltiptext">7th</span></div> <div class="tooltip">языках<span class="tooltiptext">Language</span></div> означает <div class="tooltip">«бог»<span class="tooltiptext">“bogue”</span></div> . Хотя <div class="tooltip">точное<span class="tooltiptext">exact</span></div> значение <div class="tooltip">слова<span class="tooltiptext">words</span></div> <div class="tooltip">шаддай<span class="tooltiptext">Come on.</span></div> не <div class="tooltip">вполне<span class="tooltiptext">Very well.</span></div> <div class="tooltip">понятно<span class="tooltiptext">understandable.</span></div> , его <div class="tooltip">можно<span class="tooltiptext">May be possible</span></div> <div class="tooltip">перевести<span class="tooltiptext">translated</span></div> как <div class="tooltip">«Крепкий»<span class="tooltiptext">&quot; strong &quot;</span></div> или <div class="tooltip">«Сильный»<span class="tooltiptext">&quot; Strong &quot;</span></div> , <div class="tooltip">перевод<span class="tooltiptext">Transfer</span></div> <div class="tooltip">«Всемогущий»<span class="tooltiptext">&quot; Altogether &quot;</span></div> <div class="tooltip">обязан<span class="tooltiptext">owed</span></div> <div class="tooltip">греческому<span class="tooltiptext">Greek</span></div> <div class="tooltip">переводу<span class="tooltiptext">translation</span></div> этого слова как <div class="tooltip">Пантократор<span class="tooltiptext">Pantocratic</span></div> , например , в <div class="tooltip">Иов<span class="tooltiptext">Yi</span></div> . 5 : 17 ( <div class="tooltip">ср<span class="tooltiptext">f</span></div> . <div class="tooltip">Ис<span class="tooltiptext">Eh.</span></div> . 13 : 6 и <div class="tooltip">Иоил<span class="tooltiptext">Yo.</span></div> . 1 : 15 ) . <div class="tooltip">Ключевая<span class="tooltiptext">Key</span></div> <div class="tooltip">идея<span class="tooltiptext">idea.</span></div> <div class="tooltip">использования<span class="tooltiptext">Use of</span></div> этого имени , похоже , <div class="tooltip">заключается<span class="tooltiptext">It is.</span></div> в <div class="tooltip">противопоставлении<span class="tooltiptext">against comparisons</span></div> <div class="tooltip">могущества<span class="tooltiptext">power</span></div> и <div class="tooltip">силы<span class="tooltiptext">force of power</span></div> Бога <div class="tooltip">слабости<span class="tooltiptext">weakness</span></div> и <div class="tooltip">немощи<span class="tooltiptext">Non-violence</span></div> человечества . 
         </div>
         </td>
       </tr>
@@ -87,12 +122,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>Read Genesis 17:1–6, which helps place everything in the larger context. Why would the Lord at this time want to stress to Abram His might and power? What was God saying that would require Abram to trust in that might and power? Look particularly at verse six.</code></p>
+        Read Genesis 17 : 1 – 6 , which helps place everything in the larger context . Why would the Lord at this time want to stress to Abram His might and power ? What was God saying that would require Abram to trust in that might and power ? Look particularly at verse six . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Прочитайте Быт. 17:1–6. Почему в это время Господь хотел обратить внимание Аврама на Свое могущество и силу? Что говорил Бог, что побудило Аврама поверить в Его могущество и силу? Обратите особое внимание на стих 6.</code></p>
+        <div class="tooltip">Прочитайте<span class="tooltiptext">Read it.</span></div> Быт . 17 : 1 – 6 . Почему в это время Господь <div class="tooltip">хотел<span class="tooltiptext">I wanted to.</span></div> <div class="tooltip">обратить<span class="tooltiptext">I'm sorry.</span></div> <div class="tooltip">внимание<span class="tooltiptext">attention</span></div> Аврама на <div class="tooltip">Свое<span class="tooltiptext">own.</span></div> <div class="tooltip">могущество<span class="tooltiptext">power</span></div> и <div class="tooltip">силу<span class="tooltiptext">force</span></div> ? Что <div class="tooltip">говорил<span class="tooltiptext">I told you.</span></div> Бог , что <div class="tooltip">побудило<span class="tooltiptext">It's a good idea.</span></div> Аврама <div class="tooltip">поверить<span class="tooltiptext">believe me.</span></div> в Его могущество и силу ? <div class="tooltip">Обратите<span class="tooltiptext">See?</span></div> <div class="tooltip">особое<span class="tooltiptext">special</span></div> внимание на <div class="tooltip">стих<span class="tooltiptext">verse</span></div> 6 . 
         </div>
         </td>
       </tr>
@@ -100,12 +135,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>A literal translation of Genesis 17:1–6 would be,</p>
+        A literal translation of Genesis 17 : 1 – 6 would be , 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Буквальный перевод Быт. 17:1–6 будет таким: «Когда Авраму было девяносто девять лет, явился ему Яхве и сказал: „Я — Эль-Шаддай (евр. <em>Бог могучий</em>). Ходи в присутствии моем и будь непорочен, так чтобы Я установил мой союз между Мной и тобой — Я приумножу тебя чрезвычайно… С моей стороны, так как Мой союз с тобою, Я сделаю тебя отцом множества народов. Имя твое больше не будет Аврам, но будет имя твое Авраам, потому что Я сделаю тебя отцом множества народов. Я сделаю тебя необычайно плодовитым“». Имя <em>Аврам</em> означает «отец превознесен», а <em>Авра(х)ам</em>, согласно тексту этой главы, — «отец множества». Это же имя встречается также в Быт. 28:3, где Исаак говорит, что <em>Эль-Шаддай</em> благословит Иакова, «расплодит и размножит» его.</p>
+        <div class="tooltip">Буквальный<span class="tooltiptext">letter</span></div> перевод Быт . 17 : 1 – 6 будет таким : <div class="tooltip">«Когда<span class="tooltiptext">&quot; when</span></div> Авраму было <div class="tooltip">девяносто<span class="tooltiptext">Ninety-nine.</span></div> девять лет , явился ему Яхве и сказал : <div class="tooltip">„Я<span class="tooltiptext">&quot; I</span></div> — Эль-Шаддай ( евр . Бог <div class="tooltip">могучий<span class="tooltiptext">Mayor</span></div> ) . Ходи в <div class="tooltip">присутствии<span class="tooltiptext">presence</span></div> <div class="tooltip">моем<span class="tooltiptext">mine</span></div> и будь <div class="tooltip">непорочен<span class="tooltiptext">not cut.</span></div> , так чтобы Я <div class="tooltip">установил<span class="tooltiptext">It's been set.</span></div> мой <div class="tooltip">союз<span class="tooltiptext">Union</span></div> между <div class="tooltip">Мной<span class="tooltiptext">I'm here.</span></div> и <div class="tooltip">тобой<span class="tooltiptext">You're right.</span></div> — Я <div class="tooltip">приумножу<span class="tooltiptext">I'll make it.</span></div> тебя <div class="tooltip">чрезвычайно…<span class="tooltiptext">extremely...</span></div> С <div class="tooltip">моей<span class="tooltiptext">mine</span></div> <div class="tooltip">стороны<span class="tooltiptext">parties</span></div> , так как Мой союз с тобою , Я <div class="tooltip">сделаю<span class="tooltiptext">Do it.</span></div> тебя <div class="tooltip">отцом<span class="tooltiptext">Father</span></div> <div class="tooltip">множества<span class="tooltiptext">multiplicity</span></div> <div class="tooltip">народов<span class="tooltiptext">Peoples</span></div> . Имя <div class="tooltip">твое<span class="tooltiptext">yours</span></div> <div class="tooltip">больше<span class="tooltiptext">more than more</span></div> не будет Аврам , <div class="tooltip">но<span class="tooltiptext">but...</span></div> будет имя твое Авраам , потому что Я сделаю тебя отцом множества народов . Я сделаю тебя <div class="tooltip">необычайно<span class="tooltiptext">extraordinary.</span></div> <div class="tooltip">плодовитым“»<span class="tooltiptext">&quot;</span></div> . Имя Аврам означает <div class="tooltip">«отец<span class="tooltiptext">&quot; Father</span></div> <div class="tooltip">превознесен»<span class="tooltiptext">transported</span></div> , <div class="tooltip">а<span class="tooltiptext">a</span></div> <div class="tooltip">Авра<span class="tooltiptext">av</span></div> ( <div class="tooltip">х<span class="tooltiptext">x</span></div> ) <div class="tooltip">ам<span class="tooltiptext">Mm.</span></div> , <div class="tooltip">согласно<span class="tooltiptext">According to the</span></div> <div class="tooltip">тексту<span class="tooltiptext">text</span></div> этой <div class="tooltip">главы<span class="tooltiptext">Chapters</span></div> , — «отец <div class="tooltip">множества»<span class="tooltiptext">multiplicity”</span></div> . Это же имя встречается также в Быт . 28 : 3 , <div class="tooltip">где<span class="tooltiptext">where</span></div> <div class="tooltip">Исаак<span class="tooltiptext">Isaac</span></div> <div class="tooltip">говорит<span class="tooltiptext">Says</span></div> , что Эль-Шаддай <div class="tooltip">благословит<span class="tooltiptext">God bless.</span></div> <div class="tooltip">Иакова<span class="tooltiptext">Iacov</span></div> , <div class="tooltip">«расплодит<span class="tooltiptext">&quot; Spare</span></div> и <div class="tooltip">размножит»<span class="tooltiptext">multiplied</span></div> его . 
         </div>
         </td>
       </tr>
@@ -113,12 +148,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>“Jehovah appeared to Abram, and said, ‘I am ‘El-Shaddai; walk before Me, and be thou perfect; and I will make my covenant between Me and thee, and will multiply thee exceedingly . . . . And thou shalt be a father of a multitude of nations, . . . and I will make thee exceedingly fruitful.’ ” This same name appears also in Genesis 28:3, where Isaac says that ‘El-Shaddai will bless Jacob, make him fruitful, and multiply him.</p>
+        “Jehovah appeared to Abram , and said , ‘I am ‘El-Shaddai ; walk before Me , and be thou perfect ; and I will make my covenant between Me and thee , and will multiply thee exceedingly . . . . And thou shalt be a father of a multitude of nations , . . . and I will make thee exceedingly fruitful . ’ ” This same name appears also in Genesis 28 : 3 , where Isaac says that ‘El-Shaddai will bless Jacob , make him fruitful , and multiply him . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Подобное обетование, которое дает <em>Эль-Шаддай</em>, можно найти в Быт. 35:11; Быт. 43:14 и Быт. 49:25. В этих стихах говорится о щедрости, проявляемой Богом: <em>Эль</em> — Бог всесильный и всемогущий, и <em>Шаддай</em> — Бог, владеющий неисчерпаемыми богатствами, которые Он готов даровать тем, кто ищет Его в вере и послушании.</p>
+        <div class="tooltip">Подобное<span class="tooltiptext">like this.</span></div> <div class="tooltip">обетование<span class="tooltiptext">Currency</span></div> , которое дает Эль-Шаддай , можно <div class="tooltip">найти<span class="tooltiptext">find a way to find out.</span></div> в Быт . 35 : 11 ; Быт . 43 : 14 и Быт . 49 : 25 . В <div class="tooltip">этих<span class="tooltiptext">these are these.</span></div> <div class="tooltip">стихах<span class="tooltiptext">poems</span></div> <div class="tooltip">говорится<span class="tooltiptext">It says</span></div> о <div class="tooltip">щедрости<span class="tooltiptext">generosity</span></div> , <div class="tooltip">проявляемой<span class="tooltiptext">manifested</span></div> Богом : Эль — Бог <div class="tooltip">всесильный<span class="tooltiptext">all-powered</span></div> и всемогущий , и Шаддай — Бог , <div class="tooltip">владеющий<span class="tooltiptext">possessor</span></div> <div class="tooltip">неисчерпаемыми<span class="tooltiptext">non-exhaustive</span></div> <div class="tooltip">богатствами<span class="tooltiptext">wealth</span></div> , которые Он <div class="tooltip">готов<span class="tooltiptext">Ready.</span></div> даровать <div class="tooltip">тем<span class="tooltiptext">themes</span></div> , кто <div class="tooltip">ищет<span class="tooltiptext">Looking for</span></div> Его в <div class="tooltip">вере<span class="tooltiptext">faith</span></div> и <div class="tooltip">послушании<span class="tooltiptext">Obedience</span></div> . 
         </div>
         </td>
       </tr>
@@ -126,12 +161,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>A similar promise of ‘El-Shaddai is found in Genesis 35:11, Genesis 43:14, and Genesis 49:25, passages which suggest the bountifulness exercised by God: ‘El, the God of power and authority, and Shaddai, the God of inexhaustible riches, riches that He is willing to bestow upon those who seek them in faith and obedience.</p>
+        A similar promise of ‘El-Shaddai is found in Genesis 35 : 11 , Genesis 43 : 14 , and Genesis 49 : 25 , passages which suggest the bountifulness exercised by God : ‘El , the God of power and authority , and Shaddai , the God of inexhaustible riches , riches that He is willing to bestow upon those who seek them in faith and obedience . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>«Что значит имя? Роза пахнет розой, хоть розой назови ее, хоть нет» (У. Шекспир. Ромео и Джульетта, пер. Б. Пастернака). Здесь сказано, что имя не имеет значения. Тем не менее сколько бы уверенности и надежды было у вас, если бы Господа звали Немощный Бог или Слабый Бог? Прочитайте библейский текст выше. Замените «Бог Всемогущий» этими именами. Если бы Господь открыл Себя подобным образом, то как это повлияло бы на вашу веру и доверие Ему? В то же время как имя Эль-Шаддай укрепляет вас?</code></p>
+        <div class="tooltip">«Что<span class="tooltiptext">&quot;</span></div> <div class="tooltip">значит<span class="tooltiptext">Meaning</span></div> имя ? <div class="tooltip">Роза<span class="tooltiptext">rose</span></div> <div class="tooltip">пахнет<span class="tooltiptext">Smells</span></div> <div class="tooltip">розой<span class="tooltiptext">rose</span></div> , <div class="tooltip">хоть<span class="tooltiptext">at least</span></div> розой <div class="tooltip">назови<span class="tooltiptext">Name</span></div> <div class="tooltip">ее<span class="tooltiptext">her.</span></div> , хоть <div class="tooltip">нет»<span class="tooltiptext">no</span></div> ( У . <div class="tooltip">Шекспир<span class="tooltiptext">Sexy</span></div> . <div class="tooltip">Ромео<span class="tooltiptext">Rome</span></div> и <div class="tooltip">Джульетта<span class="tooltiptext">Jewelta</span></div> , <div class="tooltip">пер<span class="tooltiptext">Per</span></div> . <div class="tooltip">Б<span class="tooltiptext">♪</span></div> . <div class="tooltip">Пастернака<span class="tooltiptext">Paster</span></div> ) . <div class="tooltip">Здесь<span class="tooltiptext">here.</span></div> <div class="tooltip">сказано<span class="tooltiptext">It says</span></div> , что имя не <div class="tooltip">имеет<span class="tooltiptext">has</span></div> <div class="tooltip">значения<span class="tooltiptext">values</span></div> . Тем не <div class="tooltip">менее<span class="tooltiptext">less</span></div> <div class="tooltip">сколько<span class="tooltiptext">how much</span></div> бы <div class="tooltip">уверенности<span class="tooltiptext">confidence</span></div> и <div class="tooltip">надежды<span class="tooltiptext">hope</span></div> было у <div class="tooltip">вас<span class="tooltiptext">You guys.</span></div> , <div class="tooltip">если<span class="tooltiptext">if</span></div> бы Господа <div class="tooltip">звали<span class="tooltiptext">Name</span></div> <div class="tooltip">Немощный<span class="tooltiptext">incapable</span></div> Бог или <div class="tooltip">Слабый<span class="tooltiptext">weak</span></div> Бог ? Прочитайте библейский текст <div class="tooltip">выше<span class="tooltiptext">above</span></div> . <div class="tooltip">Замените<span class="tooltiptext">Substitution</span></div> <div class="tooltip">«Бог<span class="tooltiptext">“boo</span></div> <div class="tooltip">Всемогущий»<span class="tooltiptext">Almighty &quot;</span></div> <div class="tooltip">этими<span class="tooltiptext">these two.</span></div> именами . Если бы Господь открыл Себя подобным образом , то как это <div class="tooltip">повлияло<span class="tooltiptext">influence</span></div> бы на <div class="tooltip">вашу<span class="tooltiptext">Oh, my God.</span></div> <div class="tooltip">веру<span class="tooltiptext">faith</span></div> и <div class="tooltip">доверие<span class="tooltiptext">trust</span></div> Ему ? В то же время как имя Эль-Шаддай <div class="tooltip">укрепляет<span class="tooltiptext">Strengthening</span></div> вас ? 
         </div>
         </td>
       </tr>
@@ -139,7 +174,7 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>It has been said that a rose by any other name would smell as sweet, the idea being that the name does not matter. Yet, how much comfort and hope would you have if the Lord’s name was “The Frail God” or “The Weak God”? Look at the text for today. Replace “Almighty God” with these two other names. What would it do for your faith and trust in Him if the Lord were to present Himself to us in that manner? At the same time, how does the name ‘El-Shaddai give us comfort?</code></p>
+        It has been said that a rose by any other name would smell as sweet , the idea being that the name does not matter . Yet , how much comfort and hope would you have if the Lord’s name was “The Frail God” or “The Weak God” ? Look at the text for today . Replace “Almighty God” with these two other names . What would it do for your faith and trust in Him if the Lord were to present Himself to us in that manner ? At the same time , how does the name ‘El-Shaddai give us comfort ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
@@ -149,15 +184,6 @@
         </td>
       </tr>
   
-<tr>
-  <td colspan="2" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-  <div dir="ltl">
-  <u>Verbs:</u><br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">am: <b><i>Я</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">appeared: <b><i>появилось</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">appears: <b><i>появляется</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">be: <b><i>быть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">been: <b><i>были</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">being: <b><i>быть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">bestow: <b><i>лучший</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">bless: <b><i>благословение</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Compare: <b><i>сравнить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">consists: <b><i>состоит</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">contrasting: <b><i>контраст</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">do: <b><i>сделать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">does: <b><i>делает</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">everything: <b><i>все</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">exercised: <b><i>упражнение</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">found: <b><i>Найдено</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">give: <b><i>дать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">had: <b><i>было</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">has: <b><i>имеет</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">have: <b><i>есть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">helps: <b><i>Помощь</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">is: <b><i>это</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Look: <b><i>посмотреть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">make: <b><i>сделать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">meaning: <b><i>смысл</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">presenting: <b><i>презентация</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Replace: <b><i>замена</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">require: <b><i>требуйте</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">said: <b><i>сказал</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">saying: <b><i>говорить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">says: <b><i>говорит</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">seek: <b><i>искать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">seems: <b><i>кажется</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">shalt: <b><i>сон</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">smell: <b><i>запах</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">suggest: <b><i>предложение</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">used: <b><i>используется</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">walk: <b><i>пешком</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">want: <b><i>Хочу</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">was: <b><i>был</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">were: <b><i>были</i></b>
-  
-  </div>
-  </td>
-</tr>
-
 
   <tr>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">

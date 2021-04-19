@@ -2,23 +2,58 @@
     <html>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <script>
-    function unhighlight(x) {
+    function unhighlight(x, word) {
       x.style.color = "navy"
       x.style.backgroundColor = "transparent"
+      console.log(word)
     }
     
-    function highlight(x) {
+    function highlight(x, word) {
       x.style.color = "yellow"
       x.style.backgroundColor = "green"
     }
     </script>
     <style>
     
-    span {
-      color: navy;
-      display: inline;
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
       cursor: hand;
     }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
 
     .fulljustify {
       text-align: justify;
@@ -35,12 +70,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>'Covenant Stages'</p>
+        ' Covenant Stages ' 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Три этапа завета</p>
+        <div class="tooltip">Три<span class="tooltiptext">Three.</span></div> <div class="tooltip">этапа<span class="tooltiptext">phase</span></div> завета 
         </div>
         </td>
       </tr>
@@ -48,12 +83,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>21/04/2021</p>
+        21 / 04 / 2021 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>21/04/2021</p>
+        21 / 04 / 2021 
         </div>
         </td>
       </tr>
@@ -61,12 +96,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>In those two verses the first stage of God’s covenant promise to Abram (there are three) is revealed. God approached Abram, gave him a command, and then the made him a promise. The approach expresses God’s gracious election of Abram to be the first major figure of His special covenant of grace. The command involves the test of total trust in God (Heb. 11:8). The promise (Gen. 12:1–3, 7), though made specifically to Abram’s descendants, ultimately includes a promise to the whole human race (Gen. 12:3, Gal. 3:6–9).</p>
+        In those two verses the first stage of God’s covenant promise to Abram ( there are three ) is revealed . God approached Abram , gave him a command , and then the made him a promise . The approach expresses God’s gracious election of Abram to be the first major figure of His special covenant of grace . The command involves the test of total trust in God ( Heb . 11 : 8 ) . The promise ( Gen . 12 : 1 – 3 , 7 ) , though made specifically to Abram’s descendants , ultimately includes a promise to the whole human race ( Gen . 12 : 3 , Gal . 3 : 6 – 9 ) . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>В этих двух стихах раскрывается первый этап обетования завета, данного Богом Авраму. Бог явился Авраму, дал ему повеление, а затем дал ему обещание. Такая последовательность показывает милостивое избрание Богом Аврама в качестве первой ключевой фигуры Его особого завета благодати. <em>Повеление</em> включает в себя испытание полного доверия Богу (см. Евр. 11:8). <em>Обещание</em> (см. Быт. 12:1–3, 7), хотя и данное конкретно потомкам Аврама, в итоге включает в себя обетование для всего человечества (см. Быт. 12:3; Гал. 3:6–9).</p>
+        В этих <div class="tooltip">двух<span class="tooltiptext">two</span></div> стихах <div class="tooltip">раскрывается<span class="tooltiptext">Open</span></div> <div class="tooltip">первый<span class="tooltiptext">First</span></div> <div class="tooltip">этап<span class="tooltiptext">Phase</span></div> обетования завета , <div class="tooltip">данного<span class="tooltiptext">of the present report</span></div> Богом Авраму . Бог явился Авраму , <div class="tooltip">дал<span class="tooltiptext">Yes.</span></div> ему <div class="tooltip">повеление<span class="tooltiptext">Reindeer</span></div> , а <div class="tooltip">затем<span class="tooltiptext">Then</span></div> дал ему <div class="tooltip">обещание<span class="tooltiptext">Promise</span></div> . <div class="tooltip">Такая<span class="tooltiptext">such as</span></div> <div class="tooltip">последовательность<span class="tooltiptext">sequence</span></div> <div class="tooltip">показывает<span class="tooltiptext">Show</span></div> <div class="tooltip">милостивое<span class="tooltiptext">Mercy.</span></div> <div class="tooltip">избрание<span class="tooltiptext">Election</span></div> Богом Аврама в <div class="tooltip">качестве<span class="tooltiptext">quality</span></div> <div class="tooltip">первой<span class="tooltiptext">First</span></div> <div class="tooltip">ключевой<span class="tooltiptext">Key</span></div> <div class="tooltip">фигуры<span class="tooltiptext">Figures</span></div> Его <div class="tooltip">особого<span class="tooltiptext">Special</span></div> завета <div class="tooltip">благодати<span class="tooltiptext">Goodness</span></div> . Повеление <div class="tooltip">включает<span class="tooltiptext">includes</span></div> в себя <div class="tooltip">испытание<span class="tooltiptext">Test</span></div> <div class="tooltip">полного<span class="tooltiptext">Total</span></div> <div class="tooltip">доверия<span class="tooltiptext">of confidence</span></div> <div class="tooltip">Богу<span class="tooltiptext">God.</span></div> ( см . Евр . 11 : 8 ) . Обещание ( см . Быт . 12 : 1 – 3 , 7 ) , хотя и <div class="tooltip">данное<span class="tooltiptext">given</span></div> <div class="tooltip">конкретно<span class="tooltiptext">specifically specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specifics specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific specific</span></div> <div class="tooltip">потомкам<span class="tooltiptext">descendants</span></div> Аврама , в <div class="tooltip">итоге<span class="tooltiptext">Total</span></div> включает в себя обетование для <div class="tooltip">всего<span class="tooltiptext">Total</span></div> человечества ( см . Быт . 12 : 3 ; <div class="tooltip">Гал<span class="tooltiptext">♪</span></div> . 3 : 6 – 9 ) . 
         </div>
         </td>
       </tr>
@@ -74,12 +109,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><strong>The second stage of God’s covenant with Abram appears in Genesis 15:7–18. In what verses do we find some of the same steps that appeared in the first stage?</strong></p>
+        The second stage of God’s covenant with Abram appears in Genesis 15 : 7 – 18 . In what verses do we find some of the same steps that appeared in the first stage ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Второй этап завета Бога с Аврамом описан в Быт. 15:7–18. В каких стихах мы находим те же шаги, что появились на первом этапе? Выпишите эти стихи.</code></p>
+        <div class="tooltip">Второй<span class="tooltiptext">Second</span></div> этап завета Бога с Аврамом <div class="tooltip">описан<span class="tooltiptext">described</span></div> в Быт . 15 : 7 – 18 . В <div class="tooltip">каких<span class="tooltiptext">what?</span></div> стихах мы <div class="tooltip">находим<span class="tooltiptext">Here we go.</span></div> <div class="tooltip">те<span class="tooltiptext">those</span></div> же <div class="tooltip">шаги<span class="tooltiptext">steps</span></div> , что <div class="tooltip">появились<span class="tooltiptext">It's just...</span></div> на <div class="tooltip">первом<span class="tooltiptext">First</span></div> <div class="tooltip">этапе<span class="tooltiptext">phase</span></div> ? <div class="tooltip">Выпишите<span class="tooltiptext">I'll write it.</span></div> эти <div class="tooltip">стихи<span class="tooltiptext">poems</span></div> . 
         </div>
         </td>
       </tr>
@@ -87,12 +122,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>The approach of God to man? Verses?</code></p>
+        The approach of God to man ? Verses ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Бог является человеку.</code></p>
+        Бог является <div class="tooltip">человеку<span class="tooltiptext">human</span></div> . 
         </div>
         </td>
       </tr>
@@ -100,12 +135,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>The call to human obedience? Verses?</code></p>
+        The call to human obedience ? Verses ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Бог призывает человека к послушанию.</code></p>
+        Бог <div class="tooltip">призывает<span class="tooltiptext">Calls</span></div> человека к <div class="tooltip">послушанию<span class="tooltiptext">to listen</span></div> . 
         </div>
         </td>
       </tr>
@@ -113,12 +148,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>The divine promise? Verses?</code></p>
+        The divine promise ? Verses ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Бог дает обетование.</code></p>
+        Бог дает обетование . 
         </div>
         </td>
       </tr>
@@ -126,12 +161,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>In the solemn ritual of stage two, the Lord appeared to Abram and passed between the carefully arranged pieces of animals. Each of the three animals was slaughtered and divided and the two halves placed one against the other, with a space between. The birds were killed but not divided. Those entering into the covenant were to walk between the divided pieces, symbolically vowing perpetual obedience to the provisions thus solemnly agreed upon.</p>
+        In the solemn ritual of stage two , the Lord appeared to Abram and passed between the carefully arranged pieces of animals . Each of the three animals was slaughtered and divided and the two halves placed one against the other , with a space between . The birds were killed but not divided . Those entering into the covenant were to walk between the divided pieces , symbolically vowing perpetual obedience to the provisions thus solemnly agreed upon . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>На втором этапе Господь явился Авраму в торжественном ритуале и прошел между правильно разложенными частями животных. Каждое из трех животных было заклано и рассечено пополам. Две части помещены одна напротив другой на некотором расстоянии друг от друга. Птиц убили, но не рассекли. Вступавшие в завет должны были пройти между рассеченными частями, тем самым давая обет вечного послушания положениям, торжественно согласованным подобным образом.</p>
+        На <div class="tooltip">втором<span class="tooltiptext">Second</span></div> этапе Господь явился Авраму в <div class="tooltip">торжественном<span class="tooltiptext">Commemorative</span></div> <div class="tooltip">ритуале<span class="tooltiptext">ritual</span></div> и <div class="tooltip">прошел<span class="tooltiptext">It's been a while.</span></div> между <div class="tooltip">правильно<span class="tooltiptext">Right.</span></div> <div class="tooltip">разложенными<span class="tooltiptext">dispersed</span></div> <div class="tooltip">частями<span class="tooltiptext">parts</span></div> <div class="tooltip">животных<span class="tooltiptext">animals</span></div> . <div class="tooltip">Каждое<span class="tooltiptext">each</span></div> из <div class="tooltip">трех<span class="tooltiptext">Three.</span></div> животных было <div class="tooltip">заклано<span class="tooltiptext">It's in.</span></div> и <div class="tooltip">рассечено<span class="tooltiptext">Distilled</span></div> <div class="tooltip">пополам<span class="tooltiptext">Half.</span></div> . <div class="tooltip">Две<span class="tooltiptext">two.</span></div> <div class="tooltip">части<span class="tooltiptext">Part of Part Part</span></div> <div class="tooltip">помещены<span class="tooltiptext">rooms</span></div> <div class="tooltip">одна<span class="tooltiptext">One</span></div> <div class="tooltip">напротив<span class="tooltiptext">On the contrary</span></div> <div class="tooltip">другой<span class="tooltiptext">Other</span></div> на <div class="tooltip">некотором<span class="tooltiptext">some</span></div> <div class="tooltip">расстоянии<span class="tooltiptext">distance</span></div> <div class="tooltip">друг<span class="tooltiptext">friend.</span></div> от <div class="tooltip">друга<span class="tooltiptext">friend.</span></div> . <div class="tooltip">Птиц<span class="tooltiptext">Birds</span></div> <div class="tooltip">убили<span class="tooltiptext">Killed.</span></div> , но не <div class="tooltip">рассекли<span class="tooltiptext">I'm not.</span></div> . <div class="tooltip">Вступавшие<span class="tooltiptext">Entered</span></div> в завет <div class="tooltip">должны<span class="tooltiptext">should be</span></div> были <div class="tooltip">пройти<span class="tooltiptext">I'm going to go.</span></div> между <div class="tooltip">рассеченными<span class="tooltiptext">dispersed</span></div> частями , тем <div class="tooltip">самым<span class="tooltiptext">♪</span></div> <div class="tooltip">давая<span class="tooltiptext">pressure</span></div> <div class="tooltip">обет<span class="tooltiptext">♪</span></div> <div class="tooltip">вечного<span class="tooltiptext">forever</span></div> <div class="tooltip">послушания<span class="tooltiptext">Obedience</span></div> <div class="tooltip">положениям<span class="tooltiptext">provisions</span></div> , <div class="tooltip">торжественно<span class="tooltiptext">Commemoratively</span></div> <div class="tooltip">согласованным<span class="tooltiptext">agreed upon</span></div> подобным образом . 
         </div>
         </td>
       </tr>
@@ -139,12 +174,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>Describe what took place during the third and final stage of divine covenant making with Abraham. (See Gen. 17:1–14.)</code></p>
+        Describe what took place during the third and final stage of divine covenant making with Abraham . ( See Gen . 17 : 1 – 14 . ) 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Опишите, что происходило на третьем этапе Божественного завета, заключаемого с Авраамом. См. Быт. 17:1–14.</code></p>
+        <div class="tooltip">Опишите<span class="tooltiptext">Please tell me.</span></div> , что <div class="tooltip">происходило<span class="tooltiptext">What happened?</span></div> на <div class="tooltip">третьем<span class="tooltiptext">Third</span></div> этапе <div class="tooltip">Божественного<span class="tooltiptext">Divine</span></div> завета , <div class="tooltip">заключаемого<span class="tooltiptext">to be concluded</span></div> с Авраамом . См . Быт . 17 : 1 – 14 . 
         </div>
         </td>
       </tr>
@@ -152,12 +187,12 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p>The meaning of the name Abraham underscores God’s desire and design to save all peoples. The “many nations” would include both Jews and Gentiles. The New Testament makes it abundantly clear that the true descendants of Abraham are those who have the faith of Abraham and who trust in the merits of the promised Messiah. (See Gal. 3:7, 29.) Thus, as far back as Abraham, the Lord’s intention was to save as many human beings as He could, whatever nations they lived in. No doubt, it’s no different today.</p>
+        The meaning of the name Abraham underscores God’s desire and design to save all peoples . The “many nations” would include both Jews and Gentiles . The New Testament makes it abundantly clear that the true descendants of Abraham are those who have the faith of Abraham and who trust in the merits of the promised Messiah . ( See Gal . 3 : 7 , 29 . ) Thus , as far back as Abraham , the Lord’s intention was to save as many human beings as He could , whatever nations they lived in . No doubt , it’s no different today . 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p>Значение имени <em>Авраам</em> подчеркивает желание и замысел Бога спасти все народы. «Многие народы» будут включать и <em>евреев</em>, и <em>язычников</em>. Новый Завет совершенно ясно дает понять, что истинные потомки Авраама — это те, кто обладает верой Авраама и полагается на заслуги обещанного Мессии. (См. Гал. 3:7, 29.) Таким образом, еще во времена Авраама Господь намеревался спасти как можно больше людей, в каких бы странах они ни жили. Несомненно, сегодня ничего не изменилось.</p>
+        Значение имени Авраам <div class="tooltip">подчеркивает<span class="tooltiptext">Emphasizes</span></div> <div class="tooltip">желание<span class="tooltiptext">Wish.</span></div> и <div class="tooltip">замысел<span class="tooltiptext">Planned</span></div> Бога <div class="tooltip">спасти<span class="tooltiptext">to save</span></div> все народы . <div class="tooltip">«Многие<span class="tooltiptext">“multiple</span></div> <div class="tooltip">народы»<span class="tooltiptext">peoples &quot;</span></div> будут <div class="tooltip">включать<span class="tooltiptext">include</span></div> и <div class="tooltip">евреев<span class="tooltiptext">Jews</span></div> , и <div class="tooltip">язычников<span class="tooltiptext">Pagans</span></div> . <div class="tooltip">Новый<span class="tooltiptext">new</span></div> Завет <div class="tooltip">совершенно<span class="tooltiptext">Totally.</span></div> <div class="tooltip">ясно<span class="tooltiptext">Clear.</span></div> дает понять , что <div class="tooltip">истинные<span class="tooltiptext">true</span></div> потомки <div class="tooltip">Авраама<span class="tooltiptext">Abraham</span></div> — это те , кто <div class="tooltip">обладает<span class="tooltiptext">possessed</span></div> <div class="tooltip">верой<span class="tooltiptext">faith</span></div> Авраама и <div class="tooltip">полагается<span class="tooltiptext">Due</span></div> на <div class="tooltip">заслуги<span class="tooltiptext">Merit</span></div> <div class="tooltip">обещанного<span class="tooltiptext">promised</span></div> <div class="tooltip">Мессии<span class="tooltiptext">Messiah</span></div> . ( См . Гал . 3 : 7 , 29 . ) Таким образом , <div class="tooltip">еще<span class="tooltiptext">still.</span></div> во времена Авраама Господь <div class="tooltip">намеревался<span class="tooltiptext">intending</span></div> спасти как можно больше людей , в каких бы <div class="tooltip">странах<span class="tooltiptext">countries</span></div> они <div class="tooltip">ни<span class="tooltiptext">neither</span></div> <div class="tooltip">жили<span class="tooltiptext">Lives</span></div> . <div class="tooltip">Несомненно<span class="tooltiptext">Sure.</span></div> , сегодня <div class="tooltip">ничего<span class="tooltiptext">Nothing.</span></div> не <div class="tooltip">изменилось<span class="tooltiptext">changed.</span></div> . 
         </div>
         </td>
       </tr>
@@ -165,25 +200,16 @@
       <tr>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltl">
-        <p><code>Read Revelation 14:6, 7, the first angel’s message. What parallels can you find between what the angel is saying and what happened in the Abrahamic covenant? In what ways are the issues the same?</code></p>
+        Read Revelation 14 : 6 , 7 , the first angel’s message . What parallels can you find between what the angel is saying and what happened in the Abrahamic covenant ? In what ways are the issues the same ? 
         </div>
         </td>
         <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
         <div dir="ltr">
-        <p><code>Прочитайте весть первого ангела в Откр. 14:6, 7. Какие параллели вы можете найти между словами ангела и заветом с Авраамом? В отношении чего вопросы остаются теми же?</code></p>
+        Прочитайте <div class="tooltip">весть<span class="tooltiptext">Spring</span></div> <div class="tooltip">первого<span class="tooltiptext">First</span></div> <div class="tooltip">ангела<span class="tooltiptext">Angel</span></div> в Откр . 14 : 6 , 7 . Какие <div class="tooltip">параллели<span class="tooltiptext">parallels</span></div> вы <div class="tooltip">можете<span class="tooltiptext">You can.</span></div> найти между <div class="tooltip">словами<span class="tooltiptext">in the words of</span></div> ангела и <div class="tooltip">заветом<span class="tooltiptext">♪</span></div> с Авраамом ? В <div class="tooltip">отношении<span class="tooltiptext">concerning</span></div> <div class="tooltip">чего<span class="tooltiptext">What?</span></div> вопросы <div class="tooltip">остаются<span class="tooltiptext">remain.</span></div> <div class="tooltip">теми<span class="tooltiptext">those</span></div> же ? 
         </div>
         </td>
       </tr>
   
-<tr>
-  <td colspan="2" width="100%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
-  <div dir="ltl">
-  <u>Verbs:</u><br /><span onmouseover="highlight(this);" onmouseout="unhighlight(this)">agreed: <b><i>Согласен</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">appeared: <b><i>появилось</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">appears: <b><i>появляется</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">approached: <b><i>подходили</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">are: <b><i>есть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">arranged: <b><i>аранжировка</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">be: <b><i>быть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">Describe: <b><i>описать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">divided: <b><i>разделить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">do: <b><i>сделать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">entering: <b><i>вход</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">expresses: <b><i>выражает</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">find: <b><i>найти</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">gave: <b><i>дал</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">happened: <b><i>Случалось</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">have: <b><i>есть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">include: <b><i>включить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">includes: <b><i>включает</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">involves: <b><i>включает</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">is: <b><i>это</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">killed: <b><i>убитый</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">lived: <b><i>жил</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">made: <b><i>сделано</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">makes: <b><i>делает</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">making: <b><i>делать</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">meaning: <b><i>смысл</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">passed: <b><i>пройдено</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">placed: <b><i>размещено</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">promised: <b><i>Обещано</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">revealed: <b><i>раскрыто</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">save: <b><i>Сохранить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">saying: <b><i>говорить</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">See: <b><i>посмотреть</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">slaughtered: <b><i>сбой</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">took: <b><i>взял</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">underscores: <b><i>подчеркивания</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">vowing: <b><i>глас</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">walk: <b><i>пешком</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">was: <b><i>был</i></b></span>, <span onmouseover="highlight(this);" onmouseout="unhighlight(this)">were: <b><i>были</i></b>
-  
-  </div>
-  </td>
-</tr>
-
 
   <tr>
   <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
