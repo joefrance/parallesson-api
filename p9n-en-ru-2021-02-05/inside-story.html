@@ -1,0 +1,154 @@
+
+    <html>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <script>
+    function unhighlight(x, word) {
+      x.style.color = "navy"
+      x.style.backgroundColor = "transparent"
+      console.log(word)
+    }
+    
+    function highlight(x, word) {
+      x.style.color = "yellow"
+      x.style.backgroundColor = "green"
+    }
+    </script>
+    <style>
+    
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+      cursor: hand;
+    }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
+
+    .fulljustify {
+      text-align: justify;
+    }
+    .fulljustify:after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+    }
+    </style>
+      <body>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2">
+    
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        ' <div class="tooltip">Inside<span class="tooltiptext">внутри</span></div> <div class="tooltip">Story<span class="tooltiptext">история</span></div> ' 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Комментарий для <div class="tooltip">Учителей<span class="tooltiptext">teachers</span></div> 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        30 / 04 / 2021 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        30 / 04 / 2021 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        &lt ; center&gt ; We are <div class="tooltip">working<span class="tooltiptext">работа</span></div> on this <div class="tooltip">lesson&lt<span class="tooltiptext">Урок и лт</span></div> ; / center&gt ; 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        &lt ; <div class="tooltip">center&gt<span class="tooltiptext">center</span></div> ; Мы <div class="tooltip">подготавливаем<span class="tooltiptext">prepared</span></div> <div class="tooltip">данный<span class="tooltiptext">this</span></div> <div class="tooltip">урок&lt<span class="tooltiptext">lesson</span></div> ; / center&gt ; 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        &lt ; center&gt ; <div class="tooltip">Please<span class="tooltiptext">пожалуйста</span></div> come back <div class="tooltip">later&lt<span class="tooltiptext">позже & lt</span></div> ; / center&gt ; 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        &lt ; center&gt ; <div class="tooltip">Попробуйте<span class="tooltiptext">Try it.</span></div> <div class="tooltip">позже&lt<span class="tooltiptext">later</span></div> ; / center&gt ; 
+        </div>
+        </td>
+      </tr>
+  
+<tr>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <div dir="ltl">
+  <u>Glossary:</u><br /><span>&lt: <b><i></i></b></span>, <span>are: <b><i></i></b></span>, <span>back: <b><i></i></b></span>, <span>center&gt: <b><i></i></b></span>, <span>come: <b><i></i></b></span>, <span>Inside: <b><i>внутри</i></b></span>, <span>later&lt: <b><i>позже & lt</i></b></span>, <span>lesson&lt: <b><i>Урок и лт</i></b></span>, <span>on: <b><i></i></b></span>, <span>Please: <b><i>пожалуйста</i></b></span>, <span>Story: <b><i>история</i></b></span>, <span>this: <b><i></i></b></span>, <span>We: <b><i></i></b></span>, <span>working: <b><i>работа</i></b>
+  </div>
+  </td>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <div dir="ltr">
+  <u>Glossary:</u><br /><span>&lt: <b><i></i></b></span>, <span>center&gt: <b><i>center</i></b></span>, <span>данный: <b><i>this</i></b></span>, <span>для: <b><i></i></b></span>, <span>Комментарий: <b><i></i></b></span>, <span>Мы: <b><i></i></b></span>, <span>подготавливаем: <b><i>prepared</i></b></span>, <span>позже&lt: <b><i>later</i></b></span>, <span>Попробуйте: <b><i>Try it.</i></b></span>, <span>урок&lt: <b><i>lesson</i></b></span>, <span>Учителей: <b><i>teachers</i></b>
+  </div>
+  </td>
+</tr>
+
+
+  <tr>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+    NOTES: <a target="_blank" href="">en</a>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+  </td>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+    NOTES: <a target="_blank" href="">ru</a>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+  </td>
+</tr>
+
+    </table>
+  </body>
+  </html>
+  

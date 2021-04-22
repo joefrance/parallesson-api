@@ -24,10 +24,10 @@ var md = new MarkdownIt();
 
 const lslLanguage = 'en';
 const lslLangDir = 'ltl';
-const rslLanguage = 'pt';
+const rslLanguage = 'ru';
 const rslLangDir = 'ltr';
 const chapterFolder = '2021-02';
-const chapterNumber = '04';
+const chapterNumber = '05';
 const lslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/${chapterFolder}/${chapterNumber}`;
 const rslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/${chapterFolder}/${chapterNumber}`;
 const apiEndpoint = "http://localhost:5000/translate"

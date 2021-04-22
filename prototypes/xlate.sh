@@ -1,0 +1,1 @@
+curl -s -X POST -H “Content-Type: application/json” -H “Authorization: Bearer “$(gcloud auth application-default print-access-token) –data xlat.json “https://translation.googleapis.com/language/translate/v2”
