@@ -27,7 +27,7 @@ const lslLangDir = 'ltl';
 const rslLanguage = 'ru';
 const rslLangDir = 'ltr';
 const chapterFolder = '2021-02';
-const chapterNumber = '05';
+const chapterNumber = '04';
 const lslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/${chapterFolder}/${chapterNumber}`;
 const rslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/${chapterFolder}/${chapterNumber}`;
 const apiEndpoint = "http://localhost:5000/translate"
@@ -114,7 +114,7 @@ async function translateText(sourceText, sourceLanguage, targetLanguage, apiEndp
 }
 
 async function getPartsOfSpeech(paragraph, sourceLanguage, targetLanguage, apiEndpoint, glossary) {
-  var punctuation = '!"#$%&\'()*+,-–./:;<=>?@[\\]^_`{|}~«»„“”';
+  var punctuation = '!"#$%&\[\]\'()*+,-–./:;<=>?@[\\]^_`{|}~«»„“”';
   var withoutHtml = paragraph.replace(/(<([^>]+)>)/gi, "");
   
   var oringinalSeqence = [];
