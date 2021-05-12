@@ -1,0 +1,310 @@
+
+    <html>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <script>
+    function unhighlight(x, word) {
+      x.style.color = "navy"
+      x.style.backgroundColor = "transparent"
+      console.log(word)
+    }
+    
+    function highlight(x, word) {
+      x.style.color = "yellow"
+      x.style.backgroundColor = "green"
+    }
+    </script>
+    <style>
+    
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+      cursor: hand;
+    }
+    
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }    
+
+    .fulljustify {
+      text-align: justify;
+    }
+    .fulljustify:after {
+      content: "";
+      display: inline-block;
+      width: 100%;
+    }
+    </style>
+      <body>
+        <table width="100%" border="1" cellpadding="2" cellspacing="2">
+    
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        ' Abraham’s Seed ' 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        ' Семя Авраама ' 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        01 / 05 / 2021 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        01 / 05 / 2021 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        Read for This Week’s Study 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Библейские тексты для исследования 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        Ezek . 16 : 8 ; Deut . 28 : 1 , 15 ; Jer . 11 : 8 ; Gen . 6 : 5 ; John 10 : 27 , 28 ; Gal . 3 : 26 – 29 ; Rom . 4 : 16 , 17 . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Иез . 16 : 8 ; Втор . 28 : 1 , 15 ; Иер . 11 : 8 ; Быт . 6 : 5 ; Ин . 10 : 27 , 28 ; Гал . 3 : 26 – 29 ; Рим . 4 : 16 , 17 . 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        &lt ; p&gt ; Memory Text&lt ; / p&gt ; 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        &lt ; p&gt ; Памятный стих&lt ; / p&gt ; 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        “But ye are a chosen generation , a royal priesthood , an holy nation , a peculiar people ; that ye should shew forth the praises of him who hath called you out of darkness into his marvelous light” ( 1 Peter 2 : 9 ) . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        «Но вы — род избранный , царственное священство , народ святой , люди , взятые в удел , дабы возвещать совершенства Призвавшего вас из тьмы в чудный Свой свет» ( 1 Петр . 2 : 9 ) . 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        In a small town , the clock in the jeweler’s window stopped one day at a quarter to nine . Many of the citizens had been depending on this clock to know the time . On this particular morning , business men and women glanced in the window and noticed it was only fifteen minutes to nine ; children on their way to school were surprised to find they still had plenty of time to loiter . Many persons were late that morning because one small clock in the jeweler’s window had stopped . ”—C . L . Paddock , God’s Minutes ( Nashville , TN : Southern Publishing Association , 1965 ) , p . 244 , adapted . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Ключевые вопросы : 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        How accurate a representation of ancient Israel’s failure . The Lord placed Israel “in the midst of the nations” ( Ezek . 5 : 5 ) —in the strategic bridgeland between three continents ( Africa , Europe , and Asia ) . They were to be the spiritual “clock” of the world . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Какие обетования завета дал Господь Израилю ? На каких условиях ? Насколько народ был им верен ? Что произошло , когда Израиль ослушался ? 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        Israel , however , like the clock in the jeweler’s window , in a sense , stopped . Yet , it was not a total failure ; for then , as today , God has His faithful remnant . Our study this week focuses on the identity and role of God’s true Israel in every age , including our own . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        «В одном городке в витрине ювелира остановились часы без пятнадцати девять . Многие горожане полагались на эти часы , чтобы узнать время . Шедшие на работу люди , дети , бежавшие в школу , были удивлены , обнаружив , что у них еще есть немного свободного времени . В то утро многие люди опоздали , потому что в витрине ювелира остановились одни маленькие часы» ( C . Paddock , God’s Minutes , p . 244 ) . 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        The Week at a Glance : What covenant promises did the Lord make to Israel ? What conditions came with them ? How well did the nation abide by those promises ? What happened when they disobeyed ? 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Насколько точно эта история отображает неудачу древнего Израиля ! Господь поместил Израиль «среди народов» ( Иез . 5 : 5 ) — на стратегическом пути между тремя континентами ( Африкой , Европой и Азией ) . Они должны были стать духовными «часами» мира . 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        *Study this week’s lesson to prepare for Sabbath , May 8 . 
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Но Израиль , подобно часам в витрине ювелира , остановился . Тем не менее это не было полной неудачей , ибо тогда , как и сегодня , у Бога есть Его верный Остаток . Материал этой недели посвящен самобытности и роли истинного Израиля в каждую эпоху , включая нашу . 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Для дополнительного чтения : Избранные цитаты Эллен Уайт 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Последние несколько недель я как-то по-особому воспринимаю Божьи обетования и христианское упование . Библия никогда прежде не казалась мне столь исполненной драгоценными жемчужинами обетований , как в эти несколько недель . Как будто роса небесная готова снизойти на нас и освежить нас , если только мы поверим в исполнение этих обетовании в своей жизни . Нам никогда не одолеть наши естественные наклонности без помощи Небес , и драгоценный Иисус пребывает рядом с нами , чтобы помочь нам в этой работе . Он говорит : «Се , Я с вами во все дни до скончания века» ( Матфея 28 : 20 ) . Нам нужно лишь верить тому , что сказал Христос . Нам нужно верой держаться за Его обетования… {ВНО 118.2 } 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Христос принял человеческое естество . Он снял Свою царскую одежду и царский венец и оставил высокое положение Вождя в небесных дворах . Облекши Свою Божественность в человеческое естество , Христос обнял все человечество Своей человеческой рукой . Он находится во главе человечества не как грешник , а как Спаситель . Он может быть Поручителем грешника , потому что на Его Божественной душе нет ни единого греха или порока . Поскольку Он безгрешен , Он может удалить наши грехи и поставить нас в выгодное положение перед Богом , если мы уверуем в Него и доверимся Ему как нашему освящению и искуплению . . . {ПИХ 93.2 } 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Какая именно вера побеждает мир ? Такая вера , которая делает Христа вашим личным Спасителем , — такая вера , которая , признавая вашу беспомощность , полную неспособность спасти себя , держится за Помощника как единственную надежду , сильного , чтобы спасать . Такая вера , которая не разочаруется , которая слышит голос Христа : «Мужайтесь , ибо Я победил мир , и Моя Божественная сила принадлежит вам» . Это вера , которая слышит Его слова : «Се , Я с вами во все дни до скончания века» . {ОХ 21.2 } 
+        </div>
+        </td>
+      </tr>
+  
+      <tr>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltl">
+        
+        </div>
+        </td>
+        <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+        <div dir="ltr">
+        Христа никогда не следует забывать . Ангел сказал о Нем : «Наречешь Ему имя : Иисус ; ибо Он спасет людей Своих от грехов их» . Иисус , драгоценный Спаситель ! В Нем сосредоточено все : наша уверенность , безопасность , способность быть полезными , наш мир . Он рассеивает все сомнения . Он — самая большая наша надежда . Как отрадно думать , что мы действительно можем стать причастниками Божеского естества , чтобы нам побеждать так , как победил Христос ! Иисус — это исполнение наших ожиданий , мелодия наших гимнов , тень великой скалы на утомленной земле . Он — живая вода для жаждущей души . Он — убежище во время бури . Он — наша праведность , наше освящение , наше искупление . Если Христос является нашим личным Спасителем , мы воздадим хвалу Тому , Кто вызвал нас из тьмы в чудный Свой свет… {ОХ 21.5 } 
+        </div>
+        </td>
+      </tr>
+  
+<tr>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <div dir="ltl">
+  <u>Glossary:</u><br /><span>—in: <b><i></i></b></span>, <span>“But: <b><i></i></b></span>, <span>“clock”: <b><i></i></b></span>, <span>“in: <b><i></i></b></span>, <span>”—C: <b><i></i></b></span>, <span>*Study: <b><i></i></b></span>, <span>&lt: <b><i></i></b></span>, <span>a: <b><i></i></b></span>, <span>abide: <b><i></i></b></span>, <span>Abraham’s: <b><i></i></b></span>, <span>accurate: <b><i></i></b></span>, <span>adapted: <b><i></i></b></span>, <span>Africa: <b><i></i></b></span>, <span>age: <b><i></i></b></span>, <span>an: <b><i></i></b></span>, <span>ancient: <b><i></i></b></span>, <span>and: <b><i></i></b></span>, <span>are: <b><i></i></b></span>, <span>as: <b><i></i></b></span>, <span>Asia: <b><i></i></b></span>, <span>Association: <b><i></i></b></span>, <span>at: <b><i></i></b></span>, <span>be: <b><i></i></b></span>, <span>because: <b><i></i></b></span>, <span>been: <b><i></i></b></span>, <span>between: <b><i></i></b></span>, <span>bridgeland: <b><i></i></b></span>, <span>business: <b><i></i></b></span>, <span>by: <b><i></i></b></span>, <span>called: <b><i></i></b></span>, <span>came: <b><i></i></b></span>, <span>children: <b><i></i></b></span>, <span>chosen: <b><i></i></b></span>, <span>citizens: <b><i></i></b></span>, <span>clock: <b><i></i></b></span>, <span>conditions: <b><i></i></b></span>, <span>continents: <b><i></i></b></span>, <span>covenant: <b><i></i></b></span>, <span>darkness: <b><i></i></b></span>, <span>day: <b><i></i></b></span>, <span>depending: <b><i></i></b></span>, <span>Deut: <b><i></i></b></span>, <span>did: <b><i></i></b></span>, <span>disobeyed: <b><i></i></b></span>, <span>Europe: <b><i></i></b></span>, <span>every: <b><i></i></b></span>, <span>Ezek: <b><i></i></b></span>, <span>failure: <b><i></i></b></span>, <span>faithful: <b><i></i></b></span>, <span>fifteen: <b><i></i></b></span>, <span>find: <b><i></i></b></span>, <span>focuses: <b><i></i></b></span>, <span>for: <b><i></i></b></span>, <span>forth: <b><i></i></b></span>, <span>Gal: <b><i></i></b></span>, <span>Gen: <b><i></i></b></span>, <span>generation: <b><i></i></b></span>, <span>Glance: <b><i></i></b></span>, <span>glanced: <b><i></i></b></span>, <span>God: <b><i></i></b></span>, <span>God’s: <b><i></i></b></span>, <span>had: <b><i></i></b></span>, <span>happened: <b><i></i></b></span>, <span>has: <b><i></i></b></span>, <span>hath: <b><i></i></b></span>, <span>him: <b><i></i></b></span>, <span>his: <b><i></i></b></span>, <span>holy: <b><i></i></b></span>, <span>How: <b><i></i></b></span>, <span>however: <b><i></i></b></span>, <span>identity: <b><i></i></b></span>, <span>In: <b><i></i></b></span>, <span>including: <b><i></i></b></span>, <span>into: <b><i></i></b></span>, <span>Israel: <b><i></i></b></span>, <span>Israel’s: <b><i></i></b></span>, <span>it: <b><i></i></b></span>, <span>Jer: <b><i></i></b></span>, <span>jeweler’s: <b><i></i></b></span>, <span>John: <b><i></i></b></span>, <span>know: <b><i></i></b></span>, <span>L: <b><i></i></b></span>, <span>late: <b><i></i></b></span>, <span>lesson: <b><i></i></b></span>, <span>light”: <b><i></i></b></span>, <span>like: <b><i></i></b></span>, <span>loiter: <b><i></i></b></span>, <span>Lord: <b><i></i></b></span>, <span>make: <b><i></i></b></span>, <span>Many: <b><i></i></b></span>, <span>marvelous: <b><i></i></b></span>, <span>May: <b><i></i></b></span>, <span>Memory: <b><i></i></b></span>, <span>men: <b><i></i></b></span>, <span>midst: <b><i></i></b></span>, <span>minutes: <b><i></i></b></span>, <span>morning: <b><i></i></b></span>, <span>Nashville: <b><i></i></b></span>, <span>nation: <b><i></i></b></span>, <span>nations”: <b><i></i></b></span>, <span>nine: <b><i></i></b></span>, <span>not: <b><i></i></b></span>, <span>noticed: <b><i></i></b></span>, <span>of: <b><i></i></b></span>, <span>on: <b><i></i></b></span>, <span>one: <b><i></i></b></span>, <span>only: <b><i></i></b></span>, <span>Our: <b><i></i></b></span>, <span>out: <b><i></i></b></span>, <span>own: <b><i></i></b></span>, <span>p: <b><i></i></b></span>, <span>p&gt: <b><i></i></b></span>, <span>Paddock: <b><i></i></b></span>, <span>particular: <b><i></i></b></span>, <span>peculiar: <b><i></i></b></span>, <span>people: <b><i></i></b></span>, <span>persons: <b><i></i></b></span>, <span>Peter: <b><i></i></b></span>, <span>placed: <b><i></i></b></span>, <span>plenty: <b><i></i></b></span>, <span>praises: <b><i></i></b></span>, <span>prepare: <b><i></i></b></span>, <span>priesthood: <b><i></i></b></span>, <span>promises: <b><i></i></b></span>, <span>Publishing: <b><i></i></b></span>, <span>quarter: <b><i></i></b></span>, <span>Read: <b><i></i></b></span>, <span>remnant: <b><i></i></b></span>, <span>representation: <b><i></i></b></span>, <span>role: <b><i></i></b></span>, <span>Rom: <b><i></i></b></span>, <span>royal: <b><i></i></b></span>, <span>Sabbath: <b><i></i></b></span>, <span>school: <b><i></i></b></span>, <span>Seed: <b><i></i></b></span>, <span>sense: <b><i></i></b></span>, <span>shew: <b><i></i></b></span>, <span>should: <b><i></i></b></span>, <span>small: <b><i></i></b></span>, <span>Southern: <b><i></i></b></span>, <span>spiritual: <b><i></i></b></span>, <span>still: <b><i></i></b></span>, <span>stopped: <b><i></i></b></span>, <span>strategic: <b><i></i></b></span>, <span>Study: <b><i></i></b></span>, <span>surprised: <b><i></i></b></span>, <span>Text&lt: <b><i></i></b></span>, <span>that: <b><i></i></b></span>, <span>the: <b><i></i></b></span>, <span>their: <b><i></i></b></span>, <span>them: <b><i></i></b></span>, <span>then: <b><i></i></b></span>, <span>they: <b><i></i></b></span>, <span>This: <b><i></i></b></span>, <span>those: <b><i></i></b></span>, <span>three: <b><i></i></b></span>, <span>time: <b><i></i></b></span>, <span>TN: <b><i></i></b></span>, <span>to: <b><i></i></b></span>, <span>today: <b><i></i></b></span>, <span>total: <b><i></i></b></span>, <span>town: <b><i></i></b></span>, <span>true: <b><i></i></b></span>, <span>was: <b><i></i></b></span>, <span>way: <b><i></i></b></span>, <span>week: <b><i></i></b></span>, <span>Week’s: <b><i></i></b></span>, <span>well: <b><i></i></b></span>, <span>were: <b><i></i></b></span>, <span>What: <b><i></i></b></span>, <span>when: <b><i></i></b></span>, <span>who: <b><i></i></b></span>, <span>window: <b><i></i></b></span>, <span>with: <b><i></i></b></span>, <span>women: <b><i></i></b></span>, <span>world: <b><i></i></b></span>, <span>ye: <b><i></i></b></span>, <span>Yet: <b><i></i></b></span>, <span>you: <b><i></i></b>
+  </div>
+  </td>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+  <div dir="ltr">
+  <u>Glossary:</u><br /><span>—: <b><i></i></b></span>, <span>«В: <b><i></i></b></span>, <span>«Мужайтесь: <b><i></i></b></span>, <span>«Наречешь: <b><i></i></b></span>, <span>«Но: <b><i></i></b></span>, <span>«Се: <b><i></i></b></span>, <span>«среди: <b><i></i></b></span>, <span>«часами»: <b><i></i></b></span>, <span>{ВНО: <b><i></i></b></span>, <span>{ОХ: <b><i></i></b></span>, <span>{ПИХ: <b><i></i></b></span>, <span>&lt: <b><i></i></b></span>, <span>C: <b><i></i></b></span>, <span>God’s: <b><i></i></b></span>, <span>Minutes: <b><i></i></b></span>, <span>p: <b><i></i></b></span>, <span>p&gt: <b><i></i></b></span>, <span>Paddock: <b><i></i></b></span>, <span>а: <b><i></i></b></span>, <span>Авраама: <b><i></i></b></span>, <span>Азией: <b><i></i></b></span>, <span>Ангел: <b><i></i></b></span>, <span>Африкой: <b><i></i></b></span>, <span>бежавшие: <b><i></i></b></span>, <span>без: <b><i></i></b></span>, <span>безгрешен: <b><i></i></b></span>, <span>безопасность: <b><i></i></b></span>, <span>беспомощность: <b><i></i></b></span>, <span>Библейские: <b><i></i></b></span>, <span>Библия: <b><i></i></b></span>, <span>Бога: <b><i></i></b></span>, <span>Богом: <b><i></i></b></span>, <span>Божеского: <b><i></i></b></span>, <span>Божественная: <b><i></i></b></span>, <span>Божественной: <b><i></i></b></span>, <span>Божественность: <b><i></i></b></span>, <span>Божьи: <b><i></i></b></span>, <span>большая: <b><i></i></b></span>, <span>будто: <b><i></i></b></span>, <span>бури: <b><i></i></b></span>, <span>был: <b><i></i></b></span>, <span>были: <b><i></i></b></span>, <span>было: <b><i></i></b></span>, <span>Быт: <b><i></i></b></span>, <span>быть: <b><i></i></b></span>, <span>в: <b><i></i></b></span>, <span>вам»: <b><i></i></b></span>, <span>вами: <b><i></i></b></span>, <span>вас: <b><i></i></b></span>, <span>вашим: <b><i></i></b></span>, <span>вашу: <b><i></i></b></span>, <span>века»: <b><i></i></b></span>, <span>великой: <b><i></i></b></span>, <span>венец: <b><i></i></b></span>, <span>вера: <b><i></i></b></span>, <span>верен: <b><i></i></b></span>, <span>верить: <b><i></i></b></span>, <span>верный: <b><i></i></b></span>, <span>верой: <b><i></i></b></span>, <span>взятые: <b><i></i></b></span>, <span>витрине: <b><i></i></b></span>, <span>включая: <b><i></i></b></span>, <span>во: <b><i></i></b></span>, <span>вода: <b><i></i></b></span>, <span>Вождя: <b><i></i></b></span>, <span>возвещать: <b><i></i></b></span>, <span>воздадим: <b><i></i></b></span>, <span>вопросы: <b><i></i></b></span>, <span>воспринимаю: <b><i></i></b></span>, <span>времени: <b><i></i></b></span>, <span>время: <b><i></i></b></span>, <span>все: <b><i></i></b></span>, <span>Втор: <b><i></i></b></span>, <span>вы: <b><i></i></b></span>, <span>выгодное: <b><i></i></b></span>, <span>вызвал: <b><i></i></b></span>, <span>высокое: <b><i></i></b></span>, <span>Гал: <b><i></i></b></span>, <span>гимнов: <b><i></i></b></span>, <span>главе: <b><i></i></b></span>, <span>говорит: <b><i></i></b></span>, <span>голос: <b><i></i></b></span>, <span>городке: <b><i></i></b></span>, <span>горожане: <b><i></i></b></span>, <span>Господь: <b><i></i></b></span>, <span>готова: <b><i></i></b></span>, <span>греха: <b><i></i></b></span>, <span>грехи: <b><i></i></b></span>, <span>грехов: <b><i></i></b></span>, <span>грешник: <b><i></i></b></span>, <span>грешника: <b><i></i></b></span>, <span>дабы: <b><i></i></b></span>, <span>дал: <b><i></i></b></span>, <span>дворах: <b><i></i></b></span>, <span>девять: <b><i></i></b></span>, <span>действительно: <b><i></i></b></span>, <span>делает: <b><i></i></b></span>, <span>держаться: <b><i></i></b></span>, <span>держится: <b><i></i></b></span>, <span>дети: <b><i></i></b></span>, <span>для: <b><i></i></b></span>, <span>дни: <b><i></i></b></span>, <span>до: <b><i></i></b></span>, <span>доверимся: <b><i></i></b></span>, <span>должны: <b><i></i></b></span>, <span>дополнительного: <b><i></i></b></span>, <span>драгоценный: <b><i></i></b></span>, <span>драгоценными: <b><i></i></b></span>, <span>древнего: <b><i></i></b></span>, <span>думать: <b><i></i></b></span>, <span>духовными: <b><i></i></b></span>, <span>душе: <b><i></i></b></span>, <span>души: <b><i></i></b></span>, <span>Европой: <b><i></i></b></span>, <span>Его: <b><i></i></b></span>, <span>единого: <b><i></i></b></span>, <span>единственную: <b><i></i></b></span>, <span>Ему: <b><i></i></b></span>, <span>если: <b><i></i></b></span>, <span>естества: <b><i></i></b></span>, <span>естественные: <b><i></i></b></span>, <span>естество: <b><i></i></b></span>, <span>есть: <b><i></i></b></span>, <span>еще: <b><i></i></b></span>, <span>жаждущей: <b><i></i></b></span>, <span>жемчужинами: <b><i></i></b></span>, <span>живая: <b><i></i></b></span>, <span>жизни: <b><i></i></b></span>, <span>за: <b><i></i></b></span>, <span>забывать: <b><i></i></b></span>, <span>завета: <b><i></i></b></span>, <span>земле: <b><i></i></b></span>, <span>и: <b><i></i></b></span>, <span>ибо: <b><i></i></b></span>, <span>Иез: <b><i></i></b></span>, <span>Иер: <b><i></i></b></span>, <span>из: <b><i></i></b></span>, <span>Избранные: <b><i></i></b></span>, <span>избранный: <b><i></i></b></span>, <span>Израиль: <b><i></i></b></span>, <span>Израилю: <b><i></i></b></span>, <span>Израиля: <b><i></i></b></span>, <span>Иисус: <b><i></i></b></span>, <span>или: <b><i></i></b></span>, <span>им: <b><i></i></b></span>, <span>именно: <b><i></i></b></span>, <span>имя: <b><i></i></b></span>, <span>Ин: <b><i></i></b></span>, <span>искупление: <b><i></i></b></span>, <span>искуплению: <b><i></i></b></span>, <span>исполнение: <b><i></i></b></span>, <span>исполненной: <b><i></i></b></span>, <span>исследования: <b><i></i></b></span>, <span>истинного: <b><i></i></b></span>, <span>история: <b><i></i></b></span>, <span>их»: <b><i></i></b></span>, <span>каждую: <b><i></i></b></span>, <span>казалась: <b><i></i></b></span>, <span>как: <b><i></i></b></span>, <span>как-то: <b><i></i></b></span>, <span>Какая: <b><i></i></b></span>, <span>Какие: <b><i></i></b></span>, <span>каких: <b><i></i></b></span>, <span>Ключевые: <b><i></i></b></span>, <span>когда: <b><i></i></b></span>, <span>континентами: <b><i></i></b></span>, <span>которая: <b><i></i></b></span>, <span>Кто: <b><i></i></b></span>, <span>личным: <b><i></i></b></span>, <span>лишь: <b><i></i></b></span>, <span>людей: <b><i></i></b></span>, <span>люди: <b><i></i></b></span>, <span>маленькие: <b><i></i></b></span>, <span>Материал: <b><i></i></b></span>, <span>Матфея: <b><i></i></b></span>, <span>между: <b><i></i></b></span>, <span>мелодия: <b><i></i></b></span>, <span>менее: <b><i></i></b></span>, <span>мир: <b><i></i></b></span>, <span>мира: <b><i></i></b></span>, <span>мне: <b><i></i></b></span>, <span>Многие: <b><i></i></b></span>, <span>можем: <b><i></i></b></span>, <span>может: <b><i></i></b></span>, <span>Моя: <b><i></i></b></span>, <span>мы: <b><i></i></b></span>, <span>На: <b><i></i></b></span>, <span>надежда: <b><i></i></b></span>, <span>надежду: <b><i></i></b></span>, <span>наклонности: <b><i></i></b></span>, <span>Нам: <b><i></i></b></span>, <span>нами: <b><i></i></b></span>, <span>народ: <b><i></i></b></span>, <span>народов»: <b><i></i></b></span>, <span>нас: <b><i></i></b></span>, <span>Насколько: <b><i></i></b></span>, <span>находится: <b><i></i></b></span>, <span>наш: <b><i></i></b></span>, <span>наша: <b><i></i></b></span>, <span>наше: <b><i></i></b></span>, <span>нашему: <b><i></i></b></span>, <span>наши: <b><i></i></b></span>, <span>нашим: <b><i></i></b></span>, <span>наших: <b><i></i></b></span>, <span>нашу: <b><i></i></b></span>, <span>не: <b><i></i></b></span>, <span>Небес: <b><i></i></b></span>, <span>небесная: <b><i></i></b></span>, <span>небесных: <b><i></i></b></span>, <span>Него: <b><i></i></b></span>, <span>недели: <b><i></i></b></span>, <span>недель: <b><i></i></b></span>, <span>Нем: <b><i></i></b></span>, <span>немного: <b><i></i></b></span>, <span>несколько: <b><i></i></b></span>, <span>неспособность: <b><i></i></b></span>, <span>нет: <b><i></i></b></span>, <span>неудачей: <b><i></i></b></span>, <span>неудачу: <b><i></i></b></span>, <span>ни: <b><i></i></b></span>, <span>никогда: <b><i></i></b></span>, <span>них: <b><i></i></b></span>, <span>Но: <b><i></i></b></span>, <span>нужно: <b><i></i></b></span>, <span>о: <b><i></i></b></span>, <span>обетовании: <b><i></i></b></span>, <span>обетований: <b><i></i></b></span>, <span>обетования: <b><i></i></b></span>, <span>обетования…: <b><i></i></b></span>, <span>Облекши: <b><i></i></b></span>, <span>обнаружив: <b><i></i></b></span>, <span>обнял: <b><i></i></b></span>, <span>одежду: <b><i></i></b></span>, <span>одни: <b><i></i></b></span>, <span>одном: <b><i></i></b></span>, <span>одолеть: <b><i></i></b></span>, <span>ожиданий: <b><i></i></b></span>, <span>Он: <b><i></i></b></span>, <span>Они: <b><i></i></b></span>, <span>опоздали: <b><i></i></b></span>, <span>освежить: <b><i></i></b></span>, <span>освящение: <b><i></i></b></span>, <span>освящению: <b><i></i></b></span>, <span>ослушался: <b><i></i></b></span>, <span>оставил: <b><i></i></b></span>, <span>остановились: <b><i></i></b></span>, <span>остановился: <b><i></i></b></span>, <span>Остаток: <b><i></i></b></span>, <span>от: <b><i></i></b></span>, <span>отображает: <b><i></i></b></span>, <span>отрадно: <b><i></i></b></span>, <span>Памятный: <b><i></i></b></span>, <span>перед: <b><i></i></b></span>, <span>Петр: <b><i></i></b></span>, <span>по-особому: <b><i></i></b></span>, <span>победил: <b><i></i></b></span>, <span>побеждает: <b><i></i></b></span>, <span>побеждать: <b><i></i></b></span>, <span>поверим: <b><i></i></b></span>, <span>подобно: <b><i></i></b></span>, <span>полагались: <b><i></i></b></span>, <span>полезными: <b><i></i></b></span>, <span>полной: <b><i></i></b></span>, <span>полную: <b><i></i></b></span>, <span>положение: <b><i></i></b></span>, <span>поместил: <b><i></i></b></span>, <span>помочь: <b><i></i></b></span>, <span>помощи: <b><i></i></b></span>, <span>Помощника: <b><i></i></b></span>, <span>порока: <b><i></i></b></span>, <span>Поручителем: <b><i></i></b></span>, <span>посвящен: <b><i></i></b></span>, <span>Поскольку: <b><i></i></b></span>, <span>Последние: <b><i></i></b></span>, <span>поставить: <b><i></i></b></span>, <span>потому: <b><i></i></b></span>, <span>праведность: <b><i></i></b></span>, <span>пребывает: <b><i></i></b></span>, <span>прежде: <b><i></i></b></span>, <span>Призвавшего: <b><i></i></b></span>, <span>признавая: <b><i></i></b></span>, <span>принадлежит: <b><i></i></b></span>, <span>принял: <b><i></i></b></span>, <span>причастниками: <b><i></i></b></span>, <span>произошло: <b><i></i></b></span>, <span>пути: <b><i></i></b></span>, <span>пятнадцати: <b><i></i></b></span>, <span>работе: <b><i></i></b></span>, <span>работу: <b><i></i></b></span>, <span>разочаруется: <b><i></i></b></span>, <span>рассеивает: <b><i></i></b></span>, <span>Рим: <b><i></i></b></span>, <span>род: <b><i></i></b></span>, <span>роли: <b><i></i></b></span>, <span>роса: <b><i></i></b></span>, <span>рукой: <b><i></i></b></span>, <span>рядом: <b><i></i></b></span>, <span>с: <b><i></i></b></span>, <span>самая: <b><i></i></b></span>, <span>самобытности: <b><i></i></b></span>, <span>свет…: <b><i></i></b></span>, <span>свет»: <b><i></i></b></span>, <span>свободного: <b><i></i></b></span>, <span>своей: <b><i></i></b></span>, <span>Своих: <b><i></i></b></span>, <span>Свой: <b><i></i></b></span>, <span>Свою: <b><i></i></b></span>, <span>святой: <b><i></i></b></span>, <span>священство: <b><i></i></b></span>, <span>себя: <b><i></i></b></span>, <span>сегодня: <b><i></i></b></span>, <span>Семя: <b><i></i></b></span>, <span>сила: <b><i></i></b></span>, <span>сильного: <b><i></i></b></span>, <span>сказал: <b><i></i></b></span>, <span>скалы: <b><i></i></b></span>, <span>скончания: <b><i></i></b></span>, <span>следует: <b><i></i></b></span>, <span>слова: <b><i></i></b></span>, <span>слышит: <b><i></i></b></span>, <span>снизойти: <b><i></i></b></span>, <span>снял: <b><i></i></b></span>, <span>совершенства: <b><i></i></b></span>, <span>сомнения: <b><i></i></b></span>, <span>сосредоточено: <b><i></i></b></span>, <span>спасать: <b><i></i></b></span>, <span>спасет: <b><i></i></b></span>, <span>Спасителем: <b><i></i></b></span>, <span>Спаситель: <b><i></i></b></span>, <span>спасти: <b><i></i></b></span>, <span>способность: <b><i></i></b></span>, <span>стать: <b><i></i></b></span>, <span>стих&lt: <b><i></i></b></span>, <span>столь: <b><i></i></b></span>, <span>стратегическом: <b><i></i></b></span>, <span>так: <b><i></i></b></span>, <span>Такая: <b><i></i></b></span>, <span>тексты: <b><i></i></b></span>, <span>Тем: <b><i></i></b></span>, <span>тень: <b><i></i></b></span>, <span>то: <b><i></i></b></span>, <span>тогда: <b><i></i></b></span>, <span>только: <b><i></i></b></span>, <span>тому: <b><i></i></b></span>, <span>точно: <b><i></i></b></span>, <span>тремя: <b><i></i></b></span>, <span>тьмы: <b><i></i></b></span>, <span>у: <b><i></i></b></span>, <span>Уайт: <b><i></i></b></span>, <span>убежище: <b><i></i></b></span>, <span>уверенность: <b><i></i></b></span>, <span>уверуем: <b><i></i></b></span>, <span>удалить: <b><i></i></b></span>, <span>удел: <b><i></i></b></span>, <span>удивлены: <b><i></i></b></span>, <span>узнать: <b><i></i></b></span>, <span>упование: <b><i></i></b></span>, <span>условиях: <b><i></i></b></span>, <span>утомленной: <b><i></i></b></span>, <span>утро: <b><i></i></b></span>, <span>хвалу: <b><i></i></b></span>, <span>Христа: <b><i></i></b></span>, <span>христианское: <b><i></i></b></span>, <span>Христос: <b><i></i></b></span>, <span>царский: <b><i></i></b></span>, <span>царскую: <b><i></i></b></span>, <span>царственное: <b><i></i></b></span>, <span>цитаты: <b><i></i></b></span>, <span>часам: <b><i></i></b></span>, <span>часы: <b><i></i></b></span>, <span>часы»: <b><i></i></b></span>, <span>человеческое: <b><i></i></b></span>, <span>человеческой: <b><i></i></b></span>, <span>человечества: <b><i></i></b></span>, <span>человечество: <b><i></i></b></span>, <span>чтения: <b><i></i></b></span>, <span>Что: <b><i></i></b></span>, <span>чтобы: <b><i></i></b></span>, <span>чудный: <b><i></i></b></span>, <span>Шедшие: <b><i></i></b></span>, <span>школу: <b><i></i></b></span>, <span>Эллен: <b><i></i></b></span>, <span>эпоху: <b><i></i></b></span>, <span>эта: <b><i></i></b></span>, <span>эти: <b><i></i></b></span>, <span>этих: <b><i></i></b></span>, <span>это: <b><i></i></b></span>, <span>этой: <b><i></i></b></span>, <span>ювелира: <b><i></i></b></span>, <span>я: <b><i></i></b></span>, <span>является: <b><i></i></b>
+  </div>
+  </td>
+</tr>
+
+
+  <tr>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+    NOTES: <a target="_blank" href="">en</a>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+  </td>
+  <td width="50%" style="font-family: Arial, Helvetica, sans-serif; font-size: 0.55em; vertical-align: top;">
+    NOTES: <a target="_blank" href="">ru</a>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+    <div style="height: 10px;"><hr/></div>
+  </td>
+</tr>
+
+    </table>
+  </body>
+  </html>
+  

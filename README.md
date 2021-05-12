@@ -4,6 +4,19 @@ This project will provide the  GraphQL-based API for the [Parallesson project](h
 
 The online site will be available as an SPA mutli-device solution and limited in some functionality. The offline model will either be implemented as an Electron app. This will allow for the end-user to purchase Google Translation credits to use in the advanced features of the app.
 
+### Google Translate
+
+https://cloud.google.com/docs/authentication/getting-started
+
+`GOOGLE_APPLICATION_CREDENTIALS=/Users/joefrance/Downloads/parallesson-api-51205e9f0aff.json gcloud auth application-default print-access-token`
+
+Use gcloud to get key:
+
+`gcloud auth application-default print-access-token`
+
+https://cloud.google.com/sdk/docs/install
+
+
 ### Split to syllables
 
 - Node

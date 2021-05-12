@@ -56,7 +56,7 @@ function uniqueWords(text) {
     var allWords = finalString.split(' ');
     console.log("allWords: ", allWords.length)
 
-    let words = [...new Set(allWords)];    
+    let words = allWords;// [...new Set(allWords)];    
     console.log("words: ", words.length)
 
     var stemTokens = [];
@@ -93,6 +93,7 @@ function uniqueWords(text) {
             var searchStem = stemTokens.filter(s => s.stem === stem);
 
             var token = {
+                seq: wx,
                 stem: stem,
                 word: word,
                 jointSyllables: syllables === null ? null : syllables.join('-'),
@@ -116,14 +117,14 @@ function uniqueWords(text) {
     console.log("uniqueStems: ", uniqueStems.length)
 
 
-    return tokens.sort((a, b) => a.stem.localeCompare(b.stem));
+    return tokens;//.sort((a, b) => a.stem.localeCompare(b.stem));
 }
 
 (async () => {
 
-    const fileContent = fs.readFileSync('./prototypes/open-russian-csv/words.tsv', 'utf8');
-    const records = parse(fileContent, {columns: true});
-    console.log(records)
+    // const fileContent = fs.readFileSync('/Users/joefrance/Downloads/openrussian-csv/words.tsv', 'utf8');
+    //  const records = parse(fileContent, {columns: true}, (e) => { console.log(e); });
+    // console.log(records[0], records[1], records[2])
 
     var text = `
     Почему Господь назвал Себя щитом Аврама? Как «все племена земные» должны были быть благословлены через Авраама? Какое из всех обетований завета можно назвать величайшим?
@@ -210,7 +211,7 @@ function uniqueWords(text) {
 **Вывод**: Обетования! Как драгоценны они для верующего! Будут ли они исполнены? Ответ, исполненный веры, — да.
     `;
 
-    text = 'Кен, назовите, пожалуйста, несколько известных книг, которые знают и читали все американцы';
+    //text = 'Кен, назовите, назовите, пожалуйста, несколько известных книг, которые знают и читали все американцы';
 
 //     text = `
 // ПРИМЕР. Какие дела? У нас делишки. Дела у прокурора.
@@ -227,7 +228,7 @@ function uniqueWords(text) {
     //console.log(text.length * 6);
 
     var tokens = uniqueWords(text);
-    //console.log(tokens);
+    // console.log(tokens);
     console.log(tokens.filter(element => !element.iscyrallic));
     console.log(tokens.filter(element => element.iscyrallic));
     // console.log(tokens.filter(element => element.syllableCount === 0));
@@ -235,8 +236,29 @@ function uniqueWords(text) {
     // console.log([...tokens.filter(element => element.iscyrallic === true).map(t => t.stem)]);
 
     //var translatedText = await translateWord('ru', text, 'en');
-    //var translatedText = await translateText(text, 'ru', 'en');
-    //console.log(translatedText[0]);
+    console.log(text);
+    var dict = {};
+    for(var ix=0; ix < tokens.length; ix++) {
+        if(tokens[ix].iscyrallic) {
+            var txWord = '';
+            if(dict[tokens[ix].word.toLowerCase()] === undefined) {
+                var tx = await translateText(tokens[ix].word, 'ru', 'en');
+                txWord = tx[0].translatedText;
+                dict[tokens[ix].word.toLowerCase()] = txWord;
+            } else {
+                txWord = dict[tokens[ix].word.toLowerCase()];
+            }
+            tokens[ix].translatedWord = txWord;            
+            // if(tokens[ix].stem !== tokens[ix].word) {
+            //     var txStem = await translateText(tokens[ix].stem, 'ru', 'en');
+            //     tokens[ix].translatedStem = txStem[0].translatedText;
+            // }    
+        }
+        console.log(`${tokens[ix].word} (${tokens[ix].translatedWord}) `)
+    }
+    console.log(tokens);
+    var translatedText = await translateText(text, 'ru', 'en');
+    console.log(translatedText[0]);
 })();
 
 function isCyrralic(term) {

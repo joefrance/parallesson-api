@@ -7,7 +7,6 @@ import translate from "translate";
 //import { readdir } from 'fs/promises';
 import YAML from 'yamljs';
 import MarkdownIt from 'markdown-it';
-import { isNamedType } from 'graphql';
 
 var md = new MarkdownIt();
 
@@ -27,9 +26,9 @@ const lslLangDir = 'ltl';
 const rslLanguage = 'ru';
 const rslLangDir = 'ltr';
 const chapterFolder = '2021-02';
-const chapterNumber = '04';
-const lslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/${chapterFolder}/${chapterNumber}`;
-const rslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/${chapterFolder}/${chapterNumber}`;
+const chapterNumber = '06';
+const lslFolder = `/Users/joefrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/${chapterFolder}/${chapterNumber}`;
+const rslFolder = `/Users/joefrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/${chapterFolder}/${chapterNumber}`;
 const apiEndpoint = "http://localhost:5000/translate"
 var lslGlossary = {
   lang: lslLanguage,
@@ -86,7 +85,24 @@ function getHtmlParagraphFromPos(pos) {
 
   return paragraph;
 }
+async function translateTextViaGoogle(sourceText, sourceLanguage, targetLanguage, apiEndpoint = "https://translation.googleapis.com/language/translate/v2") {
 
+    var apiKey = process.env.GOOGLE_TRANSLATE_API_KEY;
+
+    const res = await fetch(apiEndpoint, {
+        method: "POST",
+        body: JSON.stringify({
+            q: sourceText,
+            source: sourceLanguage,
+            target: targetLanguage
+        }),
+        headers: { "Authorization": `Bearer ${apiKey}` }
+        //headers: { "Content-Type": "application/json" }
+    });
+
+    var result = await res.json();
+    return result.data.translations;
+}
 async function translateText(sourceText, sourceLanguage, targetLanguage, apiEndpoint) {
 
   if(!isNaN(sourceText)) {
@@ -149,7 +165,7 @@ async function getPartsOfSpeech(paragraph, sourceLanguage, targetLanguage, apiEn
       wt.key = key;
   
       //if(sourceLanguage !== lslLanguage && !wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
-      if(!wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
+      if(false && !wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
   
         if(!glossary.tokens.find(element => element.word.toLowerCase() === wt.word.toLowerCase())) {
           translation = await translateText(wt.word.toLowerCase(), sourceLanguage, targetLanguage, apiEndpoint);
@@ -204,7 +220,7 @@ async function getPartsOfSpeech(paragraph, sourceLanguage, targetLanguage, apiEn
       //if(sourceLanguage !== lslLanguage && !wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
       if(!wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
 
-        if(!glossary.tokens.find(element => element.word.toLowerCase() === wt.word.toLowerCase())) {
+        if(false && !glossary.tokens.find(element => element.word.toLowerCase() === wt.word.toLowerCase())) {
           translation = await translateText(wt.word.toLowerCase(), sourceLanguage, targetLanguage, apiEndpoint);
           if(translation !== undefined && translation !== '') {
             wt.translation = translation;
@@ -270,7 +286,7 @@ async function getLanguages(folder) {
 }
 
 (async () => {
-  var basePath = '/Users/josephfrance/github/Adventech/sabbath-school-lessons/src';
+  var basePath = '/Users/joefrance/github/Adventech/sabbath-school-lessons/src';
 
   if(!basePath.toString().endsWith('/')) {
     basePath += '/';
