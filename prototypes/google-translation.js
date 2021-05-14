@@ -22,7 +22,7 @@ async function translateWord(sourceLang, sourceWords, targetLang) {
     return await translate(sourceWords, { to: targetLang, from: sourceLang });
 }
 
-async function translateText(sourceText, sourceLanguage, targetLanguage, apiEndpoint = "https://translation.googleapis.com/language/translate/v2") {
+async function translateTextViaGoogle(sourceText, sourceLanguage, targetLanguage, apiEndpoint = "https://translation.googleapis.com/language/translate/v2") {
 
     var apiKey = process.env.GOOGLE_TRANSLATE_API_KEY;
 
@@ -211,7 +211,7 @@ function uniqueWords(text) {
 **Вывод**: Обетования! Как драгоценны они для верующего! Будут ли они исполнены? Ответ, исполненный веры, — да.
     `;
 
-    //text = 'Кен, назовите, назовите, пожалуйста, несколько известных книг, которые знают и читали все американцы';
+    //text = 'Какое влияние Божье обетование. Кен, назовите, назовите, пожалуйста, несколько известных книг, которые знают и читали все американцы';
 
 //     text = `
 // ПРИМЕР. Какие дела? У нас делишки. Дела у прокурора.
@@ -237,28 +237,39 @@ function uniqueWords(text) {
 
     //var translatedText = await translateWord('ru', text, 'en');
     console.log(text);
+    var tokenDictionaryPath = './data/p9n-ru-en-token-dictionary.json';
     var dict = {};
+    if(fs.existsSync(tokenDictionaryPath)) {
+        dict = JSON.parse(fs.readFileSync(tokenDictionaryPath, 'utf8'));
+    }
+    var newTokensAdded = false;
     for(var ix=0; ix < tokens.length; ix++) {
         if(tokens[ix].iscyrallic) {
             var txWord = '';
             if(dict[tokens[ix].word.toLowerCase()] === undefined) {
-                var tx = await translateText(tokens[ix].word, 'ru', 'en');
-                txWord = tx[0].translatedText;
-                dict[tokens[ix].word.toLowerCase()] = txWord;
+                newTokensAdded = true;
+                var tx = await translateTextViaGoogle(tokens[ix].word, 'ru', 'en');
+                tokens[ix].googleTranslation = tx[0].translatedText;
+                txWord = tokens[ix].googleTranslation;
+                dict[tokens[ix].word.toLowerCase()] = tokens[ix];
             } else {
-                txWord = dict[tokens[ix].word.toLowerCase()];
+                txWord = dict[tokens[ix].word.toLowerCase()].googleTranslation;
             }
-            tokens[ix].translatedWord = txWord;            
             // if(tokens[ix].stem !== tokens[ix].word) {
             //     var txStem = await translateText(tokens[ix].stem, 'ru', 'en');
             //     tokens[ix].translatedStem = txStem[0].translatedText;
             // }    
         }
-        console.log(`${tokens[ix].word} (${tokens[ix].translatedWord}) `)
+        console.log(`${tokens[ix].word} (${txWord}) `)
+    }
+    // Store dict
+    if(newTokensAdded) {
+        var json = JSON.stringify(dict, null, 2);
+        fs.writeFileSync(tokenDictionaryPath, json);
     }
     console.log(tokens);
-    var translatedText = await translateText(text, 'ru', 'en');
-    console.log(translatedText[0]);
+    //var translatedText = await translateTextViaGoogle(text, 'ru', 'en');
+    //console.log(translatedText[0]);
 })();
 
 function isCyrralic(term) {
