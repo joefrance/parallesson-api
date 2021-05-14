@@ -26,7 +26,7 @@ const lslLangDir = 'ltl';
 const rslLanguage = 'ru';
 const rslLangDir = 'ltr';
 const chapterFolder = '2021-02';
-const chapterNumber = '06';
+const chapterNumber = '07';
 const lslFolder = `/Users/joefrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/${chapterFolder}/${chapterNumber}`;
 const rslFolder = `/Users/joefrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/${chapterFolder}/${chapterNumber}`;
 const apiEndpoint = "http://localhost:5000/translate"
@@ -85,6 +85,7 @@ function getHtmlParagraphFromPos(pos) {
 
   return paragraph;
 }
+
 async function translateTextViaGoogle(sourceText, sourceLanguage, targetLanguage, apiEndpoint = "https://translation.googleapis.com/language/translate/v2") {
 
     var apiKey = process.env.GOOGLE_TRANSLATE_API_KEY;
@@ -103,6 +104,7 @@ async function translateTextViaGoogle(sourceText, sourceLanguage, targetLanguage
     var result = await res.json();
     return result.data.translations;
 }
+
 async function translateText(sourceText, sourceLanguage, targetLanguage, apiEndpoint) {
 
   if(!isNaN(sourceText)) {

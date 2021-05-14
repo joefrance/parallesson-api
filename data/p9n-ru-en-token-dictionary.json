@@ -14287,5 +14287,2470 @@
     ],
     "syllableCount": 4,
     "googleTranslation": "executed"
+  },
+  "исследования": {
+    "seq": 4,
+    "stem": "исследован",
+    "word": "исследования",
+    "jointSyllables": "и-ссле-до-ва-ни-я",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "ссле",
+      "до",
+      "ва",
+      "ни",
+      "я"
+    ],
+    "syllableCount": 6,
+    "googleTranslation": "research"
+  },
+  "ос": {
+    "seq": 7,
+    "stem": "ос",
+    "word": "ос",
+    "jointSyllables": "ос",
+    "iscyrallic": true,
+    "syllables": [
+      "ос"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "wasps"
+  },
+  "<p>памятный": {
+    "seq": 24,
+    "stem": "<p>памятн",
+    "word": "<p>памятный",
+    "jointSyllables": "<p>па-мя-тный",
+    "iscyrallic": true,
+    "syllables": [
+      "<p>па",
+      "мя",
+      "тный"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "<p>memorable"
+  },
+  "стих<p>": {
+    "seq": 25,
+    "stem": "стих<p>",
+    "word": "стих<p>",
+    "jointSyllables": "стих<p>",
+    "iscyrallic": true,
+    "syllables": [
+      "стих<p>"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "verse<p>"
+  },
+  "египтянам": {
+    "seq": 32,
+    "stem": "египтян",
+    "word": "египтянам",
+    "jointSyllables": "е-ги-птя-нам",
+    "iscyrallic": true,
+    "syllables": [
+      "е",
+      "ги",
+      "птя",
+      "нам"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "Egyptians"
+  },
+  "носил": {
+    "seq": 36,
+    "stem": "нос",
+    "word": "носил",
+    "jointSyllables": "но-сил",
+    "iscyrallic": true,
+    "syllables": [
+      "но",
+      "сил"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "wore"
+  },
+  "вас": {
+    "seq": 37,
+    "stem": "вас",
+    "word": "вас",
+    "jointSyllables": "вас",
+    "iscyrallic": true,
+    "syllables": [
+      "вас"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "you"
+  },
+  "орлиных": {
+    "seq": 41,
+    "stem": "орлин",
+    "word": "орлиных",
+    "jointSyllables": "ор-ли-ных",
+    "iscyrallic": true,
+    "syllables": [
+      "ор",
+      "ли",
+      "ных"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "eagle"
+  },
+  "крыльях": {
+    "seq": 42,
+    "stem": "крыл",
+    "word": "крыльях",
+    "jointSyllables": "крыль-ях",
+    "iscyrallic": true,
+    "syllables": [
+      "крыль",
+      "ях"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "wings"
+  },
+  "принес": {
+    "seq": 44,
+    "stem": "принес",
+    "word": "принес",
+    "jointSyllables": "при-нес",
+    "iscyrallic": true,
+    "syllables": [
+      "при",
+      "нес"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "brought"
+  },
+  "ключевые": {
+    "seq": 50,
+    "stem": "ключев",
+    "word": "ключевые",
+    "jointSyllables": "клю-че-вы-е",
+    "iscyrallic": true,
+    "syllables": [
+      "клю",
+      "че",
+      "вы",
+      "е"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "key"
+  },
+  "образы": {
+    "seq": 53,
+    "stem": "образ",
+    "word": "образы",
+    "jointSyllables": "о-бра-зы",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "бра",
+      "зы"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "images"
+  },
+  "использовал": {
+    "seq": 54,
+    "stem": "использова",
+    "word": "использовал",
+    "jointSyllables": "и-споль-зо-вал",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "споль",
+      "зо",
+      "вал"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "used"
+  },
+  "израилем": {
+    "seq": 61,
+    "stem": "израил",
+    "word": "израилем",
+    "jointSyllables": "и-зра-и-лем",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "зра",
+      "и",
+      "лем"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "israel"
+  },
+  "существуют": {
+    "seq": 63,
+    "stem": "существуют",
+    "word": "существуют",
+    "jointSyllables": "су-ще-ству-ют",
+    "iscyrallic": true,
+    "syllables": [
+      "су",
+      "ще",
+      "ству",
+      "ют"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "exist"
+  },
+  "историей": {
+    "seq": 66,
+    "stem": "истор",
+    "word": "историей",
+    "jointSyllables": "и-сто-ри-ей",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "сто",
+      "ри",
+      "ей"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "history"
+  },
+  "исходе": {
+    "seq": 68,
+    "stem": "исход",
+    "word": "исходе",
+    "jointSyllables": "и-схо-де",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "схо",
+      "де"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "the outcome"
+  },
+  "синае": {
+    "seq": 70,
+    "stem": "сина",
+    "word": "синае",
+    "jointSyllables": "си-на-е",
+    "iscyrallic": true,
+    "syllables": [
+      "си",
+      "на",
+      "е"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "sinai"
+  },
+  "нашим": {
+    "seq": 72,
+    "stem": "наш",
+    "word": "нашим",
+    "jointSyllables": "на-шим",
+    "iscyrallic": true,
+    "syllables": [
+      "на",
+      "шим"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "our"
+  },
+  "личным": {
+    "seq": 73,
+    "stem": "личн",
+    "word": "личным",
+    "jointSyllables": "ли-чным",
+    "iscyrallic": true,
+    "syllables": [
+      "ли",
+      "чным"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "personal"
+  },
+  "спасением": {
+    "seq": 74,
+    "stem": "спасен",
+    "word": "спасением",
+    "jointSyllables": "спа-се-ни-ем",
+    "iscyrallic": true,
+    "syllables": [
+      "спа",
+      "се",
+      "ни",
+      "ем"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "salvation"
+  },
+  "какова": {
+    "seq": 75,
+    "stem": "каков",
+    "word": "какова",
+    "jointSyllables": "ка-ко-ва",
+    "iscyrallic": true,
+    "syllables": [
+      "ка",
+      "ко",
+      "ва"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "what is"
+  },
+  "роль": {
+    "seq": 77,
+    "stem": "рол",
+    "word": "роль",
+    "jointSyllables": "роль",
+    "iscyrallic": true,
+    "syllables": [
+      "роль"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "role"
+  },
+  "закона": {
+    "seq": 78,
+    "stem": "закон",
+    "word": "закона",
+    "jointSyllables": "за-ко-на",
+    "iscyrallic": true,
+    "syllables": [
+      "за",
+      "ко",
+      "на"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "of the law"
+  },
+  "синайском": {
+    "seq": 80,
+    "stem": "синайск",
+    "word": "синайском",
+    "jointSyllables": "си-най-ском",
+    "iscyrallic": true,
+    "syllables": [
+      "си",
+      "най",
+      "ском"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "Sinai"
+  },
+  "завете": {
+    "seq": 81,
+    "stem": "завет",
+    "word": "завете",
+    "jointSyllables": "за-ве-те",
+    "iscyrallic": true,
+    "syllables": [
+      "за",
+      "ве",
+      "те"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "covenant"
+  },
+  "маленьким": {
+    "seq": 83,
+    "stem": "маленьк",
+    "word": "маленьким",
+    "jointSyllables": "ма-лень-ким",
+    "iscyrallic": true,
+    "syllables": [
+      "ма",
+      "лень",
+      "ким"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "small"
+  },
+  "мальчиком": {
+    "seq": 84,
+    "stem": "мальчик",
+    "word": "мальчиком",
+    "jointSyllables": "маль-чи-ком",
+    "iscyrallic": true,
+    "syllables": [
+      "маль",
+      "чи",
+      "ком"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "boy"
+  },
+  "одним": {
+    "seq": 85,
+    "stem": "одн",
+    "word": "одним",
+    "jointSyllables": "о-дним",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "дним"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "one"
+  },
+  "семи": {
+    "seq": 87,
+    "stem": "сем",
+    "word": "семи",
+    "jointSyllables": "се-ми",
+    "iscyrallic": true,
+    "syllables": [
+      "се",
+      "ми"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "seven"
+  },
+  "детей": {
+    "seq": 88,
+    "stem": "дет",
+    "word": "детей",
+    "jointSyllables": "де-тей",
+    "iscyrallic": true,
+    "syllables": [
+      "де",
+      "тей"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "children"
+  },
+  "многодетной": {
+    "seq": 90,
+    "stem": "многодетн",
+    "word": "многодетной",
+    "jointSyllables": "мно-го-де-тной",
+    "iscyrallic": true,
+    "syllables": [
+      "мно",
+      "го",
+      "де",
+      "тной"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "large"
+  },
+  "семье": {
+    "seq": 91,
+    "stem": "сем",
+    "word": "семье",
+    "jointSyllables": "семь-е",
+    "iscyrallic": true,
+    "syllables": [
+      "семь",
+      "е"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "family"
+  },
+  "несчастный": {
+    "seq": 93,
+    "stem": "несчастн",
+    "word": "несчастный",
+    "jointSyllables": "не-сча-стный",
+    "iscyrallic": true,
+    "syllables": [
+      "не",
+      "сча",
+      "стный"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "unhappy"
+  },
+  "случай": {
+    "seq": 94,
+    "stem": "случа",
+    "word": "случай",
+    "jointSyllables": "слу-чай",
+    "iscyrallic": true,
+    "syllables": [
+      "слу",
+      "чай"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "happening"
+  },
+  "доставили": {
+    "seq": 97,
+    "stem": "достав",
+    "word": "доставили",
+    "jointSyllables": "до-ста-ви-ли",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "ста",
+      "ви",
+      "ли"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "delivered"
+  },
+  "больницу": {
+    "seq": 99,
+    "stem": "больниц",
+    "word": "больницу",
+    "jointSyllables": "боль-ни-цу",
+    "iscyrallic": true,
+    "syllables": [
+      "боль",
+      "ни",
+      "цу"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "the hospital"
+  },
+  "доме": {
+    "seq": 102,
+    "stem": "дом",
+    "word": "доме",
+    "jointSyllables": "до-ме",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "ме"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "home"
+  },
+  "редко": {
+    "seq": 103,
+    "stem": "редк",
+    "word": "редко",
+    "jointSyllables": "ре-дко",
+    "iscyrallic": true,
+    "syllables": [
+      "ре",
+      "дко"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "seldom"
+  },
+  "бывало": {
+    "seq": 104,
+    "stem": "быва",
+    "word": "бывало",
+    "jointSyllables": "бы-ва-ло",
+    "iscyrallic": true,
+    "syllables": [
+      "бы",
+      "ва",
+      "ло"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "used to"
+  },
+  "чеголибо": {
+    "seq": 105,
+    "stem": "чеголиб",
+    "word": "чеголибо",
+    "jointSyllables": "че-го-ли-бо",
+    "iscyrallic": true,
+    "syllables": [
+      "че",
+      "го",
+      "ли",
+      "бо"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "anything"
+  },
+  "достатке": {
+    "seq": 107,
+    "stem": "достатк",
+    "word": "достатке",
+    "jointSyllables": "до-ста-тке",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "ста",
+      "тке"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "wealth"
+  },
+  "доставалось": {
+    "seq": 111,
+    "stem": "достава",
+    "word": "доставалось",
+    "jointSyllables": "до-ста-ва-лось",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "ста",
+      "ва",
+      "лось"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "got"
+  },
+  "половина": {
+    "seq": 114,
+    "stem": "половин",
+    "word": "половина",
+    "jointSyllables": "по-ло-ви-на",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "ло",
+      "ви",
+      "на"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "half"
+  },
+  "стакана": {
+    "seq": 115,
+    "stem": "стака",
+    "word": "стакана",
+    "jointSyllables": "ста-ка-на",
+    "iscyrallic": true,
+    "syllables": [
+      "ста",
+      "ка",
+      "на"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "glasses"
+  },
+  "молока": {
+    "seq": 116,
+    "stem": "молок",
+    "word": "молока",
+    "jointSyllables": "мо-ло-ка",
+    "iscyrallic": true,
+    "syllables": [
+      "мо",
+      "ло",
+      "ка"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "milk"
+  },
+  "стакан": {
+    "seq": 118,
+    "stem": "стака",
+    "word": "стакан",
+    "jointSyllables": "ста-кан",
+    "iscyrallic": true,
+    "syllables": [
+      "ста",
+      "кан"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "glass"
+  },
+  "полон": {
+    "seq": 120,
+    "stem": "полон",
+    "word": "полон",
+    "jointSyllables": "по-лон",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "лон"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "full"
+  },
+  "делили": {
+    "seq": 122,
+    "stem": "дел",
+    "word": "делили",
+    "jointSyllables": "де-ли-ли",
+    "iscyrallic": true,
+    "syllables": [
+      "де",
+      "ли",
+      "ли"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "shared"
+  },
+  "двоих": {
+    "seq": 124,
+    "stem": "дво",
+    "word": "двоих",
+    "jointSyllables": "дво-их",
+    "iscyrallic": true,
+    "syllables": [
+      "дво",
+      "их"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "two"
+  },
+  "пил": {
+    "seq": 129,
+    "stem": "пил",
+    "word": "пил",
+    "jointSyllables": "пил",
+    "iscyrallic": true,
+    "syllables": [
+      "пил"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "drank"
+  },
+  "первым": {
+    "seq": 130,
+    "stem": "перв",
+    "word": "первым",
+    "jointSyllables": "пер-вым",
+    "iscyrallic": true,
+    "syllables": [
+      "пер",
+      "вым"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "the first"
+  },
+  "осторожным": {
+    "seq": 134,
+    "stem": "осторожн",
+    "word": "осторожным",
+    "jointSyllables": "о-сто-ро-жным",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "сто",
+      "ро",
+      "жным"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "careful"
+  },
+  "выпить": {
+    "seq": 137,
+    "stem": "вып",
+    "word": "выпить",
+    "jointSyllables": "вы-пить",
+    "iscyrallic": true,
+    "syllables": [
+      "вы",
+      "пить"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "drink up"
+  },
+  "слишком": {
+    "seq": 138,
+    "stem": "слишк",
+    "word": "слишком",
+    "jointSyllables": "сли-шком",
+    "iscyrallic": true,
+    "syllables": [
+      "сли",
+      "шком"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "too"
+  },
+  "малыша": {
+    "seq": 141,
+    "stem": "малыш",
+    "word": "малыша",
+    "jointSyllables": "ма-лы-ша",
+    "iscyrallic": true,
+    "syllables": [
+      "ма",
+      "лы",
+      "ша"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "toddler"
+  },
+  "устроили": {
+    "seq": 142,
+    "stem": "устро",
+    "word": "устроили",
+    "jointSyllables": "у-стро-и-ли",
+    "iscyrallic": true,
+    "syllables": [
+      "у",
+      "стро",
+      "и",
+      "ли"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "arranged"
+  },
+  "больнице": {
+    "seq": 144,
+    "stem": "больниц",
+    "word": "больнице",
+    "jointSyllables": "боль-ни-це",
+    "iscyrallic": true,
+    "syllables": [
+      "боль",
+      "ни",
+      "це"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "the hospital"
+  },
+  "медсестра": {
+    "seq": 145,
+    "stem": "медсестр",
+    "word": "медсестра",
+    "jointSyllables": "ме-дсе-стра",
+    "iscyrallic": true,
+    "syllables": [
+      "ме",
+      "дсе",
+      "стра"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "nurse"
+  },
+  "принесла": {
+    "seq": 146,
+    "stem": "принесл",
+    "word": "принесла",
+    "jointSyllables": "при-не-сла",
+    "iscyrallic": true,
+    "syllables": [
+      "при",
+      "не",
+      "сла"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "brought"
+  },
+  "большой": {
+    "seq": 148,
+    "stem": "больш",
+    "word": "большой",
+    "jointSyllables": "боль-шой",
+    "iscyrallic": true,
+    "syllables": [
+      "боль",
+      "шой"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "large"
+  },
+  "мгновений": {
+    "seq": 152,
+    "stem": "мгновен",
+    "word": "мгновений",
+    "jointSyllables": "мгно-ве-ний",
+    "iscyrallic": true,
+    "syllables": [
+      "мгно",
+      "ве",
+      "ний"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "moments"
+  },
+  "тоскливо": {
+    "seq": 154,
+    "stem": "тосклив",
+    "word": "тоскливо",
+    "jointSyllables": "то-скли-во",
+    "iscyrallic": true,
+    "syllables": [
+      "то",
+      "скли",
+      "во"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "drearily"
+  },
+  "смотрел": {
+    "seq": 155,
+    "stem": "смотрел",
+    "word": "смотрел",
+    "jointSyllables": "смо-трел",
+    "iscyrallic": true,
+    "syllables": [
+      "смо",
+      "трел"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "looked"
+  },
+  "помня": {
+    "seq": 160,
+    "stem": "помн",
+    "word": "помня",
+    "jointSyllables": "пом-ня",
+    "iscyrallic": true,
+    "syllables": [
+      "пом",
+      "ня"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "remembering"
+  },
+  "нужде": {
+    "seq": 162,
+    "stem": "нужд",
+    "word": "нужде",
+    "jointSyllables": "ну-жде",
+    "iscyrallic": true,
+    "syllables": [
+      "ну",
+      "жде"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "need"
+  },
+  "царившей": {
+    "seq": 163,
+    "stem": "цар",
+    "word": "царившей",
+    "jointSyllables": "ца-ри-вшей",
+    "iscyrallic": true,
+    "syllables": [
+      "ца",
+      "ри",
+      "вшей"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "reigning"
+  },
+  "дома": {
+    "seq": 164,
+    "stem": "дом",
+    "word": "дома",
+    "jointSyllables": "до-ма",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "ма"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "at home"
+  },
+  "спросил": {
+    "seq": 165,
+    "stem": "спрос",
+    "word": "спросил",
+    "jointSyllables": "спро-сил",
+    "iscyrallic": true,
+    "syllables": [
+      "спро",
+      "сил"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "asked"
+  },
+  "сколько": {
+    "seq": 166,
+    "stem": "скольк",
+    "word": "сколько",
+    "jointSyllables": "сколь-ко",
+    "iscyrallic": true,
+    "syllables": [
+      "сколь",
+      "ко"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "how much"
+  },
+  "отпить": {
+    "seq": 169,
+    "stem": "отп",
+    "word": "отпить",
+    "jointSyllables": "о-тпить",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "тпить"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "have a drink"
+  },
+  "слезами": {
+    "seq": 172,
+    "stem": "слез",
+    "word": "слезами",
+    "jointSyllables": "сле-за-ми",
+    "iscyrallic": true,
+    "syllables": [
+      "сле",
+      "за",
+      "ми"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "tears"
+  },
+  "глазах": {
+    "seq": 174,
+    "stem": "глаз",
+    "word": "глазах",
+    "jointSyllables": "гла-зах",
+    "iscyrallic": true,
+    "syllables": [
+      "гла",
+      "зах"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "eyes"
+  },
+  "комом": {
+    "seq": 177,
+    "stem": "ком",
+    "word": "комом",
+    "jointSyllables": "ко-мом",
+    "iscyrallic": true,
+    "syllables": [
+      "ко",
+      "мом"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "lumpy"
+  },
+  "горле": {
+    "seq": 179,
+    "stem": "горл",
+    "word": "горле",
+    "jointSyllables": "гор-ле",
+    "iscyrallic": true,
+    "syllables": [
+      "гор",
+      "ле"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "throat"
+  },
+  "выпей": {
+    "seq": 181,
+    "stem": "вып",
+    "word": "выпей",
+    "jointSyllables": "вы-пей",
+    "iscyrallic": true,
+    "syllables": [
+      "вы",
+      "пей"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "have a drink"
+  },
+  "малыш": {
+    "seq": 183,
+    "stem": "малыш",
+    "word": "малыш",
+    "jointSyllables": "ма-лыш",
+    "iscyrallic": true,
+    "syllables": [
+      "ма",
+      "лыш"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "kid"
+  },
+  "подобно": {
+    "seq": 198,
+    "stem": "подобн",
+    "word": "подобно",
+    "jointSyllables": "по-до-бно",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "до",
+      "бно"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "like"
+  },
+  "этому": {
+    "seq": 199,
+    "stem": "эт",
+    "word": "этому",
+    "jointSyllables": "э-то-му",
+    "iscyrallic": true,
+    "syllables": [
+      "э",
+      "то",
+      "му"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "this"
+  },
+  "мальчику": {
+    "seq": 200,
+    "stem": "мальчик",
+    "word": "мальчику",
+    "jointSyllables": "маль-чи-ку",
+    "iscyrallic": true,
+    "syllables": [
+      "маль",
+      "чи",
+      "ку"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "boy"
+  },
+  "древнего": {
+    "seq": 202,
+    "stem": "древн",
+    "word": "древнего",
+    "jointSyllables": "дре-вне-го",
+    "iscyrallic": true,
+    "syllables": [
+      "дре",
+      "вне",
+      "го"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "ancient"
+  },
+  "преимущество": {
+    "seq": 209,
+    "stem": "преимуществ",
+    "word": "преимущество",
+    "jointSyllables": "пре-и-му-ще-ство",
+    "iscyrallic": true,
+    "syllables": [
+      "пре",
+      "и",
+      "му",
+      "ще",
+      "ство"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "advantage"
+  },
+  "пить": {
+    "seq": 211,
+    "stem": "пит",
+    "word": "пить",
+    "jointSyllables": "пить",
+    "iscyrallic": true,
+    "syllables": [
+      "пить"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "drink"
+  },
+  "вдоволь": {
+    "seq": 212,
+    "stem": "вдовол",
+    "word": "вдоволь",
+    "jointSyllables": "вдо-воль",
+    "iscyrallic": true,
+    "syllables": [
+      "вдо",
+      "воль"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "enough"
+  },
+  "колодца": {
+    "seq": 214,
+    "stem": "колодц",
+    "word": "колодца",
+    "jointSyllables": "ко-ло-дца",
+    "iscyrallic": true,
+    "syllables": [
+      "ко",
+      "ло",
+      "дца"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "wells"
+  },
+  "спасения": {
+    "seq": 215,
+    "stem": "спасен",
+    "word": "спасения",
+    "jointSyllables": "спа-се-ни-я",
+    "iscyrallic": true,
+    "syllables": [
+      "спа",
+      "се",
+      "ни",
+      "я"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "salvation"
+  },
+  "избавление": {
+    "seq": 216,
+    "stem": "избавлен",
+    "word": "избавление",
+    "jointSyllables": "и-зба-вле-ни-е",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "зба",
+      "вле",
+      "ни",
+      "е"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "deliverance"
+  },
+  "многовекового": {
+    "seq": 219,
+    "stem": "многовеков",
+    "word": "многовекового",
+    "jointSyllables": "мно-го-ве-ко-во-го",
+    "iscyrallic": true,
+    "syllables": [
+      "мно",
+      "го",
+      "ве",
+      "ко",
+      "во",
+      "го"
+    ],
+    "syllableCount": 6,
+    "googleTranslation": "centuries-old"
+  },
+  "рабства": {
+    "seq": 220,
+    "stem": "рабств",
+    "word": "рабства",
+    "jointSyllables": "ра-бства",
+    "iscyrallic": true,
+    "syllables": [
+      "ра",
+      "бства"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "slavery"
+  },
+  "угнетения": {
+    "seq": 222,
+    "stem": "угнетен",
+    "word": "угнетения",
+    "jointSyllables": "у-гне-те-ни-я",
+    "iscyrallic": true,
+    "syllables": [
+      "у",
+      "гне",
+      "те",
+      "ни",
+      "я"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "oppression"
+  },
+  "чудесным": {
+    "seq": 224,
+    "stem": "чудесн",
+    "word": "чудесным",
+    "jointSyllables": "чу-де-сным",
+    "iscyrallic": true,
+    "syllables": [
+      "чу",
+      "де",
+      "сным"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "wonderful"
+  },
+  "проявлением": {
+    "seq": 225,
+    "stem": "проявлен",
+    "word": "проявлением",
+    "jointSyllables": "про-я-вле-ни-ем",
+    "iscyrallic": true,
+    "syllables": [
+      "про",
+      "я",
+      "вле",
+      "ни",
+      "ем"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "manifestation"
+  },
+  "благодати": {
+    "seq": 226,
+    "stem": "благодат",
+    "word": "благодати",
+    "jointSyllables": "бла-го-да-ти",
+    "iscyrallic": true,
+    "syllables": [
+      "бла",
+      "го",
+      "да",
+      "ти"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "grace"
+  },
+  "божьей": {
+    "seq": 227,
+    "stem": "бож",
+    "word": "божьей",
+    "jointSyllables": "божь-ей",
+    "iscyrallic": true,
+    "syllables": [
+      "божь",
+      "ей"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "god&#39;s"
+  },
+  "подобным": {
+    "seq": 228,
+    "stem": "подобн",
+    "word": "подобным",
+    "jointSyllables": "по-до-бным",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "до",
+      "бным"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "like"
+  },
+  "участвует": {
+    "seq": 233,
+    "stem": "участв",
+    "word": "участвует",
+    "jointSyllables": "у-ча-ству-ет",
+    "iscyrallic": true,
+    "syllables": [
+      "у",
+      "ча",
+      "ству",
+      "ет"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "participates"
+  },
+  "нашем": {
+    "seq": 235,
+    "stem": "наш",
+    "word": "нашем",
+    "jointSyllables": "на-шем",
+    "iscyrallic": true,
+    "syllables": [
+      "на",
+      "шем"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "our"
+  },
+  "собственном": {
+    "seq": 236,
+    "stem": "собствен",
+    "word": "собственном",
+    "jointSyllables": "со-бстве-нном",
+    "iscyrallic": true,
+    "syllables": [
+      "со",
+      "бстве",
+      "нном"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "own"
+  },
+  "освобождении": {
+    "seq": 237,
+    "stem": "освобожден",
+    "word": "освобождении",
+    "jointSyllables": "о-сво-бо-жде-ни-и",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "сво",
+      "бо",
+      "жде",
+      "ни",
+      "и"
+    ],
+    "syllableCount": 6,
+    "googleTranslation": "liberation"
+  },
+  "дополнительного": {
+    "seq": 241,
+    "stem": "дополнительн",
+    "word": "дополнительного",
+    "jointSyllables": "до-пол-ни-тель-но-го",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "пол",
+      "ни",
+      "тель",
+      "но",
+      "го"
+    ],
+    "syllableCount": 6,
+    "googleTranslation": "additional"
+  },
+  "чтения": {
+    "seq": 242,
+    "stem": "чтен",
+    "word": "чтения",
+    "jointSyllables": "чте-ни-я",
+    "iscyrallic": true,
+    "syllables": [
+      "чте",
+      "ни",
+      "я"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "reading"
+  },
+  "избранные": {
+    "seq": 243,
+    "stem": "избра",
+    "word": "избранные",
+    "jointSyllables": "и-збра-нны-е",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "збра",
+      "нны",
+      "е"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "the chosen"
+  },
+  "цитаты": {
+    "seq": 244,
+    "stem": "цитат",
+    "word": "цитаты",
+    "jointSyllables": "ци-та-ты",
+    "iscyrallic": true,
+    "syllables": [
+      "ци",
+      "та",
+      "ты"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "quotes"
+  },
+  "эллен": {
+    "seq": 245,
+    "stem": "элл",
+    "word": "эллен",
+    "jointSyllables": "э-ллен",
+    "iscyrallic": true,
+    "syllables": [
+      "э",
+      "ллен"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "Ellen"
+  },
+  "замыслу": {
+    "seq": 249,
+    "stem": "замысл",
+    "word": "замыслу",
+    "jointSyllables": "за-мы-слу",
+    "iscyrallic": true,
+    "syllables": [
+      "за",
+      "мы",
+      "слу"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "design"
+  },
+  "божьему": {
+    "seq": 250,
+    "stem": "бож",
+    "word": "божьему",
+    "jointSyllables": "божь-е-му",
+    "iscyrallic": true,
+    "syllables": [
+      "божь",
+      "е",
+      "му"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "godly"
+  },
+  "призвана": {
+    "seq": 251,
+    "stem": "призва",
+    "word": "призвана",
+    "jointSyllables": "при-зва-на",
+    "iscyrallic": true,
+    "syllables": [
+      "при",
+      "зва",
+      "на"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "is called to"
+  },
+  "сотрудничать": {
+    "seq": 252,
+    "stem": "сотруднича",
+    "word": "сотрудничать",
+    "jointSyllables": "со-тру-дни-чать",
+    "iscyrallic": true,
+    "syllables": [
+      "со",
+      "тру",
+      "дни",
+      "чать"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "cooperate"
+  },
+  "создана": {
+    "seq": 260,
+    "stem": "созда",
+    "word": "создана",
+    "jointSyllables": "со-зда-на",
+    "iscyrallic": true,
+    "syllables": [
+      "со",
+      "зда",
+      "на"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "established"
+  },
+  "задача": {
+    "seq": 265,
+    "stem": "задач",
+    "word": "задача",
+    "jointSyllables": "за-да-ча",
+    "iscyrallic": true,
+    "syllables": [
+      "за",
+      "да",
+      "ча"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "a task"
+  },
+  "нести": {
+    "seq": 267,
+    "stem": "нест",
+    "word": "нести",
+    "jointSyllables": "не-сти",
+    "iscyrallic": true,
+    "syllables": [
+      "не",
+      "сти"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "carry"
+  },
+  "евангелие": {
+    "seq": 268,
+    "stem": "евангел",
+    "word": "евангелие",
+    "jointSyllables": "е-ван-ге-ли-е",
+    "iscyrallic": true,
+    "syllables": [
+      "е",
+      "ван",
+      "ге",
+      "ли",
+      "е"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "gospel"
+  },
+  "миру": {
+    "seq": 269,
+    "stem": "мир",
+    "word": "миру",
+    "jointSyllables": "ми-ру",
+    "iscyrallic": true,
+    "syllables": [
+      "ми",
+      "ру"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "the world"
+  },
+  "изначально": {
+    "seq": 270,
+    "stem": "изначальн",
+    "word": "изначально",
+    "jointSyllables": "и-зна-чаль-но",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "зна",
+      "чаль",
+      "но"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "initially"
+  },
+  "план": {
+    "seq": 271,
+    "stem": "план",
+    "word": "план",
+    "jointSyllables": "план",
+    "iscyrallic": true,
+    "syllables": [
+      "план"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "plan"
+  },
+  "заключался": {
+    "seq": 273,
+    "stem": "заключа",
+    "word": "заключался",
+    "jointSyllables": "за-клю-чал-ся",
+    "iscyrallic": true,
+    "syllables": [
+      "за",
+      "клю",
+      "чал",
+      "ся"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "consisted"
+  },
+  "отражала": {
+    "seq": 278,
+    "stem": "отража",
+    "word": "отражала",
+    "jointSyllables": "о-тра-жа-ла",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "тра",
+      "жа",
+      "ла"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "reflected"
+  },
+  "полноту": {
+    "seq": 282,
+    "stem": "полнот",
+    "word": "полноту",
+    "jointSyllables": "пол-но-ту",
+    "iscyrallic": true,
+    "syllables": [
+      "пол",
+      "но",
+      "ту"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "completeness"
+  },
+  "совершенство": {
+    "seq": 284,
+    "stem": "совершенств",
+    "word": "совершенство",
+    "jointSyllables": "со-вер-шен-ство",
+    "iscyrallic": true,
+    "syllables": [
+      "со",
+      "вер",
+      "шен",
+      "ство"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "perfection"
+  },
+  "членам": {
+    "seq": 285,
+    "stem": "член",
+    "word": "членам",
+    "jointSyllables": "чле-нам",
+    "iscyrallic": true,
+    "syllables": [
+      "чле",
+      "нам"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "members"
+  },
+  "людям": {
+    "seq": 287,
+    "stem": "люд",
+    "word": "людям",
+    "jointSyllables": "лю-дям",
+    "iscyrallic": true,
+    "syllables": [
+      "лю",
+      "дям"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "people"
+  },
+  "вывел": {
+    "seq": 290,
+    "stem": "вывел",
+    "word": "вывел",
+    "jointSyllables": "вы-вел",
+    "iscyrallic": true,
+    "syllables": [
+      "вы",
+      "вел"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "brought out"
+  },
+  "тьмы": {
+    "seq": 292,
+    "stem": "тьмы",
+    "word": "тьмы",
+    "jointSyllables": "ть-мы",
+    "iscyrallic": true,
+    "syllables": [
+      "ть",
+      "мы"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "darkness"
+  },
+  "чудный": {
+    "seq": 294,
+    "stem": "чудн",
+    "word": "чудный",
+    "jointSyllables": "чу-дный",
+    "iscyrallic": true,
+    "syllables": [
+      "чу",
+      "дный"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "marvelous"
+  },
+  "свет": {
+    "seq": 296,
+    "stem": "свет",
+    "word": "свет",
+    "jointSyllables": "свет",
+    "iscyrallic": true,
+    "syllables": [
+      "свет"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "shine"
+  },
+  "надлежит": {
+    "seq": 297,
+    "stem": "надлеж",
+    "word": "надлежит",
+    "jointSyllables": "на-дле-жит",
+    "iscyrallic": true,
+    "syllables": [
+      "на",
+      "дле",
+      "жит"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "should"
+  },
+  "являть": {
+    "seq": 298,
+    "stem": "явля",
+    "word": "являть",
+    "jointSyllables": "я-влять",
+    "iscyrallic": true,
+    "syllables": [
+      "я",
+      "влять"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "show"
+  },
+  "хранительница": {
+    "seq": 303,
+    "stem": "хранительниц",
+    "word": "хранительница",
+    "jointSyllables": "хра-ни-тель-ни-ца",
+    "iscyrallic": true,
+    "syllables": [
+      "хра",
+      "ни",
+      "тель",
+      "ни",
+      "ца"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "keeper"
+  },
+  "сокровищ": {
+    "seq": 304,
+    "stem": "сокровищ",
+    "word": "сокровищ",
+    "jointSyllables": "со-кро-вищ",
+    "iscyrallic": true,
+    "syllables": [
+      "со",
+      "кро",
+      "вищ"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "treasures"
+  },
+  "христовой": {
+    "seq": 306,
+    "stem": "христов",
+    "word": "христовой",
+    "jointSyllables": "хри-сто-вой",
+    "iscyrallic": true,
+    "syllables": [
+      "хри",
+      "сто",
+      "вой"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "christ&#39;s"
+  },
+  "нее": {
+    "seq": 309,
+    "stem": "не",
+    "word": "нее",
+    "jointSyllables": "не-е",
+    "iscyrallic": true,
+    "syllables": [
+      "не",
+      "е"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "her"
+  },
+  "конечном": {
+    "seq": 311,
+    "stem": "конечн",
+    "word": "конечном",
+    "jointSyllables": "ко-не-чном",
+    "iscyrallic": true,
+    "syllables": [
+      "ко",
+      "не",
+      "чном"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "the final"
+  },
+  "счете": {
+    "seq": 312,
+    "stem": "счет",
+    "word": "счете",
+    "jointSyllables": "сче-те",
+    "iscyrallic": true,
+    "syllables": [
+      "сче",
+      "те"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "account"
+  },
+  "должна": {
+    "seq": 313,
+    "stem": "должн",
+    "word": "должна",
+    "jointSyllables": "дол-жна",
+    "iscyrallic": true,
+    "syllables": [
+      "дол",
+      "жна"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "should"
+  },
+  "открыться": {
+    "seq": 314,
+    "stem": "откр",
+    "word": "открыться",
+    "jointSyllables": "о-ткрыть-ся",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "ткрыть",
+      "ся"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "open up"
+  },
+  "даже": {
+    "seq": 315,
+    "stem": "даж",
+    "word": "даже",
+    "jointSyllables": "да-же",
+    "iscyrallic": true,
+    "syllables": [
+      "да",
+      "же"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "even"
+  },
+  "начальствам": {
+    "seq": 316,
+    "stem": "начальств",
+    "word": "начальствам",
+    "jointSyllables": "на-чаль-ствам",
+    "iscyrallic": true,
+    "syllables": [
+      "на",
+      "чаль",
+      "ствам"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "authorities"
+  },
+  "властям": {
+    "seq": 318,
+    "stem": "власт",
+    "word": "властям",
+    "jointSyllables": "вла-стям",
+    "iscyrallic": true,
+    "syllables": [
+      "вла",
+      "стям"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "the authorities"
+  },
+  "небесах": {
+    "seq": 320,
+    "stem": "небес",
+    "word": "небесах",
+    "jointSyllables": "не-бе-сах",
+    "iscyrallic": true,
+    "syllables": [
+      "не",
+      "бе",
+      "сах"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "heaven"
+  },
+  "вся": {
+    "seq": 321,
+    "stem": "вся",
+    "word": "вся",
+    "jointSyllables": "вся",
+    "iscyrallic": true,
+    "syllables": [
+      "вся"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "all"
+  },
+  "полнота": {
+    "seq": 322,
+    "stem": "полнот",
+    "word": "полнота",
+    "jointSyllables": "пол-но-та",
+    "iscyrallic": true,
+    "syllables": [
+      "пол",
+      "но",
+      "та"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "fullness"
+  },
+  "любви": {
+    "seq": 323,
+    "stem": "любв",
+    "word": "любви",
+    "jointSyllables": "лю-бви",
+    "iscyrallic": true,
+    "syllables": [
+      "лю",
+      "бви"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "love"
+  },
+  "ефесянам": {
+    "seq": 325,
+    "stem": "ефесян",
+    "word": "ефесянам",
+    "jointSyllables": "е-фе-ся-нам",
+    "iscyrallic": true,
+    "syllables": [
+      "е",
+      "фе",
+      "ся",
+      "нам"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "Ephesians"
+  },
+  "mне": {
+    "seq": 329,
+    "stem": "mне",
+    "word": "mне",
+    "jointSyllables": "m-не",
+    "iscyrallic": true,
+    "syllables": [
+      "m",
+      "не"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "mnot"
+  },
+  "показан": {
+    "seq": 331,
+    "stem": "показа",
+    "word": "показан",
+    "jointSyllables": "по-ка-зан",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "ка",
+      "зан"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "shown"
+  },
+  "божий": {
+    "seq": 333,
+    "stem": "бож",
+    "word": "божий",
+    "jointSyllables": "бо-жий",
+    "iscyrallic": true,
+    "syllables": [
+      "бо",
+      "жий"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "godly"
+  },
+  "деятельностью": {
+    "seq": 338,
+    "stem": "деятельност",
+    "word": "деятельностью",
+    "jointSyllables": "де-я-тель-ность-ю",
+    "iscyrallic": true,
+    "syllables": [
+      "де",
+      "я",
+      "тель",
+      "ность",
+      "ю"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "activities"
+  },
+  "последние": {
+    "seq": 341,
+    "stem": "последн",
+    "word": "последние",
+    "jointSyllables": "по-сле-дни-е",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "сле",
+      "дни",
+      "е"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "the last"
+  },
+  "видела": {
+    "seq": 344,
+    "stem": "видел",
+    "word": "видела",
+    "jointSyllables": "ви-де-ла",
+    "iscyrallic": true,
+    "syllables": [
+      "ви",
+      "де",
+      "ла"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "saw"
+  },
+  "соблюдающие": {
+    "seq": 347,
+    "stem": "соблюда",
+    "word": "соблюдающие",
+    "jointSyllables": "со-блю-да-ю-щи-е",
+    "iscyrallic": true,
+    "syllables": [
+      "со",
+      "блю",
+      "да",
+      "ю",
+      "щи",
+      "е"
+    ],
+    "syllableCount": 6,
+    "googleTranslation": "observing"
+  },
+  "субботу": {
+    "seq": 348,
+    "stem": "суббот",
+    "word": "субботу",
+    "jointSyllables": "су-ббо-ту",
+    "iscyrallic": true,
+    "syllables": [
+      "су",
+      "ббо",
+      "ту"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "saturday"
+  },
+  "лишатся": {
+    "seq": 349,
+    "stem": "лишат",
+    "word": "лишатся",
+    "jointSyllables": "ли-ша-тся",
+    "iscyrallic": true,
+    "syllables": [
+      "ли",
+      "ша",
+      "тся"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "lose"
+  },
+  "извлекают": {
+    "seq": 356,
+    "stem": "извлека",
+    "word": "извлекают",
+    "jointSyllables": "и-звле-ка-ют",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "звле",
+      "ка",
+      "ют"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "retrieve"
+  },
+  "уроков": {
+    "seq": 357,
+    "stem": "урок",
+    "word": "уроков",
+    "jointSyllables": "у-ро-ков",
+    "iscyrallic": true,
+    "syllables": [
+      "у",
+      "ро",
+      "ков"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "lessons"
+  },
+  "печальных": {
+    "seq": 359,
+    "stem": "печальн",
+    "word": "печальных",
+    "jointSyllables": "пе-чаль-ных",
+    "iscyrallic": true,
+    "syllables": [
+      "пе",
+      "чаль",
+      "ных"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "sad"
+  },
+  "опытов": {
+    "seq": 360,
+    "stem": "опыт",
+    "word": "опытов",
+    "jointSyllables": "о-пы-тов",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "пы",
+      "тов"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "experiences"
+  },
+  "израилевых": {
+    "seq": 362,
+    "stem": "израилев",
+    "word": "израилевых",
+    "jointSyllables": "и-зра-и-ле-вых",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "зра",
+      "и",
+      "ле",
+      "вых"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "Israeli"
+  },
+  "порабощают": {
+    "seq": 365,
+    "stem": "порабоща",
+    "word": "порабощают",
+    "jointSyllables": "по-ра-бо-ща-ют",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "ра",
+      "бо",
+      "ща",
+      "ют"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "enslave"
+  },
+  "самые": {
+    "seq": 368,
+    "stem": "сам",
+    "word": "самые",
+    "jointSyllables": "са-мы-е",
+    "iscyrallic": true,
+    "syllables": [
+      "са",
+      "мы",
+      "е"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "the most"
+  },
+  "пороки": {
+    "seq": 369,
+    "stem": "порок",
+    "word": "пороки",
+    "jointSyllables": "по-ро-ки",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "ро",
+      "ки"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "vices"
+  },
+  "избавятся": {
+    "seq": 373,
+    "stem": "избав",
+    "word": "избавятся",
+    "jointSyllables": "и-зба-вя-тся",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "зба",
+      "вя",
+      "тся"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "get rid of"
+  },
+  "своих": {
+    "seq": 375,
+    "stem": "сво",
+    "word": "своих",
+    "jointSyllables": "сво-их",
+    "iscyrallic": true,
+    "syllables": [
+      "сво",
+      "их"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "their"
+  },
+  "грехов": {
+    "seq": 376,
+    "stem": "грех",
+    "word": "грехов",
+    "jointSyllables": "гре-хов",
+    "iscyrallic": true,
+    "syllables": [
+      "гре",
+      "хов"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "sins"
+  },
+  "падут": {
+    "seq": 378,
+    "stem": "падут",
+    "word": "падут",
+    "jointSyllables": "па-дут",
+    "iscyrallic": true,
+    "syllables": [
+      "па",
+      "дут"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "fall"
+  },
+  "израильтяне": {
+    "seq": 381,
+    "stem": "израильтян",
+    "word": "израильтяне",
+    "jointSyllables": "и-зра-иль-тя-не",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "зра",
+      "иль",
+      "тя",
+      "не"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "israelis"
+  },
+  "войдут": {
+    "seq": 385,
+    "stem": "войдут",
+    "word": "войдут",
+    "jointSyllables": "вой-дут",
+    "iscyrallic": true,
+    "syllables": [
+      "вой",
+      "дут"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "will enter"
+  },
+  "небесный": {
+    "seq": 387,
+    "stem": "небесн",
+    "word": "небесный",
+    "jointSyllables": "не-бе-сный",
+    "iscyrallic": true,
+    "syllables": [
+      "не",
+      "бе",
+      "сный"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "heavenly"
+  },
+  "происходило": {
+    "seq": 391,
+    "stem": "происход",
+    "word": "происходило",
+    "jointSyllables": "про-и-схо-ди-ло",
+    "iscyrallic": true,
+    "syllables": [
+      "про",
+      "и",
+      "схо",
+      "ди",
+      "ло"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "was happening"
+  },
+  "ними": {
+    "seq": 393,
+    "stem": "ним",
+    "word": "ними",
+    "jointSyllables": "ни-ми",
+    "iscyrallic": true,
+    "syllables": [
+      "ни",
+      "ми"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "them"
+  },
+  "описано": {
+    "seq": 397,
+    "stem": "описа",
+    "word": "описано",
+    "jointSyllables": "о-пи-са-но",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "пи",
+      "са",
+      "но"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "described"
+  },
+  "наставление": {
+    "seq": 399,
+    "stem": "наставлен",
+    "word": "наставление",
+    "jointSyllables": "на-ста-вле-ни-е",
+    "iscyrallic": true,
+    "syllables": [
+      "на",
+      "ста",
+      "вле",
+      "ни",
+      "е"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "admonition"
+  },
+  "достигшим": {
+    "seq": 401,
+    "stem": "достигш",
+    "word": "достигшим",
+    "jointSyllables": "до-сти-гшим",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "сти",
+      "гшим"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "reached"
+  },
+  "последних": {
+    "seq": 402,
+    "stem": "последн",
+    "word": "последних",
+    "jointSyllables": "по-сле-дних",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "сле",
+      "дних"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "the last"
+  },
+  "коринфянам": {
+    "seq": 405,
+    "stem": "коринфян",
+    "word": "коринфянам",
+    "jointSyllables": "ко-рин-фя-нам",
+    "iscyrallic": true,
+    "syllables": [
+      "ко",
+      "рин",
+      "фя",
+      "нам"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "Corinthians"
+  },
+  "1сц": {
+    "seq": 407,
+    "stem": "1сц",
+    "word": "1сц",
+    "jointSyllables": null,
+    "iscyrallic": true,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "1sc"
+  },
+  "памятный": {
+    "seq": 23,
+    "stem": "памятн",
+    "word": "памятный",
+    "jointSyllables": "па-мя-тный",
+    "iscyrallic": true,
+    "syllables": [
+      "па",
+      "мя",
+      "тный"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "memorable"
+  },
+  "стих": {
+    "seq": 24,
+    "stem": "стих",
+    "word": "стих",
+    "jointSyllables": "стих",
+    "iscyrallic": true,
+    "syllables": [
+      "стих"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "verse"
   }
 }

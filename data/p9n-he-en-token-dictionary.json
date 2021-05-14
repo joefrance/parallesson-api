@@ -1,0 +1,8992 @@
+{
+  "אַתֶּם": {
+    "seq": 1,
+    "stem": "אַתֶּם",
+    "word": "אַתֶּם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "you"
+  },
+  "רְאִיתֶם": {
+    "seq": 2,
+    "stem": "רְאִיתֶם",
+    "word": "רְאִיתֶם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "You saw"
+  },
+  "אֲשֶׁר": {
+    "seq": 3,
+    "stem": "אֲשֶׁר",
+    "word": "אֲשֶׁר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "which"
+  },
+  "עָשִׂיתִי": {
+    "seq": 4,
+    "stem": "עָשִׂיתִי",
+    "word": "עָשִׂיתִי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "I did"
+  },
+  "לְמִצְרָיִם": {
+    "seq": 5,
+    "stem": "לְמִצְרָיִם",
+    "word": "לְמִצְרָיִם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To Egypt"
+  },
+  "וָאֶשָּׂא": {
+    "seq": 6,
+    "stem": "וָאֶשָּׂא",
+    "word": "וָאֶשָּׂא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And I will bear it"
+  },
+  "אֶתְכֶם": {
+    "seq": 7,
+    "stem": "אֶתְכֶם",
+    "word": "אֶתְכֶם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "you"
+  },
+  "עַלכַּנְפֵי": {
+    "seq": 8,
+    "stem": "עַלכַּנְפֵי",
+    "word": "עַלכַּנְפֵי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "On the wings"
+  },
+  "נְשָׁרִים": {
+    "seq": 9,
+    "stem": "נְשָׁרִים",
+    "word": "נְשָׁרִים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Eagles"
+  },
+  "וָאָבִא": {
+    "seq": 10,
+    "stem": "וָאָבִא",
+    "word": "וָאָבִא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And father"
+  },
+  "אֵלָי": {
+    "seq": 12,
+    "stem": "אֵלָי",
+    "word": "אֵלָי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "to me"
+  },
+  "שמות": {
+    "seq": 13,
+    "stem": "שמות",
+    "word": "שמות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Names"
+  },
+  "ילד": {
+    "seq": 15,
+    "stem": "ילד",
+    "word": "ילד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Boy"
+  },
+  "קטן": {
+    "seq": 16,
+    "stem": "קטן",
+    "word": "קטן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Little"
+  },
+  "אחד": {
+    "seq": 17,
+    "stem": "אחד",
+    "word": "אחד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "one"
+  },
+  "משבעה": {
+    "seq": 18,
+    "stem": "משבעה",
+    "word": "משבעה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "From seven"
+  },
+  "ילדים": {
+    "seq": 19,
+    "stem": "ילדים",
+    "word": "ילדים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Children"
+  },
+  "היה": {
+    "seq": 20,
+    "stem": "היה",
+    "word": "היה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "There was"
+  },
+  "מעורב": {
+    "seq": 21,
+    "stem": "מעורב",
+    "word": "מעורב",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "involved"
+  },
+  "בתאונה": {
+    "seq": 22,
+    "stem": "בתאונה",
+    "word": "בתאונה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In an accident"
+  },
+  "ונלקח": {
+    "seq": 23,
+    "stem": "ונלקח",
+    "word": "ונלקח",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And taken"
+  },
+  "לבית": {
+    "seq": 24,
+    "stem": "לבית",
+    "word": "לבית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "to home"
+  },
+  "חולים": {
+    "seq": 25,
+    "stem": "חולים",
+    "word": "חולים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Patients"
+  },
+  "בביתו": {
+    "seq": 26,
+    "stem": "בביתו",
+    "word": "בביתו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In his house"
+  },
+  "מחסור": {
+    "seq": 28,
+    "stem": "מחסור",
+    "word": "מחסור",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "lack"
+  },
+  "רב": {
+    "seq": 29,
+    "stem": "רב",
+    "word": "רב",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "multi"
+  },
+  "הוא": {
+    "seq": 30,
+    "stem": "הוא",
+    "word": "הוא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "he"
+  },
+  "לעולם": {
+    "seq": 31,
+    "stem": "לעולם",
+    "word": "לעולם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "forever"
+  },
+  "לא": {
+    "seq": 32,
+    "stem": "לא",
+    "word": "לא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "No"
+  },
+  "קיבל": {
+    "seq": 33,
+    "stem": "קיבל",
+    "word": "קיבל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Received"
+  },
+  "כוס": {
+    "seq": 34,
+    "stem": "כוס",
+    "word": "כוס",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "glass"
+  },
+  "חלב": {
+    "seq": 35,
+    "stem": "חלב",
+    "word": "חלב",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "milk"
+  },
+  "אחת": {
+    "seq": 36,
+    "stem": "אחת",
+    "word": "אחת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "One"
+  },
+  "מלאה": {
+    "seq": 37,
+    "stem": "מלאה",
+    "word": "מלאה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Full"
+  },
+  "אם": {
+    "seq": 38,
+    "stem": "אם",
+    "word": "אם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "If"
+  },
+  "הכוס": {
+    "seq": 39,
+    "stem": "הכוס",
+    "word": "הכוס",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The glass"
+  },
+  "הייתה": {
+    "seq": 40,
+    "stem": "הייתה",
+    "word": "הייתה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "was"
+  },
+  "צריך": {
+    "seq": 43,
+    "stem": "צריך",
+    "word": "צריך",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Should"
+  },
+  "לחלוק": {
+    "seq": 44,
+    "stem": "לחלוק",
+    "word": "לחלוק",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "to share"
+  },
+  "אותה": {
+    "seq": 45,
+    "stem": "אותה",
+    "word": "אותה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "her"
+  },
+  "בין": {
+    "seq": 46,
+    "stem": "בין",
+    "word": "בין",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "between"
+  },
+  "שני": {
+    "seq": 47,
+    "stem": "שני",
+    "word": "שני",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Crimson"
+  },
+  "והראשון": {
+    "seq": 49,
+    "stem": "והראשון",
+    "word": "והראשון",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And the first"
+  },
+  "ששתה": {
+    "seq": 50,
+    "stem": "ששתה",
+    "word": "ששתה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Who drank"
+  },
+  "להיזהר": {
+    "seq": 53,
+    "stem": "להיזהר",
+    "word": "להיזהר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Be careful"
+  },
+  "לשתות": {
+    "seq": 55,
+    "stem": "לשתות",
+    "word": "לשתות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "drink up"
+  },
+  "יותר": {
+    "seq": 56,
+    "stem": "יותר",
+    "word": "יותר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "More"
+  },
+  "מידי": {
+    "seq": 57,
+    "stem": "מידי",
+    "word": "מידי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "from"
+  },
+  "לאחר": {
+    "seq": 58,
+    "stem": "לאחר",
+    "word": "לאחר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "to another"
+  },
+  "שהילד": {
+    "seq": 59,
+    "stem": "שהילד",
+    "word": "שהילד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "That the child"
+  },
+  "התרווח": {
+    "seq": 60,
+    "stem": "התרווח",
+    "word": "התרווח",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Relax"
+  },
+  "בבית": {
+    "seq": 61,
+    "stem": "בבית",
+    "word": "בבית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "At home"
+  },
+  "החולים": {
+    "seq": 62,
+    "stem": "החולים",
+    "word": "החולים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The patients"
+  },
+  "האחות": {
+    "seq": 63,
+    "stem": "האחות",
+    "word": "האחות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The nurse"
+  },
+  "הביאה": {
+    "seq": 64,
+    "stem": "הביאה",
+    "word": "הביאה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Brought"
+  },
+  "לו": {
+    "seq": 65,
+    "stem": "לו",
+    "word": "לו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "to him"
+  },
+  "גדולה": {
+    "seq": 68,
+    "stem": "גדולה",
+    "word": "גדולה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "greatness"
+  },
+  "הביט": {
+    "seq": 70,
+    "stem": "הביט",
+    "word": "הביט",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Looked"
+  },
+  "בכוס": {
+    "seq": 71,
+    "stem": "בכוס",
+    "word": "בכוס",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In a glass"
+  },
+  "בכמיהה": {
+    "seq": 72,
+    "stem": "בכמיהה",
+    "word": "בכמיהה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "With longing"
+  },
+  "רבה": {
+    "seq": 73,
+    "stem": "רבה",
+    "word": "רבה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Great"
+  },
+  "למשך": {
+    "seq": 74,
+    "stem": "למשך",
+    "word": "למשך",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "For"
+  },
+  "שניה": {
+    "seq": 75,
+    "stem": "שניה",
+    "word": "שניה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Watch"
+  },
+  "ואז": {
+    "seq": 76,
+    "stem": "ואז",
+    "word": "ואז",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "and then"
+  },
+  "עם": {
+    "seq": 77,
+    "stem": "עם",
+    "word": "עם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "With"
+  },
+  "זיכרון": {
+    "seq": 78,
+    "stem": "זיכרון",
+    "word": "זיכרון",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Memory"
+  },
+  "החסך": {
+    "seq": 79,
+    "stem": "החסך",
+    "word": "החסך",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The savings"
+  },
+  "שאל": {
+    "seq": 81,
+    "stem": "שאל",
+    "word": "שאל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Ask"
+  },
+  "עד": {
+    "seq": 82,
+    "stem": "עד",
+    "word": "עד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Until"
+  },
+  "לאן": {
+    "seq": 83,
+    "stem": "לאן",
+    "word": "לאן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "where"
+  },
+  "אני": {
+    "seq": 84,
+    "stem": "אני",
+    "word": "אני",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "I am"
+  },
+  "יכול": {
+    "seq": 85,
+    "stem": "יכול",
+    "word": "יכול",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Might"
+  },
+  "ענתה": {
+    "seq": 87,
+    "stem": "ענתה",
+    "word": "ענתה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "She replied"
+  },
+  "כשעינייה": {
+    "seq": 90,
+    "stem": "כשעינייה",
+    "word": "כשעינייה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "When her eyes"
+  },
+  "נוצצות": {
+    "seq": 91,
+    "stem": "נוצצות",
+    "word": "נוצצות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Sparkling"
+  },
+  "וגוש": {
+    "seq": 92,
+    "stem": "וגוש",
+    "word": "וגוש",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And a block"
+  },
+  "בגרונה": {
+    "seq": 93,
+    "stem": "בגרונה",
+    "word": "בגרונה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In her throat"
+  },
+  "תשתה": {
+    "seq": 94,
+    "stem": "תשתה",
+    "word": "תשתה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Drink"
+  },
+  "הכל": {
+    "seq": 95,
+    "stem": "הכל",
+    "word": "הכל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Everything"
+  },
+  "'": {
+    "seq": 99,
+    "stem": "'",
+    "word": "'",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "&#39;"
+  },
+  "—h": {
+    "seq": 100,
+    "stem": "—h",
+    "word": "—h",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "—H"
+  },
+  "m": {
+    "seq": 101,
+    "stem": "m",
+    "word": "m",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "m"
+  },
+  "s": {
+    "seq": 102,
+    "stem": "s",
+    "word": "s",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "s"
+  },
+  "richards": {
+    "seq": 103,
+    "stem": "richards",
+    "word": "richards",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "richards"
+  },
+  "free": {
+    "seq": 104,
+    "stem": "free",
+    "word": "free",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "free"
+  },
+  "grace": {
+    "seq": 105,
+    "stem": "grace",
+    "word": "grace",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "grace"
+  },
+  "voice": {
+    "seq": 106,
+    "stem": "voice",
+    "word": "voice",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "voice"
+  },
+  "of": {
+    "seq": 107,
+    "stem": "of",
+    "word": "of",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "of"
+  },
+  "prophecy": {
+    "seq": 108,
+    "stem": "prophecy",
+    "word": "prophecy",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "prophecy"
+  },
+  "news": {
+    "seq": 109,
+    "stem": "news",
+    "word": "news",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "news"
+  },
+  "june": {
+    "seq": 110,
+    "stem": "june",
+    "word": "june",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "june"
+  },
+  "p": {
+    "seq": 112,
+    "stem": "p",
+    "word": "p",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "p"
+  },
+  "בדומה": {
+    "seq": 114,
+    "stem": "בדומה",
+    "word": "בדומה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Similar"
+  },
+  "לילד": {
+    "seq": 115,
+    "stem": "לילד",
+    "word": "לילד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To the child"
+  },
+  "הזה": {
+    "seq": 116,
+    "stem": "הזה",
+    "word": "הזה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "this"
+  },
+  "היתה": {
+    "seq": 117,
+    "stem": "היתה",
+    "word": "היתה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "was"
+  },
+  "זו": {
+    "seq": 118,
+    "stem": "זו",
+    "word": "זו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "this"
+  },
+  "הזכות": {
+    "seq": 119,
+    "stem": "הזכות",
+    "word": "הזכות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The right"
+  },
+  "של": {
+    "seq": 120,
+    "stem": "של",
+    "word": "של",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "of"
+  },
+  "בני": {
+    "seq": 121,
+    "stem": "בני",
+    "word": "בני",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "my son"
+  },
+  "ישראל": {
+    "seq": 122,
+    "stem": "ישראל",
+    "word": "ישראל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Israel"
+  },
+  "כפי": {
+    "seq": 123,
+    "stem": "כפי",
+    "word": "כפי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "as"
+  },
+  "שהיא": {
+    "seq": 124,
+    "stem": "שהיא",
+    "word": "שהיא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "That she"
+  },
+  "זכותנו": {
+    "seq": 125,
+    "stem": "זכותנו",
+    "word": "זכותנו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Our right"
+  },
+  "כיום": {
+    "seq": 126,
+    "stem": "כיום",
+    "word": "כיום",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "currently"
+  },
+  "לרוויה": {
+    "seq": 128,
+    "stem": "לרוויה",
+    "word": "לרוויה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To saturation"
+  },
+  "מבור": {
+    "seq": 129,
+    "stem": "מבור",
+    "word": "מבור",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "From a pit"
+  },
+  "הישועה": {
+    "seq": 130,
+    "stem": "הישועה",
+    "word": "הישועה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Salvation"
+  },
+  "חירות": {
+    "seq": 131,
+    "stem": "חירות",
+    "word": "חירות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Liberty"
+  },
+  "ממאות": {
+    "seq": 134,
+    "stem": "ממאות",
+    "word": "ממאות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "From hundreds"
+  },
+  "שנות": {
+    "seq": 135,
+    "stem": "שנות",
+    "word": "שנות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Years"
+  },
+  "עבדות": {
+    "seq": 136,
+    "stem": "עבדות",
+    "word": "עבדות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "slavery"
+  },
+  "ודיכוי": {
+    "seq": 137,
+    "stem": "ודיכוי",
+    "word": "ודיכוי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And oppression"
+  },
+  "תגלית": {
+    "seq": 139,
+    "stem": "תגלית",
+    "word": "תגלית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "discovery"
+  },
+  "נפלאה": {
+    "seq": 140,
+    "stem": "נפלאה",
+    "word": "נפלאה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "wonderful"
+  },
+  "החסד": {
+    "seq": 142,
+    "stem": "החסד",
+    "word": "החסד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Grace"
+  },
+  "האלוהי": {
+    "seq": 143,
+    "stem": "האלוהי",
+    "word": "האלוהי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Divine"
+  },
+  "לכך": {
+    "seq": 145,
+    "stem": "לכך",
+    "word": "לכך",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "For that"
+  },
+  "חסד": {
+    "seq": 146,
+    "stem": "חסד",
+    "word": "חסד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "grace"
+  },
+  "אלוהי": {
+    "seq": 147,
+    "stem": "אלוהי",
+    "word": "אלוהי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Divine"
+  },
+  "בעצמאותינו": {
+    "seq": 149,
+    "stem": "בעצמאותינו",
+    "word": "בעצמאותינו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In our independence"
+  },
+  "מהחטא": {
+    "seq": 150,
+    "stem": "מהחטא",
+    "word": "מהחטא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "From sin"
+  },
+  "גם": {
+    "seq": 151,
+    "stem": "גם",
+    "word": "גם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "also"
+  },
+  "כן": {
+    "seq": 152,
+    "stem": "כן",
+    "word": "כן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Yes"
+  },
+  "הצצה": {
+    "seq": 153,
+    "stem": "הצצה",
+    "word": "הצצה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Peek"
+  },
+  "לשיעור": {
+    "seq": 154,
+    "stem": "לשיעור",
+    "word": "לשיעור",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Per lesson"
+  },
+  "השבוע": {
+    "seq": 155,
+    "stem": "השבוע",
+    "word": "השבוע",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "This week"
+  },
+  "באילו": {
+    "seq": 156,
+    "stem": "באילו",
+    "word": "באילו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In which"
+  },
+  "דימויים": {
+    "seq": 157,
+    "stem": "דימויים",
+    "word": "דימויים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Images"
+  },
+  "השתמש": {
+    "seq": 158,
+    "stem": "השתמש",
+    "word": "השתמש",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Use"
+  },
+  "האל": {
+    "seq": 159,
+    "stem": "האל",
+    "word": "האל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Hal"
+  },
+  "כדי": {
+    "seq": 160,
+    "stem": "כדי",
+    "word": "כדי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In order to"
+  },
+  "לתאר": {
+    "seq": 161,
+    "stem": "לתאר",
+    "word": "לתאר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "describe"
+  },
+  "את": {
+    "seq": 162,
+    "stem": "את",
+    "word": "את",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "You"
+  },
+  "מערכת": {
+    "seq": 163,
+    "stem": "מערכת",
+    "word": "מערכת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "editorial board"
+  },
+  "היחסים": {
+    "seq": 164,
+    "stem": "היחסים",
+    "word": "היחסים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The relationship"
+  },
+  "שלו": {
+    "seq": 165,
+    "stem": "שלו",
+    "word": "שלו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "His"
+  },
+  "דרכים": {
+    "seq": 170,
+    "stem": "דרכים",
+    "word": "דרכים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Ways"
+  },
+  "סיפורי": {
+    "seq": 171,
+    "stem": "סיפורי",
+    "word": "סיפורי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Stories"
+  },
+  "ספר": {
+    "seq": 172,
+    "stem": "ספר",
+    "word": "ספר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Book"
+  },
+  "ומעמד": {
+    "seq": 174,
+    "stem": "ומעמד",
+    "word": "ומעמד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And status"
+  },
+  "הר": {
+    "seq": 175,
+    "stem": "הר",
+    "word": "הר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Mountain"
+  },
+  "סיני": {
+    "seq": 176,
+    "stem": "סיני",
+    "word": "סיני",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Chinese"
+  },
+  "מקבילים": {
+    "seq": 177,
+    "stem": "מקבילים",
+    "word": "מקבילים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Parallels"
+  },
+  "לישועה": {
+    "seq": 178,
+    "stem": "לישועה",
+    "word": "לישועה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To salvation"
+  },
+  "אישית": {
+    "seq": 179,
+    "stem": "אישית",
+    "word": "אישית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "personally"
+  },
+  "מה": {
+    "seq": 180,
+    "stem": "מה",
+    "word": "מה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "what"
+  },
+  "תפקיד": {
+    "seq": 182,
+    "stem": "תפקיד",
+    "word": "תפקיד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "role"
+  },
+  "התורה": {
+    "seq": 183,
+    "stem": "התורה",
+    "word": "התורה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The Torah"
+  },
+  "בברית": {
+    "seq": 184,
+    "stem": "בברית",
+    "word": "בברית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In the covenant"
+  },
+  "שנכרתה": {
+    "seq": 185,
+    "stem": "שנכרתה",
+    "word": "שנכרתה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "That was cut down"
+  },
+  "בהר": {
+    "seq": 186,
+    "stem": "בהר",
+    "word": "בהר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "On Mt."
+  },
+  "למדו": {
+    "seq": 188,
+    "stem": "למדו",
+    "word": "למדו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Learn"
+  },
+  "השיעור": {
+    "seq": 190,
+    "stem": "השיעור",
+    "word": "השיעור",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "the lesson"
+  },
+  "השבועי": {
+    "seq": 191,
+    "stem": "השבועי",
+    "word": "השבועי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The weekly"
+  },
+  "לקראת": {
+    "seq": 192,
+    "stem": "לקראת",
+    "word": "לקראת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "towards"
+  },
+  "שבת": {
+    "seq": 193,
+    "stem": "שבת",
+    "word": "שבת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Sabbath"
+  },
+  "ה15": {
+    "seq": 194,
+    "stem": "ה15",
+    "word": "ה15",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "15"
+  },
+  "במאי": {
+    "seq": 195,
+    "stem": "במאי",
+    "word": "במאי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "in May"
+  },
+  "כעם": {
+    "seq": 1,
+    "stem": "כעם",
+    "word": "כעם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Chem"
+  },
+  "היו": {
+    "seq": 4,
+    "stem": "היו",
+    "word": "היו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "there were"
+  },
+  "שקועים": {
+    "seq": 5,
+    "stem": "שקועים",
+    "word": "שקועים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Recessed"
+  },
+  "בתרבות": {
+    "seq": 6,
+    "stem": "בתרבות",
+    "word": "בתרבות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In culture"
+  },
+  "האלילית": {
+    "seq": 7,
+    "stem": "האלילית",
+    "word": "האלילית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The pagan"
+  },
+  "המצרית": {
+    "seq": 8,
+    "stem": "המצרית",
+    "word": "המצרית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The Egyptian"
+  },
+  "במשך": {
+    "seq": 9,
+    "stem": "במשך",
+    "word": "במשך",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "During"
+  },
+  "מאות": {
+    "seq": 10,
+    "stem": "מאות",
+    "word": "מאות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Hundreds"
+  },
+  "שנים": {
+    "seq": 11,
+    "stem": "שנים",
+    "word": "שנים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Years"
+  },
+  "ארוכות": {
+    "seq": 12,
+    "stem": "ארוכות",
+    "word": "ארוכות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Long"
+  },
+  "וקשות": {
+    "seq": 13,
+    "stem": "וקשות",
+    "word": "וקשות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And hard"
+  },
+  "חוויה": {
+    "seq": 14,
+    "stem": "חוויה",
+    "word": "חוויה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "experience"
+  },
+  "אשר": {
+    "seq": 15,
+    "stem": "אשר",
+    "word": "אשר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "which"
+  },
+  "עמעמה": {
+    "seq": 16,
+    "stem": "עמעמה",
+    "word": "עמעמה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Emma"
+  },
+  "בהם": {
+    "seq": 17,
+    "stem": "בהם",
+    "word": "בהם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "in them"
+  },
+  "דעת": {
+    "seq": 19,
+    "stem": "דעת",
+    "word": "דעת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "knowledge"
+  },
+  "אלוהים": {
+    "seq": 20,
+    "stem": "אלוהים",
+    "word": "אלוהים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "God"
+  },
+  "רצונו": {
+    "seq": 21,
+    "stem": "רצונו",
+    "word": "רצונו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "His will"
+  },
+  "וטובו": {
+    "seq": 22,
+    "stem": "וטובו",
+    "word": "וטובו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And his goodness"
+  },
+  "כיצד": {
+    "seq": 23,
+    "stem": "כיצד",
+    "word": "כיצד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "how"
+  },
+  "ה'": {
+    "seq": 26,
+    "stem": "ה'",
+    "word": "ה'",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "God&#39;"
+  },
+  "לזכות": {
+    "seq": 27,
+    "stem": "לזכות",
+    "word": "לזכות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "win"
+  },
+  "בשנית": {
+    "seq": 29,
+    "stem": "בשנית",
+    "word": "בשנית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Again"
+  },
+  "קודם": {
+    "seq": 30,
+    "stem": "קודם",
+    "word": "קודם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "previous"
+  },
+  "כל": {
+    "seq": 31,
+    "stem": "כל",
+    "word": "כל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "all"
+  },
+  "יראה": {
+    "seq": 33,
+    "stem": "יראה",
+    "word": "יראה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "fear"
+  },
+  "אהבתו": {
+    "seq": 35,
+    "stem": "אהבתו",
+    "word": "אהבתו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "His love"
+  },
+  "הכנה": {
+    "seq": 36,
+    "stem": "הכנה",
+    "word": "הכנה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "preparation"
+  },
+  "ואמיתית": {
+    "seq": 37,
+    "stem": "ואמיתית",
+    "word": "ואמיתית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And real"
+  },
+  "לבני": {
+    "seq": 38,
+    "stem": "לבני",
+    "word": "לבני",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Livni"
+  },
+  "והוא": {
+    "seq": 40,
+    "stem": "והוא",
+    "word": "והוא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "and he"
+  },
+  "יעשה": {
+    "seq": 41,
+    "stem": "יעשה",
+    "word": "יעשה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Will"
+  },
+  "זאת": {
+    "seq": 42,
+    "stem": "זאת",
+    "word": "זאת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "this"
+  },
+  "דרך": {
+    "seq": 43,
+    "stem": "דרך",
+    "word": "דרך",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "way"
+  },
+  "מעשי": {
+    "seq": 44,
+    "stem": "מעשי",
+    "word": "מעשי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "practical"
+  },
+  "גאולה": {
+    "seq": 45,
+    "stem": "גאולה",
+    "word": "גאולה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "redemption"
+  },
+  "עצומים": {
+    "seq": 46,
+    "stem": "עצומים",
+    "word": "עצומים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Enormous"
+  },
+  "יתחיל": {
+    "seq": 48,
+    "stem": "יתחיל",
+    "word": "יתחיל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Will begin"
+  },
+  "לחזר": {
+    "seq": 49,
+    "stem": "לחזר",
+    "word": "לחזר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "court"
+  },
+  "אחרי": {
+    "seq": 50,
+    "stem": "אחרי",
+    "word": "אחרי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "after"
+  },
+  "עמו": {
+    "seq": 51,
+    "stem": "עמו",
+    "word": "עמו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "With him"
+  },
+  "להיכנס": {
+    "seq": 53,
+    "stem": "להיכנס",
+    "word": "להיכנס",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "to enter"
+  },
+  "עימו": {
+    "seq": 54,
+    "stem": "עימו",
+    "word": "עימו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "With him"
+  },
+  "להצעת": {
+    "seq": 55,
+    "stem": "להצעת",
+    "word": "להצעת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "For suggestion"
+  },
+  "ברית": {
+    "seq": 56,
+    "stem": "ברית",
+    "word": "ברית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "alliance"
+  },
+  "תחילה": {
+    "seq": 58,
+    "stem": "תחילה",
+    "word": "תחילה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "first"
+  },
+  "הזכיר": {
+    "seq": 59,
+    "stem": "הזכיר",
+    "word": "הזכיר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Mentioned"
+  },
+  "לאומה": {
+    "seq": 60,
+    "stem": "לאומה",
+    "word": "לאומה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To the nation"
+  },
+  "מעשיו": {
+    "seq": 62,
+    "stem": "מעשיו",
+    "word": "מעשיו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "His actions"
+  },
+  "הנדיבים": {
+    "seq": 63,
+    "stem": "הנדיבים",
+    "word": "הנדיבים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The Generous"
+  },
+  "עימם": {
+    "seq": 64,
+    "stem": "עימם",
+    "word": "עימם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "With them"
+  },
+  "אילו": {
+    "seq": 67,
+    "stem": "אילו",
+    "word": "אילו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "which"
+  },
+  "שתי": {
+    "seq": 68,
+    "stem": "שתי",
+    "word": "שתי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "two"
+  },
+  "המחשות": {
+    "seq": 69,
+    "stem": "המחשות",
+    "word": "המחשות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The illustrations"
+  },
+  "מבטאות": {
+    "seq": 70,
+    "stem": "מבטאות",
+    "word": "מבטאות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Accents"
+  },
+  "הדרך": {
+    "seq": 72,
+    "stem": "הדרך",
+    "word": "הדרך",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "the road"
+  },
+  "בה": {
+    "seq": 73,
+    "stem": "בה",
+    "word": "בה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "in her"
+  },
+  "הוציא": {
+    "seq": 75,
+    "stem": "הוציא",
+    "word": "הוציא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Took out"
+  },
+  "ממצרים": {
+    "seq": 79,
+    "stem": "ממצרים",
+    "word": "ממצרים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "From Egypt"
+  },
+  "194'": {
+    "seq": 81,
+    "stem": "194'",
+    "word": "194'",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "194 &#39;"
+  },
+  "דברים": {
+    "seq": 82,
+    "stem": "דברים",
+    "word": "דברים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Stuff"
+  },
+  "יהושע": {
+    "seq": 86,
+    "stem": "יהושע",
+    "word": "יהושע",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Joshua"
+  },
+  "הדימויים": {
+    "seq": 89,
+    "stem": "הדימויים",
+    "word": "הדימויים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The images"
+  },
+  "הללו": {
+    "seq": 90,
+    "stem": "הללו",
+    "word": "הללו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "these"
+  },
+  "לימדו": {
+    "seq": 91,
+    "stem": "לימדו",
+    "word": "לימדו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Learn"
+  },
+  "ואותנו": {
+    "seq": 95,
+    "stem": "ואותנו",
+    "word": "ואותנו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And us"
+  },
+  "על": {
+    "seq": 96,
+    "stem": "על",
+    "word": "על",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "On"
+  },
+  "הטבע": {
+    "seq": 97,
+    "stem": "הטבע",
+    "word": "הטבע",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Nature"
+  },
+  "התנהגות": {
+    "seq": 99,
+    "stem": "התנהגות",
+    "word": "התנהגות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "behavior"
+  },
+  "כלפיהם": {
+    "seq": 101,
+    "stem": "כלפיהם",
+    "word": "כלפיהם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Towards them"
+  },
+  "ההמחשות": {
+    "seq": 102,
+    "stem": "ההמחשות",
+    "word": "ההמחשות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The illustrations"
+  },
+  "מראים": {
+    "seq": 104,
+    "stem": "מראים",
+    "word": "מראים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Show"
+  },
+  "שאלוהים": {
+    "seq": 105,
+    "stem": "שאלוהים",
+    "word": "שאלוהים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "God"
+  },
+  "מאוד": {
+    "seq": 106,
+    "stem": "מאוד",
+    "word": "מאוד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "is very"
+  },
+  "מודע": {
+    "seq": 107,
+    "stem": "מודע",
+    "word": "מודע",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "aware"
+  },
+  "לחוסר": {
+    "seq": 108,
+    "stem": "לחוסר",
+    "word": "לחוסר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "For lack"
+  },
+  "האונים": {
+    "seq": 109,
+    "stem": "האונים",
+    "word": "האונים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The helpless"
+  },
+  "שלנו": {
+    "seq": 110,
+    "stem": "שלנו",
+    "word": "שלנו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "our"
+  },
+  "קראו": {
+    "seq": 111,
+    "stem": "קראו",
+    "word": "קראו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Read"
+  },
+  "תהילים": {
+    "seq": 112,
+    "stem": "תהילים",
+    "word": "תהילים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Psalms"
+  },
+  "בשני": {
+    "seq": 115,
+    "stem": "בשני",
+    "word": "בשני",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In the second"
+  },
+  "הפסוקים": {
+    "seq": 116,
+    "stem": "הפסוקים",
+    "word": "הפסוקים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The verses"
+  },
+  "הסמלים": {
+    "seq": 117,
+    "stem": "הסמלים",
+    "word": "הסמלים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The icons"
+  },
+  "הנשר": {
+    "seq": 119,
+    "stem": "הנשר",
+    "word": "הנשר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The eagle"
+  },
+  "וההורה": {
+    "seq": 120,
+    "stem": "וההורה",
+    "word": "וההורה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And the parent"
+  },
+  "הנושא": {
+    "seq": 121,
+    "stem": "הנושא",
+    "word": "הנושא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The subject"
+  },
+  "ילדו": {
+    "seq": 123,
+    "stem": "ילדו",
+    "word": "ילדו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "His child"
+  },
+  "נותנים": {
+    "seq": 124,
+    "stem": "נותנים",
+    "word": "נותנים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Give"
+  },
+  "להרגיש": {
+    "seq": 125,
+    "stem": "להרגיש",
+    "word": "להרגיש",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "to feel"
+  },
+  "דאגת": {
+    "seq": 127,
+    "stem": "דאגת",
+    "word": "דאגת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "You worried"
+  },
+  "לשלומנו": {
+    "seq": 129,
+    "stem": "לשלומנו",
+    "word": "לשלומנו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "For our safety"
+  },
+  "רגיש": {
+    "seq": 131,
+    "stem": "רגיש",
+    "word": "רגיש",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "sensitive"
+  },
+  "תומך": {
+    "seq": 132,
+    "stem": "תומך",
+    "word": "תומך",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "supporter"
+  },
+  "מגן": {
+    "seq": 133,
+    "stem": "מגן",
+    "word": "מגן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Protector"
+  },
+  "מעודד": {
+    "seq": 134,
+    "stem": "מעודד",
+    "word": "מעודד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "encouraging"
+  },
+  "ורצונו": {
+    "seq": 135,
+    "stem": "ורצונו",
+    "word": "ורצונו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And his will"
+  },
+  "להביא": {
+    "seq": 137,
+    "stem": "להביא",
+    "word": "להביא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "bring"
+  },
+  "אותנו": {
+    "seq": 138,
+    "stem": "אותנו",
+    "word": "אותנו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "us"
+  },
+  "להבשלה": {
+    "seq": 139,
+    "stem": "להבשלה",
+    "word": "להבשלה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "For ripening"
+  },
+  "הוכר": {
+    "seq": 142,
+    "stem": "הוכר",
+    "word": "הוכר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Recognized"
+  },
+  "במסירות": {
+    "seq": 143,
+    "stem": "במסירות",
+    "word": "במסירות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "With devotion"
+  },
+  "יוצאת": {
+    "seq": 144,
+    "stem": "יוצאת",
+    "word": "יוצאת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Going out"
+  },
+  "הדופן": {
+    "seq": 145,
+    "stem": "הדופן",
+    "word": "הדופן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The wall"
+  },
+  "לגוזליו": {
+    "seq": 146,
+    "stem": "לגוזליו",
+    "word": "לגוזליו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To his chicks"
+  },
+  "התגורר": {
+    "seq": 148,
+    "stem": "התגורר",
+    "word": "התגורר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Lived"
+  },
+  "ברכסי": {
+    "seq": 149,
+    "stem": "ברכסי",
+    "word": "ברכסי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In my ridge"
+  },
+  "ההרים": {
+    "seq": 150,
+    "stem": "ההרים",
+    "word": "ההרים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The mountains"
+  },
+  "בלמדו": {
+    "seq": 151,
+    "stem": "בלמדו",
+    "word": "בלמדו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Taught"
+  },
+  "גוזליו": {
+    "seq": 153,
+    "stem": "גוזליו",
+    "word": "גוזליו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "His chicks"
+  },
+  "לעוף": {
+    "seq": 154,
+    "stem": "לעוף",
+    "word": "לעוף",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "fly"
+  },
+  "נשא": {
+    "seq": 156,
+    "stem": "נשא",
+    "word": "נשא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Carried"
+  },
+  "אותם": {
+    "seq": 157,
+    "stem": "אותם",
+    "word": "אותם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "them"
+  },
+  "גבו": {
+    "seq": 159,
+    "stem": "גבו",
+    "word": "גבו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "His back"
+  },
+  "לגבהים": {
+    "seq": 160,
+    "stem": "לגבהים",
+    "word": "לגבהים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To heights"
+  },
+  "הביטו": {
+    "seq": 162,
+    "stem": "הביטו",
+    "word": "הביטו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Look"
+  },
+  "מישורי": {
+    "seq": 164,
+    "stem": "מישורי",
+    "word": "מישורי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "plane"
+  },
+  "כאשר": {
+    "seq": 166,
+    "stem": "כאשר",
+    "word": "כאשר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "when are"
+  },
+  "זורק": {
+    "seq": 167,
+    "stem": "זורק",
+    "word": "זורק",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "pitcher"
+  },
+  "למעמקים": {
+    "seq": 169,
+    "stem": "למעמקים",
+    "word": "למעמקים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To the depths"
+  },
+  "הגוזל": {
+    "seq": 171,
+    "stem": "הגוזל",
+    "word": "הגוזל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The chick"
+  },
+  "עדיין": {
+    "seq": 173,
+    "stem": "עדיין",
+    "word": "עדיין",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Yet"
+  },
+  "צעיר": {
+    "seq": 174,
+    "stem": "צעיר",
+    "word": "צעיר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "young"
+  },
+  "ומבולבל": {
+    "seq": 176,
+    "stem": "ומבולבל",
+    "word": "ומבולבל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And confused"
+  },
+  "מכדי": {
+    "seq": 177,
+    "stem": "מכדי",
+    "word": "מכדי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Too much"
+  },
+  "האב": {
+    "seq": 179,
+    "stem": "האב",
+    "word": "האב",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The father"
+  },
+  "פושט": {
+    "seq": 180,
+    "stem": "פושט",
+    "word": "פושט",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Pushed"
+  },
+  "מתחתיו": {
+    "seq": 181,
+    "stem": "מתחתיו",
+    "word": "מתחתיו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Below it"
+  },
+  "לוקח": {
+    "seq": 182,
+    "stem": "לוקח",
+    "word": "לוקח",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Takes"
+  },
+  "אותו": {
+    "seq": 183,
+    "stem": "אותו",
+    "word": "אותו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "him"
+  },
+  "גוו": {
+    "seq": 185,
+    "stem": "גוו",
+    "word": "גוו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Gw"
+  },
+  "ועף": {
+    "seq": 186,
+    "stem": "ועף",
+    "word": "ועף",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And flew"
+  },
+  "מעלה": {
+    "seq": 187,
+    "stem": "מעלה",
+    "word": "מעלה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "brings up"
+  },
+  "בחזרה": {
+    "seq": 188,
+    "stem": "בחזרה",
+    "word": "בחזרה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Back to"
+  },
+  "לקן": {
+    "seq": 189,
+    "stem": "לקן",
+    "word": "לקן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To nest"
+  },
+  "הצוקים": {
+    "seq": 191,
+    "stem": "הצוקים",
+    "word": "הצוקים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The cliffs"
+  },
+  "הרמים": {
+    "seq": 192,
+    "stem": "הרמים",
+    "word": "הרמים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The highs"
+  },
+  "וזו": {
+    "seq": 193,
+    "stem": "וזו",
+    "word": "וזו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And this"
+  },
+  "אומר": {
+    "seq": 194,
+    "stem": "אומר",
+    "word": "אומר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Says"
+  },
+  "הקול": {
+    "seq": 195,
+    "stem": "הקול",
+    "word": "הקול",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The voice"
+  },
+  "שבה": {
+    "seq": 198,
+    "stem": "שבה",
+    "word": "שבה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Where"
+  },
+  "הבאתי": {
+    "seq": 199,
+    "stem": "הבאתי",
+    "word": "הבאתי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "I brought"
+  },
+  "אתכם": {
+    "seq": 200,
+    "stem": "אתכם",
+    "word": "אתכם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "you"
+  },
+  "אליי'": {
+    "seq": 201,
+    "stem": "אליי'",
+    "word": "אליי'",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To me"
+  },
+  "george": {
+    "seq": 202,
+    "stem": "george",
+    "word": "george",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "george"
+  },
+  "a": {
+    "seq": 203,
+    "stem": "a",
+    "word": "a",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "a"
+  },
+  "f": {
+    "seq": 204,
+    "stem": "f",
+    "word": "f",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "f"
+  },
+  "knight": {
+    "seq": 205,
+    "stem": "knight",
+    "word": "knight",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "knight"
+  },
+  "theology": {
+    "seq": 206,
+    "stem": "theology",
+    "word": "theology",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "theology"
+  },
+  "narration": {
+    "seq": 208,
+    "stem": "narration",
+    "word": "narration",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "narration"
+  },
+  "grand": {
+    "seq": 209,
+    "stem": "grand",
+    "word": "grand",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "grand"
+  },
+  "rapids": {
+    "seq": 210,
+    "stem": "rapids",
+    "word": "rapids",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "rapids"
+  },
+  "mi": {
+    "seq": 211,
+    "stem": "mi",
+    "word": "mi",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "mi"
+  },
+  "william": {
+    "seq": 212,
+    "stem": "william",
+    "word": "william",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "william"
+  },
+  "b": {
+    "seq": 213,
+    "stem": "b",
+    "word": "b",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "b"
+  },
+  "eerdmans": {
+    "seq": 214,
+    "stem": "eerdmans",
+    "word": "eerdmans",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "eerdmans"
+  },
+  "publishing": {
+    "seq": 215,
+    "stem": "publishing",
+    "word": "publishing",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "publishing"
+  },
+  "company": {
+    "seq": 216,
+    "stem": "company",
+    "word": "company",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "company"
+  },
+  "נגדו": {
+    "seq": 220,
+    "stem": "נגדו",
+    "word": "נגדו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Against him"
+  },
+  "האינטרסים": {
+    "seq": 222,
+    "stem": "האינטרסים",
+    "word": "האינטרסים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The interests"
+  },
+  "כלפינו": {
+    "seq": 225,
+    "stem": "כלפינו",
+    "word": "כלפינו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Towards us"
+  },
+  "שיש": {
+    "seq": 228,
+    "stem": "שיש",
+    "word": "שיש",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "That"
+  },
+  "לנו": {
+    "seq": 229,
+    "stem": "לנו",
+    "word": "לנו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "us"
+  },
+  "כלפי": {
+    "seq": 230,
+    "stem": "כלפי",
+    "word": "כלפי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "towards"
+  },
+  "אחרים": {
+    "seq": 231,
+    "stem": "אחרים",
+    "word": "אחרים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "others"
+  },
+  "דאגתו": {
+    "seq": 233,
+    "stem": "דאגתו",
+    "word": "דאגתו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "His concern"
+  },
+  "צריכה": {
+    "seq": 235,
+    "stem": "צריכה",
+    "word": "צריכה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "consumption"
+  },
+  "להשפיע": {
+    "seq": 236,
+    "stem": "להשפיע",
+    "word": "להשפיע",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Affect"
+  },
+  "דאגתנו": {
+    "seq": 238,
+    "stem": "דאגתנו",
+    "word": "דאגתנו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Our concern"
+  },
+  "לאחרים": {
+    "seq": 239,
+    "stem": "לאחרים",
+    "word": "לאחרים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To others"
+  },
+  "בהיבסס": {
+    "seq": 240,
+    "stem": "בהיבסס",
+    "word": "בהיבסס",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Based"
+  },
+  "חוויתכם": {
+    "seq": 242,
+    "stem": "חוויתכם",
+    "word": "חוויתכם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Your experience"
+  },
+  "האישית": {
+    "seq": 243,
+    "stem": "האישית",
+    "word": "האישית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The personal"
+  },
+  "עולות": {
+    "seq": 246,
+    "stem": "עולות",
+    "word": "עולות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Rising"
+  },
+  "לכם": {
+    "seq": 247,
+    "stem": "לכם",
+    "word": "לכם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "to you"
+  },
+  "לראש": {
+    "seq": 248,
+    "stem": "לראש",
+    "word": "לראש",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Back"
+  },
+  "המתארות": {
+    "seq": 249,
+    "stem": "המתארות",
+    "word": "המתארות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The outlines"
+  },
+  "האינטרס": {
+    "seq": 251,
+    "stem": "האינטרס",
+    "word": "האינטרס",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The interest"
+  },
+  "הבלתי": {
+    "seq": 252,
+    "stem": "הבלתי",
+    "word": "הבלתי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The non"
+  },
+  "אנוכי": {
+    "seq": 253,
+    "stem": "אנוכי",
+    "word": "אנוכי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "selfish"
+  },
+  "בנו": {
+    "seq": 256,
+    "stem": "בנו",
+    "word": "בנו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "they built"
+  },
+  "חישבו": {
+    "seq": 257,
+    "stem": "חישבו",
+    "word": "חישבו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Calculate"
+  },
+  "כמה": {
+    "seq": 259,
+    "stem": "כמה",
+    "word": "כמה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Some"
+  },
+  "מחוויתכם": {
+    "seq": 261,
+    "stem": "מחוויתכם",
+    "word": "מחוויתכם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "From your experience"
+  },
+  "שאבו": {
+    "seq": 263,
+    "stem": "שאבו",
+    "word": "שאבו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Pumped"
+  },
+  "השראה": {
+    "seq": 264,
+    "stem": "השראה",
+    "word": "השראה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "inspiration"
+  },
+  "מהתרבות": {
+    "seq": 265,
+    "stem": "מהתרבות",
+    "word": "מהתרבות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "From the culture"
+  },
+  "חיים": {
+    "seq": 267,
+    "stem": "חיים",
+    "word": "חיים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Haim"
+  },
+  "שתפו": {
+    "seq": 268,
+    "stem": "שתפו",
+    "word": "שתפו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Share"
+  },
+  "המחשותכם": {
+    "seq": 270,
+    "stem": "המחשותכם",
+    "word": "המחשותכם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Your illustrations"
+  },
+  "בכיתה": {
+    "seq": 271,
+    "stem": "בכיתה",
+    "word": "בכיתה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Classroom"
+  },
+  "לָכֵן": {
+    "seq": 1,
+    "stem": "לָכֵן",
+    "word": "לָכֵן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "so"
+  },
+  "אֱמֹר": {
+    "seq": 2,
+    "stem": "אֱמֹר",
+    "word": "אֱמֹר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "said"
+  },
+  "לִבְנֵייִשְׂרָאֵל": {
+    "seq": 3,
+    "stem": "לִבְנֵייִשְׂרָאֵל",
+    "word": "לִבְנֵייִשְׂרָאֵל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To the children of Israel"
+  },
+  "אֲנִי": {
+    "seq": 4,
+    "stem": "אֲנִי",
+    "word": "אֲנִי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "I am"
+  },
+  "יְהוָה": {
+    "seq": 5,
+    "stem": "יְהוָה",
+    "word": "יְהוָה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Lord"
+  },
+  "וְהוֹצֵאתִי": {
+    "seq": 6,
+    "stem": "וְהוֹצֵאתִי",
+    "word": "וְהוֹצֵאתִי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And I took it out"
+  },
+  "מִתַּחַת": {
+    "seq": 8,
+    "stem": "מִתַּחַת",
+    "word": "מִתַּחַת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Below"
+  },
+  "סִבְלֹת": {
+    "seq": 9,
+    "stem": "סִבְלֹת",
+    "word": "סִבְלֹת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "You suffered"
+  },
+  "מִצְרַיִם": {
+    "seq": 10,
+    "stem": "מִצְרַיִם",
+    "word": "מִצְרַיִם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Egypt"
+  },
+  "וְהִצַּלְתִּי": {
+    "seq": 11,
+    "stem": "וְהִצַּלְתִּי",
+    "word": "וְהִצַּלְתִּי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And I was saved"
+  },
+  "מֵעֲבֹדָתָם": {
+    "seq": 13,
+    "stem": "מֵעֲבֹדָתָם",
+    "word": "מֵעֲבֹדָתָם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Their lab"
+  },
+  "וְגָאַלְתִּי": {
+    "seq": 14,
+    "stem": "וְגָאַלְתִּי",
+    "word": "וְגָאַלְתִּי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And I was redeemed"
+  },
+  "בִּזְרוֹעַ": {
+    "seq": 16,
+    "stem": "בִּזְרוֹעַ",
+    "word": "בִּזְרוֹעַ",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In the arm"
+  },
+  "נְטוּיָה": {
+    "seq": 17,
+    "stem": "נְטוּיָה",
+    "word": "נְטוּיָה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Inclined"
+  },
+  "וּבִשְׁפָטִים": {
+    "seq": 18,
+    "stem": "וּבִשְׁפָטִים",
+    "word": "וּבִשְׁפָטִים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And in judgments"
+  },
+  "גְּדֹלִים": {
+    "seq": 19,
+    "stem": "גְּדֹלִים",
+    "word": "גְּדֹלִים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Growing up"
+  },
+  "וְלָקַחְתִּי": {
+    "seq": 20,
+    "stem": "וְלָקַחְתִּי",
+    "word": "וְלָקַחְתִּי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And I took"
+  },
+  "לִי": {
+    "seq": 22,
+    "stem": "לִי",
+    "word": "לִי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "to me"
+  },
+  "לְעָם": {
+    "seq": 23,
+    "stem": "לְעָם",
+    "word": "לְעָם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To the people"
+  },
+  "וְהָיִיתִי": {
+    "seq": 24,
+    "stem": "וְהָיִיתִי",
+    "word": "וְהָיִיתִי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And I was"
+  },
+  "לָכֶם": {
+    "seq": 25,
+    "stem": "לָכֶם",
+    "word": "לָכֶם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "to you"
+  },
+  "לֵאלֹהִים": {
+    "seq": 26,
+    "stem": "לֵאלֹהִים",
+    "word": "לֵאלֹהִים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To God"
+  },
+  "וִידַעְתֶּם": {
+    "seq": 27,
+    "stem": "וִידַעְתֶּם",
+    "word": "וִידַעְתֶּם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And you knew it"
+  },
+  "כִּי": {
+    "seq": 28,
+    "stem": "כִּי",
+    "word": "כִּי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Because"
+  },
+  "אֱלֹהֵיכֶם": {
+    "seq": 31,
+    "stem": "אֱלֹהֵיכֶם",
+    "word": "אֱלֹהֵיכֶם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Your God"
+  },
+  "הַמּוֹצִיא": {
+    "seq": 32,
+    "stem": "הַמּוֹצִיא",
+    "word": "הַמּוֹצִיא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The issuer"
+  },
+  "סִבְלוֹת": {
+    "seq": 35,
+    "stem": "סִבְלוֹת",
+    "word": "סִבְלוֹת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "porterage"
+  },
+  "מִצְרָיִם": {
+    "seq": 36,
+    "stem": "מִצְרָיִם",
+    "word": "מִצְרָיִם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Egypt"
+  },
+  "לעיל": {
+    "seq": 43,
+    "stem": "לעיל",
+    "word": "לעיל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "above"
+  },
+  "איזה": {
+    "seq": 44,
+    "stem": "איזה",
+    "word": "איזה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Which"
+  },
+  "עיקרון": {
+    "seq": 45,
+    "stem": "עיקרון",
+    "word": "עיקרון",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Principle"
+  },
+  "אנו": {
+    "seq": 46,
+    "stem": "אנו",
+    "word": "אנו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "we"
+  },
+  "יכולים": {
+    "seq": 47,
+    "stem": "יכולים",
+    "word": "יכולים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "can"
+  },
+  "למצוא": {
+    "seq": 48,
+    "stem": "למצוא",
+    "word": "למצוא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "find"
+  },
+  "בפסוקים": {
+    "seq": 49,
+    "stem": "בפסוקים",
+    "word": "בפסוקים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In the verses"
+  },
+  "אלו": {
+    "seq": 50,
+    "stem": "אלו",
+    "word": "אלו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "These"
+  },
+  "לגבי": {
+    "seq": 51,
+    "stem": "לגבי",
+    "word": "לגבי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Regarding"
+  },
+  "האנושות": {
+    "seq": 55,
+    "stem": "האנושות",
+    "word": "האנושות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Humanity"
+  },
+  "ביחסי": {
+    "seq": 56,
+    "stem": "ביחסי",
+    "word": "ביחסי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In my relationship"
+  },
+  "הברית": {
+    "seq": 57,
+    "stem": "הברית",
+    "word": "הברית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "United States"
+  },
+  "התמקדו": {
+    "seq": 58,
+    "stem": "התמקדו",
+    "word": "התמקדו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Focus"
+  },
+  "התדירות": {
+    "seq": 60,
+    "stem": "התדירות",
+    "word": "התדירות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The frequency"
+  },
+  "שהמילה": {
+    "seq": 61,
+    "stem": "שהמילה",
+    "word": "שהמילה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "That word"
+  },
+  "מופיעה": {
+    "seq": 63,
+    "stem": "מופיעה",
+    "word": "מופיעה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Appears"
+  },
+  "או": {
+    "seq": 64,
+    "stem": "או",
+    "word": "או",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "or"
+  },
+  "הפועל": {
+    "seq": 65,
+    "stem": "הפועל",
+    "word": "הפועל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The verb"
+  },
+  "בגוף": {
+    "seq": 66,
+    "stem": "בגוף",
+    "word": "בגוף",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In the body"
+  },
+  "ראשון": {
+    "seq": 67,
+    "stem": "ראשון",
+    "word": "ראשון",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "First"
+  },
+  "יחיד": {
+    "seq": 68,
+    "stem": "יחיד",
+    "word": "יחיד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "only"
+  },
+  "המופיע": {
+    "seq": 69,
+    "stem": "המופיע",
+    "word": "המופיע",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Appearing"
+  },
+  "גאולת": {
+    "seq": 72,
+    "stem": "גאולת",
+    "word": "גאולת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Redemption"
+  },
+  "מעבדות": {
+    "seq": 75,
+    "stem": "מעבדות",
+    "word": "מעבדות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Laboratories"
+  },
+  "מצרים": {
+    "seq": 76,
+    "stem": "מצרים",
+    "word": "מצרים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Egypt"
+  },
+  "והגאולה": {
+    "seq": 77,
+    "stem": "והגאולה",
+    "word": "והגאולה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And redemption"
+  },
+  "נח": {
+    "seq": 79,
+    "stem": "נח",
+    "word": "נח",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Noah"
+  },
+  "ומשפחתו": {
+    "seq": 80,
+    "stem": "ומשפחתו",
+    "word": "ומשפחתו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And his family"
+  },
+  "מהמבול": {
+    "seq": 81,
+    "stem": "מהמבול",
+    "word": "מהמבול",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "From the flood"
+  },
+  "הינן": {
+    "seq": 82,
+    "stem": "הינן",
+    "word": "הינן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Are"
+  },
+  "מאורעות": {
+    "seq": 84,
+    "stem": "מאורעות",
+    "word": "מאורעות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Events"
+  },
+  "ישועתיות": {
+    "seq": 85,
+    "stem": "ישועתיות",
+    "word": "ישועתיות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Salvation"
+  },
+  "בכתובים": {
+    "seq": 86,
+    "stem": "בכתובים",
+    "word": "בכתובים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In Scripture"
+  },
+  "משה": {
+    "seq": 88,
+    "stem": "משה",
+    "word": "משה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Moshe"
+  },
+  "רבינו": {
+    "seq": 89,
+    "stem": "רבינו",
+    "word": "רבינו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Rabbeinu"
+  },
+  "המאורעות": {
+    "seq": 91,
+    "stem": "המאורעות",
+    "word": "המאורעות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The events"
+  },
+  "מספקים": {
+    "seq": 92,
+    "stem": "מספקים",
+    "word": "מספקים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Provide"
+  },
+  "תובנות": {
+    "seq": 93,
+    "stem": "תובנות",
+    "word": "תובנות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Insights"
+  },
+  "למדע": {
+    "seq": 94,
+    "stem": "למדע",
+    "word": "למדע",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To science"
+  },
+  "אך": {
+    "seq": 96,
+    "stem": "אך",
+    "word": "אך",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "but"
+  },
+  "המאורע": {
+    "seq": 97,
+    "stem": "המאורע",
+    "word": "המאורע",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The event"
+  },
+  "יציאת": {
+    "seq": 99,
+    "stem": "יציאת",
+    "word": "יציאת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Exit"
+  },
+  "במיוחד": {
+    "seq": 101,
+    "stem": "במיוחד",
+    "word": "במיוחד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "especially"
+  },
+  "זה": {
+    "seq": 103,
+    "stem": "זה",
+    "word": "זה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "It"
+  },
+  "שמספק": {
+    "seq": 104,
+    "stem": "שמספק",
+    "word": "שמספק",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Which provides"
+  },
+  "התבנית": {
+    "seq": 106,
+    "stem": "התבנית",
+    "word": "התבנית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The template"
+  },
+  "הבסיסית": {
+    "seq": 107,
+    "stem": "הבסיסית",
+    "word": "הבסיסית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The basic"
+  },
+  "בפרוש": {
+    "seq": 121,
+    "stem": "בפרוש",
+    "word": "בפרוש",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "clearly"
+  },
+  "יהיה": {
+    "seq": 123,
+    "stem": "יהיה",
+    "word": "יהיה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "will be"
+  },
+  "גואלכם": {
+    "seq": 124,
+    "stem": "גואלכם",
+    "word": "גואלכם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Your Savior"
+  },
+  "המילה": {
+    "seq": 125,
+    "stem": "המילה",
+    "word": "המילה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The word"
+  },
+  "גאלתי": {
+    "seq": 126,
+    "stem": "גאלתי",
+    "word": "גאלתי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "I was redeemed"
+  },
+  "בפסוק": {
+    "seq": 127,
+    "stem": "בפסוק",
+    "word": "בפסוק",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In verse"
+  },
+  "ו'": {
+    "seq": 131,
+    "stem": "ו'",
+    "word": "ו'",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "and&#39;"
+  },
+  "מתכוון": {
+    "seq": 132,
+    "stem": "מתכוון",
+    "word": "מתכוון",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Mean"
+  },
+  "לבן": {
+    "seq": 133,
+    "stem": "לבן",
+    "word": "לבן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "white"
+  },
+  "משפחה": {
+    "seq": 134,
+    "stem": "משפחה",
+    "word": "משפחה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Family"
+  },
+  "הקונה": {
+    "seq": 135,
+    "stem": "הקונה",
+    "word": "הקונה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The buyer"
+  },
+  "פודה": {
+    "seq": 138,
+    "stem": "פודה",
+    "word": "פודה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "redeemer"
+  },
+  "בן": {
+    "seq": 139,
+    "stem": "בן",
+    "word": "בן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "son"
+  },
+  "אחר": {
+    "seq": 141,
+    "stem": "אחר",
+    "word": "אחר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Other"
+  },
+  "הבן": {
+    "seq": 144,
+    "stem": "הבן",
+    "word": "הבן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "the son"
+  },
+  "השני": {
+    "seq": 146,
+    "stem": "השני",
+    "word": "השני",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The second"
+  },
+  "בעבדות": {
+    "seq": 148,
+    "stem": "בעבדות",
+    "word": "בעבדות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In slavery"
+  },
+  "בגין": {
+    "seq": 149,
+    "stem": "בגין",
+    "word": "בגין",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "for"
+  },
+  "חוב": {
+    "seq": 150,
+    "stem": "חוב",
+    "word": "חוב",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "debt"
+  },
+  "טרם": {
+    "seq": 152,
+    "stem": "טרם",
+    "word": "טרם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "not yet"
+  },
+  "הלך": {
+    "seq": 153,
+    "stem": "הלך",
+    "word": "הלך",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Gone"
+  },
+  "לעבדות": {
+    "seq": 154,
+    "stem": "לעבדות",
+    "word": "לעבדות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To slavery"
+  },
+  "ככל": {
+    "seq": 155,
+    "stem": "ככל",
+    "word": "ככל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "As much as"
+  },
+  "הנראה": {
+    "seq": 156,
+    "stem": "הנראה",
+    "word": "הנראה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Apparently"
+  },
+  "לעם": {
+    "seq": 157,
+    "stem": "לעם",
+    "word": "לעם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To the people"
+  },
+  "ארציים": {
+    "seq": 163,
+    "stem": "ארציים",
+    "word": "ארציים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Earthly"
+  },
+  "שיכלו": {
+    "seq": 164,
+    "stem": "שיכלו",
+    "word": "שיכלו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Who could"
+  },
+  "לגאול": {
+    "seq": 165,
+    "stem": "לגאול",
+    "word": "לגאול",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "redeem"
+  },
+  "כעת": {
+    "seq": 168,
+    "stem": "כעת",
+    "word": "כעת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Now"
+  },
+  "קרוב": {
+    "seq": 171,
+    "stem": "קרוב",
+    "word": "קרוב",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Close"
+  },
+  "הגואל": {
+    "seq": 173,
+    "stem": "הגואל",
+    "word": "הגואל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The Redeemer"
+  },
+  "אותם—bernard": {
+    "seq": 174,
+    "stem": "אותם—bernard",
+    "word": "אותם—bernard",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Them— bernard"
+  },
+  "l": {
+    "seq": 175,
+    "stem": "l",
+    "word": "l",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "l"
+  },
+  "ramm": {
+    "seq": 176,
+    "stem": "ramm",
+    "word": "ramm",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "frame"
+  },
+  "his": {
+    "seq": 177,
+    "stem": "his",
+    "word": "his",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "his"
+  },
+  "way": {
+    "seq": 178,
+    "stem": "way",
+    "word": "way",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "way"
+  },
+  "out": {
+    "seq": 179,
+    "stem": "out",
+    "word": "out",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "out"
+  },
+  "glendale": {
+    "seq": 180,
+    "stem": "glendale",
+    "word": "glendale",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "glendale"
+  },
+  "ca": {
+    "seq": 181,
+    "stem": "ca",
+    "word": "ca",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "ca"
+  },
+  "regal": {
+    "seq": 182,
+    "stem": "regal",
+    "word": "regal",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "regal"
+  },
+  "books": {
+    "seq": 183,
+    "stem": "books",
+    "word": "books",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "books"
+  },
+  "division": {
+    "seq": 184,
+    "stem": "division",
+    "word": "division",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "division"
+  },
+  "gl": {
+    "seq": 185,
+    "stem": "gl",
+    "word": "gl",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "gl"
+  },
+  "publications": {
+    "seq": 186,
+    "stem": "publications",
+    "word": "publications",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "publications"
+  },
+  "מבינים": {
+    "seq": 191,
+    "stem": "מבינים",
+    "word": "מבינים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Understand"
+  },
+  "אתם": {
+    "seq": 192,
+    "stem": "אתם",
+    "word": "אתם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "you"
+  },
+  "הרעיון": {
+    "seq": 194,
+    "stem": "הרעיון",
+    "word": "הרעיון",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The idea"
+  },
+  "הפודה": {
+    "seq": 198,
+    "stem": "הפודה",
+    "word": "הפודה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The Redeemer"
+  },
+  "המחיר": {
+    "seq": 207,
+    "stem": "המחיר",
+    "word": "המחיר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The price"
+  },
+  "שהיה": {
+    "seq": 208,
+    "stem": "שהיה",
+    "word": "שהיה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Was"
+  },
+  "לשלם": {
+    "seq": 210,
+    "stem": "לשלם",
+    "word": "לשלם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "pay"
+  },
+  "ערכנו": {
+    "seq": 216,
+    "stem": "ערכנו",
+    "word": "ערכנו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "We did"
+  },
+  "ראו": {
+    "seq": 217,
+    "stem": "ראו",
+    "word": "ראו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "See"
+  },
+  "מרקוס": {
+    "seq": 218,
+    "stem": "מרקוס",
+    "word": "מרקוס",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Marcus"
+  },
+  "ראשונה": {
+    "seq": 220,
+    "stem": "ראשונה",
+    "word": "ראשונה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "First"
+  },
+  "לתימוטיאוס": {
+    "seq": 221,
+    "stem": "לתימוטיאוס",
+    "word": "לתימוטיאוס",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To Timothy"
+  },
+  "התגלות": {
+    "seq": 223,
+    "stem": "התגלות",
+    "word": "התגלות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "revelation"
+  },
+  "בשמות": {
+    "seq": 225,
+    "stem": "בשמות",
+    "word": "בשמות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In names"
+  },
+  "שהוא": {
+    "seq": 229,
+    "stem": "שהוא",
+    "word": "שהוא",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "that he"
+  },
+  "ירד": {
+    "seq": 230,
+    "stem": "ירד",
+    "word": "ירד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "got off"
+  },
+  "להציל": {
+    "seq": 231,
+    "stem": "להציל",
+    "word": "להציל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "to rescue"
+  },
+  "זהו": {
+    "seq": 235,
+    "stem": "זהו",
+    "word": "זהו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "This"
+  },
+  "פועל": {
+    "seq": 236,
+    "stem": "פועל",
+    "word": "פועל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "worker"
+  },
+  "שכיח": {
+    "seq": 237,
+    "stem": "שכיח",
+    "word": "שכיח",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "common"
+  },
+  "בשפה": {
+    "seq": 238,
+    "stem": "בשפה",
+    "word": "בשפה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In language"
+  },
+  "העברית": {
+    "seq": 239,
+    "stem": "העברית",
+    "word": "העברית",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Hebrew"
+  },
+  "ליחסי": {
+    "seq": 240,
+    "stem": "ליחסי",
+    "word": "ליחסי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To my relationship"
+  },
+  "גומלין": {
+    "seq": 241,
+    "stem": "גומלין",
+    "word": "גומלין",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Reciprocity"
+  },
+  "לאנושות": {
+    "seq": 244,
+    "stem": "לאנושות",
+    "word": "לאנושות",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To humanity"
+  },
+  "בשמים": {
+    "seq": 246,
+    "stem": "בשמים",
+    "word": "בשמים",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In the sky"
+  },
+  "ואנחנו": {
+    "seq": 247,
+    "stem": "ואנחנו",
+    "word": "ואנחנו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And we"
+  },
+  "פני": {
+    "seq": 249,
+    "stem": "פני",
+    "word": "פני",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "penny"
+  },
+  "האדמה": {
+    "seq": 250,
+    "stem": "האדמה",
+    "word": "האדמה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "The earth"
+  },
+  "ורק": {
+    "seq": 251,
+    "stem": "ורק",
+    "word": "ורק",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And only"
+  },
+  "יורד": {
+    "seq": 254,
+    "stem": "יורד",
+    "word": "יורד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Goes down"
+  },
+  "אלינו": {
+    "seq": 255,
+    "stem": "אלינו",
+    "word": "אלינו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "to us"
+  },
+  "במובן": {
+    "seq": 260,
+    "stem": "במובן",
+    "word": "במובן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "in the sense"
+  },
+  "האמיתי": {
+    "seq": 261,
+    "stem": "האמיתי",
+    "word": "האמיתי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "the true"
+  },
+  "ביותר": {
+    "seq": 262,
+    "stem": "ביותר",
+    "word": "ביותר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "most"
+  },
+  "רק": {
+    "seq": 263,
+    "stem": "רק",
+    "word": "רק",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "only"
+  },
+  "שישוע": {
+    "seq": 265,
+    "stem": "שישוע",
+    "word": "שישוע",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Jesus"
+  },
+  "חי": {
+    "seq": 267,
+    "stem": "חי",
+    "word": "חי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "live"
+  },
+  "סבל": {
+    "seq": 268,
+    "stem": "סבל",
+    "word": "סבל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Suffering"
+  },
+  "מת": {
+    "seq": 269,
+    "stem": "מת",
+    "word": "מת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "dead"
+  },
+  "וקם": {
+    "seq": 270,
+    "stem": "וקם",
+    "word": "וקם",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And got up"
+  },
+  "לתחייה": {
+    "seq": 271,
+    "stem": "לתחייה",
+    "word": "לתחייה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To resurrection"
+  },
+  "עבורינו": {
+    "seq": 272,
+    "stem": "עבורינו",
+    "word": "עבורינו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "For us"
+  },
+  "להיגאל": {
+    "seq": 275,
+    "stem": "להיגאל",
+    "word": "להיגאל",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To be redeemed"
+  },
+  "הַדָּבָר": {
+    "seq": 276,
+    "stem": "הַדָּבָר",
+    "word": "הַדָּבָר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "the thing"
+  },
+  "נִהְיָה": {
+    "seq": 277,
+    "stem": "נִהְיָה",
+    "word": "נִהְיָה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "yearning"
+  },
+  "בָּשָׂר": {
+    "seq": 278,
+    "stem": "בָּשָׂר",
+    "word": "בָּשָׂר",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "meat"
+  },
+  "וְשָׁכַן": {
+    "seq": 279,
+    "stem": "וְשָׁכַן",
+    "word": "וְשָׁכַן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "And neighbor"
+  },
+  "בְּתוֹכֵנוּ": {
+    "seq": 280,
+    "stem": "בְּתוֹכֵנוּ",
+    "word": "בְּתוֹכֵנוּ",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Within us"
+  },
+  "יוחנן": {
+    "seq": 281,
+    "stem": "יוחנן",
+    "word": "יוחנן",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "John"
+  },
+  "הינה": {
+    "seq": 283,
+    "stem": "הינה",
+    "word": "הינה",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "here"
+  },
+  "נוספת": {
+    "seq": 285,
+    "stem": "נוספת",
+    "word": "נוספת",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "Another"
+  },
+  "להגיד": {
+    "seq": 286,
+    "stem": "להגיד",
+    "word": "להגיד",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "say"
+  },
+  "בכדי": {
+    "seq": 290,
+    "stem": "בכדי",
+    "word": "בכדי",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "In order"
+  },
+  "להושיענו": {
+    "seq": 291,
+    "stem": "להושיענו",
+    "word": "להושיענו",
+    "jointSyllables": null,
+    "iscyrallic": false,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "To save us"
+  },
+  "библейские": {
+    "seq": 1,
+    "stem": "библейск",
+    "word": "библейские",
+    "jointSyllables": "би-блей-ски-е",
+    "iscyrallic": true,
+    "syllables": [
+      "би",
+      "блей",
+      "ски",
+      "е"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "biblical"
+  },
+  "тексты": {
+    "seq": 2,
+    "stem": "текст",
+    "word": "тексты",
+    "jointSyllables": "те-ксты",
+    "iscyrallic": true,
+    "syllables": [
+      "те",
+      "ксты"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "texts"
+  },
+  "для": {
+    "seq": 3,
+    "stem": "для",
+    "word": "для",
+    "jointSyllables": "для",
+    "iscyrallic": true,
+    "syllables": [
+      "для"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "for"
+  },
+  "исследования": {
+    "seq": 4,
+    "stem": "исследован",
+    "word": "исследования",
+    "jointSyllables": "и-ссле-до-ва-ни-я",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "ссле",
+      "до",
+      "ва",
+      "ни",
+      "я"
+    ],
+    "syllableCount": 6,
+    "googleTranslation": "research"
+  },
+  "втор": {
+    "seq": 5,
+    "stem": "втор",
+    "word": "втор",
+    "jointSyllables": "втор",
+    "iscyrallic": true,
+    "syllables": [
+      "втор"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "sec"
+  },
+  "ос": {
+    "seq": 7,
+    "stem": "ос",
+    "word": "ос",
+    "jointSyllables": "ос",
+    "iscyrallic": true,
+    "syllables": [
+      "ос"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "wasps"
+  },
+  "откр": {
+    "seq": 9,
+    "stem": "откр",
+    "word": "откр",
+    "jointSyllables": "откр",
+    "iscyrallic": true,
+    "syllables": [
+      "откр"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "open"
+  },
+  "исх": {
+    "seq": 13,
+    "stem": "исх",
+    "word": "исх",
+    "jointSyllables": "исх",
+    "iscyrallic": true,
+    "syllables": [
+      "исх"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "ref"
+  },
+  "рим": {
+    "seq": 16,
+    "stem": "рим",
+    "word": "рим",
+    "jointSyllables": "рим",
+    "iscyrallic": true,
+    "syllables": [
+      "рим"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "Rome"
+  },
+  "<p>памятный": {
+    "seq": 24,
+    "stem": "<p>памятн",
+    "word": "<p>памятный",
+    "jointSyllables": "<p>па-мя-тный",
+    "iscyrallic": true,
+    "syllables": [
+      "<p>па",
+      "мя",
+      "тный"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "<p>memorable"
+  },
+  "стих<p>": {
+    "seq": 25,
+    "stem": "стих<p>",
+    "word": "стих<p>",
+    "jointSyllables": "стих<p>",
+    "iscyrallic": true,
+    "syllables": [
+      "стих<p>"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "verse<p>"
+  },
+  "вы": {
+    "seq": 27,
+    "stem": "вы",
+    "word": "вы",
+    "jointSyllables": "вы",
+    "iscyrallic": true,
+    "syllables": [
+      "вы"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "you"
+  },
+  "видели": {
+    "seq": 28,
+    "stem": "видел",
+    "word": "видели",
+    "jointSyllables": "ви-де-ли",
+    "iscyrallic": true,
+    "syllables": [
+      "ви",
+      "де",
+      "ли"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "seen"
+  },
+  "что": {
+    "seq": 29,
+    "stem": "что",
+    "word": "что",
+    "jointSyllables": "что",
+    "iscyrallic": true,
+    "syllables": [
+      "что"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "what"
+  },
+  "я": {
+    "seq": 30,
+    "stem": "я",
+    "word": "я",
+    "jointSyllables": "я",
+    "iscyrallic": true,
+    "syllables": [
+      "я"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "I"
+  },
+  "сделал": {
+    "seq": 31,
+    "stem": "сдела",
+    "word": "сделал",
+    "jointSyllables": "сде-лал",
+    "iscyrallic": true,
+    "syllables": [
+      "сде",
+      "лал"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "done"
+  },
+  "египтянам": {
+    "seq": 32,
+    "stem": "египтян",
+    "word": "египтянам",
+    "jointSyllables": "е-ги-птя-нам",
+    "iscyrallic": true,
+    "syllables": [
+      "е",
+      "ги",
+      "птя",
+      "нам"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "Egyptians"
+  },
+  "и": {
+    "seq": 33,
+    "stem": "и",
+    "word": "и",
+    "jointSyllables": "и",
+    "iscyrallic": true,
+    "syllables": [
+      "и"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "and"
+  },
+  "как": {
+    "seq": 34,
+    "stem": "как",
+    "word": "как",
+    "jointSyllables": "как",
+    "iscyrallic": true,
+    "syllables": [
+      "как"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "as"
+  },
+  "носил": {
+    "seq": 36,
+    "stem": "нос",
+    "word": "носил",
+    "jointSyllables": "но-сил",
+    "iscyrallic": true,
+    "syllables": [
+      "но",
+      "сил"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "wore"
+  },
+  "вас": {
+    "seq": 37,
+    "stem": "вас",
+    "word": "вас",
+    "jointSyllables": "вас",
+    "iscyrallic": true,
+    "syllables": [
+      "вас"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "you"
+  },
+  "бы": {
+    "seq": 39,
+    "stem": "бы",
+    "word": "бы",
+    "jointSyllables": "бы",
+    "iscyrallic": true,
+    "syllables": [
+      "бы"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "would"
+  },
+  "на": {
+    "seq": 40,
+    "stem": "на",
+    "word": "на",
+    "jointSyllables": "на",
+    "iscyrallic": true,
+    "syllables": [
+      "на"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "on the"
+  },
+  "орлиных": {
+    "seq": 41,
+    "stem": "орлин",
+    "word": "орлиных",
+    "jointSyllables": "ор-ли-ных",
+    "iscyrallic": true,
+    "syllables": [
+      "ор",
+      "ли",
+      "ных"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "eagle"
+  },
+  "крыльях": {
+    "seq": 42,
+    "stem": "крыл",
+    "word": "крыльях",
+    "jointSyllables": "крыль-ях",
+    "iscyrallic": true,
+    "syllables": [
+      "крыль",
+      "ях"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "wings"
+  },
+  "принес": {
+    "seq": 44,
+    "stem": "принес",
+    "word": "принес",
+    "jointSyllables": "при-нес",
+    "iscyrallic": true,
+    "syllables": [
+      "при",
+      "нес"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "brought"
+  },
+  "к": {
+    "seq": 46,
+    "stem": "к",
+    "word": "к",
+    "jointSyllables": "к",
+    "iscyrallic": true,
+    "syllables": [
+      "к"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "to"
+  },
+  "себе": {
+    "seq": 47,
+    "stem": "себ",
+    "word": "себе",
+    "jointSyllables": "се-бе",
+    "iscyrallic": true,
+    "syllables": [
+      "се",
+      "бе"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "myself"
+  },
+  "ключевые": {
+    "seq": 50,
+    "stem": "ключев",
+    "word": "ключевые",
+    "jointSyllables": "клю-че-вы-е",
+    "iscyrallic": true,
+    "syllables": [
+      "клю",
+      "че",
+      "вы",
+      "е"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "key"
+  },
+  "вопросы": {
+    "seq": 51,
+    "stem": "вопрос",
+    "word": "вопросы",
+    "jointSyllables": "во-про-сы",
+    "iscyrallic": true,
+    "syllables": [
+      "во",
+      "про",
+      "сы"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "questions"
+  },
+  "какие": {
+    "seq": 52,
+    "stem": "как",
+    "word": "какие",
+    "jointSyllables": "ка-ки-е",
+    "iscyrallic": true,
+    "syllables": [
+      "ка",
+      "ки",
+      "е"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "what kind"
+  },
+  "образы": {
+    "seq": 53,
+    "stem": "образ",
+    "word": "образы",
+    "jointSyllables": "о-бра-зы",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "бра",
+      "зы"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "images"
+  },
+  "использовал": {
+    "seq": 54,
+    "stem": "использова",
+    "word": "использовал",
+    "jointSyllables": "и-споль-зо-вал",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "споль",
+      "зо",
+      "вал"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "used"
+  },
+  "господь": {
+    "seq": 55,
+    "stem": "господ",
+    "word": "господь",
+    "jointSyllables": "го-сподь",
+    "iscyrallic": true,
+    "syllables": [
+      "го",
+      "сподь"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "lord"
+  },
+  "чтобы": {
+    "seq": 56,
+    "stem": "чтоб",
+    "word": "чтобы",
+    "jointSyllables": "что-бы",
+    "iscyrallic": true,
+    "syllables": [
+      "что",
+      "бы"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "so that"
+  },
+  "описать": {
+    "seq": 57,
+    "stem": "описа",
+    "word": "описать",
+    "jointSyllables": "о-пи-сать",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "пи",
+      "сать"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "describe"
+  },
+  "свои": {
+    "seq": 58,
+    "stem": "сво",
+    "word": "свои",
+    "jointSyllables": "сво-и",
+    "iscyrallic": true,
+    "syllables": [
+      "сво",
+      "и"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "their"
+  },
+  "отношения": {
+    "seq": 59,
+    "stem": "отношен",
+    "word": "отношения",
+    "jointSyllables": "о-тно-ше-ни-я",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "тно",
+      "ше",
+      "ни",
+      "я"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "relations"
+  },
+  "с": {
+    "seq": 60,
+    "stem": "с",
+    "word": "с",
+    "jointSyllables": "с",
+    "iscyrallic": true,
+    "syllables": [
+      "с"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "from"
+  },
+  "израилем": {
+    "seq": 61,
+    "stem": "израил",
+    "word": "израилем",
+    "jointSyllables": "и-зра-и-лем",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "зра",
+      "и",
+      "лем"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "israel"
+  },
+  "существуют": {
+    "seq": 63,
+    "stem": "существуют",
+    "word": "существуют",
+    "jointSyllables": "су-ще-ству-ют",
+    "iscyrallic": true,
+    "syllables": [
+      "су",
+      "ще",
+      "ству",
+      "ют"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "exist"
+  },
+  "параллели": {
+    "seq": 64,
+    "stem": "параллел",
+    "word": "параллели",
+    "jointSyllables": "па-ра-лле-ли",
+    "iscyrallic": true,
+    "syllables": [
+      "па",
+      "ра",
+      "лле",
+      "ли"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "parallels"
+  },
+  "между": {
+    "seq": 65,
+    "stem": "межд",
+    "word": "между",
+    "jointSyllables": "ме-жду",
+    "iscyrallic": true,
+    "syllables": [
+      "ме",
+      "жду"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "between"
+  },
+  "историей": {
+    "seq": 66,
+    "stem": "истор",
+    "word": "историей",
+    "jointSyllables": "и-сто-ри-ей",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "сто",
+      "ри",
+      "ей"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "history"
+  },
+  "об": {
+    "seq": 67,
+    "stem": "об",
+    "word": "об",
+    "jointSyllables": "об",
+    "iscyrallic": true,
+    "syllables": [
+      "об"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "about"
+  },
+  "исходе": {
+    "seq": 68,
+    "stem": "исход",
+    "word": "исходе",
+    "jointSyllables": "и-схо-де",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "схо",
+      "де"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "the outcome"
+  },
+  "синае": {
+    "seq": 70,
+    "stem": "сина",
+    "word": "синае",
+    "jointSyllables": "си-на-е",
+    "iscyrallic": true,
+    "syllables": [
+      "си",
+      "на",
+      "е"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "sinai"
+  },
+  "нашим": {
+    "seq": 72,
+    "stem": "наш",
+    "word": "нашим",
+    "jointSyllables": "на-шим",
+    "iscyrallic": true,
+    "syllables": [
+      "на",
+      "шим"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "our"
+  },
+  "личным": {
+    "seq": 73,
+    "stem": "личн",
+    "word": "личным",
+    "jointSyllables": "ли-чным",
+    "iscyrallic": true,
+    "syllables": [
+      "ли",
+      "чным"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "personal"
+  },
+  "спасением": {
+    "seq": 74,
+    "stem": "спасен",
+    "word": "спасением",
+    "jointSyllables": "спа-се-ни-ем",
+    "iscyrallic": true,
+    "syllables": [
+      "спа",
+      "се",
+      "ни",
+      "ем"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "salvation"
+  },
+  "какова": {
+    "seq": 75,
+    "stem": "каков",
+    "word": "какова",
+    "jointSyllables": "ка-ко-ва",
+    "iscyrallic": true,
+    "syllables": [
+      "ка",
+      "ко",
+      "ва"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "what is"
+  },
+  "была": {
+    "seq": 76,
+    "stem": "был",
+    "word": "была",
+    "jointSyllables": "бы-ла",
+    "iscyrallic": true,
+    "syllables": [
+      "бы",
+      "ла"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "was"
+  },
+  "роль": {
+    "seq": 77,
+    "stem": "рол",
+    "word": "роль",
+    "jointSyllables": "роль",
+    "iscyrallic": true,
+    "syllables": [
+      "роль"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "role"
+  },
+  "закона": {
+    "seq": 78,
+    "stem": "закон",
+    "word": "закона",
+    "jointSyllables": "за-ко-на",
+    "iscyrallic": true,
+    "syllables": [
+      "за",
+      "ко",
+      "на"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "of the law"
+  },
+  "в": {
+    "seq": 79,
+    "stem": "в",
+    "word": "в",
+    "jointSyllables": "в",
+    "iscyrallic": true,
+    "syllables": [
+      "в"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "in"
+  },
+  "синайском": {
+    "seq": 80,
+    "stem": "синайск",
+    "word": "синайском",
+    "jointSyllables": "си-най-ском",
+    "iscyrallic": true,
+    "syllables": [
+      "си",
+      "най",
+      "ском"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "Sinai"
+  },
+  "завете": {
+    "seq": 81,
+    "stem": "завет",
+    "word": "завете",
+    "jointSyllables": "за-ве-те",
+    "iscyrallic": true,
+    "syllables": [
+      "за",
+      "ве",
+      "те"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "covenant"
+  },
+  "маленьким": {
+    "seq": 83,
+    "stem": "маленьк",
+    "word": "маленьким",
+    "jointSyllables": "ма-лень-ким",
+    "iscyrallic": true,
+    "syllables": [
+      "ма",
+      "лень",
+      "ким"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "small"
+  },
+  "мальчиком": {
+    "seq": 84,
+    "stem": "мальчик",
+    "word": "мальчиком",
+    "jointSyllables": "маль-чи-ком",
+    "iscyrallic": true,
+    "syllables": [
+      "маль",
+      "чи",
+      "ком"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "boy"
+  },
+  "одним": {
+    "seq": 85,
+    "stem": "одн",
+    "word": "одним",
+    "jointSyllables": "о-дним",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "дним"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "one"
+  },
+  "из": {
+    "seq": 86,
+    "stem": "из",
+    "word": "из",
+    "jointSyllables": "из",
+    "iscyrallic": true,
+    "syllables": [
+      "из"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "of"
+  },
+  "семи": {
+    "seq": 87,
+    "stem": "сем",
+    "word": "семи",
+    "jointSyllables": "се-ми",
+    "iscyrallic": true,
+    "syllables": [
+      "се",
+      "ми"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "seven"
+  },
+  "детей": {
+    "seq": 88,
+    "stem": "дет",
+    "word": "детей",
+    "jointSyllables": "де-тей",
+    "iscyrallic": true,
+    "syllables": [
+      "де",
+      "тей"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "children"
+  },
+  "многодетной": {
+    "seq": 90,
+    "stem": "многодетн",
+    "word": "многодетной",
+    "jointSyllables": "мно-го-де-тной",
+    "iscyrallic": true,
+    "syllables": [
+      "мно",
+      "го",
+      "де",
+      "тной"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "large"
+  },
+  "семье": {
+    "seq": 91,
+    "stem": "сем",
+    "word": "семье",
+    "jointSyllables": "семь-е",
+    "iscyrallic": true,
+    "syllables": [
+      "семь",
+      "е"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "family"
+  },
+  "произошел": {
+    "seq": 92,
+    "stem": "произошел",
+    "word": "произошел",
+    "jointSyllables": "про-и-зо-шел",
+    "iscyrallic": true,
+    "syllables": [
+      "про",
+      "и",
+      "зо",
+      "шел"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "happened"
+  },
+  "несчастный": {
+    "seq": 93,
+    "stem": "несчастн",
+    "word": "несчастный",
+    "jointSyllables": "не-сча-стный",
+    "iscyrallic": true,
+    "syllables": [
+      "не",
+      "сча",
+      "стный"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "unhappy"
+  },
+  "случай": {
+    "seq": 94,
+    "stem": "случа",
+    "word": "случай",
+    "jointSyllables": "слу-чай",
+    "iscyrallic": true,
+    "syllables": [
+      "слу",
+      "чай"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "happening"
+  },
+  "его": {
+    "seq": 96,
+    "stem": "ег",
+    "word": "его",
+    "jointSyllables": "е-го",
+    "iscyrallic": true,
+    "syllables": [
+      "е",
+      "го"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "his"
+  },
+  "доставили": {
+    "seq": 97,
+    "stem": "достав",
+    "word": "доставили",
+    "jointSyllables": "до-ста-ви-ли",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "ста",
+      "ви",
+      "ли"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "delivered"
+  },
+  "больницу": {
+    "seq": 99,
+    "stem": "больниц",
+    "word": "больницу",
+    "jointSyllables": "боль-ни-цу",
+    "iscyrallic": true,
+    "syllables": [
+      "боль",
+      "ни",
+      "цу"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "the hospital"
+  },
+  "доме": {
+    "seq": 102,
+    "stem": "дом",
+    "word": "доме",
+    "jointSyllables": "до-ме",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "ме"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "home"
+  },
+  "редко": {
+    "seq": 103,
+    "stem": "редк",
+    "word": "редко",
+    "jointSyllables": "ре-дко",
+    "iscyrallic": true,
+    "syllables": [
+      "ре",
+      "дко"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "seldom"
+  },
+  "бывало": {
+    "seq": 104,
+    "stem": "быва",
+    "word": "бывало",
+    "jointSyllables": "бы-ва-ло",
+    "iscyrallic": true,
+    "syllables": [
+      "бы",
+      "ва",
+      "ло"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "used to"
+  },
+  "чеголибо": {
+    "seq": 105,
+    "stem": "чеголиб",
+    "word": "чеголибо",
+    "jointSyllables": "че-го-ли-бо",
+    "iscyrallic": true,
+    "syllables": [
+      "че",
+      "го",
+      "ли",
+      "бо"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "anything"
+  },
+  "достатке": {
+    "seq": 107,
+    "stem": "достатк",
+    "word": "достатке",
+    "jointSyllables": "до-ста-тке",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "ста",
+      "тке"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "wealth"
+  },
+  "ему": {
+    "seq": 108,
+    "stem": "ем",
+    "word": "ему",
+    "jointSyllables": "е-му",
+    "iscyrallic": true,
+    "syllables": [
+      "е",
+      "му"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "his"
+  },
+  "никогда": {
+    "seq": 109,
+    "stem": "никогд",
+    "word": "никогда",
+    "jointSyllables": "ни-ко-гда",
+    "iscyrallic": true,
+    "syllables": [
+      "ни",
+      "ко",
+      "гда"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "never"
+  },
+  "не": {
+    "seq": 110,
+    "stem": "не",
+    "word": "не",
+    "jointSyllables": "не",
+    "iscyrallic": true,
+    "syllables": [
+      "не"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "not"
+  },
+  "доставалось": {
+    "seq": 111,
+    "stem": "достава",
+    "word": "доставалось",
+    "jointSyllables": "до-ста-ва-лось",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "ста",
+      "ва",
+      "лось"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "got"
+  },
+  "больше": {
+    "seq": 112,
+    "stem": "больш",
+    "word": "больше",
+    "jointSyllables": "боль-ше",
+    "iscyrallic": true,
+    "syllables": [
+      "боль",
+      "ше"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "more"
+  },
+  "чем": {
+    "seq": 113,
+    "stem": "чем",
+    "word": "чем",
+    "jointSyllables": "чем",
+    "iscyrallic": true,
+    "syllables": [
+      "чем"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "than"
+  },
+  "половина": {
+    "seq": 114,
+    "stem": "половин",
+    "word": "половина",
+    "jointSyllables": "по-ло-ви-на",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "ло",
+      "ви",
+      "на"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "half"
+  },
+  "стакана": {
+    "seq": 115,
+    "stem": "стака",
+    "word": "стакана",
+    "jointSyllables": "ста-ка-на",
+    "iscyrallic": true,
+    "syllables": [
+      "ста",
+      "ка",
+      "на"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "glasses"
+  },
+  "молока": {
+    "seq": 116,
+    "stem": "молок",
+    "word": "молока",
+    "jointSyllables": "мо-ло-ка",
+    "iscyrallic": true,
+    "syllables": [
+      "мо",
+      "ло",
+      "ка"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "milk"
+  },
+  "если": {
+    "seq": 117,
+    "stem": "есл",
+    "word": "если",
+    "jointSyllables": "е-сли",
+    "iscyrallic": true,
+    "syllables": [
+      "е",
+      "сли"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "if a"
+  },
+  "стакан": {
+    "seq": 118,
+    "stem": "стака",
+    "word": "стакан",
+    "jointSyllables": "ста-кан",
+    "iscyrallic": true,
+    "syllables": [
+      "ста",
+      "кан"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "glass"
+  },
+  "был": {
+    "seq": 119,
+    "stem": "был",
+    "word": "был",
+    "jointSyllables": "был",
+    "iscyrallic": true,
+    "syllables": [
+      "был"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "was"
+  },
+  "полон": {
+    "seq": 120,
+    "stem": "полон",
+    "word": "полон",
+    "jointSyllables": "по-лон",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "лон"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "full"
+  },
+  "делили": {
+    "seq": 122,
+    "stem": "дел",
+    "word": "делили",
+    "jointSyllables": "де-ли-ли",
+    "iscyrallic": true,
+    "syllables": [
+      "де",
+      "ли",
+      "ли"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "shared"
+  },
+  "двоих": {
+    "seq": 124,
+    "stem": "дво",
+    "word": "двоих",
+    "jointSyllables": "дво-их",
+    "iscyrallic": true,
+    "syllables": [
+      "дво",
+      "их"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "two"
+  },
+  "тот": {
+    "seq": 127,
+    "stem": "тот",
+    "word": "тот",
+    "jointSyllables": "тот",
+    "iscyrallic": true,
+    "syllables": [
+      "тот"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "that one"
+  },
+  "кто": {
+    "seq": 128,
+    "stem": "кто",
+    "word": "кто",
+    "jointSyllables": "кто",
+    "iscyrallic": true,
+    "syllables": [
+      "кто"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "Who"
+  },
+  "пил": {
+    "seq": 129,
+    "stem": "пил",
+    "word": "пил",
+    "jointSyllables": "пил",
+    "iscyrallic": true,
+    "syllables": [
+      "пил"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "drank"
+  },
+  "первым": {
+    "seq": 130,
+    "stem": "перв",
+    "word": "первым",
+    "jointSyllables": "пер-вым",
+    "iscyrallic": true,
+    "syllables": [
+      "пер",
+      "вым"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "the first"
+  },
+  "должен": {
+    "seq": 131,
+    "stem": "долж",
+    "word": "должен",
+    "jointSyllables": "дол-жен",
+    "iscyrallic": true,
+    "syllables": [
+      "дол",
+      "жен"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "should"
+  },
+  "быть": {
+    "seq": 133,
+    "stem": "быт",
+    "word": "быть",
+    "jointSyllables": "быть",
+    "iscyrallic": true,
+    "syllables": [
+      "быть"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "be"
+  },
+  "осторожным": {
+    "seq": 134,
+    "stem": "осторожн",
+    "word": "осторожным",
+    "jointSyllables": "о-сто-ро-жным",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "сто",
+      "ро",
+      "жным"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "careful"
+  },
+  "выпить": {
+    "seq": 137,
+    "stem": "вып",
+    "word": "выпить",
+    "jointSyllables": "вы-пить",
+    "iscyrallic": true,
+    "syllables": [
+      "вы",
+      "пить"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "drink up"
+  },
+  "слишком": {
+    "seq": 138,
+    "stem": "слишк",
+    "word": "слишком",
+    "jointSyllables": "сли-шком",
+    "iscyrallic": true,
+    "syllables": [
+      "сли",
+      "шком"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "too"
+  },
+  "много": {
+    "seq": 139,
+    "stem": "мног",
+    "word": "много",
+    "jointSyllables": "мно-го",
+    "iscyrallic": true,
+    "syllables": [
+      "мно",
+      "го"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "lot"
+  },
+  "когда": {
+    "seq": 140,
+    "stem": "когд",
+    "word": "когда",
+    "jointSyllables": "ко-гда",
+    "iscyrallic": true,
+    "syllables": [
+      "ко",
+      "гда"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "when"
+  },
+  "малыша": {
+    "seq": 141,
+    "stem": "малыш",
+    "word": "малыша",
+    "jointSyllables": "ма-лы-ша",
+    "iscyrallic": true,
+    "syllables": [
+      "ма",
+      "лы",
+      "ша"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "toddler"
+  },
+  "устроили": {
+    "seq": 142,
+    "stem": "устро",
+    "word": "устроили",
+    "jointSyllables": "у-стро-и-ли",
+    "iscyrallic": true,
+    "syllables": [
+      "у",
+      "стро",
+      "и",
+      "ли"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "arranged"
+  },
+  "больнице": {
+    "seq": 144,
+    "stem": "больниц",
+    "word": "больнице",
+    "jointSyllables": "боль-ни-це",
+    "iscyrallic": true,
+    "syllables": [
+      "боль",
+      "ни",
+      "це"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "the hospital"
+  },
+  "медсестра": {
+    "seq": 145,
+    "stem": "медсестр",
+    "word": "медсестра",
+    "jointSyllables": "ме-дсе-стра",
+    "iscyrallic": true,
+    "syllables": [
+      "ме",
+      "дсе",
+      "стра"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "nurse"
+  },
+  "принесла": {
+    "seq": 146,
+    "stem": "принесл",
+    "word": "принесла",
+    "jointSyllables": "при-не-сла",
+    "iscyrallic": true,
+    "syllables": [
+      "при",
+      "не",
+      "сла"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "brought"
+  },
+  "большой": {
+    "seq": 148,
+    "stem": "больш",
+    "word": "большой",
+    "jointSyllables": "боль-шой",
+    "iscyrallic": true,
+    "syllables": [
+      "боль",
+      "шой"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "large"
+  },
+  "несколько": {
+    "seq": 151,
+    "stem": "нескольк",
+    "word": "несколько",
+    "jointSyllables": "не-сколь-ко",
+    "iscyrallic": true,
+    "syllables": [
+      "не",
+      "сколь",
+      "ко"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "some"
+  },
+  "мгновений": {
+    "seq": 152,
+    "stem": "мгновен",
+    "word": "мгновений",
+    "jointSyllables": "мгно-ве-ний",
+    "iscyrallic": true,
+    "syllables": [
+      "мгно",
+      "ве",
+      "ний"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "moments"
+  },
+  "он": {
+    "seq": 153,
+    "stem": "он",
+    "word": "он",
+    "jointSyllables": "он",
+    "iscyrallic": true,
+    "syllables": [
+      "он"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "is he"
+  },
+  "тоскливо": {
+    "seq": 154,
+    "stem": "тосклив",
+    "word": "тоскливо",
+    "jointSyllables": "то-скли-во",
+    "iscyrallic": true,
+    "syllables": [
+      "то",
+      "скли",
+      "во"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "drearily"
+  },
+  "смотрел": {
+    "seq": 155,
+    "stem": "смотрел",
+    "word": "смотрел",
+    "jointSyllables": "смо-трел",
+    "iscyrallic": true,
+    "syllables": [
+      "смо",
+      "трел"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "looked"
+  },
+  "него": {
+    "seq": 157,
+    "stem": "нег",
+    "word": "него",
+    "jointSyllables": "не-го",
+    "iscyrallic": true,
+    "syllables": [
+      "не",
+      "го"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "him"
+  },
+  "а": {
+    "seq": 158,
+    "stem": "а",
+    "word": "а",
+    "jointSyllables": "а",
+    "iscyrallic": true,
+    "syllables": [
+      "а"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "but"
+  },
+  "затем": {
+    "seq": 159,
+    "stem": "зат",
+    "word": "затем",
+    "jointSyllables": "за-тем",
+    "iscyrallic": true,
+    "syllables": [
+      "за",
+      "тем"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "then"
+  },
+  "помня": {
+    "seq": 160,
+    "stem": "помн",
+    "word": "помня",
+    "jointSyllables": "пом-ня",
+    "iscyrallic": true,
+    "syllables": [
+      "пом",
+      "ня"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "remembering"
+  },
+  "о": {
+    "seq": 161,
+    "stem": "о",
+    "word": "о",
+    "jointSyllables": "о",
+    "iscyrallic": true,
+    "syllables": [
+      "о"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "about"
+  },
+  "нужде": {
+    "seq": 162,
+    "stem": "нужд",
+    "word": "нужде",
+    "jointSyllables": "ну-жде",
+    "iscyrallic": true,
+    "syllables": [
+      "ну",
+      "жде"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "need"
+  },
+  "царившей": {
+    "seq": 163,
+    "stem": "цар",
+    "word": "царившей",
+    "jointSyllables": "ца-ри-вшей",
+    "iscyrallic": true,
+    "syllables": [
+      "ца",
+      "ри",
+      "вшей"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "reigning"
+  },
+  "дома": {
+    "seq": 164,
+    "stem": "дом",
+    "word": "дома",
+    "jointSyllables": "до-ма",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "ма"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "at home"
+  },
+  "спросил": {
+    "seq": 165,
+    "stem": "спрос",
+    "word": "спросил",
+    "jointSyllables": "спро-сил",
+    "iscyrallic": true,
+    "syllables": [
+      "спро",
+      "сил"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "asked"
+  },
+  "сколько": {
+    "seq": 166,
+    "stem": "скольк",
+    "word": "сколько",
+    "jointSyllables": "сколь-ко",
+    "iscyrallic": true,
+    "syllables": [
+      "сколь",
+      "ко"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "how much"
+  },
+  "мне": {
+    "seq": 167,
+    "stem": "мне",
+    "word": "мне",
+    "jointSyllables": "м-не",
+    "iscyrallic": true,
+    "syllables": [
+      "м",
+      "не"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "to me"
+  },
+  "можно": {
+    "seq": 168,
+    "stem": "можн",
+    "word": "можно",
+    "jointSyllables": "мо-жно",
+    "iscyrallic": true,
+    "syllables": [
+      "мо",
+      "жно"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "can"
+  },
+  "отпить": {
+    "seq": 169,
+    "stem": "отп",
+    "word": "отпить",
+    "jointSyllables": "о-тпить",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "тпить"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "have a drink"
+  },
+  "со": {
+    "seq": 171,
+    "stem": "со",
+    "word": "со",
+    "jointSyllables": "со",
+    "iscyrallic": true,
+    "syllables": [
+      "со"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "with"
+  },
+  "слезами": {
+    "seq": 172,
+    "stem": "слез",
+    "word": "слезами",
+    "jointSyllables": "сле-за-ми",
+    "iscyrallic": true,
+    "syllables": [
+      "сле",
+      "за",
+      "ми"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "tears"
+  },
+  "глазах": {
+    "seq": 174,
+    "stem": "глаз",
+    "word": "глазах",
+    "jointSyllables": "гла-зах",
+    "iscyrallic": true,
+    "syllables": [
+      "гла",
+      "зах"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "eyes"
+  },
+  "комом": {
+    "seq": 177,
+    "stem": "ком",
+    "word": "комом",
+    "jointSyllables": "ко-мом",
+    "iscyrallic": true,
+    "syllables": [
+      "ко",
+      "мом"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "lumpy"
+  },
+  "горле": {
+    "seq": 179,
+    "stem": "горл",
+    "word": "горле",
+    "jointSyllables": "гор-ле",
+    "iscyrallic": true,
+    "syllables": [
+      "гор",
+      "ле"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "throat"
+  },
+  "сказала": {
+    "seq": 180,
+    "stem": "сказа",
+    "word": "сказала",
+    "jointSyllables": "ска-за-ла",
+    "iscyrallic": true,
+    "syllables": [
+      "ска",
+      "за",
+      "ла"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "said"
+  },
+  "выпей": {
+    "seq": 181,
+    "stem": "вып",
+    "word": "выпей",
+    "jointSyllables": "вы-пей",
+    "iscyrallic": true,
+    "syllables": [
+      "вы",
+      "пей"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "have a drink"
+  },
+  "весь": {
+    "seq": 182,
+    "stem": "вес",
+    "word": "весь",
+    "jointSyllables": "весь",
+    "iscyrallic": true,
+    "syllables": [
+      "весь"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "the whole"
+  },
+  "малыш": {
+    "seq": 183,
+    "stem": "малыш",
+    "word": "малыш",
+    "jointSyllables": "ма-лыш",
+    "iscyrallic": true,
+    "syllables": [
+      "ма",
+      "лыш"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "kid"
+  },
+  "подобно": {
+    "seq": 198,
+    "stem": "подобн",
+    "word": "подобно",
+    "jointSyllables": "по-до-бно",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "до",
+      "бно"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "like"
+  },
+  "этому": {
+    "seq": 199,
+    "stem": "эт",
+    "word": "этому",
+    "jointSyllables": "э-то-му",
+    "iscyrallic": true,
+    "syllables": [
+      "э",
+      "то",
+      "му"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "this"
+  },
+  "мальчику": {
+    "seq": 200,
+    "stem": "мальчик",
+    "word": "мальчику",
+    "jointSyllables": "маль-чи-ку",
+    "iscyrallic": true,
+    "syllables": [
+      "маль",
+      "чи",
+      "ку"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "boy"
+  },
+  "у": {
+    "seq": 201,
+    "stem": "у",
+    "word": "у",
+    "jointSyllables": "у",
+    "iscyrallic": true,
+    "syllables": [
+      "у"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "at"
+  },
+  "древнего": {
+    "seq": 202,
+    "stem": "древн",
+    "word": "древнего",
+    "jointSyllables": "дре-вне-го",
+    "iscyrallic": true,
+    "syllables": [
+      "дре",
+      "вне",
+      "го"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "ancient"
+  },
+  "израиля": {
+    "seq": 203,
+    "stem": "израил",
+    "word": "израиля",
+    "jointSyllables": "и-зра-и-ля",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "зра",
+      "и",
+      "ля"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "israel"
+  },
+  "нас": {
+    "seq": 207,
+    "stem": "нас",
+    "word": "нас",
+    "jointSyllables": "нас",
+    "iscyrallic": true,
+    "syllables": [
+      "нас"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "us"
+  },
+  "было": {
+    "seq": 208,
+    "stem": "был",
+    "word": "было",
+    "jointSyllables": "бы-ло",
+    "iscyrallic": true,
+    "syllables": [
+      "бы",
+      "ло"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "It was"
+  },
+  "преимущество": {
+    "seq": 209,
+    "stem": "преимуществ",
+    "word": "преимущество",
+    "jointSyllables": "пре-и-му-ще-ство",
+    "iscyrallic": true,
+    "syllables": [
+      "пре",
+      "и",
+      "му",
+      "ще",
+      "ство"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "advantage"
+  },
+  "пить": {
+    "seq": 211,
+    "stem": "пит",
+    "word": "пить",
+    "jointSyllables": "пить",
+    "iscyrallic": true,
+    "syllables": [
+      "пить"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "drink"
+  },
+  "вдоволь": {
+    "seq": 212,
+    "stem": "вдовол",
+    "word": "вдоволь",
+    "jointSyllables": "вдо-воль",
+    "iscyrallic": true,
+    "syllables": [
+      "вдо",
+      "воль"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "enough"
+  },
+  "колодца": {
+    "seq": 214,
+    "stem": "колодц",
+    "word": "колодца",
+    "jointSyllables": "ко-ло-дца",
+    "iscyrallic": true,
+    "syllables": [
+      "ко",
+      "ло",
+      "дца"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "wells"
+  },
+  "спасения": {
+    "seq": 215,
+    "stem": "спасен",
+    "word": "спасения",
+    "jointSyllables": "спа-се-ни-я",
+    "iscyrallic": true,
+    "syllables": [
+      "спа",
+      "се",
+      "ни",
+      "я"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "salvation"
+  },
+  "избавление": {
+    "seq": 216,
+    "stem": "избавлен",
+    "word": "избавление",
+    "jointSyllables": "и-зба-вле-ни-е",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "зба",
+      "вле",
+      "ни",
+      "е"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "deliverance"
+  },
+  "от": {
+    "seq": 218,
+    "stem": "от",
+    "word": "от",
+    "jointSyllables": "от",
+    "iscyrallic": true,
+    "syllables": [
+      "от"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "from"
+  },
+  "многовекового": {
+    "seq": 219,
+    "stem": "многовеков",
+    "word": "многовекового",
+    "jointSyllables": "мно-го-ве-ко-во-го",
+    "iscyrallic": true,
+    "syllables": [
+      "мно",
+      "го",
+      "ве",
+      "ко",
+      "во",
+      "го"
+    ],
+    "syllableCount": 6,
+    "googleTranslation": "centuries-old"
+  },
+  "рабства": {
+    "seq": 220,
+    "stem": "рабств",
+    "word": "рабства",
+    "jointSyllables": "ра-бства",
+    "iscyrallic": true,
+    "syllables": [
+      "ра",
+      "бства"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "slavery"
+  },
+  "угнетения": {
+    "seq": 222,
+    "stem": "угнетен",
+    "word": "угнетения",
+    "jointSyllables": "у-гне-те-ни-я",
+    "iscyrallic": true,
+    "syllables": [
+      "у",
+      "гне",
+      "те",
+      "ни",
+      "я"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "oppression"
+  },
+  "чудесным": {
+    "seq": 224,
+    "stem": "чудесн",
+    "word": "чудесным",
+    "jointSyllables": "чу-де-сным",
+    "iscyrallic": true,
+    "syllables": [
+      "чу",
+      "де",
+      "сным"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "wonderful"
+  },
+  "проявлением": {
+    "seq": 225,
+    "stem": "проявлен",
+    "word": "проявлением",
+    "jointSyllables": "про-я-вле-ни-ем",
+    "iscyrallic": true,
+    "syllables": [
+      "про",
+      "я",
+      "вле",
+      "ни",
+      "ем"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "manifestation"
+  },
+  "благодати": {
+    "seq": 226,
+    "stem": "благодат",
+    "word": "благодати",
+    "jointSyllables": "бла-го-да-ти",
+    "iscyrallic": true,
+    "syllables": [
+      "бла",
+      "го",
+      "да",
+      "ти"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "grace"
+  },
+  "божьей": {
+    "seq": 227,
+    "stem": "бож",
+    "word": "божьей",
+    "jointSyllables": "божь-ей",
+    "iscyrallic": true,
+    "syllables": [
+      "божь",
+      "ей"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "god&#39;s"
+  },
+  "подобным": {
+    "seq": 228,
+    "stem": "подобн",
+    "word": "подобным",
+    "jointSyllables": "по-до-бным",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "до",
+      "бным"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "like"
+  },
+  "же": {
+    "seq": 229,
+    "stem": "же",
+    "word": "же",
+    "jointSyllables": "же",
+    "iscyrallic": true,
+    "syllables": [
+      "же"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "the same"
+  },
+  "образом": {
+    "seq": 230,
+    "stem": "образ",
+    "word": "образом",
+    "jointSyllables": "о-бра-зом",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "бра",
+      "зом"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "way"
+  },
+  "благодать": {
+    "seq": 231,
+    "stem": "благода",
+    "word": "благодать",
+    "jointSyllables": "бла-го-дать",
+    "iscyrallic": true,
+    "syllables": [
+      "бла",
+      "го",
+      "дать"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "grace"
+  },
+  "божья": {
+    "seq": 232,
+    "stem": "бож",
+    "word": "божья",
+    "jointSyllables": "божь-я",
+    "iscyrallic": true,
+    "syllables": [
+      "божь",
+      "я"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "god&#39;s"
+  },
+  "участвует": {
+    "seq": 233,
+    "stem": "участв",
+    "word": "участвует",
+    "jointSyllables": "у-ча-ству-ет",
+    "iscyrallic": true,
+    "syllables": [
+      "у",
+      "ча",
+      "ству",
+      "ет"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "participates"
+  },
+  "нашем": {
+    "seq": 235,
+    "stem": "наш",
+    "word": "нашем",
+    "jointSyllables": "на-шем",
+    "iscyrallic": true,
+    "syllables": [
+      "на",
+      "шем"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "our"
+  },
+  "собственном": {
+    "seq": 236,
+    "stem": "собствен",
+    "word": "собственном",
+    "jointSyllables": "со-бстве-нном",
+    "iscyrallic": true,
+    "syllables": [
+      "со",
+      "бстве",
+      "нном"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "own"
+  },
+  "освобождении": {
+    "seq": 237,
+    "stem": "освобожден",
+    "word": "освобождении",
+    "jointSyllables": "о-сво-бо-жде-ни-и",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "сво",
+      "бо",
+      "жде",
+      "ни",
+      "и"
+    ],
+    "syllableCount": 6,
+    "googleTranslation": "liberation"
+  },
+  "греха": {
+    "seq": 239,
+    "stem": "грех",
+    "word": "греха",
+    "jointSyllables": "гре-ха",
+    "iscyrallic": true,
+    "syllables": [
+      "гре",
+      "ха"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "sin"
+  },
+  "дополнительного": {
+    "seq": 241,
+    "stem": "дополнительн",
+    "word": "дополнительного",
+    "jointSyllables": "до-пол-ни-тель-но-го",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "пол",
+      "ни",
+      "тель",
+      "но",
+      "го"
+    ],
+    "syllableCount": 6,
+    "googleTranslation": "additional"
+  },
+  "чтения": {
+    "seq": 242,
+    "stem": "чтен",
+    "word": "чтения",
+    "jointSyllables": "чте-ни-я",
+    "iscyrallic": true,
+    "syllables": [
+      "чте",
+      "ни",
+      "я"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "reading"
+  },
+  "избранные": {
+    "seq": 243,
+    "stem": "избра",
+    "word": "избранные",
+    "jointSyllables": "и-збра-нны-е",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "збра",
+      "нны",
+      "е"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "the chosen"
+  },
+  "цитаты": {
+    "seq": 244,
+    "stem": "цитат",
+    "word": "цитаты",
+    "jointSyllables": "ци-та-ты",
+    "iscyrallic": true,
+    "syllables": [
+      "ци",
+      "та",
+      "ты"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "quotes"
+  },
+  "эллен": {
+    "seq": 245,
+    "stem": "элл",
+    "word": "эллен",
+    "jointSyllables": "э-ллен",
+    "iscyrallic": true,
+    "syllables": [
+      "э",
+      "ллен"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "Ellen"
+  },
+  "уайт": {
+    "seq": 246,
+    "stem": "уайт",
+    "word": "уайт",
+    "jointSyllables": "у-айт",
+    "iscyrallic": true,
+    "syllables": [
+      "у",
+      "айт"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "white"
+  },
+  "церковь": {
+    "seq": 247,
+    "stem": "церков",
+    "word": "церковь",
+    "jointSyllables": "цер-ковь",
+    "iscyrallic": true,
+    "syllables": [
+      "цер",
+      "ковь"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "church"
+  },
+  "по": {
+    "seq": 248,
+    "stem": "по",
+    "word": "по",
+    "jointSyllables": "по",
+    "iscyrallic": true,
+    "syllables": [
+      "по"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "by"
+  },
+  "замыслу": {
+    "seq": 249,
+    "stem": "замысл",
+    "word": "замыслу",
+    "jointSyllables": "за-мы-слу",
+    "iscyrallic": true,
+    "syllables": [
+      "за",
+      "мы",
+      "слу"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "design"
+  },
+  "божьему": {
+    "seq": 250,
+    "stem": "бож",
+    "word": "божьему",
+    "jointSyllables": "божь-е-му",
+    "iscyrallic": true,
+    "syllables": [
+      "божь",
+      "е",
+      "му"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "godly"
+  },
+  "призвана": {
+    "seq": 251,
+    "stem": "призва",
+    "word": "призвана",
+    "jointSyllables": "при-зва-на",
+    "iscyrallic": true,
+    "syllables": [
+      "при",
+      "зва",
+      "на"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "is called to"
+  },
+  "сотрудничать": {
+    "seq": 252,
+    "stem": "сотруднича",
+    "word": "сотрудничать",
+    "jointSyllables": "со-тру-дни-чать",
+    "iscyrallic": true,
+    "syllables": [
+      "со",
+      "тру",
+      "дни",
+      "чать"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "cooperate"
+  },
+  "ним": {
+    "seq": 254,
+    "stem": "ним",
+    "word": "ним",
+    "jointSyllables": "ним",
+    "iscyrallic": true,
+    "syllables": [
+      "ним"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "him"
+  },
+  "деле": {
+    "seq": 256,
+    "stem": "дел",
+    "word": "деле",
+    "jointSyllables": "де-ле",
+    "iscyrallic": true,
+    "syllables": [
+      "де",
+      "ле"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "business"
+  },
+  "людей": {
+    "seq": 258,
+    "stem": "люд",
+    "word": "людей",
+    "jointSyllables": "лю-дей",
+    "iscyrallic": true,
+    "syllables": [
+      "лю",
+      "дей"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "of people"
+  },
+  "она": {
+    "seq": 259,
+    "stem": "он",
+    "word": "она",
+    "jointSyllables": "о-на",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "на"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "she is"
+  },
+  "создана": {
+    "seq": 260,
+    "stem": "созда",
+    "word": "создана",
+    "jointSyllables": "со-зда-на",
+    "iscyrallic": true,
+    "syllables": [
+      "со",
+      "зда",
+      "на"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "established"
+  },
+  "служения": {
+    "seq": 262,
+    "stem": "служен",
+    "word": "служения",
+    "jointSyllables": "слу-же-ни-я",
+    "iscyrallic": true,
+    "syllables": [
+      "слу",
+      "же",
+      "ни",
+      "я"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "ministries"
+  },
+  "ее": {
+    "seq": 264,
+    "stem": "е",
+    "word": "ее",
+    "jointSyllables": "е-е",
+    "iscyrallic": true,
+    "syllables": [
+      "е",
+      "е"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "her"
+  },
+  "задача": {
+    "seq": 265,
+    "stem": "задач",
+    "word": "задача",
+    "jointSyllables": "за-да-ча",
+    "iscyrallic": true,
+    "syllables": [
+      "за",
+      "да",
+      "ча"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "a task"
+  },
+  "нести": {
+    "seq": 267,
+    "stem": "нест",
+    "word": "нести",
+    "jointSyllables": "не-сти",
+    "iscyrallic": true,
+    "syllables": [
+      "не",
+      "сти"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "carry"
+  },
+  "евангелие": {
+    "seq": 268,
+    "stem": "евангел",
+    "word": "евангелие",
+    "jointSyllables": "е-ван-ге-ли-е",
+    "iscyrallic": true,
+    "syllables": [
+      "е",
+      "ван",
+      "ге",
+      "ли",
+      "е"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "gospel"
+  },
+  "миру": {
+    "seq": 269,
+    "stem": "мир",
+    "word": "миру",
+    "jointSyllables": "ми-ру",
+    "iscyrallic": true,
+    "syllables": [
+      "ми",
+      "ру"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "the world"
+  },
+  "изначально": {
+    "seq": 270,
+    "stem": "изначальн",
+    "word": "изначально",
+    "jointSyllables": "и-зна-чаль-но",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "зна",
+      "чаль",
+      "но"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "initially"
+  },
+  "план": {
+    "seq": 271,
+    "stem": "план",
+    "word": "план",
+    "jointSyllables": "план",
+    "iscyrallic": true,
+    "syllables": [
+      "план"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "plan"
+  },
+  "господа": {
+    "seq": 272,
+    "stem": "господ",
+    "word": "господа",
+    "jointSyllables": "го-спо-да",
+    "iscyrallic": true,
+    "syllables": [
+      "го",
+      "спо",
+      "да"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "gentlemen"
+  },
+  "заключался": {
+    "seq": 273,
+    "stem": "заключа",
+    "word": "заключался",
+    "jointSyllables": "за-клю-чал-ся",
+    "iscyrallic": true,
+    "syllables": [
+      "за",
+      "клю",
+      "чал",
+      "ся"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "consisted"
+  },
+  "том": {
+    "seq": 275,
+    "stem": "том",
+    "word": "том",
+    "jointSyllables": "том",
+    "iscyrallic": true,
+    "syllables": [
+      "том"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "Tom"
+  },
+  "отражала": {
+    "seq": 278,
+    "stem": "отража",
+    "word": "отражала",
+    "jointSyllables": "о-тра-жа-ла",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "тра",
+      "жа",
+      "ла"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "reflected"
+  },
+  "мире": {
+    "seq": 280,
+    "stem": "мир",
+    "word": "мире",
+    "jointSyllables": "ми-ре",
+    "iscyrallic": true,
+    "syllables": [
+      "ми",
+      "ре"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "the world"
+  },
+  "полноту": {
+    "seq": 282,
+    "stem": "полнот",
+    "word": "полноту",
+    "jointSyllables": "пол-но-ту",
+    "iscyrallic": true,
+    "syllables": [
+      "пол",
+      "но",
+      "ту"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "completeness"
+  },
+  "совершенство": {
+    "seq": 284,
+    "stem": "совершенств",
+    "word": "совершенство",
+    "jointSyllables": "со-вер-шен-ство",
+    "iscyrallic": true,
+    "syllables": [
+      "со",
+      "вер",
+      "шен",
+      "ство"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "perfection"
+  },
+  "членам": {
+    "seq": 285,
+    "stem": "член",
+    "word": "членам",
+    "jointSyllables": "чле-нам",
+    "iscyrallic": true,
+    "syllables": [
+      "чле",
+      "нам"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "members"
+  },
+  "людям": {
+    "seq": 287,
+    "stem": "люд",
+    "word": "людям",
+    "jointSyllables": "лю-дям",
+    "iscyrallic": true,
+    "syllables": [
+      "лю",
+      "дям"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "people"
+  },
+  "которых": {
+    "seq": 288,
+    "stem": "котор",
+    "word": "которых",
+    "jointSyllables": "ко-то-рых",
+    "iscyrallic": true,
+    "syllables": [
+      "ко",
+      "то",
+      "рых"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "which"
+  },
+  "вывел": {
+    "seq": 290,
+    "stem": "вывел",
+    "word": "вывел",
+    "jointSyllables": "вы-вел",
+    "iscyrallic": true,
+    "syllables": [
+      "вы",
+      "вел"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "brought out"
+  },
+  "тьмы": {
+    "seq": 292,
+    "stem": "тьмы",
+    "word": "тьмы",
+    "jointSyllables": "ть-мы",
+    "iscyrallic": true,
+    "syllables": [
+      "ть",
+      "мы"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "darkness"
+  },
+  "чудный": {
+    "seq": 294,
+    "stem": "чудн",
+    "word": "чудный",
+    "jointSyllables": "чу-дный",
+    "iscyrallic": true,
+    "syllables": [
+      "чу",
+      "дный"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "marvelous"
+  },
+  "свой": {
+    "seq": 295,
+    "stem": "сво",
+    "word": "свой",
+    "jointSyllables": "свой",
+    "iscyrallic": true,
+    "syllables": [
+      "свой"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "your"
+  },
+  "свет": {
+    "seq": 296,
+    "stem": "свет",
+    "word": "свет",
+    "jointSyllables": "свет",
+    "iscyrallic": true,
+    "syllables": [
+      "свет"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "shine"
+  },
+  "надлежит": {
+    "seq": 297,
+    "stem": "надлеж",
+    "word": "надлежит",
+    "jointSyllables": "на-дле-жит",
+    "iscyrallic": true,
+    "syllables": [
+      "на",
+      "дле",
+      "жит"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "should"
+  },
+  "являть": {
+    "seq": 298,
+    "stem": "явля",
+    "word": "являть",
+    "jointSyllables": "я-влять",
+    "iscyrallic": true,
+    "syllables": [
+      "я",
+      "влять"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "show"
+  },
+  "славу": {
+    "seq": 300,
+    "stem": "слав",
+    "word": "славу",
+    "jointSyllables": "сла-ву",
+    "iscyrallic": true,
+    "syllables": [
+      "сла",
+      "ву"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "glory"
+  },
+  "хранительница": {
+    "seq": 303,
+    "stem": "хранительниц",
+    "word": "хранительница",
+    "jointSyllables": "хра-ни-тель-ни-ца",
+    "iscyrallic": true,
+    "syllables": [
+      "хра",
+      "ни",
+      "тель",
+      "ни",
+      "ца"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "keeper"
+  },
+  "сокровищ": {
+    "seq": 304,
+    "stem": "сокровищ",
+    "word": "сокровищ",
+    "jointSyllables": "со-кро-вищ",
+    "iscyrallic": true,
+    "syllables": [
+      "со",
+      "кро",
+      "вищ"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "treasures"
+  },
+  "христовой": {
+    "seq": 306,
+    "stem": "христов",
+    "word": "христовой",
+    "jointSyllables": "хри-сто-вой",
+    "iscyrallic": true,
+    "syllables": [
+      "хри",
+      "сто",
+      "вой"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "christ&#39;s"
+  },
+  "через": {
+    "seq": 308,
+    "stem": "через",
+    "word": "через",
+    "jointSyllables": "че-рез",
+    "iscyrallic": true,
+    "syllables": [
+      "че",
+      "рез"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "through"
+  },
+  "нее": {
+    "seq": 309,
+    "stem": "не",
+    "word": "нее",
+    "jointSyllables": "не-е",
+    "iscyrallic": true,
+    "syllables": [
+      "не",
+      "е"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "her"
+  },
+  "конечном": {
+    "seq": 311,
+    "stem": "конечн",
+    "word": "конечном",
+    "jointSyllables": "ко-не-чном",
+    "iscyrallic": true,
+    "syllables": [
+      "ко",
+      "не",
+      "чном"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "the final"
+  },
+  "счете": {
+    "seq": 312,
+    "stem": "счет",
+    "word": "счете",
+    "jointSyllables": "сче-те",
+    "iscyrallic": true,
+    "syllables": [
+      "сче",
+      "те"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "account"
+  },
+  "должна": {
+    "seq": 313,
+    "stem": "должн",
+    "word": "должна",
+    "jointSyllables": "дол-жна",
+    "iscyrallic": true,
+    "syllables": [
+      "дол",
+      "жна"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "should"
+  },
+  "открыться": {
+    "seq": 314,
+    "stem": "откр",
+    "word": "открыться",
+    "jointSyllables": "о-ткрыть-ся",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "ткрыть",
+      "ся"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "open up"
+  },
+  "даже": {
+    "seq": 315,
+    "stem": "даж",
+    "word": "даже",
+    "jointSyllables": "да-же",
+    "iscyrallic": true,
+    "syllables": [
+      "да",
+      "же"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "even"
+  },
+  "начальствам": {
+    "seq": 316,
+    "stem": "начальств",
+    "word": "начальствам",
+    "jointSyllables": "на-чаль-ствам",
+    "iscyrallic": true,
+    "syllables": [
+      "на",
+      "чаль",
+      "ствам"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "authorities"
+  },
+  "властям": {
+    "seq": 318,
+    "stem": "власт",
+    "word": "властям",
+    "jointSyllables": "вла-стям",
+    "iscyrallic": true,
+    "syllables": [
+      "вла",
+      "стям"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "the authorities"
+  },
+  "небесах": {
+    "seq": 320,
+    "stem": "небес",
+    "word": "небесах",
+    "jointSyllables": "не-бе-сах",
+    "iscyrallic": true,
+    "syllables": [
+      "не",
+      "бе",
+      "сах"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "heaven"
+  },
+  "вся": {
+    "seq": 321,
+    "stem": "вся",
+    "word": "вся",
+    "jointSyllables": "вся",
+    "iscyrallic": true,
+    "syllables": [
+      "вся"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "all"
+  },
+  "полнота": {
+    "seq": 322,
+    "stem": "полнот",
+    "word": "полнота",
+    "jointSyllables": "пол-но-та",
+    "iscyrallic": true,
+    "syllables": [
+      "пол",
+      "но",
+      "та"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "fullness"
+  },
+  "любви": {
+    "seq": 323,
+    "stem": "любв",
+    "word": "любви",
+    "jointSyllables": "лю-бви",
+    "iscyrallic": true,
+    "syllables": [
+      "лю",
+      "бви"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "love"
+  },
+  "ефесянам": {
+    "seq": 325,
+    "stem": "ефесян",
+    "word": "ефесянам",
+    "jointSyllables": "е-фе-ся-нам",
+    "iscyrallic": true,
+    "syllables": [
+      "е",
+      "фе",
+      "ся",
+      "нам"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "Ephesians"
+  },
+  "да": {
+    "seq": 327,
+    "stem": "да",
+    "word": "да",
+    "jointSyllables": "да",
+    "iscyrallic": true,
+    "syllables": [
+      "да"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "Yes"
+  },
+  "mне": {
+    "seq": 329,
+    "stem": "mне",
+    "word": "mне",
+    "jointSyllables": "m-не",
+    "iscyrallic": true,
+    "syllables": [
+      "m",
+      "не"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "mnot"
+  },
+  "показан": {
+    "seq": 331,
+    "stem": "показа",
+    "word": "показан",
+    "jointSyllables": "по-ка-зан",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "ка",
+      "зан"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "shown"
+  },
+  "народ": {
+    "seq": 332,
+    "stem": "народ",
+    "word": "народ",
+    "jointSyllables": "на-род",
+    "iscyrallic": true,
+    "syllables": [
+      "на",
+      "род"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "people"
+  },
+  "божий": {
+    "seq": 333,
+    "stem": "бож",
+    "word": "божий",
+    "jointSyllables": "бо-жий",
+    "iscyrallic": true,
+    "syllables": [
+      "бо",
+      "жий"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "godly"
+  },
+  "связи": {
+    "seq": 335,
+    "stem": "связ",
+    "word": "связи",
+    "jointSyllables": "свя-зи",
+    "iscyrallic": true,
+    "syllables": [
+      "свя",
+      "зи"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "connections"
+  },
+  "деятельностью": {
+    "seq": 338,
+    "stem": "деятельност",
+    "word": "деятельностью",
+    "jointSyllables": "де-я-тель-ность-ю",
+    "iscyrallic": true,
+    "syllables": [
+      "де",
+      "я",
+      "тель",
+      "ность",
+      "ю"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "activities"
+  },
+  "эти": {
+    "seq": 340,
+    "stem": "эт",
+    "word": "эти",
+    "jointSyllables": "э-ти",
+    "iscyrallic": true,
+    "syllables": [
+      "э",
+      "ти"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "these"
+  },
+  "последние": {
+    "seq": 341,
+    "stem": "последн",
+    "word": "последние",
+    "jointSyllables": "по-сле-дни-е",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "сле",
+      "дни",
+      "е"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "the last"
+  },
+  "дни": {
+    "seq": 342,
+    "stem": "дни",
+    "word": "дни",
+    "jointSyllables": "дни",
+    "iscyrallic": true,
+    "syllables": [
+      "дни"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "days"
+  },
+  "видела": {
+    "seq": 344,
+    "stem": "видел",
+    "word": "видела",
+    "jointSyllables": "ви-де-ла",
+    "iscyrallic": true,
+    "syllables": [
+      "ви",
+      "де",
+      "ла"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "saw"
+  },
+  "многие": {
+    "seq": 346,
+    "stem": "мног",
+    "word": "многие",
+    "jointSyllables": "мно-ги-е",
+    "iscyrallic": true,
+    "syllables": [
+      "мно",
+      "ги",
+      "е"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "many"
+  },
+  "соблюдающие": {
+    "seq": 347,
+    "stem": "соблюда",
+    "word": "соблюдающие",
+    "jointSyllables": "со-блю-да-ю-щи-е",
+    "iscyrallic": true,
+    "syllables": [
+      "со",
+      "блю",
+      "да",
+      "ю",
+      "щи",
+      "е"
+    ],
+    "syllableCount": 6,
+    "googleTranslation": "observing"
+  },
+  "субботу": {
+    "seq": 348,
+    "stem": "суббот",
+    "word": "субботу",
+    "jointSyllables": "су-ббо-ту",
+    "iscyrallic": true,
+    "syllables": [
+      "су",
+      "ббо",
+      "ту"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "saturday"
+  },
+  "лишатся": {
+    "seq": 349,
+    "stem": "лишат",
+    "word": "лишатся",
+    "jointSyllables": "ли-ша-тся",
+    "iscyrallic": true,
+    "syllables": [
+      "ли",
+      "ша",
+      "тся"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "lose"
+  },
+  "вечной": {
+    "seq": 350,
+    "stem": "вечн",
+    "word": "вечной",
+    "jointSyllables": "ве-чной",
+    "iscyrallic": true,
+    "syllables": [
+      "ве",
+      "чной"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "eternal"
+  },
+  "жизни": {
+    "seq": 351,
+    "stem": "жизн",
+    "word": "жизни",
+    "jointSyllables": "жи-зни",
+    "iscyrallic": true,
+    "syllables": [
+      "жи",
+      "зни"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "life"
+  },
+  "так": {
+    "seq": 352,
+    "stem": "так",
+    "word": "так",
+    "jointSyllables": "так",
+    "iscyrallic": true,
+    "syllables": [
+      "так"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "So"
+  },
+  "они": {
+    "seq": 354,
+    "stem": "он",
+    "word": "они",
+    "jointSyllables": "о-ни",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "ни"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "they are"
+  },
+  "извлекают": {
+    "seq": 356,
+    "stem": "извлека",
+    "word": "извлекают",
+    "jointSyllables": "и-звле-ка-ют",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "звле",
+      "ка",
+      "ют"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "retrieve"
+  },
+  "уроков": {
+    "seq": 357,
+    "stem": "урок",
+    "word": "уроков",
+    "jointSyllables": "у-ро-ков",
+    "iscyrallic": true,
+    "syllables": [
+      "у",
+      "ро",
+      "ков"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "lessons"
+  },
+  "печальных": {
+    "seq": 359,
+    "stem": "печальн",
+    "word": "печальных",
+    "jointSyllables": "пе-чаль-ных",
+    "iscyrallic": true,
+    "syllables": [
+      "пе",
+      "чаль",
+      "ных"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "sad"
+  },
+  "опытов": {
+    "seq": 360,
+    "stem": "опыт",
+    "word": "опытов",
+    "jointSyllables": "о-пы-тов",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "пы",
+      "тов"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "experiences"
+  },
+  "сынов": {
+    "seq": 361,
+    "stem": "сын",
+    "word": "сынов",
+    "jointSyllables": "сы-нов",
+    "iscyrallic": true,
+    "syllables": [
+      "сы",
+      "нов"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "sons"
+  },
+  "израилевых": {
+    "seq": 362,
+    "stem": "израилев",
+    "word": "израилевых",
+    "jointSyllables": "и-зра-и-ле-вых",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "зра",
+      "и",
+      "ле",
+      "вых"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "Israeli"
+  },
+  "их": {
+    "seq": 364,
+    "stem": "их",
+    "word": "их",
+    "jointSyllables": "их",
+    "iscyrallic": true,
+    "syllables": [
+      "их"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "them"
+  },
+  "порабощают": {
+    "seq": 365,
+    "stem": "порабоща",
+    "word": "порабощают",
+    "jointSyllables": "по-ра-бо-ща-ют",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "ра",
+      "бо",
+      "ща",
+      "ют"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "enslave"
+  },
+  "те": {
+    "seq": 366,
+    "stem": "те",
+    "word": "те",
+    "jointSyllables": "те",
+    "iscyrallic": true,
+    "syllables": [
+      "те"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "those"
+  },
+  "самые": {
+    "seq": 368,
+    "stem": "сам",
+    "word": "самые",
+    "jointSyllables": "са-мы-е",
+    "iscyrallic": true,
+    "syllables": [
+      "са",
+      "мы",
+      "е"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "the most"
+  },
+  "пороки": {
+    "seq": 369,
+    "stem": "порок",
+    "word": "пороки",
+    "jointSyllables": "по-ро-ки",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "ро",
+      "ки"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "vices"
+  },
+  "избавятся": {
+    "seq": 373,
+    "stem": "избав",
+    "word": "избавятся",
+    "jointSyllables": "и-зба-вя-тся",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "зба",
+      "вя",
+      "тся"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "get rid of"
+  },
+  "своих": {
+    "seq": 375,
+    "stem": "сво",
+    "word": "своих",
+    "jointSyllables": "сво-их",
+    "iscyrallic": true,
+    "syllables": [
+      "сво",
+      "их"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "their"
+  },
+  "грехов": {
+    "seq": 376,
+    "stem": "грех",
+    "word": "грехов",
+    "jointSyllables": "гре-хов",
+    "iscyrallic": true,
+    "syllables": [
+      "гре",
+      "хов"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "sins"
+  },
+  "то": {
+    "seq": 377,
+    "stem": "то",
+    "word": "то",
+    "jointSyllables": "то",
+    "iscyrallic": true,
+    "syllables": [
+      "то"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "then"
+  },
+  "падут": {
+    "seq": 378,
+    "stem": "падут",
+    "word": "падут",
+    "jointSyllables": "па-дут",
+    "iscyrallic": true,
+    "syllables": [
+      "па",
+      "дут"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "fall"
+  },
+  "израильтяне": {
+    "seq": 381,
+    "stem": "израильтян",
+    "word": "израильтяне",
+    "jointSyllables": "и-зра-иль-тя-не",
+    "iscyrallic": true,
+    "syllables": [
+      "и",
+      "зра",
+      "иль",
+      "тя",
+      "не"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "israelis"
+  },
+  "войдут": {
+    "seq": 385,
+    "stem": "войдут",
+    "word": "войдут",
+    "jointSyllables": "вой-дут",
+    "iscyrallic": true,
+    "syllables": [
+      "вой",
+      "дут"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "will enter"
+  },
+  "небесный": {
+    "seq": 387,
+    "stem": "небесн",
+    "word": "небесный",
+    "jointSyllables": "не-бе-сный",
+    "iscyrallic": true,
+    "syllables": [
+      "не",
+      "бе",
+      "сный"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "heavenly"
+  },
+  "ханаан": {
+    "seq": 388,
+    "stem": "ханаа",
+    "word": "ханаан",
+    "jointSyllables": "ха-на-ан",
+    "iscyrallic": true,
+    "syllables": [
+      "ха",
+      "на",
+      "ан"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "Canaan"
+  },
+  "все": {
+    "seq": 389,
+    "stem": "все",
+    "word": "все",
+    "jointSyllables": "все",
+    "iscyrallic": true,
+    "syllables": [
+      "все"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "everything"
+  },
+  "это": {
+    "seq": 390,
+    "stem": "эт",
+    "word": "это",
+    "jointSyllables": "э-то",
+    "iscyrallic": true,
+    "syllables": [
+      "э",
+      "то"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "this is"
+  },
+  "происходило": {
+    "seq": 391,
+    "stem": "происход",
+    "word": "происходило",
+    "jointSyllables": "про-и-схо-ди-ло",
+    "iscyrallic": true,
+    "syllables": [
+      "про",
+      "и",
+      "схо",
+      "ди",
+      "ло"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "was happening"
+  },
+  "ними": {
+    "seq": 393,
+    "stem": "ним",
+    "word": "ними",
+    "jointSyllables": "ни-ми",
+    "iscyrallic": true,
+    "syllables": [
+      "ни",
+      "ми"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "them"
+  },
+  "описано": {
+    "seq": 397,
+    "stem": "описа",
+    "word": "описано",
+    "jointSyllables": "о-пи-са-но",
+    "iscyrallic": true,
+    "syllables": [
+      "о",
+      "пи",
+      "са",
+      "но"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "described"
+  },
+  "наставление": {
+    "seq": 399,
+    "stem": "наставлен",
+    "word": "наставление",
+    "jointSyllables": "на-ста-вле-ни-е",
+    "iscyrallic": true,
+    "syllables": [
+      "на",
+      "ста",
+      "вле",
+      "ни",
+      "е"
+    ],
+    "syllableCount": 5,
+    "googleTranslation": "admonition"
+  },
+  "нам": {
+    "seq": 400,
+    "stem": "нам",
+    "word": "нам",
+    "jointSyllables": "нам",
+    "iscyrallic": true,
+    "syllables": [
+      "нам"
+    ],
+    "syllableCount": 1,
+    "googleTranslation": "us"
+  },
+  "достигшим": {
+    "seq": 401,
+    "stem": "достигш",
+    "word": "достигшим",
+    "jointSyllables": "до-сти-гшим",
+    "iscyrallic": true,
+    "syllables": [
+      "до",
+      "сти",
+      "гшим"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "reached"
+  },
+  "последних": {
+    "seq": 402,
+    "stem": "последн",
+    "word": "последних",
+    "jointSyllables": "по-сле-дних",
+    "iscyrallic": true,
+    "syllables": [
+      "по",
+      "сле",
+      "дних"
+    ],
+    "syllableCount": 3,
+    "googleTranslation": "the last"
+  },
+  "веков": {
+    "seq": 403,
+    "stem": "век",
+    "word": "веков",
+    "jointSyllables": "ве-ков",
+    "iscyrallic": true,
+    "syllables": [
+      "ве",
+      "ков"
+    ],
+    "syllableCount": 2,
+    "googleTranslation": "centuries"
+  },
+  "коринфянам": {
+    "seq": 405,
+    "stem": "коринфян",
+    "word": "коринфянам",
+    "jointSyllables": "ко-рин-фя-нам",
+    "iscyrallic": true,
+    "syllables": [
+      "ко",
+      "рин",
+      "фя",
+      "нам"
+    ],
+    "syllableCount": 4,
+    "googleTranslation": "Corinthians"
+  },
+  "1сц": {
+    "seq": 407,
+    "stem": "1сц",
+    "word": "1сц",
+    "jointSyllables": null,
+    "iscyrallic": true,
+    "syllables": null,
+    "syllableCount": 0,
+    "googleTranslation": "1sc"
+  }
+}
