@@ -26,9 +26,9 @@ const lslLangDir = 'ltl';
 const rslLanguage = 'ru';
 const rslLangDir = 'ltr';
 const chapterFolder = '2021-02';
-const chapterNumber = '07';
-const lslFolder = `/Users/joefrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/${chapterFolder}/${chapterNumber}`;
-const rslFolder = `/Users/joefrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/${chapterFolder}/${chapterNumber}`;
+const chapterNumber = '08';
+const lslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${lslLanguage}/${chapterFolder}/${chapterNumber}`;
+const rslFolder = `/Users/josephfrance/github/Adventech/sabbath-school-lessons/src/${rslLanguage}/${chapterFolder}/${chapterNumber}`;
 const apiEndpoint = "http://localhost:5000/translate"
 var lslGlossary = {
   lang: lslLanguage,
@@ -85,7 +85,6 @@ function getHtmlParagraphFromPos(pos) {
 
   return paragraph;
 }
-
 async function translateTextViaGoogle(sourceText, sourceLanguage, targetLanguage, apiEndpoint = "https://translation.googleapis.com/language/translate/v2") {
 
     var apiKey = process.env.GOOGLE_TRANSLATE_API_KEY;
@@ -104,7 +103,6 @@ async function translateTextViaGoogle(sourceText, sourceLanguage, targetLanguage
     var result = await res.json();
     return result.data.translations;
 }
-
 async function translateText(sourceText, sourceLanguage, targetLanguage, apiEndpoint) {
 
   if(!isNaN(sourceText)) {
@@ -144,6 +142,13 @@ async function getPartsOfSpeech(paragraph, sourceLanguage, targetLanguage, apiEn
   var punctuations = [];
   var allTags = [];
 
+  var tokenDictionaryPath = `./data/p9n-${sourceLanguage}-${targetLanguage}-token-dictionary.json`;
+  var tokenDictionary = {};
+  if(fs.existsSync(tokenDictionaryPath)) {
+    tokenDictionary = JSON.parse(fs.readFileSync(tokenDictionaryPath, 'utf8'));
+    //console.log(`Dictionary contains ${Object.keys(tokenDictionary).length} entries.`);            
+  }
+
   if(sourceLanguage === 'en') {
     var words = new pos.Lexer().lex(withoutHtml);
     var tagger = new pos.Tagger();
@@ -167,16 +172,23 @@ async function getPartsOfSpeech(paragraph, sourceLanguage, targetLanguage, apiEn
       wt.key = key;
   
       //if(sourceLanguage !== lslLanguage && !wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
-      if(false && !wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
-  
-        if(!glossary.tokens.find(element => element.word.toLowerCase() === wt.word.toLowerCase())) {
-          translation = await translateText(wt.word.toLowerCase(), sourceLanguage, targetLanguage, apiEndpoint);
-          if(translation !== undefined && translation !== '') {
-            wt.translation = translation;
-            console.log(`'${wt.word}' => '${wt.translation}'`)
-            glossary.tokens.push(wt);
-          }
+      if(true) { //!wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
+
+        var token = tokenDictionary[wt.word.toLowerCase()];
+        if(token !== undefined && token !== null) {
+          wt.translation = token.googleTranslation;
+          console.log(`'${wt.word}' => '${wt.translation}'`)
+          glossary.tokens.push(wt);
         }
+
+        // if(!glossary.tokens.find(element => element.word.toLowerCase() === wt.word.toLowerCase())) {
+        //   translation = await translateText(wt.word.toLowerCase(), sourceLanguage, targetLanguage, apiEndpoint);
+        //   if(translation !== undefined && translation !== '') {
+        //     wt.translation = translation;
+        //     console.log(`'${wt.word}' => '${wt.translation}'`)
+        //     glossary.tokens.push(wt);
+        //   }
+        // }
   
       }
   
@@ -220,16 +232,23 @@ async function getPartsOfSpeech(paragraph, sourceLanguage, targetLanguage, apiEn
       wt.key = key;
 
       //if(sourceLanguage !== lslLanguage && !wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
-      if(!wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
+      if(true) { //!wt.isPunctuation && isTranslatable(sourceLanguage, targetLanguage)) {
 
-        if(false && !glossary.tokens.find(element => element.word.toLowerCase() === wt.word.toLowerCase())) {
-          translation = await translateText(wt.word.toLowerCase(), sourceLanguage, targetLanguage, apiEndpoint);
-          if(translation !== undefined && translation !== '') {
-            wt.translation = translation;
-            console.log(`'${wt.word}' => '${wt.translation}'`)
-            glossary.tokens.push(wt);
-          }
+        var token = tokenDictionary[wt.word.toLowerCase()];
+        if(token !== undefined && token !== null) {
+          wt.translation = token.googleTranslation;
+          console.log(`'${wt.word}' => '${wt.translation}'`)
+          glossary.tokens.push(wt);
         }
+
+        // if(false && !glossary.tokens.find(element => element.word.toLowerCase() === wt.word.toLowerCase())) {
+        //   translation = await translateText(wt.word.toLowerCase(), sourceLanguage, targetLanguage, apiEndpoint);
+        //   if(translation !== undefined && translation !== '') {
+        //     wt.translation = translation;
+        //     console.log(`'${wt.word}' => '${wt.translation}'`)
+        //     glossary.tokens.push(wt);
+        //   }
+        // }
 
       }
 
@@ -288,7 +307,7 @@ async function getLanguages(folder) {
 }
 
 (async () => {
-  var basePath = '/Users/joefrance/github/Adventech/sabbath-school-lessons/src';
+  var basePath = '/Users/josephfrance/github/Adventech/sabbath-school-lessons/src';
 
   if(!basePath.toString().endsWith('/')) {
     basePath += '/';

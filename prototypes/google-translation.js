@@ -1,11 +1,12 @@
 
+import cld from "cld";
 import translate from "translate";
 import dotenv from "dotenv";
 import syllabify from 'syllabify';
 import natural from 'natural';
 import fs from 'fs';
 import parse from 'csv-parse';
-console.log(parse);
+//console.log(cld);
 
 // https://en.openrussian.org/dictionary
 
@@ -24,34 +25,74 @@ async function translateWord(sourceLang, sourceWords, targetLang) {
 
 async function translateTextViaGoogle(sourceText, sourceLanguage, targetLanguage, apiEndpoint = "https://translation.googleapis.com/language/translate/v2") {
 
-    var apiKey = process.env.GOOGLE_TRANSLATE_API_KEY;
+    try
+    {
 
-    const res = await fetch(apiEndpoint, {
-        method: "POST",
-        body: JSON.stringify({
-            q: sourceText,
-            source: sourceLanguage,
-            target: targetLanguage
-        }),
-        headers: { "Authorization": `Bearer ${apiKey}` }
-        //headers: { "Content-Type": "application/json" }
-    });
+        var apiKey = process.env.GOOGLE_TRANSLATE_API_KEY;
 
-    var result = await res.json();
-    return result.data.translations;
+        const res = await fetch(apiEndpoint, {
+            method: "POST",
+            body: JSON.stringify({
+                q: sourceText,
+                source: sourceLanguage,
+                target: targetLanguage
+            }),
+            headers: { "Authorization": `Bearer ${apiKey}` }
+            //headers: { "Content-Type": "application/json" }
+        });
+    
+        var result = await res.json();
+        if(result.data === undefined || result.data === null) {
+            return null;
+        }
+        return result.data.translations;
+    
+    }
+    catch(ex)
+    {
+        console.log(ex);
+    }
 }
 
-function uniqueWords(text) {
-    var punctuation = '!"#$%*&\'<>()\[\]*—+,-–./:;<=>?@[\\]^_`{|}~«»„“”';
+async function uniqueWords(text, languageCodeHint, isHTML) {
+    var punctuation = '!"#$%&\'()\[\]—*—+,-–./:;<=>?@[\\]^_`{|}~«»„“”';
     var withoutHtml = text.replace(/(<([^>]+)>)/gi, "");
-
     //var s = "This «»„“” ., -/ is #! an $ % ^ & * example ;: {} of a = -_ string with `~)() punctuation";
-    var punctuationless = text
+    // var punctuationless = text
+    //                         .toLowerCase()
+    //                         .replace(/ /g," ")
+    //                         .replace(/\n/g," ")
+    //                         .replace(/.\[\]\_\*—-«»?„“”#,\/#!$%\^&\*;:{}=-_`~\(\)]/g,"");
+    // var finalString = punctuationless.replace(/\s{2,}/g," ");
+
+    var s = "This., -/ is #! an $ % ^ & * example ;: {} of a = -_ string with `~)() punctuation";
+    var punctuationless = withoutHtml
                             .toLowerCase()
                             .replace(/ /g," ")
                             .replace(/\n/g," ")
-                            .replace(/[.\<>[\]"*«»?„“”,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
+                            .replace(/[.,\/#!$<>%\^&\*;:{}=\-_'`~()—«»?„“”]/g," ");
     var finalString = punctuationless.replace(/\s{2,}/g," ");
+
+    var detectedLanguageCode = '';
+    try
+    {
+        var detectionOptions  = {
+            isHTML       : isHTML,
+            tldHint      : languageCodeHint
+        };
+
+        var detectedLanguages = await cld.detect(text, detectionOptions);
+        detectedLanguageCode = detectedLanguages.languages[0].code;
+        switch(detectedLanguageCode) {
+            case 'iw':
+                detectedLanguageCode = 'he';
+                break;
+        }
+    }
+    catch(ex)
+    {
+        console.log(ex);
+    }    
 
     var allWords = finalString.split(' ');
     console.log("allWords: ", allWords.length)
@@ -64,7 +105,14 @@ function uniqueWords(text) {
     for(var wx=0; wx < words.length; wx++) {
         var word = words[wx];
         //console.log(word);
-        var iscyrallic = isCyrralic(word);
+        if(word !== '') {
+            var iscyrallic = isCyrralic(word);
+            // var ishebrew = isHebrew(word);
+            // if(ishebrew) {
+            //     detectedLanguageCode = 'he';
+            // } else {
+            // }  
+        }
 
         if(word !== null && word !== '' && isNaN(word)) {
             var syllables = null; //word.length === 1 ? [ word ] : null;
@@ -89,131 +137,166 @@ function uniqueWords(text) {
         
                 }    
             //}
-            var stem = natural.PorterStemmerRu.stem(word)
-            var searchStem = stemTokens.filter(s => s.stem === stem);
+            var stem = null;
+            if(syllables !== null && detectedLanguageCode === 'ru') {
+                stem = natural.PorterStemmerRu.stem(word);
+            }
+            var containsNumbers = hasNumbers(word);
+
+            //var searchStem = stemTokens.filter(s => s.stem === stem);
 
             var token = {
                 seq: wx,
                 stem: stem,
                 word: word,
+                containsNumbers: containsNumbers,
                 jointSyllables: syllables === null ? null : syllables.join('-'),
                 iscyrallic: iscyrallic,
                 syllables: syllables,
                 syllableCount:  syllableCount,
+                detectedLanguageCode: detectedLanguageCode,
             }
            
             tokens.push(token)
 
-            if(!searchStem === null) {
-                searchStem.tokens.push(token)
-            } else {
-                searchStem = { stem: stem, tokens: [] };
-            }
+            // if(!searchStem === null) {
+            //     searchStem.tokens.push(token)
+            // } else {
+            //     searchStem = { stem: stem, tokens: [] };
+            // }
 
         }
     }
 
-    let uniqueStems = [...new Set(tokens.map(t => t.stem))];
-    console.log("uniqueStems: ", uniqueStems.length)
+    //let uniqueStems = [...new Set(tokens.map(t => t.stem))];
+    //console.log("uniqueStems: ", uniqueStems.length)
 
 
     return tokens;//.sort((a, b) => a.stem.localeCompare(b.stem));
 }
 
 (async () => {
+    try
+    {
 
-    // const fileContent = fs.readFileSync('/Users/joefrance/Downloads/openrussian-csv/words.tsv', 'utf8');
-    //  const records = parse(fileContent, {columns: true}, (e) => { console.log(e); });
-    // console.log(records[0], records[1], records[2])
+        // const fileContent = fs.readFileSync('/Users/joefrance/Downloads/openrussian-csv/words.tsv', 'utf8');
+        //  const records = parse(fileContent, {columns: true}, (e) => { console.log(e); });
+        // console.log(records[0], records[1], records[2])
 
-    var text = `
-    ### Библейские тексты для исследования
-    Втор. 1:29–31; Ос. 11:1; Откр. 5:9; Втор. 29:10–13; Исх. 19:5, 6; Рим. 6:1, 2; Откр. 14:12; Рим. 10:3.
-    
-    > Памятный стих
-    > «Вы видели, что Я сделал Египтянам, и как Я носил вас _как бы_ на орлиных крыльях, и принес вас к Себе» (Исх. 19:4).
-    
-    **Ключевые вопросы:**
-    
-    Какие образы использовал Господь, чтобы описать Свои отношения с Израилем? Какие существуют параллели между историей об исходе и Синае и нашим личным спасением? Какова была роль закона в синайском завете?
-    
-    «С маленьким мальчиком, одним из семи детей в многодетной семье, произошел несчастный случай, и его доставили в больницу. В его доме редко бывало чего-либо в достатке. Ему никогда не доставалось больше, чем половина стакана молока. Если стакан был полон, его делили на двоих детей, и тот, кто пил первым, должен был быть осторожным, чтобы не выпить слишком много. Когда малыша устроили в больнице, медсестра принесла ему большой стакан молока. Несколько мгновений он тоскливо смотрел на него, а затем, помня о нужде, царившей дома, спросил: „Сколько мне можно отпить?“ Медсестра со слезами на глазах и с комом в горле сказала: „Выпей весь, малыш, выпей весь!“» (H. Richards, «Free Grace», _Voice of Prophecy News,_ June 1950, p. 4).
-    
-    Подобно этому мальчику, у древнего Израиля, как и у нас, было преимущество — пить вдоволь из колодца спасения. Избавление Израиля от многовекового рабства и угнетения было чудесным проявлением благодати Божьей. Подобным же образом благодать Божья участвует в нашем собственном освобождении от греха.
-    
-    #### Для дополнительного чтения: Избранные цитаты Эллен Уайт
-    
-    Церковь по замыслу Божьему призвана сотрудничать с Ним в деле спасения людей. Она создана для служения, и ее задача — нести Евангелие миру. Изначально план Господа заключался в том, чтобы Церковь отражала в мире Его полноту и совершенство. Членам ее, людям, которых Он вывел из тьмы в чудный Свой свет, надлежит являть Его славу. Церковь — хранительница сокровищ благодати Христовой, и через нее в конечном счете должна открыться даже «начальствам и властям на небесах» вся полнота любви Божьей (Ефесянам 3:10). {ДА 10.1}
-    
-    Mне был показан народ Божий в связи с его деятельностью в эти последние дни. Я видела, что многие, соблюдающие субботу, лишатся вечной жизни, так как они не извлекают уроков из печальных опытов сынов Израилевых и их порабощают те же самые пороки. Если они не избавятся от своих грехов, то падут, как и израильтяне, и никогда не войдут в Небесный Ханаан. «Все это происходило с ними, как образы; а описано в наставление нам, достигшим последних веков» (1 Коринфянам 10:11). {1СЦ 533.2}
-    `;
+        var text = ``;
 
-    //text = 'Какое влияние Божье обетование. Кен, назовите, назовите, пожалуйста, несколько известных книг, которые знают и читали все американцы';
+        //text = 'Какое влияние Божье обетование. Кен, назовите, назовите, пожалуйста, несколько известных книг, которые знают и читали все американцы';
+        
+    //     text = `
+    // ПРИМЕР. Какие дела? У нас делишки. Дела у прокурора.
+    // ВЫ ДАЛИ ТАКОЙ ДОСЛОВНЫЙПЕРЕВОД ГУГЛА: How are you?
+    // What are you doing? We have some business. Prosecutor's office
 
-//     text = `
-// ПРИМЕР. Какие дела? У нас делишки. Дела у прокурора.
-// ВЫ ДАЛИ ТАКОЙ ДОСЛОВНЫЙПЕРЕВОД ГУГЛА: How are you?
-// What are you doing? We have some business. Prosecutor's office
+    // ПОСМОТРИМ, КАК ГУГЛ ПЕРЕВЕДЁТ ЭТО НА РУССКИЙ: Что делаешь? У нас есть дела. Прокуратура.
+    // ПОЛУЧАЕТСЯ ЕРУНДА
 
-// ПОСМОТРИМ, КАК ГУГЛ ПЕРЕВЕДЁТ ЭТО НА РУССКИЙ: Что делаешь? У нас есть дела. Прокуратура.
-// ПОЛУЧАЕТСЯ ЕРУНДА
+    // Делишки – это маленькие, незначительные дела
+    // Слово «дело» имеет разные значения. Это также может быть папка, куда помещают различные документы.
+    //     `;
+        
+        //console.log(text.length * 6);
+        var sourceLanguageCode = 'en';
+        var targetLanguageCode = 'he';
 
-// Делишки – это маленькие, незначительные дела
-// Слово «дело» имеет разные значения. Это также может быть папка, куда помещают различные документы.
-//     `;
-    
-    //console.log(text.length * 6);
+        var basePath = '/Users/josephfrance/github/Adventech/sabbath-school-lessons/src';
+        var mdPath = `${basePath}/${sourceLanguageCode}/2021-02/08/02.md`
+        text = fs.readFileSync(mdPath, 'utf8')
 
-    var tokens = uniqueWords(text);
-    // console.log(tokens);
-    console.log(tokens.filter(element => !element.iscyrallic));
-    console.log(tokens.filter(element => element.iscyrallic));
-    // console.log(tokens.filter(element => element.syllableCount === 0));
-    // console.log(tokens.filter(element => element.syllableCount > 2));
-    // console.log([...tokens.filter(element => element.iscyrallic === true).map(t => t.stem)]);
+        var tokens = await uniqueWords(text, sourceLanguageCode, false);
+        // console.log(tokens);
+        console.log(tokens.filter(element => !element.iscyrallic));
+        console.log(tokens.filter(element => element.iscyrallic));
+        // console.log(tokens.filter(element => element.syllableCount === 0));
+        // console.log(tokens.filter(element => element.syllableCount > 2));
+        // console.log([...tokens.filter(element => element.iscyrallic === true).map(t => t.stem)]);
 
-    //var translatedText = await translateWord('ru', text, 'en');
-    console.log(text);
-    var tokenDictionaryPath = './data/p9n-ru-en-token-dictionary.json';
-    var dict = {};
-    if(fs.existsSync(tokenDictionaryPath)) {
-        dict = JSON.parse(fs.readFileSync(tokenDictionaryPath, 'utf8'));
-    }
-    //console.log(dict.length);
-    var newTokensAdded = 0;
-    for(var ix=0; ix < tokens.length; ix++) {
-        if(tokens[ix].iscyrallic) {
-            var txWord = '';
-            if(dict[tokens[ix].word.toLowerCase()] === undefined) {
-                newTokensAdded++;
-                var tx = await translateTextViaGoogle(tokens[ix].word, 'ru', 'en');
-                tokens[ix].googleTranslation = tx[0].translatedText;
-                txWord = tokens[ix].googleTranslation;
-                dict[tokens[ix].word.toLowerCase()] = tokens[ix];
-            } else {
-                txWord = dict[tokens[ix].word.toLowerCase()].googleTranslation;
-            }
-            // if(tokens[ix].stem !== tokens[ix].word) {
-            //     var txStem = await translateText(tokens[ix].stem, 'ru', 'en');
-            //     tokens[ix].translatedStem = txStem[0].translatedText;
-            // }    
+        //var translatedText = await translateWord('ru', text, 'en');
+        console.log(text);
+        var tokenDictionaryPath = `./data/p9n-${sourceLanguageCode}-${targetLanguageCode}-token-dictionary.json`;
+        var dict = {};
+        if(fs.existsSync(tokenDictionaryPath)) {
+            dict = JSON.parse(fs.readFileSync(tokenDictionaryPath, 'utf8'));
+            console.log(`Dictionary contains ${Object.keys(dict).length} entries.`);            
         }
-        console.log(`${ix + 1}/${tokens.length}. ${tokens[ix].word} (${txWord}) `)
-    }
+        var newTokensAdded = 0;
+        var charsTx = 0;
+        for(var ix=0; ix < tokens.length; ix++) {
+            var txWord = '';
+            var found = '';
 
-    // Store dict
-    if(newTokensAdded > 0) {
-        console.log(dict.length);
-        var json = JSON.stringify(dict, null, 2);
-        fs.writeFileSync(tokenDictionaryPath, json);
+            // translate ONLY from the source to the
+            // target language as we're paying a per-character
+            // fee for Google Translation's API
+            if(
+                tokens[ix].detectedLanguageCode === sourceLanguageCode
+                && tokens[ix].detectedLanguageCode !== targetLanguageCode
+            ) {
+                if(dict[tokens[ix].word.toLowerCase()] === undefined) {
+                    newTokensAdded++;
+                    var wordToTx = tokens[ix].word;
+                    charsTx += wordToTx.length;
+                    var tx = await translateTextViaGoogle(wordToTx, sourceLanguageCode, targetLanguageCode);
+                    if(tx === null) {
+                        throw "Please check GOOGLE_TRANSLATE_API_KEY";
+                    }
+                    tokens[ix].googleTranslation = tx[0].translatedText;
+                    txWord = tokens[ix].googleTranslation;
+                    dict[tokens[ix].word.toLowerCase()] = tokens[ix];
+                } else {
+                    found = ' found'
+                    txWord = dict[tokens[ix].word.toLowerCase()].googleTranslation;
+                }
+                // if(tokens[ix].stem !== tokens[ix].word) {
+                //     var txStem = await translateText(tokens[ix].stem, 'ru', 'en');
+                //     tokens[ix].translatedStem = txStem[0].translatedText;
+                // }    
+            }
+
+            if(txWord === '') {
+                console(tokens[ix]);
+            }
+
+            console.log(`${ix + 1}/${tokens.length}. ${tokens[ix].word} (${txWord})${found}`)
+        }
+        // Store dict
+        if(newTokensAdded > 0) {
+            console.log(`Dictionary now contains ${Object.keys(dict).length} entries.\r\nTranslated ${charsTx} characters.\r\n${charsTx / newTokensAdded} characters per word - average.`);
+            var json = JSON.stringify(dict, null, 2);
+            fs.writeFileSync(tokenDictionaryPath, json);
+        }
+        console.log(tokens);
+        //var translatedText = await translateTextViaGoogle(text, 'ru', 'en');
+        //console.log(translatedText[0]);
+
     }
-    console.log(tokens);
-    //var translatedText = await translateTextViaGoogle(text, 'ru', 'en');
-    //console.log(translatedText[0]);
+    catch(ex)
+    {
+        console.log(ex);
+    }    
 })();
+
+// Detect browser language preference
+// https://stackoverflow.com/questions/1043339/javascript-for-detecting-browser-language-preference
+
+// Detect language with Google API
+// https://cloud.google.com/translate/docs/basic/detecting-language#translate_detect_language-nodejs
+
+function hasNumbers(term) {
+    return /[0-9]/.test(term)
+}
 
 function isCyrralic(term) {
     return /[а-яА-ЯЁё]/.test(term)
+}
+
+function isHebrew(term) {
+    return false;
+    //return /[u0590-\u05FF]/.test(term)
 }
 
 function isUnicode(data) {
@@ -235,3 +318,4 @@ function isUnicode(data) {
     }
     return false;
   }
+
